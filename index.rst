@@ -12,7 +12,7 @@ Welcome to Building Applications With Hypernumbers
    contents/introduction
    contents/getting-started
    contents/why-use-hypernumbers
-   contents/how-is-hypernumbers-differnt-from-google-docs
+   contents/how-is-hypernumbers-different-from-google-docs
    contents/who-should-use-hypernumbers
    contents/finding-your-way-around
    contents/take-the-tour
