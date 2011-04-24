@@ -9,55 +9,40 @@ Welcome to Building Applications With Hypernumbers
 .. toctree::
    :maxdepth: 1
 
-   contents/introduction
-   contents/getting-started
-   contents/why-use-hypernumbers
-   contents/how-is-hypernumbers-different-from-google-docs
-   contents/who-should-use-hypernumbers
-   contents/finding-your-way-around
-   contents/take-the-tour
+   contents/suggested-contents
+   contents/other-formats
 
 1 Understanding The System
 ==========================
 
-.. toctree::
-   :maxdepth: 1
-
-   contents/the-excel-like-spreadsheet
-   contents/web-and-wikipages
-   contents/making-forms
-   contents/table-view
-   contents/permissions
-   contents/managing-your-application
-   contents/the-settings-dialog-box
-
-2 Different Types Of Functions
+2 Building Sites
 ==============================
 
 .. toctree::
    :maxdepth: 1
 
-   contents/excel-compatible-functions
-   contents/layout-functions
-   contents/navigation-functions
-   contents/database-functions
    contents/making-pages-from-templates
 
-3 Building Applications
-=======================
+3 Hypernumbers Graph Functions
+==============================
 
 .. toctree::
    :maxdepth: 1
 
-   contents/application-overview
-   contents/putting-it-all-together
-   contents/your-first-application
-
+   contents/introduction-to-graphs
+   contents/sparkline-graphs
+   contents/xy-graphs
+   contents/speedo-graphs
+   contents/linegraphs
+   contents/histograms
+   contents/date-graphs
+   contents/equispaced-graphs
+   contents/status-bars
+   contents/piecharts
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 

@@ -115,13 +115,97 @@ ddd    Sat
 dddd   Saturday
 ====== ========
 
-
-
-
 The function below illustrate the instantiation of templates at each page segment inside one expressions:
 
 ``=create.button(“Create New Sales Forecast”, “./[sales_forecast, 2010]/salesforce/[person, john]/”)``
 
 This creates the following pages:
 
+==============================  ===============
+Page created	                Template Used
+==============================  ===============
+/xyz-ltd/2010/	                sales_forecast
+/xyz-ltd/2010/salesforce/	None
+/xyz-ltd/2010/salesforce/john/	Person
+==============================  ===============
+
+We can also incorporate many expressions, creating lots of long-chain page structures that instantiate many templates. 
+
+As an illustrative example of extending the expressions and segments consider the following:
+
+| ``=create.button(“Create New Sales Forecast”,``
+| ``“./[sales_forecast, 2010]/salesforce/[person, john]/”,``
+| ``“./[sales_forecast, 2011]/salesforce/[person, john]/”,``
+| ``“./2010/salesforce/[person, ann]/”,``
+| ``“./2011/salesforce/[person, ann]/”)``
+
+Pages created here and templates used are:
+
+=============================== ===============
+Page created	                Template Used
+=============================== ===============
+/xyz-ltd/2010/	                sales_forecast
+/xyz-ltd/2010/salesforce/	None
+/xyz-ltd/2010/salesforce/john/	Person
+/xyz-ltd/2011/salesforce/john/	Person
+/xyz-ltd/2010/salesforce/ann/	Person
+/xyz-ltd/2011/salesforce/ann/	Person
+=============================== ===============
+
+Note: In the beginning it is advised to work with simple structures until you become familiar with this functionality.
+
+
+Advanced Syntax
+---------------
+
+As well as the basic syntax we have seen thus far, there is more advanced syntax that allows you to specify:
+
+*	additional permissions on who can and can’t access the page segments that are created
+*	the segment to go to when the templates are built
+
+Additional syntax is marked with ‘;’.
+
+Permissions are:
+
+* ``“/bleh/[Template, auto, incr; table, group1, group2]/bloh/”``
+
+There is a special group name ``$user`` which is the personal group of the user clicking the button.
+
+The first parameter can be:
+
+*	spreadsheet
+*	wikipage
+*	webpage
+*	table
+
+The redirect page (i.e. the segment to go to when the pages are created) is achieved as follows:
+
+* ``“/bleh/[T1, date, yy; go]/[T2, date, mm]/”``
+* ``“/bleh/[T1, date, yy; go, spreadsheet]/[T2, date, mm]/”``
+
+You can replace ``spreadsheet`` with ``wikipage``, ``webpage`` or ``table`` as appropriate.
+
+You can mix and match permission and redirects (ie the clauses are order independent)
+ 
+They will take string specifiers of the form which use a square bracket delimiter. An example is:
+
+* ``“./some/path/[template1, here]/[template2, auto, increment]/”``
+
+This specifier says:
+
+*	under this page create an empty page called some
+*	under that create a empty page called path
+*	under that create a page called here from the template template1 (if it doesn’t already exist)
+*	under that create an auto-numbered page from template2
+
+Repeated invocations of this button will create:
+
+*	the page ``/some/path/here/``
+*	multiple subpages:
+
+        * ``/some/path/here/0000001/``
+        * ``/some/path/here/0000002/``
+        * ``/some/path/here/0000003/``
+
+The button can take multiple selectors. The selector strings will include types to create dated and timed pages e.g. ``/2011/jan/21/``
 
