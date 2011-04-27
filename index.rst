@@ -10,7 +10,7 @@ Welcome to Building Applications With Hypernumbers
    :maxdepth: 1
 
    contents/suggested-contents
-   contents/other-formats
+   contents/other-formats 
 
 1 Understanding The System
 ==========================
@@ -30,15 +30,16 @@ Welcome to Building Applications With Hypernumbers
    :maxdepth: 1
 
    contents/introduction-to-graphs
-   contents/sparkline-graphs
-   contents/xy-graphs
-   contents/speedo-graphs
-   contents/linegraphs
-   contents/histograms
-   contents/date-graphs
-   contents/equispaced-graphs
-   contents/status-bars
-   contents/piecharts
+
+   contents/hypernumbers-graph-fn-dategraph
+   contents/hypernumbers-graph-fn-equigraph  
+   contents/hypernumbers-graph-fn-histogram  
+   contents/hypernumbers-graph-fn-linegraph  
+   contents/hypernumbers-graph-fn-piechart
+   contents/hypernumbers-graph-fn-sparkline
+   contents/hypernumbers-graph-fn-speedo
+   contents/hypernumbers-graph-fn-status-bar
+   contents/hypernumbers-graph-fn-xy
 
 Indices and tables
 ==================
