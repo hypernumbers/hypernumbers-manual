@@ -41,6 +41,32 @@ Welcome to Building Applications With Hypernumbers
    contents/hypernumbers-graph-fn-status-bar
    contents/hypernumbers-graph-fn-xy
 
+4 Hypernumbers Database Functions
+=================================
+
+.. toctree::
+   :maxdepth: 1
+
+   contents/introduction-to-database-functions
+
+   contents/hypernumbers-database-fn-countz
+   contents/hypernumbers-database-fn-sumz 
+   contents/hypernumbers-database-fn-debugz  
+   contents/hypernumbers-database-fn-linkbox
+
+5 Hypernumbers Layout and Display Functions
+===========================================
+
+.. toctree::
+   :maxdepth: 1
+
+   contents/layout-functions-introduction
+
+   contents/hypernumbers-database-fn-countz
+   contents/hypernumbers-database-fn-sumz 
+   contents/hypernumbers-database-fn-debugz  
+   contents/hypernumbers-database-fn-linkbox
+
 Indices and tables
 ==================
 
