@@ -40,7 +40,9 @@ Argument           Description
 Example 1
 ---------
 
-Simple with each style
+This example illustrates the varius styles available.
+
+.. image :: /images/status_bar_ex1_styles.png
 
 
 Example 2
