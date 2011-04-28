@@ -64,5 +64,6 @@ Where an optional parameter argument is used, all preceeding optional arguments 
 Example 1 – Vertical Barchart
 -----------------------------
 
-Example 2 – Stacked Horizontal Barchart
----------------------------------------
+The example below uses the same data as the linegraph function to plot a vertically grouped histogram (or barchart).
+
+.. image ::/images/histogram_grp_vertical.png

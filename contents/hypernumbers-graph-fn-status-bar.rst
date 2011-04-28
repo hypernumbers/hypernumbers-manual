@@ -18,8 +18,8 @@ Arguments
 ================== ==========================================================================
 Argument           Description
 ================== ==========================================================================
-``Value``          Value must be an number between 0 and 5 (inclusive) and determines the 
-                   length of the status bar.
+``Value``          Value must be a number between 0 and 5 (inclusive) and is used to set 
+                   the length of the status bar.
 	
 ``StyleType``      **Optional**. Specifies the style to use for the progress bar.
 
@@ -48,6 +48,6 @@ This example illustrates the varius styles available.
 Example 2
 --------- 
 
-Example of scaling across multiple values to emulate spotify like popularity ratings
+This example illustrates how multiple values can be compared using progress bars by scaling to an appropirate value.
 
-
+.. image :: /images/status_bar_ex2_scaling.png

@@ -29,11 +29,17 @@ Argument           Description
 Example 1
 ---------
 
-Single pie
+The following example illustrates a simple piechart.
+
+.. image ::/images/piechart_ex1.png
+
 
 Example 2
 ---------
 
-Double pie
+To compare the different group distributions from example 1, we could create separate pie charts for each group. An alternative approach is to overly the groups in the one piechart by using the NoOfRings parameter – as shown below. 
+
+.. image ::/images/piechart_ex2.png
+
 
 
