@@ -23,8 +23,8 @@ Welcome to Building Applications With Hypernumbers
 
    contents/making-pages-from-templates
 
-3 Hypernumbers Graph Functions
-==============================
+3 Hypernumbers Functions
+========================
 
 .. toctree::
    :maxdepth: 1
@@ -34,12 +34,12 @@ Welcome to Building Applications With Hypernumbers
    contents/hypernumbers-functions/graph/hypernumbers-graph-fn-dategraph
    contents/hypernumbers-functions/graph/hypernumbers-graph-fn-equigraph  
    contents/hypernumbers-functions/graph/hypernumbers-graph-fn-histogram  
-   contents/hypernumbers-graph-fn-linegraph  
-   contents/hypernumbers-graph-fn-piechart
-   contents/hypernumbers-graph-fn-sparkline
-   contents/hypernumbers-graph-fn-speedo
-   contents/hypernumbers-graph-fn-status-bar
-   contents/hypernumbers-graph-fn-xy
+   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-linegraph  
+   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-piechart
+   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-sparkline
+   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-speedo
+   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-status-bar
+   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-xy
 
 4 Hypernumbers Database Functions
 =================================
