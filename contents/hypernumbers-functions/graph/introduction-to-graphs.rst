@@ -5,7 +5,7 @@ Introduction To Graphs
 .. toctree::
    :maxdepth: 1
 
-   contents/introduction-to-graphs
+   introduction-to-graphs
    contents/hypernumbers-graph-fn-dategraph
    contents/hypernumbers-graph-fn-equigraph  
    contents/hypernumbers-graph-fn-histogram  
