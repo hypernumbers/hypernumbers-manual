@@ -29,11 +29,11 @@ Welcome to Building Applications With Hypernumbers
 .. toctree::
    :maxdepth: 1
 
-   contents/introduction-to-graphs
+   contents/hypernumbers-functions/graph/introduction-to-graphs
 
-   contents/hypernumbers-graph-fn-dategraph
-   contents/hypernumbers-graph-fn-equigraph  
-   contents/hypernumbers-graph-fn-histogram  
+   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-dategraph
+   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-equigraph  
+   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-histogram  
    contents/hypernumbers-graph-fn-linegraph  
    contents/hypernumbers-graph-fn-piechart
    contents/hypernumbers-graph-fn-sparkline
