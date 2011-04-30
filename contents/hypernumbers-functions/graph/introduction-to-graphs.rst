@@ -2,20 +2,6 @@
 Introduction To Graphs
 ======================
 
-.. toctree::
-   :maxdepth: 1
-
-   introduction-to-graphs
-   contents/hypernumbers-graph-fn-dategraph
-   contents/hypernumbers-graph-fn-equigraph  
-   contents/hypernumbers-graph-fn-histogram  
-   contents/hypernumbers-graph-fn-linegraph  
-   contents/graph/hypernumbers-graph-fn-piechart
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-sparkline
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-speedo
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-status-bar
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-xy
-
 In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as cell functions. Currently available graph functions include:
 
 *	sparkline.WxH
