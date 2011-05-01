@@ -4,10 +4,13 @@ Introduction To Database Functions
 
 A number of special functions have been developed for use with hypernumbers database queries. Available database functions include:
 
-*	sumz
-*	countz
-*	debugz
-*	link.box.WxH
+.. toctree::
+   :maxdepth: 1
+
+   countz       <hypernumbers-database-fn-countz>
+   sumz         <hypernumbers-database-fn-sumz>
+   debugz       <hypernumbers-database-fn-debugz>
+   link.box.WxH <hypernumbers-database-fn-linkbox>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 

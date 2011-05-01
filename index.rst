@@ -29,43 +29,12 @@ Welcome to Building Applications With Hypernumbers
 .. toctree::
    :maxdepth: 1
 
-   contents/hypernumbers-functions/graph/introduction-to-graphs
+   graph functions              <contents/hypernumbers-functions/graph/introduction-to-graphs>
+   database functions           <contents/hypernumbers-functions/database/introduction-to-database-query-function>
+   layout and display functions <contents/hypernumbers-functions/layout-and-display/layout-functions-introduction>
+   navigation functions         <contents/hypernumbers-functions/navigation/navigation-functions-introduction>
+   social media functions       <contents/hypernumbers-functions/social-media/introduction-to-social-media>
 
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-dategraph
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-equigraph  
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-histogram  
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-linegraph  
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-piechart
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-sparkline
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-speedo
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-status-bar
-   contents/hypernumbers-functions/graph/hypernumbers-graph-fn-xy
-
-4 Hypernumbers Database Functions
-=================================
-
-.. toctree::
-   :maxdepth: 1
-
-   contents/introduction-to-database-functions
-
-   contents/hypernumbers-database-fn-countz
-   contents/hypernumbers-database-fn-sumz 
-   contents/hypernumbers-database-fn-debugz  
-   contents/hypernumbers-database-fn-linkbox
-
-5 Hypernumbers Layout and Display Functions
-===========================================
-
-.. toctree::
-   :maxdepth: 1
-
-   contents/layout-functions-introduction
-
-   contents/hypernumbers-database-fn-countz
-   contents/hypernumbers-database-fn-sumz 
-   contents/hypernumbers-database-fn-debugz  
-   contents/hypernumbers-database-fn-linkbox
 
 Indices and tables
 ==================

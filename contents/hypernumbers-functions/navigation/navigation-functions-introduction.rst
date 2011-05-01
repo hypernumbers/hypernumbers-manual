@@ -4,14 +4,17 @@ Introduction To Navigation Functions
 
 A number of navigation function are available for use in building web applications including:
 
-*	html.menu.W
-*	html.submenu
-*	link
-*	page
-*	site
-*	crumb.trail
-*	segment
-*	pageurl
+.. toctree::
+   :maxdepth: 1
+
+   html.menu.W <menu>
+   html.submenu <submenu>
+   link <link>
+   page <page>
+   site <site>
+   crumb.trail <crumbtrail>
+   segment <segment>
+   pageurl <pageurl>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 
