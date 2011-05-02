@@ -1,29 +1,24 @@
-======================
-Headline Display
-======================
+===================
+CRUMBTRAIL function
+===================
 
 Overview
 --------
 
-
-
+The crumb.trail function displays the full path to a page as a series of links to each page segment in the path. 
+ 
 Syntax
 ------
 
-``=``
+``=crumb.trail()``
 
 
 Arguments
 ---------
 
-===========     ===========================================================================
-Argument        Description
-===========     ===========================================================================
-
-
-===========     ===========================================================================
+No arguments.
 
 Example
 -------
 
-See section hypernumbers database queries
+

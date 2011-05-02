@@ -15,6 +15,11 @@ Welcome to Building Applications With Hypernumbers
 1 Understanding The System
 ==========================
 
+.. toctree::
+   :maxdepth: 1
+
+   contents/hypernumbers-overview/hypernumbers-spreadsheet
+
 2 Building Sites
 ==============================
 
@@ -34,6 +39,15 @@ Welcome to Building Applications With Hypernumbers
    layout and display functions <contents/hypernumbers-functions/layout-and-display/layout-functions-introduction>
    navigation functions         <contents/hypernumbers-functions/navigation/navigation-functions-introduction>
    social media functions       <contents/hypernumbers-functions/social-media/introduction-to-social-media>
+   template functions           <contents/hypernumbers-functions/templates/template-functions-introduction>
+   
+4 Database Queries
+==================
+
+.. toctree::
+   :maxdepth: 1
+
+   database z-queries <contents/database-queries/overview>
 
 
 Indices and tables
