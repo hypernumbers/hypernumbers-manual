@@ -4,6 +4,7 @@ Introduction To Graphs
 
 In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as cell functions. Currently available graph functions include:
 
+
 .. toctree::
    :maxdepth: 1
 
@@ -16,6 +17,7 @@ In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as c
    speedo.WxH    <hypernumbers-graph-fn-speedo>
    status.bar    <hypernumbers-graph-fn-status-bar>
    xy.WxH        <hypernumbers-graph-fn-xy>
+
 
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
