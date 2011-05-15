@@ -18,8 +18,6 @@ In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as c
    status.bar    <hypernumbers-graph-fn-status-bar>
    xy.WxH        <hypernumbers-graph-fn-xy>
 
-
-
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 
 ``=function.3x6(arg1, arg2, ...)``

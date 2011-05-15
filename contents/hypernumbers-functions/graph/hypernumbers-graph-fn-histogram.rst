@@ -66,4 +66,4 @@ Example 1 – Vertical Barchart
 
 The example below uses the same data as the linegraph function to plot a vertically grouped histogram (or barchart).
 
-.. image ::/images/histogram_grp_vertical.png
+.. image :: /images/histogram_grp_vertical.png
