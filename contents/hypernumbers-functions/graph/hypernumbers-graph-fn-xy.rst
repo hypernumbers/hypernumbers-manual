@@ -24,9 +24,9 @@ Arguments          Description
 	
 ``NoOfXYRanges``   Specifies the number XY ranges to overlay in the graph.
 
-``XYRange``        Specifies the cell range containing the y-series of data e.g. ``B1:B10``. 
-                   At least one Yrange is required and the number of Yranges specified must 
-                   match the NoOfYs value above. 
+``XYRange``        Specifies the cell range containing the xy-series of data e.g. ``B1:C10``. 
+                   At least one XYrange is required and the number of XYranges specified must 
+                   match the ``NoOfXYRanges`` value. 
 	
 ``Title``          **Optional**. Specifies the graph title and is a string or refers
                    to a cell containing a string. 
