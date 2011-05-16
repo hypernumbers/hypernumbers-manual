@@ -52,6 +52,17 @@ Welcome to Building Applications With Hypernumbers
    database z-queries <contents/database-queries/overview>
 
 
+
+5 Permissions
+=============
+
+.. toctree::
+   :maxdepth: 1
+
+   overview <contents/hypernumbers-permissions/permissions>
+
+
+
 Indices and tables
 ==================
 
