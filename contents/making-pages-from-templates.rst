@@ -78,7 +78,7 @@ There is only one expression ``“./[sales_forecast, 2011]/”`` used and it mea
 
 Here’s how it looks with the webpage view:
 
-.. image:: /images/create_button.png
+.. image :: /images/create_button.png
 
 Within each expression it is possible to create many new pages and at the same time instantiate many templates into these new pages. 
 

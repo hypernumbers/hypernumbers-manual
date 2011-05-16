@@ -41,7 +41,6 @@ Argument
 
                   where ''TemplateToUse`` is a template that has previously been saved via the
                   *Site > "My Pages* admin menu.
-
 ================  =================================================================================
 
 
@@ -68,7 +67,8 @@ Naming examples
 
 ``/[TEMPLATE, auto, random]/``	             creates segment of form ab12cd34ef98765
 
-``/[TEMPLATE, auto, random, PREFIX]/``	     creates segment of form quote-ab12cd34ef98765 if PREFIX = quote-
+``/[TEMPLATE, auto, random, PREFIX]/``	     creates segment of form quote-ab12cd34ef98765 if 
+                                             PREFIX = quote-
 
 ``/[TEMPLATE, data, FORMAT]/``	             creates a segment using reserved name formats
 ==========================================   ======================================================
@@ -88,7 +88,6 @@ d            1
 dd           01
 ddd          Sat
 dddd         Saturday
-
 ===========  ==============
 
 
@@ -110,14 +109,16 @@ Permissions for each segment are:
 There is a special group name $user which is the personal group of the user clicking the button.
 
 The first parameter can be:
+
 * spreadsheet
 * wikipage
 * webpage
 * table
 
 The redirect page (i.e. the segment to go to when the pages are created) is achieved as follows:
-“/bleh/[T1, date, yy; go]/[T2, date, mm]/”
-“/bleh/[T1, date, yy; go, spreadsheet]/[T2, date, mm]/”
+
+| “/bleh/[T1, date, yy; go]/[T2, date, mm]/”
+| “/bleh/[T1, date, yy; go, spreadsheet]/[T2, date, mm]/”
 
 
 You can mix and match permission and redirects (i.e. the clauses are order independent)
@@ -127,7 +128,7 @@ Example
 
 
 
-.. note:: Test note df sfd sdf sdf sdf sdf sdfs sfd fsdfsdf sdf sdf sdf sdf sdf sdfsdf sdf sdfs fsd sdfd sdfsdfsfsfsd sdf sfd sdf sdfsdf dsdssdfs fsdf sdf sdf sdf sdf dfs sdfsfsdf sdf sdf sdf sd 
+.. note :: Test note df sfd sdf sdf sdf sdf sdfs sfd fsdfsdf sdf sdf sdf sdf sdf sdfsdf sdf sdfs fsd sdfd sdfsdfsfsfsd sdf sfd sdf sdfsdf dsdssdfs fsdf sdf sdf sdf sdf dfs sdfsfsdf sdf sdf sdf sd 
 
 
 

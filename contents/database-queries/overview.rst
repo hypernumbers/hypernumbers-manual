@@ -18,19 +18,23 @@ The results of a z-query are used inside a function in a cell in the same way as
 ``=function(z-query)``
 
 Z-queries can be used inside a selection of maths and statistics functions e.g.:
+
 * sum
 * min
 * count
 * etc
 
 A number of special hypernumbers functions have also been created to cater for z-queries that are constructed from strings, including:
+
 * sumz  
 * countz
 
 Z-queries can also be used to generate dynamic lists using the function:
+
 * link.box.WxH
 
 Another useful function to debugging z-queries is:
+
 * debugz.WxH
 
 Z-Query Syntax
@@ -43,13 +47,12 @@ The syntax of the z-query part is based on an expression which specifies a path 
 
 The arguments involved in a z-query have the following definitions:
 
-================== ===================================================================================
+================== ============================================================================
 Arguments          Description
-================== ===================================================================================
+================== ============================================================================
 ``segment(s)``     Specifies path segments as part of the z-query. For example some and page 
                    are segments in the illustrative z-query above.
 
-	
 ``condition(s)``   The condition expression inside the z-query is mandatory and enables 
                    filtering to be applied to the pages in path segments towards the final 
                    target pages.
@@ -57,21 +60,15 @@ Arguments          Description
                    Conditions, on a path segment, are always included inside [] brackets in a 
                    z-query.
 
-                   **TRUE** is a reserved keyword indicating the use of all pages in a path segment.
-
                    Any valid excel expression inside the [] brackets can be applied including 
+		   functions, formulae and absolute and relative cell references. The simple 
+                   way to select all pages is to use the excel expression ``true`` which is 
+                   always true on all pages
 
-			* functions and formulae 
-			* absolute and relative paths.
-	
-``cell(s)`` 	   The cell selection can be:
-			* A single cell e.g. G21
-			* A cell range e.g. G21:H24 -coming
-			* Specific cells e.g. G21, H23, I44 – coming including some wrapper specifier.
+``cell(s)`` 	   The cell selection can be a single cell (e.g. G21) or a cell range (e.g. 
+                   G21:H24)
 
-================== ===================================================================================
-
-
+================== ============================================================================
 
 	
 Illustrative Database
@@ -253,9 +250,11 @@ Argument        Description
 	
 ``LinkType``	**Optional**. A number specifying what data to include in the return list:
 
-		* 0 is links with the path in them (**DEFAULT**)
-		* 1 is links with the value in them
-		* 2 is a link with the path and the value next to it  
+		0 is links with the path in them (**DEFAULT**)
+
+		1 is links with the value in them
+
+		2 is a link with the path and the value next to it  
                    
 	
 ``Headline`` 	**Optional**. A string or reference to a cell with a string.
@@ -264,19 +263,26 @@ Argument        Description
 	
 ``BoxType`` 	**Optional**. Specifies the box type to use with the returned data:
 
-		* 0 is style box as html.box (**DEFAULT**)
-		* 1 is style box as html.ruledbox
-		* 2 is style box as html.plainbox
-		* 3 is style box as html.alert.
+		0 is style box as html.box (**DEFAULT**)
+
+		1 is style box as html.ruledbox
+
+		2 is style box as html.plainbox
+
+		3 is style box as html.alert.
 	
 ``AlertType``	**Optional**. AlertType only works with BoxType of 3 and is the same as 
                 for html.alert. AlertType specifies the type of alert box to use:
 
-		* 0 = plain
-		* 1 = alert1
-		* 2 = alert3
-		* 3 = alert3
-		* 99 = ruledbox.
+		0 = plain
+
+		1 = alert1
+
+		2 = alert3
+
+		3 = alert3
+
+		99 = ruledbox
 
 ==============  ===========================================================================	
 
@@ -299,5 +305,4 @@ Demo Examples
 -------------
 
 Example  - Closed loop list processing (a la DLA Alerts)
-
 
