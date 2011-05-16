@@ -1,11 +1,11 @@
 ======================
-CREATE.BUTTON function
+CREATE.BUTTON Function
 ======================
 
 Overview
 --------
 
-The create.button() function can be used on any wikipage or webpage to instantiate a template as a new page in a specific location within an applications’s page structure.
+The ``=create.button(...)`` function can be used on any wikipage or webpage to instantiate a template as a new page in a specific location within an applications’s page structure.
 
 Syntax
 ------
@@ -23,11 +23,15 @@ Argument
 ``Expression`` 	  A string specifying the construction parameters for new pages, including 
                   specifiers on the: 
 
-			* page structure to be created 
-			* the templates to use
-			* the naming convention to use 
-			* access permissions 
-			* redirect options
+		  page structure to be created 
+	          
+		  the templates to use
+		
+		  the naming convention to use 
+		
+ 		  access permissions 
+
+		  redirect options
   
                   Within each expression it is possible to create many new pages and 
                   at the same time instantiate many templates into these new pages. 
@@ -125,28 +129,3 @@ You can mix and match permission and redirects (i.e. the clauses are order indep
 
 Example
 -------
-
-
-
-.. note :: Test note df sfd sdf sdf sdf sdf sdfs sfd fsdfsdf sdf sdf sdf sdf sdf sdfsdf sdf sdfs fsd sdfd sdfsdfsfsfsd sdf sfd sdf sdfsdf dsdssdfs fsdf sdf sdf sdf sdf dfs sdfsfsdf sdf sdf sdf sd 
-
-
-
-.. list-table:: Frozen Delights!
-   :widths: 15 10 30
-   :header-rows: 1
-
-   * - Treat
-     - Quantity
-     - Description
-   * - Albatross
-     - 2.99
-     - On a stick!
-   * - Crunchy Frog
-     - 1.49
-     - If we took the bones out, it wouldn't be
-       crunchy, now would it?
-   * - Gannet Ripple
-     - 1.99
-     - On a stick!
-
