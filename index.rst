@@ -27,6 +27,8 @@ Welcome to Building Applications With Hypernumbers
    :maxdepth: 1
 
    contents/making-pages-from-templates
+..   contents/page-views/views
+..   content/site-admin/site administration
 
 3 Hypernumbers Functions
 ========================
