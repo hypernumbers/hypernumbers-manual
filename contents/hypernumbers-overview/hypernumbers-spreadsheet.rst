@@ -222,7 +222,6 @@ The views menu is used to control user access to a site or application. Specific
 *	set up user groups and users
 *	invite users to pages. 
 
-<<<<<<< HEAD
 
 Language Support
 ----------------
@@ -242,7 +241,6 @@ You can use the language selector in the top right section of the spreadsheet pa
   
 .. Note:: Non English language support is currently disabled.
 
-=======
 Right-Click Menu
 ----------------
 
@@ -257,8 +255,7 @@ When you highlight a cell or range of cells and use the right-click mouse button
 
 The latter two menu options are very useful and are covered in later sections.
 
->>>>>>> 981089c06645f526e8775e9a1180a65e9222d748
- 
+
 Browser Support
 ---------------
   
