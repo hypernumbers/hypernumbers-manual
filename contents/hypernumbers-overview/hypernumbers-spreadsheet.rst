@@ -34,7 +34,7 @@ Some of these familiar features and capabilities include:
 *	You can merge and unmerge cell ranges
 *	You can insert and delete rows and columns   
 *	There is a formula bar in which to edit the contents of a cell or a formula
-*	There’s a formula wizard that helps you build functions   
+*	There’s a function wizard that helps you to quickly build functions without needing to know a function's syntax and arguments   
 *	There’s a toolbar icon menu providing a quick way to change the layout and format of cells e.g. 
 
 	*	apply formats to cell contents  
@@ -62,6 +62,7 @@ Every hypernumbers page and cell has its’ own unique web address or uniform re
 
 .. figure:: /images/anatomy-of-page-cell-address.png
    :scale: 100 %
+   :align: center
    :alt: Anatomy of a Hypernumbers Address
 
 
@@ -109,6 +110,7 @@ Referencing cells from another spreadsheet page requires the use of the relevant
 =/home/subpage/endpage/c1
 
 Suppose we wish to construct a calculation on the page /home/ that is the sum of the cell range A1:A4 on the page /home/subpage/endpage/. Either one of these expressions could be used:
+
 *	=sum(/home/subpage/endpage/a1:a4) 
 *	=sum(./subpage/endpage/a1:a4)
 
@@ -117,8 +119,9 @@ The ./ is a relative reference and means move the next segment below subpage, th
 Relative references can also be used to move backwards along page segments to reference cells in a parent page using ../.  Suppose, we wish place a calculation in the /home/subpage/endpage/ that is the average of cells b1:b10 on the /home/ page. 
 
 Either one these formulae would return the same result:
-•	=sum(/home/b1:b10)
-•	=sum(../../b1:b10)
+
+*	=sum(/home/b1:b10)
+*	=sum(../../b1:b10)
 
 
 .. note:: You do NOT include the site address when referencing a cell when the cell is referenced from another address on the same site.
@@ -129,6 +132,20 @@ Either one these formulae would return the same result:
    *	/home/sub-page/c1 
    *	/home/Sub-page/c1 
    *	/home/Sub-pagE/c1
+
+Right-Click Menu
+----------------
+
+When you highlight a cell or range of cells and use the right-click mouse button, a further menu appears with some additional page functions. These include:
+
+*	Copy and paste
+*	Merge cells
+*	Insert cells into a page
+*	Delete cells in a page
+*	Create forms
+*	View cell change history 
+
+The latter two menu options are very useful and are covered in later sections.
 
 
 Saving Changes
@@ -208,19 +225,6 @@ The views menu is used to control user access to a site or application. Specific
 *	set up user groups and users
 *	Invite users to pages. 
 
-Right-Click Menu
-----------------
-
-When you highlight a cell or range of cells and use the right-click mouse button, a further menu appears with some additional page functions. These include:
-
-*	Copy and paste
-*	Merge cells
-*	Insert cells into a page
-*	Delete cells in a page
-*	Create forms
-*	View cell change history 
-
-The latter two menu options are very useful and are covered in later sections.
 
 Language Support
 ----------------
@@ -238,7 +242,7 @@ Hypernumbers supports 8 language versions of the function names that are availab
 
 You can use the language selector in the top right section of the spreadsheet page to toggle function names and menu labels to your chosen language. 
   
-Note: Non English language support is currently disabled.
+.. Note:: Non English language support is currently disabled.
 
  
 Browser Support
