@@ -191,13 +191,27 @@ It is similar to the sort and filter view in Excel and provides much the same ca
 *       Hide columns
 *	Use the line editor to edit the contents of a row. 
 
+Templates
+---------
+
+Templates are preformatted pages that can be saved to act as a model or standard page in an application. They are essential application building blocks in situations where many instances of the templated page will be needed to capture data in a consistent way that doesn’t mess up any calculation or business logic associated with the particular type of page. 
+
+Example templates might include:
+
+*	Invoices and timesheets
+*	Budgets and other financial model
+*	Calculators  
+*	Etc. etc.
+
+In hypernumbers template pages inherit all the security features (user access and operations) that have been applied to the page the template is modelled on. They can thus be restricted to certain types of users and be set up to only capture data in specific cells. 
+
 
 Making Forms
 ------------
 
-It is a trivial task to add webforms to a form to a hypernumbers page. These forms can be used on both webpages and wikipages. They stick the data straight into a table-formatted spreadsheet with columns of data and headers that you can sort.
+It is a trivial task to add webforms to a hypernumbers page. These forms can be used on both webpages and wikipages. They stick the data straight into a table-formatted spreadsheet with columns of data and headers that you can sort.
 
-Adding a form can be done by building up the form bit-by-bit using the icons on the toolbar. A faster way is to highlight a range of cells and use the right-click menu (illustrated in the excel-like-spreadsheet diagram) to access the create forms option. A basic form is added to cells in the selected range. You can then change form elements and layout as required.
+You can add a form to a page by building up the form bit-by-bit using the icons on the toolbar. A faster way is to highlight a range of cells and use the ``right-click`` menu (illustrated in the excel-like-spreadsheet diagram) to access the ``create forms`` option. A basic form is added to cells in the selected range. You can then change form elements and layout as required.
 
 Permissions
 -----------

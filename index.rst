@@ -29,6 +29,7 @@ Welcome to Building Applications With Hypernumbers
    contents/making-pages-from-templates
 ..   contents/page-views/views
 ..   content/site-admin/site administration
+
 3 Hypernumbers Functions
 ========================
 
@@ -60,8 +61,15 @@ Welcome to Building Applications With Hypernumbers
 
    overview <contents/hypernumbers-permissions/permissions>
 
+6 Spreadsheet Audit
+===================
 
-6 Excel-Compatible Functions
+.. toctree::
+   :maxdepth: 1
+
+   contents/spreadsheet-audit/cell-change-control
+
+7 Excel-Compatible Functions
 ============================
 
 .. toctree::
