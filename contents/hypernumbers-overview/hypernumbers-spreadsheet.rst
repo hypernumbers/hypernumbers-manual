@@ -8,8 +8,8 @@ Hypernumbers is a web technology that enables spreadsheet users to build web app
 
 In this introductory overview we will cover features of the spreadsheet that should already be familiar and briefly look at special features that are unique to hypernumbers. Special hypernumbers features will be covered in more detail in later sections of this book.
 
-Spreadsheet View
-----------------
+Excel-like-Spreadsheet
+----------------------
 
 Hypernumbers spreadsheet pages look like your desktop spreadsheets and operate like a desktop spreadsheet, as shown below. 
  
@@ -54,8 +54,8 @@ To extend the spreadsheet paradigm for the web and enable non-specialist program
 
 Some of these differences are introduced briefly below and will be covered in more detail in later sections of this book.
 
-Hypernumbers Page and Cell Referencing
---------------------------------------
+Page and Cell Referencing
+-------------------------
 
 Every hypernumbers page and cell has its own unique web address or uniform resource locator (URL); made up of the website name, page name and cell reference (cell range), as shown in the figure below:
 
@@ -127,27 +127,6 @@ Either one these formulae would return the same result:
    *	``/home/Sub-page/c1``
    *	``/home/Sub-pagE/c1``
 
-Right-Click Menu
-----------------
-
-When you highlight a cell or range of cells and use the right-click mouse button, a further menu appears with some additional page functions. These include:
-
-*	Copy and paste
-*	Merge cells
-*	Insert cells into a page
-*	Delete cells in a page
-*	Create forms
-*	View cell change history 
-
-The latter two menu options are very useful and are covered in later sections.
-
-
-Saving Changes
---------------
-
-Unlike desktop spreadsheets, you don’t have to save changes you make to a hypernumbers page. In hypernumbers, every change is automatically saved.
-
-
 Functions
 ---------
 
@@ -175,27 +154,8 @@ Because hypernumbers enables spreadsheet data to be organised into complex page 
   
 The functions section provides the syntax and examples of the use of these functions. 
 
-
-Page Management
----------------
-  
-The ``site`` menu - on the toolbar - provides basic site and page administration capabilities. It allows users to:
-
-*	navigate through the spreadsheet page structure
-*	open existing pages as spreadsheet views      
-*	create new and delete existing spreadsheet pages  
-*	save a hypernumbers page as a template with a particular view type
-*	create new pages using a saved template
-*	import desktop spreadsheets into hypernumbers
-*	change their passwords 
-
-.. figure:: /images/site-dialog-box.png
-   :scale: 100 %
-   :alt: The Site Dialog Box
-
-
-Views Menu
-----------
+Web and Wikipages
+-----------------
 
 One of the key features of hypernumbers is the ability to present a spreadsheet page in different user interface formats to different users of an application. There are four different views of a hypernumbers page that can be presented:
 
@@ -219,6 +179,26 @@ The views menu is used to control user access to a site or application. Specific
 *	set up user groups and users
 *	invite users to pages. 
 
+Table View
+----------
+
+The ``table`` view is useful for displaying spreadsheet pages that contain tables or lists - of row and column data.
+
+It is similar to the sort and filter view in Excel and provides much the same capability. You can:
+*	Sort on one or more columns
+*	Apply default sorting
+*	Apply multi-column filtering of rows
+*       Hide columns
+*	Use the line editor to edit the contents of a row. 
+
+
+Making Forms
+------------
+
+It is a trivial task to add webforms to a form to a hypernumbers page. These forms can be used on both webpages and wikipages. They stick the data straight into a table-formatted spreadsheet with columns of data and headers that you can sort.
+
+Adding a form can be done by building up the form bit-by-bit using the icons on the toolbar. A faster way is to highlight a range of cells and use the right-click menu (illustrated in the excel-like-spreadsheet diagram) to access the create forms option. A basic form is added to cells in the selected range. You can then change form elements and layout as required.
+
 Permissions
 -----------
 
@@ -238,6 +218,50 @@ The ``webpage`` and ``wikipage`` views of the spreadsheet are specially designed
 
 Permissions can be assigned to pages for individual users and groups of users as members of a usergroup.
 
+Building Applications in Hypernumbers
+-------------------------------------
+
+Hypernumbers is more just a spreadsheet. Hypernumbers is a platform that combines the functionality of the desktop spreadsheet and more with different presentation layers that allows the spreadsheet expert/business professional to build web applications.
+
+ .. figure:: /images/building-applications-framework.png
+   :scale: 100 %
+   :alt: Hypernumbers Application Framework
+
+This democratizes the previously closed world of building software for the web from IT professionals to non-IT professionals:
+
+*	The web programmer is the spreadsheet expert who might be a subject-matter expert in some non-IT related business discipline
+*	The programming layer is the spreadsheet
+*	The end-user presentation layer can be configured any one of a number of views other than the spreadsheet
+*	Each presentation view controls and prevents what users can do (aka damage) to the underlying spreadsheet
+  
+Managing Your Application
+-------------------------
+
+The site menu - on the toolbar - provides site and page administration capabilities that allow you to build up your application. It allows the programmer (i.e. the spreadsheet expert) to:
+•	Navigate through the spreadsheet page structure
+•	Open existing pages as spreadsheet views      
+•	Create new and delete existing spreadsheet pages  
+•	Save a hypernumbers page as a template with a particular view type
+•	Create new pages using a saved template
+•	Import desktop spreadsheets into hypernumbers
+•	Change user’s sign-on passwords 
+ 
+
+.. figure:: /images/site-dialog-box.png
+   :scale: 100 %
+   :alt: The Site Dialog Box
+
+Spreadsheet Audit
+----------------- 
+
+All changes to cells on the spreadsheet have a full audit history retained for analysis. This audit trail lets you know if a cell has changer, who changed it and when they changed. 
+
+This is accessed via the view cell change history option on the right-click menu. 
+
+Saving Changes
+--------------
+
+Unlike desktop spreadsheets, you don’t have to save changes you make to a hypernumbers page. In hypernumbers, every change is automatically saved.
 
 Language Support
 ----------------
@@ -256,20 +280,6 @@ Hypernumbers supports 8 language versions of the function names that are availab
 You can use the language selector in the top right section of the spreadsheet page to toggle function names and menu labels to your chosen language. 
   
 .. Note:: Non English language support is currently disabled.
-
-Right-Click Menu
-----------------
-
-When you highlight a cell or range of cells and use the right-click mouse button, a further menu appears with some additional page functions. These include:
-
-*	copy and paste
-*	merge cells
-*	insert cells into a page
-*	delete cells in a page
-*	create forms
-*	view cell change history 
-
-The latter two menu options are very useful and are covered in later sections.
 
 
 Browser Support
