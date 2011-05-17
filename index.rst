@@ -80,6 +80,8 @@ Welcome to Building Applications With Hypernumbers
    Database Functions               <contents/excel-compatible-functions/database/introduction-to-database-fns>
    Date And Time Functions          <contents/excel-compatible-functions/date-and-time/introduction-to-date-and-time-fns>
    Financial Functions              <contents/excel-compatible-functions/financial/introduction-to-financial-fns>
+    Information Functions            <contents/excel-compatible-functions/information/introduction-to-information-fns>
+
 
 Indices and tables
 ==================
