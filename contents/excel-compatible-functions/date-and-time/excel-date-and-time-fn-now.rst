@@ -4,6 +4,8 @@ NOW
 
 Returns the computer system date and time. The value is updated when you recalculate the document or each time a cell value is modified.
 
+.. warning:: In Excel and other desktop spreadsheets ``=now()`` recalculates everytime the spreadsheet is opened. Hypernumbers doesn't have the concept of *opening spreadsheets*. If you require a time function that changes you should use the Hypernumbers function ``=tick()`` which is a ticking now. You can configure it to tick on an hourly, daily, weekly or monthly basis.
+
 Syntax
 ------
 
