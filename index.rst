@@ -29,19 +29,19 @@ Welcome to Building Applications With Hypernumbers
    contents/making-pages-from-templates
 ..   contents/page-views/views
 ..   content/site-admin/site administration
-
 3 Hypernumbers Functions
 ========================
 
 .. toctree::
    :maxdepth: 1
 
-   graph functions              <contents/hypernumbers-functions/graph/introduction-to-graphs>
-   database functions           <contents/hypernumbers-functions/database/introduction-to-database-query-function>
-   layout and display functions <contents/hypernumbers-functions/layout-and-display/layout-functions-introduction>
-   navigation functions         <contents/hypernumbers-functions/navigation/navigation-functions-introduction>
-   social media functions       <contents/hypernumbers-functions/social-media/introduction-to-social-media>
-   template functions           <contents/hypernumbers-functions/templates/template-functions-introduction>
+   Graph Functions              <contents/hypernumbers-functions/graph/introduction-to-graphs>
+   Database Functions           <contents/hypernumbers-functions/database/introduction-to-database-query-function>
+   Layout And Display Functions <contents/hypernumbers-functions/layout-and-display/layout-functions-introduction>
+   Navigation Functions         <contents/hypernumbers-functions/navigation/navigation-functions-introduction>
+   Social Media Functions       <contents/hypernumbers-functions/social-media/introduction-to-social-media>
+   Template Functions           <contents/hypernumbers-functions/templates/template-functions-introduction>
+
    
 4 Database Queries
 ==================
@@ -52,7 +52,6 @@ Welcome to Building Applications With Hypernumbers
    database z-queries <contents/database-queries/overview>
 
 
-
 5 Permissions
 =============
 
@@ -61,6 +60,16 @@ Welcome to Building Applications With Hypernumbers
 
    overview <contents/hypernumbers-permissions/permissions>
 
+
+6 Excel-Compatible Functions
+============================
+
+.. toctree::
+   :maxdepth: 1
+
+   Copyright Of This Section        <contents/excel-compatible-functions/excel-compatible-fns-copyright>
+   Database Functions               <contents/excel-compatible-functions/database/introduction-to-database-fns>
+   Date And Time Functions          <contents/excel-compatible-functions/date-and-time/introduction-to-date-and-time-fns>
 
 
 Indices and tables
