@@ -194,6 +194,7 @@ Z-Query Strings
 ---------------
 
 A number of special z-query functions are available to handle z-query references that are strings. These special functions include:
+
 * sumz
 * countz
 
