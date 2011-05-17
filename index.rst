@@ -29,6 +29,7 @@ Welcome to Building Applications With Hypernumbers
    contents/making-pages-from-templates
 ..   contents/page-views/views
 ..   content/site-admin/site administration
+
 3 Hypernumbers Functions
 ========================
 
@@ -60,7 +61,6 @@ Welcome to Building Applications With Hypernumbers
 
    overview <contents/hypernumbers-permissions/permissions>
 
-
 6 Excel-Compatible Functions
 ============================
 
@@ -70,7 +70,7 @@ Welcome to Building Applications With Hypernumbers
    Copyright Of This Section        <contents/excel-compatible-functions/excel-compatible-fns-copyright>
    Database Functions               <contents/excel-compatible-functions/database/introduction-to-database-fns>
    Date And Time Functions          <contents/excel-compatible-functions/date-and-time/introduction-to-date-and-time-fns>
-
+   Financial Functions              <contents/excel-compatible-functions/financial/introduction-to-financial-fns>
 
 Indices and tables
 ==================
