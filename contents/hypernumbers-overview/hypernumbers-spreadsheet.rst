@@ -54,8 +54,8 @@ To extend the spreadsheet paradigm for the web and enable non-specialist program
 
 Some of these differences are introduced briefly below and will be covered in more detail in later sections of this book.
 
-Anatomy of a Hypernumbers Page/Cell Address
--------------------------------------------
+Hypernumbers Page and Cell Referencing
+--------------------------------------
 
 Every hypernumbers page and cell has its own unique web address or uniform resource locator (URL); made up of the website name, page name and cell reference (cell range), as shown in the figure below:
 
@@ -97,9 +97,6 @@ Valid segment names can use a combination of:
 *	“-“ symbol
 *	“_” symbol
 
-
-Referencing Hypernumbers Cells
-------------------------------
 
 Referencing cells in a spreadsheet from the same spreadsheet works as your desktop spreadsheet e.g. ``=a1``, ``=sum(a1:a4)``.
 
@@ -158,7 +155,7 @@ Many of the standard functions you might already be familiar with using in your 
 
 There are also many special hypernumbers functions available that can be used to build dynamic web applications. 
 
-These fall under the categories of:
+These new function categories include:
 
 *	layout and display functions
 *	navigation functions
@@ -172,17 +169,17 @@ These fall under the categories of:
 
 Some examples include the ``=link(...)`` function which allows you to easily create a hyperlink inside a cell on a spreadsheet page. Another is the ``=google.map(...)`` which allows you to embed interactive Google maps inside a cell range in a spreadsheet page. Or you might want to enable users to post facebook comments in your application using the ``=facebook.comments(...)`` function. 
 
-In hypertnumbers graphs are created using functions. An example is the ``=histogram.WxH(...)`` graph function which would be used to create a barchart – where the ``WxH`` specifies the number of columns and rows to use to display the graph. You can see an example of this in the hypernumbers spreadsheet diagram earlier.
+In hypernumbers graphs are created using functions. An example is the ``=histogram.WxH(...)`` function which would be used to create a barchart – where the ``WxH`` specifies the number of columns and rows to use to display the graph. You can see an example of this in the hypernumbers spreadsheet diagram earlier.
 
-You can also see, in the same diagram, an examples of a z-order (or database query) used inside a function e.g. ``=sum(./[true]/d3)``. Z-order functions are discussed in the chapter on database queries.
+Because hypernumbers enables spreadsheet data to be organised into complex page hierarchies, a new class of database query functions exists. These database functions utilise a specially developed querying language that lets you implement calculations across such hierarchical data. You can see an example of a z-query (or database query) used inside a function in the excel-like-spreadsheet diagram. This is the function ``=sum(./[true]/d3)`` in the diagram. Z-queries and functions are discussed in the chapter on database queries.
   
 The functions section provides the syntax and examples of the use of these functions. 
 
 
-Site Administration
--------------------
+Page Management
+---------------
   
-On the toolbar there is a site menu. This provides some basic site and page administration capabilities. It allows users to:
+The ``site`` menu - on the toolbar - provides basic site and page administration capabilities. It allows users to:
 
 *	navigate through the spreadsheet page structure
 *	open existing pages as spreadsheet views      
@@ -221,6 +218,25 @@ The views menu is used to control user access to a site or application. Specific
 *	set the page to be available to the public (available to anyone on the internet) or private and, if private, who (i.e. which groups and users) specifically can have access to the page
 *	set up user groups and users
 *	invite users to pages. 
+
+Permissions
+-----------
+
+Hypernumbers incorporates an easy to implement, but highly effective, user permissions model based on the different page view types described above. This enables the programmer to control:
+
+*	Whether pages are public or secure
+*	Implement user authentication via user signon
+*	Which users can access which pages 
+*	What operations (i.e. view, edit and create page operations) users can perform on these pages 
+
+The permissions model addresses core problem of spreadsheet applications:
+
+*	End users breaking spreadsheets
+*	Changing data they’re not supposed to touch
+
+The ``webpage`` and ``wikipage`` views of the spreadsheet are specially designed to allow the programmer to present users with an interface that allows data to be collected for certain cells but locks out changes to other key cells on the page. This in effect allows the programmer to apply cell level security to pages and spreadsheet based applications.
+
+Permissions can be assigned to pages for individual users and groups of users as members of a usergroup.
 
 
 Language Support
