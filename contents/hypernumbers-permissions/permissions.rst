@@ -177,7 +177,7 @@ The following approach is offered as a heuristic one that we at hypernumbers hav
 
 As an example……
 
-.. image :: /images/permissions-map-example.png
+image :: /images/permissions-map-example.png
 
 You might have to go back to your application and make some changes to fall in line with your new access control view. You might have to add permission groups to create buttons. You will have to go back to your templates to apply the access model to the different user groups. And other changes….!! As mentioned, spreadsheet programming is usually iterative. But that’s what makes spreadsheet programming so flexible, agile and appealing to non-programmers. 
 
