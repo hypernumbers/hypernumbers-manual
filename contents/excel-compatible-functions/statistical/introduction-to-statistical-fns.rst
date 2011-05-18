@@ -13,9 +13,9 @@ The following Excel-compatible statistical functions are implemented in Hypernum
    countblank <excel-statistical-fn-countblank>
    countif    <excel-statistical-fn-countif>
    max        <excel-statistical-fn-max>
-   maxa        <excel-statistical-fn-max>
+   maxa        <excel-statistical-fn-maxa>
    min        <excel-statistical-fn-min>
-   mina        <excel-statistical-fn-min>
+   mina        <excel-statistical-fn-mina>
    stdev      <excel-statistical-fn-stdev>
    stdevp     <excel-statistical-fn-stdevp>
    var        <excel-statistical-fn-var>
