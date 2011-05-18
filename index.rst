@@ -81,6 +81,11 @@ Welcome to Building Applications With Hypernumbers
    Date And Time Functions          <contents/excel-compatible-functions/date-and-time/introduction-to-date-and-time-fns>
    Financial Functions              <contents/excel-compatible-functions/financial/introduction-to-financial-fns>
     Information Functions            <contents/excel-compatible-functions/information/introduction-to-information-fns>
+   Logical Functions                <contents/excel-compatible-functions/logical/introduction-to-logical-fns>
+   Lookup And Reference Functions   <contents/excel-compatible-functions/lookup-and-reference/introduction-to-lookup-and-reference-fns>
+   Maths And Trigonometry Functions <contents/excel-compatible-functions/maths-and-trigonometry/introduction-to_maths-and-trigonometry-fns>
+   Statistical Functions            <contents/excel-compatible-functions/statistical/introduction-to-statistical-fns>
+   Text Functions                   <contents/excel-compatible-functions/text/introduction-to-text-fns>
 
 
 Indices and tables
