@@ -31,8 +31,7 @@ Example 1
 
 The following example illustrates a simple piechart.
 
-.. image ::/images/piechart_ex1.png
-
+.. image:: /images/piechart_ex1.png
 
 Example 2
 ---------
@@ -41,6 +40,5 @@ To compare the different group distributions from example 1, we could create sep
 
 .. image:: /images/example-piechart.png
    :scale: 100 %
-   :align: center
    :alt: Example hypernumbers piechart function with two rings
 
