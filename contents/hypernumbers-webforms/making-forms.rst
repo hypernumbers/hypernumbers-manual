@@ -23,8 +23,11 @@ Forms can be constructed using any of the following form elements:
 *	Submit buttons
 
 Creating an appending form is easy:
- 
-.. image::appending-form-creation.png
+
+.. image:: /images/appending-form-creation.png
+   :scale: 100 %
+   :align: center
+   :alt: Creating a hypernumbers webform
 
 #.	Select a range of cells in the spreadsheet (in this instance ``A2:B8``), right-click (to get the right-click menu) and select  the Create Form option. 
 #.	This will add a form with a number of basic input elements to the selected cells along with default question text alongside (e.g. “Question 1:”), a form submit button and a link to the page where the responses will be posted – the default response page being a sub-page of the current page named ``/current-page-path/replies/``.  You can then start to customise the form by adding appropriate questions, merging input cells to be larger and changing form elements via the toolbar menu. 
@@ -32,11 +35,17 @@ Creating an appending form is easy:
 
 Data submitted via this form would be posted to a page as rows and columns thus:
 
-.. image::appending-form-responses-spreadsheet.png
+.. image:: /images/appending-form-responses-spreadsheet.png
+   :scale: 100 %
+   :align: center
+   :alt: Hypernumbers webform responses spreadsheet
 
 You can also build forms using the toolbar where all the available form elements are provided. This approach has the benefit of providing more control over the placement of form elements. You simply select a cell and click the desired form element on the toolbar. The form element will be added to the selected cell. By repeating this process you can construct a highly structured form layouts. 
 
- .. image::appending-form-example.png
+.. image:: /images/appending-form-example.png
+   :scale: 100 %
+   :align: center
+   :alt: Hypernumbers webform example
 
 In hypernumbers, form elements used in appending forms, are functions (see cell ``B2`` in the diagram above) that are entered in cells. The syntax of these form element functions are:
 
@@ -63,7 +72,10 @@ Wikiforms are simply wikipages that incorporate special input fields (wiki eleme
 
 Inline wiki elements are created in spreadsheet cells. When data is entered via the wikipage view, it is posted to the same spreadsheet cell. When the pages is viewed as a webpage the data that has been entered is display only. Examples of the two inline wiki elements are shown below as they appear in the ``spreadsheet``, ``wikipage`` and ``webpage`` views:
  
-.. image::wikiform-views.png
+.. image:: /images/wikiform-views.png
+   :scale: 100 %
+   :align: center
+   :alt: Hypernumbers wikiform views
 
 The wiki input field (identifiable in the spreadsheet view via the little red triangle in the top-left corner of the cell) allows you to collect unvalidated data and is useful for collecting user information where there are no pre-defined answers or valid values. 
 
