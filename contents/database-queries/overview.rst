@@ -47,6 +47,8 @@ The syntax of the z-query part is based on an expression which specifies a path 
 
 The arguments involved in a z-query have the following definitions:
 
+.. tabularcolumns:: |l|L|
+
 ================== ============================================================================
 Arguments          Description
 ================== ============================================================================
@@ -238,6 +240,8 @@ The syntax for this function is:
 
 
 The arguments are used as follows: 
+
+.. tabularcolumns:: |l|L|
 
 ==============  ===========================================================================
 Argument        Description

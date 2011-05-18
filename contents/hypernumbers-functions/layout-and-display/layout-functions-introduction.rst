@@ -1,5 +1,5 @@
 ============================================
-Introduction To layout and Display Functions
+Introduction To Layout And Display Functions
 ============================================
 
 A number of layout and display functions are available to enhance the visual appeal of webpage and wikipage content. Currently available layout functions include:
@@ -9,15 +9,15 @@ A number of layout and display functions are available to enhance the visual app
 
    html.headline.WxH <headline-display-box>
    html.plainbox.WxH <plainbox-display-box>
-   html.box.WxH <box-display-box>
-   html.alert.WxH <alert-display-box>
+   html.box.WxH      <box-display-box>
+   html.alert.WxH    <alert-display-box>
    html.ruledbox.WxH <ruledbox-display-box>
    horizontal.line.W <horizontal-line>
-   vertical.line.H <vertical-line>
-   img <image-display>
+   vertical.line.H   <vertical-line>
+   img               <image-display>
    lorem.ipsum
    lorem.headline
-   table <table-display>
+   table            <table-display>
 
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:

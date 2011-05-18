@@ -1,6 +1,6 @@
-=============
-PAGE function
-=============
+====
+PAGE
+====
 
 Overview
 --------
@@ -17,14 +17,18 @@ Syntax
 Arguments
 ---------
 
-===========     ===========================================================================
-Argument        Description
-===========     ===========================================================================
+.. tabularcolumns:: |l|L|
 
-``N``		An integer specifiying the number of preceeding path segments to return for
-                a given page. Where n exceeds the number of path segments for the page, 
-                the entire path will be returned. 
-===========     ===========================================================================
+=========== ============================================================================
+Argument    Description
+=========== ============================================================================
+
+``N``	     An integer specifiying the number of preceeding path segments to return for
+             a given page. Where n exceeds the number of path segments for the page, 
+             the entire path will be returned.
+ 
+============ ============================================================================
+
 
 Example
 -------
@@ -34,10 +38,16 @@ If we are we were to use the page function in a cell on the page ``/page/subpage
 =====   ==========    =======================
 N       Formula       Result
 =====   ==========    =======================
+
 Blank   =page()       /endpage/
+
 1       =page(1)      /endpage/
+
 2       =page(2)      /subpage/endpage/
+
 3       =page(3)      /page/subpage/endpage/
+
 10      =page(10)     /page/subpage/endpage/
+
 =====   ==========    =======================
 

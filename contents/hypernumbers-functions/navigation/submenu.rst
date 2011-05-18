@@ -1,6 +1,6 @@
-================
-SUBMENU function
-================
+============
+HTML.SUBMENU
+============
 
 Overview
 --------
@@ -12,9 +12,10 @@ Syntax
 
 ``=html.submenu(Name, CellRangeOfLinks)``
 
-
 Arguments
 ---------
+
+.. tabularcolumns:: |l|L|
 
 ===========     ===========================================================================
 Argument        Description
