@@ -52,7 +52,9 @@ Where an optional parameter argument is used, all preceeding optional arguments 
 Example
 -------
 
-.. image :: /images/linegraph_example.png
-
+.. image:: /images/example-linegraph.png
+   :scale: 100 %
+   :align: center
+   :alt: Example hypernumbers linegraph function
 
 

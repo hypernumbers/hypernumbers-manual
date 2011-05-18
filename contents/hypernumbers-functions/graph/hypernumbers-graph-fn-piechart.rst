@@ -39,7 +39,8 @@ Example 2
 
 To compare the different group distributions from example 1, we could create separate pie charts for each group. An alternative approach is to overly the groups in the one piechart by using the NoOfRings parameter – as shown below. 
 
-.. image ::/images/piechart_ex2.png
-
-
+.. image:: /images/example-piechart.png
+   :scale: 100 %
+   :align: center
+   :alt: Example hypernumbers piechart function with two rings
 

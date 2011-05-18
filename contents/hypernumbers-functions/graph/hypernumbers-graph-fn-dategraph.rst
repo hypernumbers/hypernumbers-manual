@@ -52,3 +52,8 @@ Where an optional parameter argument is used, all preceeding optional arguments 
 Example
 -------
 
+.. image:: /images/example-dategraph.png
+   :scale: 100 %
+   :align: center
+   :alt: Example hypernumbers dategraph function
+

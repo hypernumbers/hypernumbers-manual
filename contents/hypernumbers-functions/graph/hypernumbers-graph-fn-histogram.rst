@@ -61,9 +61,10 @@ Argument           Description
 
 Where an optional parameter argument is used, all preceeding optional arguments in the syntax must also be specified e.g. as empty. Succeeding optional parameters, if they are not to be used do not need to be specified.
 
-Example 1 – Vertical Barchart
------------------------------
+Example
+-------
 
-The example below uses the same data as the linegraph function to plot a vertically grouped histogram (or barchart).
-
-.. image :: /images/histogram_grp_vertical.png
+.. image:: /images/example-histogram.png
+   :scale: 100 %
+   :align: center
+   :alt: Example hypernumbers histogram function

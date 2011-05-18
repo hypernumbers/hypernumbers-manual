@@ -46,6 +46,9 @@ Where an optional parameter argument is used, all preceeding optional arguments 
 Example
 -------
 
-This example illustrates the use of the speedo graph function.
+.. image:: /images/example-speedo.png
+   :scale: 100 %
+   :align: center
+   :alt: Example hypernumbers speedo function
 
 

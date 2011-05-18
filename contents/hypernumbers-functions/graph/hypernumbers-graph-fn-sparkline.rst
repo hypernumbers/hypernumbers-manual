@@ -38,3 +38,11 @@ The following example shows sparklines for each of three subjects based on a tim
 
 .. image :: /images/sparkline_example.png
 
+Example 2
+---------
+
+.. image:: /images/example-sparkline.png
+   :scale: 100 %
+   :align: center
+   :alt: Example hypernumbers overlaid sparkline function
+

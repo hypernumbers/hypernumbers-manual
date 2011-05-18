@@ -52,3 +52,8 @@ Where an optional parameter argument is used, all preceeding optional arguments 
 Example
 -------
 
+.. image:: /images/example-equigraph.png
+   :scale: 100 %
+   :align: center
+   :alt: Example hypernumbers equigraph function
+
