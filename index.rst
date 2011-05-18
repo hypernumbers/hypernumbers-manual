@@ -87,6 +87,13 @@ Welcome to Building Applications With Hypernumbers
    Statistical Functions            <contents/excel-compatible-functions/statistical/introduction-to-statistical-fns>
    Text Functions                   <contents/excel-compatible-functions/text/introduction-to-text-fns>
 
+8 Webforms
+==========
+
+.. toctree::
+   :maxdepth: 1
+
+   Webforms                       <contents/hypernumbers-webforms/making-forms>
 
 Indices and tables
 ==================
