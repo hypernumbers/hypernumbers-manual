@@ -2,6 +2,10 @@
 Other Formats
 =============
 
-This documentation is also available as a `PDF`_
+This documentation is available in two formats:
 
-.. _PDF: ../../files/BuildingApplicationsWithHypernumbers.pdf
+* as a `PDF`_
+* as a `website`_
+
+.. _PDF:     ../../files/BuildingApplicationsWithHypernumbers.pdf
+.. _website: http://documentation.hypernumbers.com
