@@ -19,4 +19,4 @@ Example
 
 The entries 2, 4, 6 and eight in the Value 1-4 fields are to be counted.
 
-``=COUNTA(2,4,6,"eight")` = 4. The count of values is therefore 4. 
+``=COUNTA(2,4,6,"eight")`` = 4. The count of values is therefore 4.

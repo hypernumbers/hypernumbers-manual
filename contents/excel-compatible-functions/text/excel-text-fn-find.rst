@@ -21,4 +21,4 @@ Position (optional) is the position in the text from which the search starts.
 Example
 -------
 
-``=FIND(76,998877665544)` returns 6. 
+``=FIND(76,998877665544)`` returns 6.

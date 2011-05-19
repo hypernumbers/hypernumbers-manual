@@ -10,7 +10,7 @@ Calculates the internal rate of return for an investment. The values represent c
 Syntax
 ------
 
-``=IRR(Values, Guess)`
+``=IRR(Values, Guess)``
 
 Values represents an array containing the values.
 

@@ -17,4 +17,4 @@ Number1, Number2... are an infinite number of numerical values or ranges represe
 Example
 -------
 
-``=STDEVP(A1:A50)` returns a standard deviation of the data referenced. 
+``=STDEVP(A1:A50)`` returns a standard deviation of the data referenced.
