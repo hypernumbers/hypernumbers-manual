@@ -9,8 +9,7 @@ Welcome to Building Applications With Hypernumbers
 .. toctree::
    :maxdepth: 1
 
-   contents/suggested-contents
-   contents/other-formats 
+   Other Formats <contents/welcome/other-formats> 
 
 1 Understanding The System
 ==========================
@@ -26,12 +25,16 @@ Welcome to Building Applications With Hypernumbers
 .. toctree::
    :maxdepth: 1
 
-   contents/making-pages-from-templates
+   Templates                    <contents/making-pages-from-templates>
+   Webforms                     <contents/hypernumbers-webforms/making-forms>
+   Audit                        <contents/spreadsheet-audit/cell-change-control>
+   Permissions                  <contents/hypernumbers-permissions/permissions>
+   Database Queries (z-queries) <contents/database-queries/overview>
 ..   contents/page-views/views
 ..   content/site-admin/site administration
 
-3 Hypernumbers Functions
-========================
+3 Hypernumbers Functions Reference
+==================================
 
 .. toctree::
    :maxdepth: 1
@@ -43,35 +46,8 @@ Welcome to Building Applications With Hypernumbers
    Social Media Functions       <contents/hypernumbers-functions/social-media/introduction-to-social-media>
    Template Functions           <contents/hypernumbers-functions/templates/template-functions-introduction>
 
-   
-4 Database Queries
-==================
-
-.. toctree::
-   :maxdepth: 1
-
-   database z-queries <contents/database-queries/overview>
-
-
-5 Permissions
-=============
-
-.. toctree::
-   :maxdepth: 1
-
-   overview <contents/hypernumbers-permissions/permissions>
-
-
-6 Spreadsheet Audit
-===================
-
-.. toctree::
-   :maxdepth: 1
-
-   contents/spreadsheet-audit/cell-change-control
-
-7 Excel-Compatible Functions
-============================
+4 Excel-Compatible Functions Reference
+======================================
 
 .. toctree::
    :maxdepth: 1
@@ -87,13 +63,6 @@ Welcome to Building Applications With Hypernumbers
    Statistical Functions            <contents/excel-compatible-functions/statistical/introduction-to-statistical-fns>
    Text Functions                   <contents/excel-compatible-functions/text/introduction-to-text-fns>
 
-8 Webforms
-==========
-
-.. toctree::
-   :maxdepth: 1
-
-   Webforms                       <contents/hypernumbers-webforms/making-forms>
 
 Indices and tables
 ==================
