@@ -13,8 +13,8 @@ Welcome to Building Applications With Hypernumbers
    Getting Help         <contents/welcome/gettinghelp>
    Other Formats        <contents/welcome/other-formats> 
 
-Understanding The System
-========================
+Getting To Know Hypernumbers
+============================
 
 .. toctree::
    :maxdepth: 1
@@ -34,17 +34,18 @@ Understanding The System
    Saving Changes            <contents/hypernumbers-overview/saving-changes>
    Browser Support           <contents/hypernumbers-overview/browser-support>
 
-Building Sites
-==============
+Hypernumbers Indepth
+====================
 
 .. toctree::
    :maxdepth: 1
-
-   Templates                    <contents/making-pages-from-templates>
-   Webforms                     <contents/hypernumbers-webforms/making-forms>
-   Audit                        <contents/spreadsheet-audit/cell-change-control>
-   Permissions                  <contents/hypernumbers-permissions/permissions>
-   Database Queries (z-queries) <contents/database-queries/overview>
+   
+   Overview                     <contents/indepth/overview.rst>
+   Templates                    <contents/indepth/making-pages-from-templates>
+   Webforms                     <contents/indepth/making-forms>
+   Audit                        <contents/indepth/cell-change-control>
+   Permissions                  <contents/indepth/permissions>
+   Database Queries (z-queries) <contents/indepth/database-queries>
 ..   contents/page-views/views
 ..   content/site-admin/site administration
 
