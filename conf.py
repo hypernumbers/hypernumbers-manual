@@ -126,7 +126,7 @@ html_theme_options = {"rightsidebar": "false",
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = "Building Applications With Hypernumbers (Prerelease)"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 #html_use_modindex = True
 
 # If false, no index is generated.
-#html_use_index = True
+html_use_index = True
 
 # If true, the index is split into individual pages for each letter.
 #html_split_index = False
