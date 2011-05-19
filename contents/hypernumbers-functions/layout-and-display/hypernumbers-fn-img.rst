@@ -1,16 +1,17 @@
-======================
-Ruled Box Display
-======================
+===
+IMG
+===
 
 Overview
 --------
 
+Embeds an image in a cell
 
 
 Syntax
 ------
 
-``=dd``
+``=img(url)``
 
 
 Arguments
@@ -19,10 +20,6 @@ Arguments
 =========== ====================================================================
 Argument    Description
 =========== ====================================================================
-Banjo	      Burp
+``url``     The url of the image to insert, e.g.
+            ``http://example.com/some_image.png``
 =========== ====================================================================
-
-Example
--------
-
-See section hypernumbers database queries
