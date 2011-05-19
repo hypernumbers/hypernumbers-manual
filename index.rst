@@ -8,19 +8,34 @@ Welcome to Building Applications With Hypernumbers
 
 .. toctree::
    :maxdepth: 1
+   
+   This Is A Prerelease <contents/welcome/prerelease>
+   Getting Help         <contents/welcome/gettinghelp>
+   Other Formats        <contents/welcome/other-formats> 
 
-   Other Formats <contents/welcome/other-formats> 
-
-1 Understanding The System
-==========================
+Understanding The System
+========================
 
 .. toctree::
    :maxdepth: 1
 
-   contents/hypernumbers-overview/hypernumbers-spreadsheet
+   Hypernumbers Overview     <contents/hypernumbers-overview/overview>
+   Excel-like Spreadsheet    <contents/hypernumbers-overview/excel-like-spreadsheet>
+   Page And Cell Referencing <contents/hypernumbers-overview/page-and-cell-referencing>
+   Functions                 <contents/hypernumbers-overview/functions>
+   Web And Wiki Pages        <contents/hypernumbers-overview/web-and-wikipages>
+   Table View                <contents/hypernumbers-overview/table-view>
+   Templates                 <contents/hypernumbers-overview/templates>
+   Making Forms              <contents/hypernumbers-overview/making-forms>
+   Permissions               <contents/hypernumbers-overview/permissions>
+   Building Applications     <contents/hypernumbers-overview/building-applications>
+   Managing Your Application <contents/hypernumbers-overview/managing-your-application>
+   Spreadsheet Audit         <contents/hypernumbers-overview/spreadsheet-audit>
+   Saving Changes            <contents/hypernumbers-overview/saving-changes>
+   Browser Support           <contents/hypernumbers-overview/browser-support>
 
-2 Building Sites
-==============================
+Building Sites
+==============
 
 .. toctree::
    :maxdepth: 1
@@ -33,8 +48,8 @@ Welcome to Building Applications With Hypernumbers
 ..   contents/page-views/views
 ..   content/site-admin/site administration
 
-3 Hypernumbers Functions Reference
-==================================
+Hypernumbers Functions Reference
+================================
 
 .. toctree::
    :maxdepth: 1
@@ -46,8 +61,8 @@ Welcome to Building Applications With Hypernumbers
    Social Media Functions       <contents/hypernumbers-functions/social-media/introduction-to-social-media>
    Template Functions           <contents/hypernumbers-functions/templates/template-functions-introduction>
 
-4 Excel-Compatible Functions Reference
-======================================
+Excel-Compatible Functions Reference
+====================================
 
 .. toctree::
    :maxdepth: 1
