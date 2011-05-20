@@ -7,12 +7,12 @@ The following Excel-compatible lookup and reference functions are implemented in
 .. toctree::
    :maxdepth: 1
 
-   choose  <excel-lookup-and-reference-fn-choose>
-   column  <excel-lookup-and-reference-fn-column>
-   columns <excel-lookup-and-reference-fn-columns>
-   hlookup <excel-lookup-and-reference-fn-hlookup>
-   index   <excel-lookup-and-reference-fn-index>
-   row     <excel-lookup-and-reference-fn-row>
-   rows    <excel-lookup-and-reference-fn-rows>
-   vlookup <excel-lookup-and-reference-fn-vlookup>
+   CHOOSE  <excel-lookup-and-reference-fn-choose>
+   COLUMN  <excel-lookup-and-reference-fn-column>
+   COLUMNS <excel-lookup-and-reference-fn-columns>
+   HLOOKUP <excel-lookup-and-reference-fn-hlookup>
+   INDEX   <excel-lookup-and-reference-fn-index>
+   ROW     <excel-lookup-and-reference-fn-row>
+   ROWS    <excel-lookup-and-reference-fn-rows>
+   VLOOKUP <excel-lookup-and-reference-fn-vlookup>
 
