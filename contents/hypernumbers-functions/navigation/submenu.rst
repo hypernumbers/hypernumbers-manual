@@ -1,3 +1,4 @@
+
 ============
 HTML.SUBMENU
 ============
@@ -10,7 +11,7 @@ The html.submenu function is used to create a drop-down list of hyperlinks; to o
 Syntax
 ------
 
-``=html.submenu(Name, CellRangeOfLinks)``
+``=html.submenu(Name, Item1, Item2...)``
 
 Arguments
 ---------
@@ -22,17 +23,14 @@ Argument    Description
 =========== ====================================================================
 ``Name``    A string or link reference.
 
-``Cells``   Specifies a range of cells containing links.
+``Item``    An infinite list of menu items. Normally a mixture of strings and
+            links
 
 =========== ====================================================================
 
 Example
 -------
 
+See the examples in ``=html.menu()``
 
-See Also
---------
-
-link
-html.submenu
-
+Sub-menus can contain other sub-menus

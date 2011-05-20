@@ -10,7 +10,7 @@ The link function is used to create hyperlinks to other web pages - internal to 
 Syntax
 ------
 
-``=link("path", "Link_text")``
+``=link("Path", "Link_text")``
 
 Arguments
 ---------
@@ -30,4 +30,4 @@ Argument      Description
 Example
 -------
 
-
+.. figure:: /images/example-link.png

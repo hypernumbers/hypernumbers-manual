@@ -1,16 +1,16 @@
-=========
-HTML.MENU
-=========
+=============================================================
+HTML.MENU - a function for making menus on web and wiki pages
+=============================================================
 
 Overview
 --------
 
-The html.menu.W function is used to create link menu across W columns to navigate to different web or wiki pages.
+The ``html.menu.W`` function is used to create link menu across W columns to navigate to different web or wiki pages.
 
 Syntax
 ------
 
-``=html.menu.W(Cells)``
+``=html.menu.W(Item1, Item2...)``
 
 Arguments
 ---------
@@ -22,7 +22,8 @@ Argument        Description
 =========== ===================================================================
 ``W``       Specifies the number of columns in which to autofill the menu bar.
 
-``Cells``	Specifies a range of cells containing links.
+``Item``    An infinite list of menu items. Normally a mixture of strings,
+            links and other nested sub-menus
 
 =========== ===================================================================
 
@@ -30,11 +31,17 @@ Argument        Description
 Example
 -------
 
+Here is the setup of a menu in the spreadsheet view. The menu doesn't display here - instead a preview box is shown.
+
+.. figure:: /images/example-html-menu1.png
+
+This is how the same menu appears on a web or wiki page:
+
+.. figure:: /images/example-html-menu2.png
 
 
 See Also
 --------
 
-link
-html.submenu
-
+Typically menus and sub-menus are built on a particular page and then
+pulled into place with the special hypernumbers function ``=include()``

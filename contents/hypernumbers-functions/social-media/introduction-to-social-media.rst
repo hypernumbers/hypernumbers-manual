@@ -7,7 +7,7 @@ A number of functions ar available to integrate social media applications into h
 .. toctree::
    :maxdepth: 1
 
-   facebook.comments <facebook-comments>
+   FACEBOOK.COMMENTS <facebook-comments>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 

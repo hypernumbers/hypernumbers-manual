@@ -8,15 +8,15 @@ In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as c
 .. toctree::
    :maxdepth: 1
 
-   dategraph.WxH <hypernumbers-graph-fn-dategraph>
-   equigraph.WxH <hypernumbers-graph-fn-equigraph>
-   histogram.WxH <hypernumbers-graph-fn-histogram>
-   linegraph.WxH <hypernumbers-graph-fn-linegraph>
-   piechart.WxH  <hypernumbers-graph-fn-piechart>
-   sparkline.WxH <hypernumbers-graph-fn-sparkline>
-   speedo.WxH    <hypernumbers-graph-fn-speedo>
-   status.bar    <hypernumbers-graph-fn-status-bar>
-   xy.WxH        <hypernumbers-graph-fn-xy>
+   DATEGRAPH.WxH <hypernumbers-graph-fn-dategraph>
+   EQUIGRAPH.WxH <hypernumbers-graph-fn-equigraph>
+   HISTOGRAM.WxH <hypernumbers-graph-fn-histogram>
+   LINEGRAPH.WxH <hypernumbers-graph-fn-linegraph>
+   PIECHART.WxH  <hypernumbers-graph-fn-piechart>
+   SPARKLINE.WxH <hypernumbers-graph-fn-sparkline>
+   SPEEDO.WxH    <hypernumbers-graph-fn-speedo>
+   STATUS.bar    <hypernumbers-graph-fn-status-bar>
+   XY.WxH        <hypernumbers-graph-fn-xy>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 

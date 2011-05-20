@@ -21,4 +21,4 @@ No arguments.
 Example
 -------
 
-
+.. figure:: /images/example-crumb-trail.png
