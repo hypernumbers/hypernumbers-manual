@@ -5,12 +5,22 @@ Table View
 
 The ``table`` view is useful for displaying spreadsheet pages that contain tables or lists - of row and column data.
 
+.. figure:: /images/example-table-view1.png
+
+The table view is particularly good with forms.
+
 It is similar to the sort and filter view in Excel and provides much the same capability. You can:
 
 *	Sort on one or more columns
 *	Apply default sorting
 *	Apply multi-column filtering of rows
 *       Hide columns
-*	Use the line editor to edit the contents of a row. 
+*	Use the line editor to edit the contents of a row.
 
-**Beef up and add screenshots**
+The row editor allows easy editing of rows:
+
+.. figure:: /images/example-table-view2.png
+
+The filter/display dialog box lets you manage the table view easily:
+
+.. figure:: /images/example-table-view3.png
