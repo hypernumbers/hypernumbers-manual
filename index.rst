@@ -43,6 +43,7 @@ Hypernumbers Indepth
    Overview                     <contents/indepth/overview.rst>
    Templates                    <contents/indepth/making-pages-from-templates>
    Webforms                     <contents/indepth/making-forms>
+   Tables and Lists             <contents/indepth/tables-and-lists>
    Audit                        <contents/indepth/cell-change-control>
    Permissions                  <contents/indepth/permissions>
    Database Queries (z-queries) <contents/indepth/database-queries>
