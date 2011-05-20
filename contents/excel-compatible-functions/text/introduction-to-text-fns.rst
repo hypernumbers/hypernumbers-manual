@@ -10,18 +10,18 @@ The following Excel-compatible text functions are implemented in Hypernumbers:
 .. toctree::
    :maxdepth: 1
 
-   exact       <excel-text-fn-exact>
-   find        <excel-text-fn-find>
-   left        <excel-text-fn-left>
-   len         <excel-text-fn-len>
-   lower       <excel-text-fn-lower>
-   mid         <excel-text-fn-mid>
-   proper      <excel-text-fn-proper>
-   replace     <excel-text-fn-replace>
-   rept        <excel-text-fn-rept>
-   right       <excel-text-fn-right>
-   substitute  <excel-text-fn-substitute>
-   trim        <excel-text-fn-trim>
-   t           <excel-text-fn-t>
-   upper       <excel-text-fn-upper>
-   value       <excel-text-fn-value>
+   EXACT       <excel-text-fn-exact>
+   FIND        <excel-text-fn-find>
+   LEFT        <excel-text-fn-left>
+   LEN         <excel-text-fn-len>
+   LOWER       <excel-text-fn-lower>
+   MID         <excel-text-fn-mid>
+   PROPER      <excel-text-fn-proper>
+   REPLACE     <excel-text-fn-replace>
+   REPT        <excel-text-fn-rept>
+   RIGHT       <excel-text-fn-right>
+   SUBSTITUTE  <excel-text-fn-substitute>
+   TRIM        <excel-text-fn-trim>
+   T           <excel-text-fn-t>
+   UPPER       <excel-text-fn-upper>
+   VALUE       <excel-text-fn-value>

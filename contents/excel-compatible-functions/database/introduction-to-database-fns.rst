@@ -7,15 +7,15 @@ The following Excel-compatible database functions are implemented in Hypernumber
 .. toctree::
    :maxdepth: 1
 
-   daverage <excel-database-fn-daverage>
-   dcounta  <excel-database-fn-dcounta>
-   dcount   <excel-database-fn-dcount>
-   dget     <excel-database-fn-dget>
-   dmax     <excel-database-fn-dmax>
-   dmin     <excel-database-fn-dmin>
-   dproduct <excel-database-fn-dproduct>
-   dstdevp  <excel-database-fn-dstdevp>
-   dstdev   <excel-database-fn-dstdev>
-   dsum     <excel-database-fn-dsum>
-   dvarp    <excel-database-fn-dvarp>
-   dvar     <excel-database-fn-dvar>
+   DAVERAGE <excel-database-fn-daverage>
+   DCOUNTA  <excel-database-fn-dcounta>
+   DCOUNT   <excel-database-fn-dcount>
+   DGET     <excel-database-fn-dget>
+   DMAX     <excel-database-fn-dmax>
+   DMIN     <excel-database-fn-dmin>
+   DPRODUCT <excel-database-fn-dproduct>
+   DSTDEVP  <excel-database-fn-dstdevp>
+   DSTDEV   <excel-database-fn-dstdev>
+   DSUM     <excel-database-fn-dsum>
+   DVARP    <excel-database-fn-dvarp>
+   DVAR     <excel-database-fn-dvar>

@@ -7,15 +7,15 @@ The following Excel-compatible data and time functions are implemented in Hypern
 .. toctree::
    :maxdepth: 1
 
-   date    <excel-date-and-time-fn-date>
-   day     <excel-date-and-time-fn-day>
-   hour    <excel-date-and-time-fn-hour>
-   minute  <excel-date-and-time-fn-minute>
-   month   <excel-date-and-time-fn-month>
-   second  <excel-date-and-time-fn-second>
-   time    <excel-date-and-time-fn-time>
-   weekday <excel-date-and-time-fn-weekday>
-   year    <excel-date-and-time-fn-year>
+   DATE    <excel-date-and-time-fn-date>
+   DAY     <excel-date-and-time-fn-day>
+   HOUR    <excel-date-and-time-fn-hour>
+   MINUTE  <excel-date-and-time-fn-minute>
+   MONTH   <excel-date-and-time-fn-month>
+   SECOND  <excel-date-and-time-fn-second>
+   TIME    <excel-date-and-time-fn-time>
+   WEEKDAY <excel-date-and-time-fn-weekday>
+   YEAR    <excel-date-and-time-fn-year>
 
 .. warning:: some of the functions recalculate slightly differently.
 
