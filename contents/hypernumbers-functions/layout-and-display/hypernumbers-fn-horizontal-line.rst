@@ -20,13 +20,13 @@ Arguments
 ===========     ================================================================
 Argument        Description
 ===========     ================================================================
-``W``	          An integer specifying the number of columns in which to
+``W``           An integer specifying the number of columns in which to
                 autofill the type of line required.
 
 ``Width``       **Optional**. Width is the line thickness and is a positive
                 integer
 
-``Type`` 	      **Optional**. Type identifies the style of the line and has
+``Type``        **Optional**. Type identifies the style of the line and has
                 the following options:
 
                 0 - "solid"

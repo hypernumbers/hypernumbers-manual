@@ -9,7 +9,7 @@ In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as c
    :maxdepth: 1
 
    dategraph.WxH <hypernumbers-graph-fn-dategraph>
-   equigraph.WxH <hypernumbers-graph-fn-equigraph>  
+   equigraph.WxH <hypernumbers-graph-fn-equigraph>
    histogram.WxH <hypernumbers-graph-fn-histogram>
    linegraph.WxH <hypernumbers-graph-fn-linegraph>
    piechart.WxH  <hypernumbers-graph-fn-piechart>

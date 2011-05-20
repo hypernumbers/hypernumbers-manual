@@ -22,7 +22,7 @@ Arguments
 =========== ====================================================================
 Argument    Description
 =========== ====================================================================
-``N``	      An integer specifiying the number of preceeding path segments to
+``N``       An integer specifiying the number of preceeding path segments to
             return for a given page. Where n exceeds the number of path
             segments for the page, the entire path will be returned.
 
@@ -46,4 +46,5 @@ Blank  =page()     /endpage/
 
 10     =page(10)   /page/subpage/endpage/
 =====  ==========  =======================
+
 

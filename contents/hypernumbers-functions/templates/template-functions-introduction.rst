@@ -1,5 +1,5 @@
 ==================================
-Introduction to Template Functions
+Introduction To Template Functions
 ==================================
 
 Template functions enable

@@ -17,66 +17,68 @@ Arguments
 
 .. tabularcolumns:: |l|L|
 
-================  =================================================================================
-Argument
-================  =================================================================================
-``ButtonTitle``   A string specifying the title to appear on the button on the webpage or wikipage.
-	
-``Expression`` 	  A string specifying the construction parameters for new pages, including 
-                  specifiers on the: 
+================ ==============================================================
+Argument         Description
+================ ==============================================================
+``ButtonTitle``  A string specifying the title to appear on the button on the
+                 webpage or wikipage.
 
-		  page structure to be created 
-	          
-		  the templates to use
-		
-		  the naming convention to use 
-		
- 		  access permissions 
+``Expression``   A string specifying the construction parameters for new pages,
+                 including specifiers on the:
 
-		  redirect options
-  
-                  Within each expression it is possible to create many new pages and 
-                  at the same time instantiate many templates into these new pages. 
-                  The general form of any expression is:
+                 page structure to be created
 
-                  ``/segment1/segment2/segment3/....``
+                 the templates to use
 
-                  The general form of each segment inside an expression is:
+                 the naming convention to use
 
-		  ``"/[TemplateToUse, <naming optons> <;advanced options>]/”``
+                 access permissions
 
-                  where ''TemplateToUse`` is a template that has previously been saved via the
-                  *Site > "My Pages* admin menu.
-================  =================================================================================
+                 redirect options
 
+                 Within each expression it is possible to create many new
+                 pages and at the same time instantiate many templates into
+                 these new pages.
+
+                 The general form of any expression is:
+
+                 ``/segment1/segment2/segment3/....``
+
+                 The general form of each segment inside an expression is:
+
+                 ``"/[TemplateToUse, <naming optons> <;advanced options>]/”``
+
+                 where ''TemplateToUse`` is a template that has previously
+                 been saved via the *Site > "My Pages* admin menu.
+================ ==============================================================
 
 **NAMING OPTIONS**
 
 Valid segment naming options are described below. To distinguish inputs from keywords, user inputs are IN CAPITALS and reserved keywords are in lowercase:
 
 ==========================================   ======================================================
-Naming examples                              
+Naming examples
 ==========================================   ======================================================
-``/SEGMENTNAME/``	                     any old name
+``/SEGMENTNAME/``                            any old name
 
-``/[TEMPLATE, NAME]/``	                     will fail if the template doesn't exist
+``/[TEMPLATE, NAME]/``                       will fail if the template doesn't exist
 
-``/[TEMPLATE, auto, increment]/``	     creates in incrementing segment of form 00000001, 
+``/[TEMPLATE, auto, increment]/``            creates in incrementing segment of form 00000001,
                                              00000002 etc, etc
 
-``/[TEMPLATE, auto, incr]/``	             short form
+``/[TEMPLATE, auto, incr]/``                 short form
 
-``/[TEMPLATE, auto, increment, PREFIX]/``    creates in incrementing segment of form 
+``/[TEMPLATE, auto, increment, PREFIX]/``    creates in incrementing segment of form
                                              accounts-00000001 if PREFIX = accounts-
 
-``/[TEMPLATE, auto, incr, PREFIX]/``	     short form
+``/[TEMPLATE, auto, incr, PREFIX]/``         short form
 
-``/[TEMPLATE, auto, random]/``	             creates segment of form ab12cd34ef98765
+``/[TEMPLATE, auto, random]/``               creates segment of form ab12cd34ef98765
 
-``/[TEMPLATE, auto, random, PREFIX]/``	     creates segment of form quote-ab12cd34ef98765 if 
+``/[TEMPLATE, auto, random, PREFIX]/``       creates segment of form quote-ab12cd34ef98765 if
                                              PREFIX = quote-
 
-``/[TEMPLATE, data, FORMAT]/``	             creates a segment using reserved name formats
+``/[TEMPLATE, data, FORMAT]/``               creates a segment using reserved name formats
 ==========================================   ======================================================
 
 where FORMAT is one of the following:
@@ -105,7 +107,7 @@ Advanced options allow you to specify:
 * the segment to go to when the templates are built
 * the view applied to the redirected segment
 
-Advanced options are separated from naming options with ‘;’. 
+Advanced options are separated from naming options with ‘;’.
 
 Permissions for each segment are:
 

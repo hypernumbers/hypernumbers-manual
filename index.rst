@@ -8,10 +8,10 @@ Welcome to Building Applications With Hypernumbers
 
 .. toctree::
    :maxdepth: 1
-   
+
    This Is A Prerelease <contents/welcome/prerelease>
    Getting Help         <contents/welcome/gettinghelp>
-   Other Formats        <contents/welcome/other-formats> 
+   Other Formats        <contents/welcome/other-formats>
 
 Getting To Know Hypernumbers
 ============================
@@ -39,7 +39,7 @@ Hypernumbers Indepth
 
 .. toctree::
    :maxdepth: 1
-   
+
    Overview                     <contents/indepth/overview.rst>
    Templates                    <contents/indepth/making-pages-from-templates>
    Webforms                     <contents/indepth/making-forms>
@@ -60,7 +60,7 @@ Hypernumbers Functions Reference
    Layout And Display Functions <contents/hypernumbers-functions/layout-and-display/layout-functions-introduction>
    Navigation Functions         <contents/hypernumbers-functions/navigation/navigation-functions-introduction>
    Social Media Functions       <contents/hypernumbers-functions/social-media/introduction-to-social-media>
-   Template Functions           <contents/hypernumbers-functions/templates/template-functions-introduction>
+   Template                     <contents/hypernumbers-functions/templates/template-functions-introduction>
 
 Excel-Compatible Functions Reference
 ====================================

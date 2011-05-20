@@ -20,10 +20,10 @@ Arguments
 =========== ====================================================================
 Argument    Description
 =========== ====================================================================
-``H``	      An integer specifying the number of rows in which to autofill the
+``H``       An integer specifying the number of rows in which to autofill the
             type of line required.
 
-``width`` 	**Optional**. Width is the line thickness and is a positive
+``width``   **Optional**. Width is the line thickness and is a positive
             integer.
 
 ``Type``    **Optional**. Type identifies the style of the line and has the

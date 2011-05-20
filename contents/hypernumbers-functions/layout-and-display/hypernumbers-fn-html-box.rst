@@ -20,7 +20,7 @@ Arguments
 =========== ================================================================
 Argument    Description
 =========== ================================================================
-``WxH``	    Specifies the number of rows and columns in which to autofill
+``WxH``     Specifies the number of rows and columns in which to autofill
             the graph results e.g. 5x10 will result in a graph displaying
             across 5 rows and 10 columns relative to the cell where the
             function is input.
@@ -31,7 +31,7 @@ Argument    Description
 ``Title``   **Optional**. A string or reference to a cell specifying a
             title for the display box.
 
-``Footer``	**Optional**. A string or reference to a cell specifying a
+``Footer``  **Optional**. A string or reference to a cell specifying a
             footer for the display box.
 
 =========== ================================================================
