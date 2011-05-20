@@ -55,3 +55,5 @@ Option2  If Option 1 is weekly then Option 2 takes the following values
          the expression ``=tick(3, 31)`` will fire at midnight on the 27th February
          (the 28th in a leap year).
 ======== ===============================================================================
+
+.. warning:: TICK is a special function that cannot be called from inside another function. An expression like ``=if(tick(a1) > 123, true, false)`` will return a ``#CANTINC!`` error.

@@ -25,6 +25,8 @@ Argument       Description
 ``expression`` Any cell or expression
 ============== =========================================================================
 
+.. warning:: SNAPSHOT is a special function that cannot be called from inside another function. An expression like ``=html(snapshot(a1))`` will return a ``#CANTINC!`` error.
+
 Example
 -------
 
