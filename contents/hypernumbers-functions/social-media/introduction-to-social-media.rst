@@ -2,13 +2,13 @@
 Introduction To Social Media Functions
 ======================================
 
-A number of functions are available to integrate social media applications into hypernumbers applications. These include:
+A number of functions ar available to integrate social media applications into hypernumbers applications. These include:
 
 .. toctree::
    :maxdepth: 1
 
-   facebook.comments <facebook-comments>
- 
+   FACEBOOK.COMMENTS <facebook-comments>
+
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 
 ``=function.3x6(arg1, arg2, ...)``

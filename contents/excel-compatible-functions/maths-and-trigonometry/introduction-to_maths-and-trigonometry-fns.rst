@@ -7,35 +7,35 @@ The following Excel-compatible maths and trigonometry functions are implemented 
 .. toctree::
    :maxdepth: 1
 
-   abs      <excel-maths-and-trigonometry-fn-abs>
-   acos     <excel-maths-and-trigonometry-fn-acos>
-   asin     <excel-maths-and-trigonometry-fn-asin>
-   atan     <excel-maths-and-trigonometry-fn-atan>
-   atan2    <excel-maths-and-trigonometry-fn-atan2>
-   cos      <excel-maths-and-trigonometry-fn-cos>
-   degrees  <excel-maths-and-trigonometry-fn-degrees>
-   exp      <excel-maths-and-trigonometry-fn-exp>
-   fact     <excel-maths-and-trigonometry-fn-fact>
-   int      <excel-maths-and-trigonometry-fn-int>
-   ln       <excel-maths-and-trigonometry-fn-ln>
-   log      <excel-maths-and-trigonometry-fn-log>
-   log10    <excel-maths-and-trigonometry-fn-log10>
-   mod      <excel-maths-and-trigonometry-fn-mod>
-   odd      <excel-maths-and-trigonometry-fn-odd>
-   pi       <excel-maths-and-trigonometry-fn-pi>
-   power    <excel-maths-and-trigonometry-fn-power>
-   product  <excel-maths-and-trigonometry-fn-product>
-   radians  <excel-maths-and-trigonometry-fn-radians>
-   round    <excel-maths-and-trigonometry-fn-round>
-   sin      <excel-maths-and-trigonometry-fn-sin>
-   sqrt     <excel-maths-and-trigonometry-fn-sqrt>
-   sumif    <excel-maths-and-trigonometry-fn-sumif>
-   tan      <excel-maths-and-trigonometry-fn-tan>
-   trunc    <excel-maths-and-trigonometry-fn-trunc>
+   ABS      <excel-maths-and-trigonometry-fn-abs>
+   ACOS     <excel-maths-and-trigonometry-fn-acos>
+   ASIN     <excel-maths-and-trigonometry-fn-asin>
+   ATAN     <excel-maths-and-trigonometry-fn-atan>
+   ATAN2    <excel-maths-and-trigonometry-fn-atan2>
+   COS      <excel-maths-and-trigonometry-fn-cos>
+   DEGREES  <excel-maths-and-trigonometry-fn-degrees>
+   EXP      <excel-maths-and-trigonometry-fn-exp>
+   FACT     <excel-maths-and-trigonometry-fn-fact>
+   INT      <excel-maths-and-trigonometry-fn-int>
+   LN       <excel-maths-and-trigonometry-fn-ln>
+   LOG      <excel-maths-and-trigonometry-fn-log>
+   LOG10    <excel-maths-and-trigonometry-fn-log10>
+   MOD      <excel-maths-and-trigonometry-fn-mod>
+   ODD      <excel-maths-and-trigonometry-fn-odd>
+   PI       <excel-maths-and-trigonometry-fn-pi>
+   POWER    <excel-maths-and-trigonometry-fn-power>
+   PRODUCT  <excel-maths-and-trigonometry-fn-product>
+   RADIANS  <excel-maths-and-trigonometry-fn-radians>
+   ROUND    <excel-maths-and-trigonometry-fn-round>
+   SIN      <excel-maths-and-trigonometry-fn-sin>
+   SQRT     <excel-maths-and-trigonometry-fn-sqrt>
+   SUMIF    <excel-maths-and-trigonometry-fn-sumif>
+   TAN      <excel-maths-and-trigonometry-fn-tan>
+   TRUNC    <excel-maths-and-trigonometry-fn-trunc>
 
 .. warning:: Some Excel-compatible functions are extended to include z-order references.
 
 .. toctree::
    :maxdepth: 1
 
-   sum      <excel-maths-and-trigonometry-fn-sum>
+   SUM      <excel-maths-and-trigonometry-fn-sum>

@@ -11,14 +11,14 @@ The following Excel-compatible Financial Functions are implemented in Hypernumbe
 .. toctree::
    :maxdepth: 1
 
-   ddb  <excel-financial-fn-ddb>
-   fv   <excel-financial-fn-fv>
-   irr  <excel-financial-fn-irr>
-   nper <excel-financial-fn-nper>
-   npv  <excel-financial-fn-npv>
-   pmt  <excel-financial-fn-pmt>
-   pv   <excel-financial-fn-pv>
-   rate <excel-financial-fn-rate>
-   sln  <excel-financial-fn-sln>
-   syd  <excel-financial-fn-syd>
+   DDB  <excel-financial-fn-ddb>
+   FV   <excel-financial-fn-fv>
+   IRR  <excel-financial-fn-irr>
+   NPER <excel-financial-fn-nper>
+   NPV  <excel-financial-fn-npv>
+   PMT  <excel-financial-fn-pmt>
+   PV   <excel-financial-fn-pv>
+   RATE <excel-financial-fn-rate>
+   SLN  <excel-financial-fn-sln>
+   SYD  <excel-financial-fn-syd>
 

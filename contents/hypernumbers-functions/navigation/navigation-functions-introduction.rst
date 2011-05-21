@@ -7,14 +7,14 @@ A number of navigation function are available for use in building web applicatio
 .. toctree::
    :maxdepth: 1
 
-   html.menu.W <menu>
-   html.submenu <submenu>
-   link <link>
-   page <page>
-   site <site>
-   crumb.trail <crumbtrail>
-   segment <segment>
-   pageurl <pageurl>
+   CRUMB.TRAIL  <crumbtrail>
+   HTML.MENU.W  <menu>
+   HTML.SUBMENU <submenu>
+   LINK         <link>
+   PAGE         <page>
+   PAGEURL      <pageurl>
+   SEGMENT      <segment>
+   SITE         <site>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 

@@ -10,9 +10,9 @@ Hypernumers implements the following Excel-compatible logical functions:
 .. toctree::
    :maxdepth: 1
 
-    and   <excel-logical-fn-and>
-    false <excel-logical-fn-false>
-    if    <excel-logical-fn-if>
-    not   <excel-logical-fn-not>
-    or    <excel-logical-fn-or>
-    true  <excel-logical-fn-true>
+    AND   <excel-logical-fn-and>
+    FALSE <excel-logical-fn-false>
+    IF    <excel-logical-fn-if>
+    NOT   <excel-logical-fn-not>
+    OR    <excel-logical-fn-or>
+    TRUE  <excel-logical-fn-true>

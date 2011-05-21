@@ -1,5 +1,5 @@
 ==================================
-Introduction to Template Functions
+Introduction To Template Functions
 ==================================
 
 Template functions enable
@@ -7,6 +7,6 @@ Template functions enable
 .. toctree::
    :maxdepth: 1
 
-   create.button   <create-button>
+   CREATE.BUTTON   <create-button>
 
 

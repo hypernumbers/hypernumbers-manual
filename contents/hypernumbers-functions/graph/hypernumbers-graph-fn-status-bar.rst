@@ -1,6 +1,6 @@
-===========
-Status Bars
-===========
+==========
+STATUS.BAR
+==========
 
 Overview
 --------
@@ -17,39 +17,40 @@ Arguments
 
 .. tabularcolumns:: |l|L|
 
-================== ==========================================================================
+================== =============================================================
 Argument           Description
-================== ==========================================================================
-``Value``          Value must be a number between 0 and 5 (inclusive) and is used to set 
-                   the length of the status bar.
-	
-``StyleType``      **Optional**. Specifies the style to use for the progress bar.
+================== =============================================================
+``Value``          Value must be a number between 0 and 5 (inclusive) and is
+                   used to set the length of the status bar.
 
-                   ``1`` - black progress bar (the default)
+``StyleType``      **Optional**. Specifies the style to use for the progress
+                   bar.
 
-                   ``2`` - red progress bar
+                   1 - black progress bar (DEFAULT)
 
-                   ``3`` - green progress bar
+                   2 - red progress bar
 
-                   ``4`` - ticks
+                   3 - green progress bar
 
-                   ``5`` - crosses
+                   4 - ticks
 
-                   ``6`` – hearts
-================== ==========================================================================
-	
+                   5 - crosses
+
+                   6 – hearts
+================== =============================================================
+
 
 Example 1
 ---------
 
 This example illustrates the varius styles available.
 
-.. image :: /images/status_bar_ex1_styles.png
+.. figure:: /images/status_bar_ex1_styles.png
 
 
 Example 2
---------- 
+---------
 
 This example illustrates how multiple values can be compared using progress bars by scaling to an appropirate value.
 
-.. image :: /images/status_bar_ex2_scaling.png
+.. figure:: /images/status_bar_ex2_scaling.png
