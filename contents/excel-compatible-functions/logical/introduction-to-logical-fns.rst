@@ -2,9 +2,6 @@
 Excel-Compatible Logical Functions
 ==================================
 
-Overview
---------
-
 Hypernumers implements the following Excel-compatible logical functions:
 
 .. toctree::

@@ -2,9 +2,6 @@
 Excel-Compatible Financial Functions
 ====================================
 
-Overview
---------
-
 The following Excel-compatible Financial Functions are implemented in Hypernumbers:
 
 

@@ -2,9 +2,6 @@
 Excel-Compatible Text Functions
 ===============================
 
-Overview
---------
-
 The following Excel-compatible text functions are implemented in Hypernumbers:
 
 .. toctree::
