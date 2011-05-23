@@ -49,7 +49,7 @@ Argument         Description
                  ``"/[TemplateToUse, <naming optons> <;advanced options>]/”``
 
                  where ''TemplateToUse`` is a template that has previously
-                 been saved via the *Site > "My Pages* admin menu.
+                 been saved via the *Site -> My Pages* admin menu.
 ================ ==============================================================
 
 **NAMING OPTIONS**

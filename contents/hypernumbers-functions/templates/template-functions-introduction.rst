@@ -8,5 +8,6 @@ Template functions enable
    :maxdepth: 1
 
    CREATE.BUTTON   <create-button>
+   MAP.ROWS.BUTTON <map-rows-button>
 
 
