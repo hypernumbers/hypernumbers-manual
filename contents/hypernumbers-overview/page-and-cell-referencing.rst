@@ -29,13 +29,13 @@ An understanding of the page and segment nomenclature may seem strange at this p
 
    This means that all three pages listed below are regarded as separate pages:
 
-   *	http://example.com/home/sub-page/ 
-   *	http://example.com/home/Sub-page/ 
-   *	http://example.com/home/Sub-pagE/
+   *	http://example.com/home/subpage/ 
+   *	http://example.com/home/Subpage/ 
+   *	http://example.com/home/SubpagE/
 
    To avoid confusion when building pages we recommend using lower case page addresses.
  
-Valid segment names can use a combination of:
+Valid segment names can use any combination of:
 
 *	letters
 *	numbers
@@ -45,7 +45,7 @@ Valid segment names can use a combination of:
 
 Referencing cells in a spreadsheet from the same spreadsheet works as your desktop spreadsheet e.g. ``=a1``, ``=sum(a1:a4)``.
 
-Referencing cells from another spreadsheet page requires the use of the relevant page (combination of path segments) and cell reference e.g. using the absolute path reference:
+Referencing cells from another spreadsheet page requires the use of the relevant page (combination of path segments) and cell reference e.g.:
 
 ``=/home/subpage/endpage/c1``
 
@@ -55,19 +55,21 @@ Suppose we wish to construct a calculation on the page ``/home/`` that is the su
 *	``=sum(/home/subpage/endpage/a1:a4)`` 
 *	``=sum(./subpage/endpage/a1:a4)``
 
-The ``./`` is a relative reference and means move the next segment below - i.e. to ``subpage``, then onto ``endpage`` and calculate the sum on cells ``a1:a4``.
+The ``./`` is a relative reference and means move to the next segment below the current page - i.e. to ``subpage``, then onto ``endpage`` and calculate the sum of cells ``a1:a4``.
 
 
-Relative references can also be used to move backwards along page segments to reference cells in a parent page using ``../``.  Suppose, we wish place a calculation in the ``/home/subpage/endpage/`` that is the average of cells ``b1:b10`` on the ``/home/`` page. 
+Relative references can also be used to move backwards along page segments to reference cells in a parent page using ``../``.  Suppose, we wish place a calculation in the ``/home/subpage/endpage/`` page that is the average of cells ``b1:b10`` on the ``/home/`` page. 
 
 Either one these formulae would return the same result:
-•	``=sum(/home/b1:b10)``
-•	``=sum(../../b1:b10)``
 
-.. note:: You do NOT include the site address when referencing a cell when the cell is referenced from another address on the same site.
+*	``=sum(/home/b1:b10)``
+*	``=sum(../../b1:b10)``
+
+.. note:: You do **NOT** include the site address when referencing a cell when the cell is referenced from another address on the same site.
 
 .. note:: As hypernumber page addresses are case sensitive, all three of these cell addresses refer to cells on different pages:
 
-   *	``/home/sub-page/c1``
-   *	``/home/Sub-page/c1``
-   *	``/home/Sub-pagE/c1``
+   *	``/home/subpage/c1``
+   *	``/home/Subpage/c1``
+   *	``/home/SubpagE/c1``
+

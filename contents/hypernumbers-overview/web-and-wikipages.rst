@@ -2,29 +2,30 @@
 Web and Wikipages
 =================
 
-One of the key features of hypernumbers is the ability to present a spreadsheet page as different user interfaces (UIs) to end-users. There are four different views of a hypernumbers page that can be presented:
+One of the key features of hypernumbers is the ability to present a spreadsheet page to end-users (of an application) in a number of different viewing formats - referred to throughout this book as **views**. There are four different views of a hypernumbers page that can be presented:
 
 *	spreadsheet view
 *	webpage view
 *	wikipage view
 *	table view
 
-The spreadsheet view is the default setting. It is the programming layer for building hypernumbers applications. It is where content, layout, functions, business logic etc. is entered (programmed) into cells on the grid.
+The spreadsheet view is the default setting. It is the programming layer for building hypernumbers applications; where content, layout, functions, business logic etc. is entered (programmed) into cells on the grid.
 
-The webpage and wikipage views both look like web pages with one key difference. The webpage looks like a normal web page. The wikipage allows for special input fields (called inline wiki elements) to be editable so that users can input data directly into a cell on the underlying spreadsheet. The wikipage provides an easy but highly effective solution for implementing cell level security for the spreadsheet. It is used to restrict end users data entry to specific cells while locking down changes to other critical cells on the spreadsheet page.
+The webpage and wikipage views both look like web pages with one key difference. The webpage view looks like a normal web page. The wikipage view can be used to allow users to input data directly into specific cells in the underlying spreadsheet - using special input fields known as inline wiki control fields. Using the wikipage view, the application programmer can set up pages that let end-users enter data in to specific spreadsheet cells while locking down changes to other critical cells in the spreadsheet. The wikipage view thus provides an easy, but effective solution, for implementing cell level security in spreadsheets where users are required to enter information.
 
-[Example spreadsheet page and all the different views]
+.. image:: /images/wikiform-views.png
+   :scale: 100 %
+   :alt: Hypernumbers web and wikipage views
 
-Importantly, the webpage and wikipage views are **layout-equivalent** to the spreadsheet view. They present the contents and input cells programmed into the spreadsheet in an identical layout on the web. You design your web page layout in the spreadsheet view and that is how it will appear in the webpage and wikipage views.
+Importantly, the webpage and wikipage views are **layout-equivalent** to the spreadsheet view. These views present the content and layout of the spreadsheet in an identical layout on the web. This allows you to design your program and layout pages in the spreadsheet grid knowing that that is how they will appear to end-users in the webpage and wikipage views.
 
-Switching to one of these views from the spreadsheet view is a one-click action using the views menu on the right of the toolbar as shown:
-
+Switching from the spreadsheet view to these other views can be done as a one-click action using the ``views`` menu on the right of the toolbar, as shown:
 
 .. figure:: /images/views-menu.png
    :width: 150 pt
    :alt: Hypernumbers Views Menu
 
-Switching between views when not on the spreadsheet is a one-click action done via the hypernumbers tab – visible in the top right are of the screen:
+Switching between views, when not on the spreadsheet, is also a one-click action done via the hypernumbers quick-view tab – visible in the top right area of the screen:
 
 .. figure:: /images/hypernumbers-quick-views-menu.png
    :width: 150 pt
