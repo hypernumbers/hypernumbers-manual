@@ -23,3 +23,15 @@ Argument    Description
 ``url``     The url of the image to insert, e.g.
             ``http://example.com/some_image.png``
 =========== ====================================================================
+
+Example
+-------
+
+=img("http://files.hypernumbers.com/jameswatt/red.png") would include the following image in a cell:
+
+.. image:: http://files.hypernumbers.com/jameswatt/red.png
+
+
+
+
+

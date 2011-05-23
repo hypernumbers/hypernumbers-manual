@@ -1,6 +1,6 @@
-==========
-Linegraphs
-==========
+=============
+LINEGRAPH.WxH
+=============
 
 Overview
 --------
@@ -46,7 +46,7 @@ Arguments          Description
 ``Series_Names``   **Optional**. Specifies a reference to a cell range containing the 
                    names of each series to appear as a legend in the graph. Alternately, 
                    the series names can be entered as strings inside curly brackets 
-                   e.g. ``{“income”, “expenditure”}``.
+                   e.g. ``{“Inbound calls”, “Outbound calls”}``.
 ================== ==========================================================================
 
 Where an optional parameter argument is used, all preceeding optional arguments in the syntax must also be specified. Succeeding optional parameters, if they are not to be used do not need to be specified.

@@ -1,5 +1,5 @@
 ======
-Countz
+COUNTZ
 ======
 
 Overview

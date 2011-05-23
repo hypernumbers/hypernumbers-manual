@@ -8,9 +8,9 @@ A number of special functions have been developed for use with hypernumbers data
    :maxdepth: 1
 
    COUNTZ       <hypernumbers-database-fn-countz>
-   SUMZ         <hypernumbers-database-fn-sumz>
    DEBUGZ       <hypernumbers-database-fn-debugz>
-   LINK.BOX.WxH <hypernumbers-database-fn-linkbox>
+   LINK.BOX.WxH <hypernumbers-database-fn-linkbox
+   SUMZ         <hypernumbers-database-fn-sumz>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 

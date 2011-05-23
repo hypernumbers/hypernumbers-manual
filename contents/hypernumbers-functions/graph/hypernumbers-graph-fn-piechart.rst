@@ -1,6 +1,6 @@
-=========
-Piecharts
-=========
+============
+PIECHART.WxH
+============
 
 Overview
 --------
@@ -36,7 +36,7 @@ The following example illustrates a simple piechart.
 Example 2
 ---------
 
-To compare the different group distributions from example 1, we could create separate pie charts for each group. An alternative approach is to overly the groups in the one piechart by using the NoOfRings parameter – as shown below. 
+This example shows two data distributions overlayed on the same piechart using the ``NoOfRings`` parameter. 
 
 .. image:: /images/example-piechart.png
    :scale: 100 %

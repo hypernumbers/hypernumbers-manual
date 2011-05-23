@@ -1,6 +1,6 @@
-================
-Sparkline Graphs
-================
+=============
+SPARKLINE.WxH
+=============
 
 Overview
 --------
@@ -36,15 +36,16 @@ Argument     Description
 Example 1
 ---------
 
-The following example shows sparklines for each of three subjects based on a time-based measure over 6 time periods.  Each sparklines occupies 1 cell (as specified with the .1x1 function part) and provide a succinct and quick way to analyse time profiles for this data. 
-
-.. image :: /images/sparkline_example.png
-
-Example 2
----------
-
 .. image:: /images/example-sparkline.png
    :scale: 100 %
    :align: center
    :alt: Example hypernumbers overlaid sparkline function
+
+Example 2
+---------
+
+The following example shows sparklines for each of three subjects based on a time-based measure over 6 time periods.  Each sparklines occupies 1 cell (as specified with the .1x1 function part) and provide a succinct and quick way to compare subject-profiles. 
+
+.. image :: /images/sparkline_example.png
+   :alt: Hypernumbers sparkline series comparison
 

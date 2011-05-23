@@ -1,6 +1,6 @@
-=============
-Speedo Graphs
-=============
+==========
+SPEEDO.WxH
+==========
 
 Overview
 --------
@@ -30,7 +30,7 @@ Arguments          Description
 ``ValueLabel``     **Optional**. Specifies the graph title and is a string or refers to a 
                    cell containing a string.
 	
-``Thresholds``     ** Optional**. Specifies the boundaries between red, amber and green 
+``Thresholds``     **Optional**. Specifies the boundaries between red, amber and green 
                    thresholds and requires 4 values to work. 
 
                    The values can be entered as an array of values {lo, th2, th3, hi} where 

@@ -1,6 +1,6 @@
-==========
-Histograms
-==========
+=============
+HISTOGRAM.WxH
+=============
 
 Overview
 --------
@@ -57,7 +57,7 @@ Argument           Description
 ``Series_Names``   **Optional**. Specifies a reference to a cell range containing the names 
                    of each series to appear as a legend in the graph. Alternately, the 
                    series names can be entered as strings inside curly brackets e.g. 
-                   ``{“income”, “expenditure”}``.
+                   ``{“Inbound calls”, “Outbound calls”}``.
 ================== ==========================================================================
 
 

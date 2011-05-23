@@ -2,7 +2,7 @@
 Introduction To Graphs
 ======================
 
-In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as cell functions. Currently available graph functions include:
+In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as cell functions. Hypernumbers graph functions include:
 
 
 .. toctree::
@@ -15,11 +15,11 @@ In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as c
    PIECHART.WxH  <hypernumbers-graph-fn-piechart>
    SPARKLINE.WxH <hypernumbers-graph-fn-sparkline>
    SPEEDO.WxH    <hypernumbers-graph-fn-speedo>
-   STATUS.bar    <hypernumbers-graph-fn-status-bar>
    XY.WxH        <hypernumbers-graph-fn-xy>
+   STATUS.bar    <hypernumbers-graph-fn-status-bar>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 
 ``=function.3x6(arg1, arg2, ...)``
 
-The expression ``.3x6`` on the end says *make me three cells wide and six cells high*. This just causes the cell that the function is called in to merge over that set of cells.
+The expression ``.3x6`` on the end says *make me three cells wide and six cells high*. This just causes the cell that the function is called in to merge over that set of cells in the spreadsheet.
