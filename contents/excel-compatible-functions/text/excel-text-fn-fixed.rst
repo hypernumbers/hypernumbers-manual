@@ -10,7 +10,7 @@ Returns a number as text with a specified number of decimal places and optional 
 Syntax
 ------
 
-``=FIXED(Number, Decimals, NoThousandsSeparators)
+``=FIXED(Number, Decimals, NoThousandsSeparators)``
 
 Number: refers to the number to be formatted.
 

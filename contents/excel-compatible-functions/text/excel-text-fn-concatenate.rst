@@ -16,11 +16,11 @@ Text 1, Text 2, ... represent text passages which are to be combined into one st
 
 You can also use the ampersand operator ``&`` to build up concatenation strings. It works like
 
-``="Text1"&"Text2"&......
+``="Text1"&"Text2"&......``
 
 Example
 -------
 
-``=CONCATENATE("Good ", "Morning ", "Mrs. ", "Doe") returns the text string Good Morning Mrs. Doe. 
+``=CONCATENATE("Good ", "Morning ", "Mrs. ", "Doe")`` returns the text string Good Morning Mrs. Doe. 
 
 
