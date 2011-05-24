@@ -9,7 +9,7 @@ The internal number indicated as a decimal is the result of the hypernumbers sys
 If the text string also includes a year, month, or day, TIMEVALUE only returns the fractional part of the conversion.
 
 Syntax
------
+------
 
 ``=TIMEVALUE("Text")``
 
@@ -22,10 +22,10 @@ Example
 
 **Doesn't work returns #VALUE! error**
 
-``=TIMEVALUE("12:00")`` returns 0.5. If you use the HH:MM:SS time format, the value is 12:00:00. 
+``=TIMEVALUE("12:00")`` returns 0.5. If you use the HH:MM:SS time format, the value is 12:00:00.
 
 **Doesn't apply time format**
 
-``=TIMEVALUE("24:00")`` returns 1. If you use the HH:MM:SS time format, the value is 00:00:00. 
+``=TIMEVALUE("24:00")`` returns 1. If you use the HH:MM:SS time format, the value is 00:00:00.
 
 **Doesn't apply time format**
