@@ -1,6 +1,6 @@
-==================================
-Introduction To Database Functions
-==================================
+===============================
+Hypernumbers Database Functions
+===============================
 
 A number of special functions have been developed for use with hypernumbers database queries. Available database functions include:
 

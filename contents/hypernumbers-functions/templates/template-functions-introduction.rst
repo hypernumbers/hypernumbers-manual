@@ -1,6 +1,6 @@
-==================================
-Introduction To Template Functions
-==================================
+===============================
+Hypernumbers Template Functions
+===============================
 
 Template functions enable
 

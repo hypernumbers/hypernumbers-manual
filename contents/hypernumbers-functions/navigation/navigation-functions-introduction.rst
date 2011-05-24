@@ -1,6 +1,6 @@
-====================================
-Introduction To Navigation Functions
-====================================
+=================================
+Hypernumbers Navigation Functions
+=================================
 
 A number of navigation function are available for use in building web applications including:
 
