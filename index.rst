@@ -60,13 +60,13 @@ Hypernumbers Functions Reference
 .. toctree::
    :maxdepth: 1
 
-   Graph Functions              <contents/hypernumbers-functions/graph/introduction-to-graphs>
-   Database Functions           <contents/hypernumbers-functions/database/introduction-to-database-query-function>
-   Layout And Display Functions <contents/hypernumbers-functions/layout-and-display/layout-functions-introduction>
-   Navigation Functions         <contents/hypernumbers-functions/navigation/navigation-functions-introduction>
-   Social Media Functions       <contents/hypernumbers-functions/social-media/introduction-to-social-media>
-   Special Functions            <contents/hypernumbers-functions/special/introduction-to-special-fns>
-   Template                     <contents/hypernumbers-functions/templates/template-functions-introduction>
+   Graph Functions                       <contents/hypernumbers-functions/graph/introduction-to-graphs>
+   Database Functions                     <contents/hypernumbers-functions/database/introduction-to-database-query-function>
+   Layout And Display Functions           <contents/hypernumbers-functions/layout-and-display/layout-functions-introduction>
+   Navigation Functions                   <contents/hypernumbers-functions/navigation/navigation-functions-introduction>
+   Social Media And Integration Functions <contents/hypernumbers-functions/social-media/introduction-to-social-media>
+   Special Functions                      <contents/hypernumbers-functions/special/introduction-to-special-fns>
+   Template Functions                     <contents/hypernumbers-functions/templates/template-functions-introduction>
 
 Excel-Compatible Functions Reference
 ====================================
