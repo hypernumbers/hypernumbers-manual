@@ -1,6 +1,6 @@
-======================
-Introduction To Graphs
-======================
+============================
+Hypernumbers Graph Functions
+============================
 
 In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as cell functions. Hypernumbers graph functions include:
 

@@ -7,7 +7,7 @@ Overview
 
 Adds the cells specified by a given criteria. This function is used to browse a range when you search for a certain value.
 
-The search supports regular expressions. You can enter "all.*", for example to find the first location of "all" followed by any characters. If you want to search for a text that is also a regular expression, you must precede every character with a \ character.
+The search supports regular expressions. You can enter "all.*", for example to find the first location of "all" followed by any characters. If you want to search for a text that is also a regular expression, you must precede every character with a ``\`` character.
 
 Syntax
 ------
@@ -25,8 +25,8 @@ SumRange is the range from which values are summed. If this parameter has not be
 Example
 -------
 
-To sum up only negative numbers: ``=SUMIF(A1:A10;"<0")``
+To sum up only negative numbers: ``=SUMIF(A1:A10, "<0")``
 
-``=SUMIF(A1:A10;">0";B1:10)`` - sums values from the range ``B1:B10`` only if the corresponding values in the range ``A1:A10`` are ``>0`` **check this**.
+``=SUMIF(A1:A10, ">0", B1:10)`` - sums values from the range ``B1:B10`` only if the corresponding values in the range ``A1:A10`` are ``>0``.
 
 See ``COUNTIF()`` for some more syntax examples that can be used with ``SUMIF()``. 

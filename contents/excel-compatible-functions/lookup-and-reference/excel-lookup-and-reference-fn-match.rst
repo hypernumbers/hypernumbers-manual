@@ -22,9 +22,9 @@ If Type = 0, only exact matches are found. If the search criterion is found more
 
 If Type = 1 or the third parameter is missing, the index of the last value that is smaller or equal to the search criterion is returned. This applies even when the search array is not sorted. For Type = -1, the first value that is larger or equal is returned.
 
-The search supports regular expressions. You can enter "all.*", for example to find the first location of "all" followed by any characters. If you want to search for a text that is also a regular expression, you must precede every character with a \ character. You can switch the automatic evaluation of regular expression on and off in Tools - Options - LibreOffice Calc - Calculate.
+The search supports regular expressions. You can enter "all.*", for example to find the first location of "all" followed by any characters. If you want to search for a text that is also a regular expression, you must precede every character with a \ character. 
 
 Example
 -------
 
-``=MATCH(200;D1:D100)`` searches the area D1:D100, which is sorted by column D, for the value 200. As soon as this value is reached, the number of the row in which it was found is returned. If a higher value is found during the search in the column, the number of the previous row is returned. 
+``=MATCH(200, D1:D100)`` searches the area D1:D100, which is sorted by column D, for the value 200. As soon as this value is reached, the number of the row in which it was found is returned. If a higher value is found during the search in the column, the number of the previous row is returned. 

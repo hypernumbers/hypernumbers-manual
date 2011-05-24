@@ -1,6 +1,6 @@
-==================================
-Introduction To Template Functions
-==================================
+===============================
+Hypernumbers Template Functions
+===============================
 
 Template functions enable you to put buttons on web/wiki pages that enable users to create new pages from templates, but under your control. The following buttons are supported:
 

@@ -5,7 +5,7 @@ INDIRECT
 Overview
 --------
 
-INDIRECT uses a text string to reference to the contents of a cell or cellrange. The cell reference(s) can be included as an input into other functions.  
+INDIRECT uses a text string to reference the contents of a cell or cellrange. The cell reference can be included as an input into other functions.  
 
 Syntax
 ------
@@ -40,5 +40,8 @@ The data used in these examples is as follows:
 ``=INDIRECT($A$3)`` Value of the reference in cell A3 (56) 
 
 ``=INDIRECT("B"&$A$4)`` Value of a reference in cell B4 (21) 
+
+``=SUM(INDIRECT(A3&":B"&A4))`` resolves to the cell reference B3:B4 and calculates the sum of this reference (77)
+ 
  
 

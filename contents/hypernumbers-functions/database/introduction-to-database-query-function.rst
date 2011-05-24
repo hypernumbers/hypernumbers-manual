@@ -1,6 +1,6 @@
-==================================
-Introduction To Database Functions
-==================================
+===============================
+Hypernumbers Database Functions
+===============================
 
 A number of special functions have been developed for use with hypernumbers database queries. Available database functions include:
 
@@ -9,7 +9,7 @@ A number of special functions have been developed for use with hypernumbers data
 
    COUNTZ       <hypernumbers-database-fn-countz>
    DEBUGZ       <hypernumbers-database-fn-debugz>
-   LINK.BOX.WxH <hypernumbers-database-fn-linkbox
+   LINK.BOX.WxH <hypernumbers-database-fn-linkbox>
    SUMZ         <hypernumbers-database-fn-sumz>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:

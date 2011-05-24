@@ -1,27 +1,34 @@
 =========
-TIMEVALUE
+DATEVALUE
 =========
 
-TIMEVALUE returns the internal time number from a text enclosed by quotes and which may show a possible time entry format.
+Overview
+--------
 
-The internal number indicated as a decimal is the result of the hypernumbers system date.
+Returns the internal date number for text in quotes.
 
-If the text string also includes a year, month, or day, TIMEVALUE only returns the fractional part of the conversion.
+The internal date number is returned as a number. The number is determined by the hypernumbers date system.
+
+If the text string also includes a time value, DATEVALUE only returns the integer part of the conversion.
+
+**Not quite correct**
+
+**Comes back as a formatted date text string e.g. Mon 03 Mar, 2010, 5:43am**
+
+**Need to use =int(datevalue()) to convert to a serial number**
 
 Syntax
------
+------
 
-TIMEVALUE("Text")
+``=DATEVALUE("Text")``
 
-Text is a valid time expression and must be entered in quotation marks.
+Text is a valid date expression and must be entered with quotation marks.
+
+.. note:: Valid date expressions are of the form dd/mm/yyyy or dd-mm-yyyy
 
 Example
 -------
 
-=TIMEVALUE("4PM") returns 0.67. When formatting in time format HH:MM:SS, you then get 16:00:00.
+``=DATEVALUE("20-07-1954")`` yields 19925
 
-**Doesn't work returns error**
-
-=TIMEVALUE("24:00") returns 1. If you use the HH:MM:SS time format, the value is 00:00:00. 
-
-**Doesn't apply time format**
+``=DATEVALUE("20-07-1954 12:00:00")`` yields 19925.5.

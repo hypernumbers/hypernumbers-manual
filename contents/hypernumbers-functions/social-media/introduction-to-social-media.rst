@@ -1,6 +1,6 @@
-======================================
-Introduction To Social Media Functions
-======================================
+===================================
+Hypernumbers Social Media Functions
+===================================
 
 A number of functions ar available to integrate social media applications into hypernumbers applications. These include:
 

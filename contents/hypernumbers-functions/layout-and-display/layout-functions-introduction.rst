@@ -1,6 +1,6 @@
-============================================
-Introduction To Layout And Display Functions
-============================================
+=========================================
+Hypernumbers Layout And Display Functions
+=========================================
 
 A number of layout and display functions are available to enhance the visual appeal of webpage and wikipage content. Currently available layout functions include:
 
