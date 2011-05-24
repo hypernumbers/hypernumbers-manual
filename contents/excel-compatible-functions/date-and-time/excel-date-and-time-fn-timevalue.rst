@@ -20,7 +20,11 @@ Example
 
 ``=TIMEVALUE("4PM")`` returns 0.67. When formatting in time format HH:MM:SS, you then get 16:00:00.
 
-**Doesn't work returns error**
+**Doesn't work returns #VALUE! error**
+
+``=TIMEVALUE("12:00")`` returns 0.5. If you use the HH:MM:SS time format, the value is 12:00:00. 
+
+**Doesn't apply time format**
 
 ``=TIMEVALUE("24:00")`` returns 1. If you use the HH:MM:SS time format, the value is 00:00:00. 
 

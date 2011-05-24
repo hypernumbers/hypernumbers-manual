@@ -20,3 +20,10 @@ The following Excel-compatible statistical functions are implemented in Hypernum
    STDEVP     <excel-statistical-fn-stdevp>
    VAR        <excel-statistical-fn-var>
    VARP       <excel-statistical-fn-varp>
+
+.. warning:: Some Excel-compatible functions are extended to include z-order references.
+
+.. toctree::
+   :maxdepth: 1
+
+   COUNT      <excel-statistical-fn-count>
