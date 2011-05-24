@@ -19,10 +19,10 @@ This function rounds towards zero.
 Example
 -------
 
-``=ROUNDDOWN(1.234, 2) returns 1.23.
+``=ROUNDDOWN(1.234, 2)`` returns 1.23.
 
-``=ROUNDDOWN(45.67, 0) returns 45.
+``=ROUNDDOWN(45.67, 0)`` returns 45.
 
-``=ROUNDDOWN(-45.67, 0) returns -45.
+``=ROUNDDOWN(-45.67, 0)`` returns -45.
 
-``=ROUNDDOWN(987.65, -2) returns 900. 
+``=ROUNDDOWN(987.65, -2)`` returns 900. 
