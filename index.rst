@@ -3,8 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Building Applications With Hypernumbers
-==================================================
+=======================================
+Building Applications With Hypernumbers
+=======================================
+
+Welcome
+=======
 
 .. toctree::
    :maxdepth: 1
@@ -82,7 +86,7 @@ Excel-Compatible Functions Reference
    Text Functions                   <contents/excel-compatible-functions/text/introduction-to-text-fns>
 
 
-Indices and tables
+Indices And Tables
 ==================
 
 * :ref:`genindex`
