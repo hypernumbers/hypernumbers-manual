@@ -49,8 +49,8 @@ Create a javascript file called ``generic.js`` and put the following javascript 
 Create a css file called ``generic.css`` and put the following css in it:
 
 | ``#generic {``
-| ``          color: #f93;``
-| ``          }``
+|           ``color: #f93;``
+|           ``}``
 
 On a spreadsheet page put the following formula in (and also make a cell a wiki cell)
 
