@@ -20,10 +20,22 @@ Arguments
 =========== ===================================================================
 Argument    Description
 =========== ===================================================================
-``ID``      Facebook user ID.
+``ID``      Facebook Application ID
 =========== ===================================================================
 
 Example
 -------
 
-=facebook.comments(123456789)
+To use facebook comments on your site you need to create a facebook application on facebook and get the id for it to put into the formula.
+
+A facebook app can be created `here`_.
+
+You need to provide Facebook with an application name and the website of your appliction and in return you will get an id, and api key and a secret.
+
+The settings page of the hypernumbers facebook app is shown below:
+
+.. image :: /images/example-facebook-comments.png
+
+Once you have created your application you will need to take a note of the application id as it is the value that you have to pass into this function.
+
+.. _here: https://www.facebook.com/developers/createapp.php
