@@ -9,8 +9,7 @@ The following Excel-compatible functions are implemented in Hypernumbers.
 .. toctree::
    :maxdepth: 1
 
-   ERROR.TYPE   <excel-information-fn-errortype>
-
+   ERROR.TYPE   <excel-information-fn-error_type>
    ISBLANK   <excel-information-fn-isblank>
    ISERROR   <excel-information-fn-iserror>
    ISERR     <excel-information-fn-iserr>
