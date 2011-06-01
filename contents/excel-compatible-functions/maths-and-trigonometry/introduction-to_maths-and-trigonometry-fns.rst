@@ -12,7 +12,8 @@ The following Excel-compatible maths and trigonometry functions are implemented 
    ACOSH    <excel-maths-and-trigonometry-fn-acosh>
    ASIN     <excel-maths-and-trigonometry-fn-asin>
    ASINH    <excel-maths-and-trigonometry-fn-asinh>
-   ATAN     <excel-maths-and-trigonometry-fn-atan
+   ATAN     <excel-maths-and-trigonometry-fn-atan>
+   ATAN2    <excel-maths-and-trigonometry-fn-atan2>
    ATANH    <excel-maths-and-trigonometry-fn-atanh>
    COS      <excel-maths-and-trigonometry-fn-cos>
    COSH     <excel-maths-and-trigonometry-fn-cosh>

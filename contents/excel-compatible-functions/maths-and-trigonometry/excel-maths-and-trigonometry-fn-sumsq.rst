@@ -10,7 +10,7 @@ Returns the sum of the squares of the arguments.
 Syntax
 ------
 
-``=SUMSQ(number1, number2,...)
+``=SUMSQ(number1, number2,...)``
 
     number1, number2 are numbers. You can also specify the arguments as a cell range.  
 
