@@ -2,7 +2,7 @@
 Making Pages From Templates
 ===========================
 
-A template is a page that has been constructed and saved as a model (template) for repeated use. 
+A template is a page that has been constructed and saved as a model (template) for repeated use.
 
 Some example templates you might have seen or used include:
 
@@ -47,8 +47,8 @@ Instantiating a Template
 
 To create a new page using a saved template you do this via the Site > My Pages menu:
 
-1.	enter the name for the new page e.g. ``/zyz-ltd/2011/`` 
-2.	select the template from the template list you want to apply to this page e.g. ``year_sales`` 
+1.	enter the name for the new page e.g. ``/zyz-ltd/2011/``
+2.	select the template from the template list you want to apply to this page e.g. ``year_sales``
 3.	Press the ``New`` button.
 
 When creating a new page via the ``Site -> My Pages`` menu the default template is ``blank`` indicating an empty spreadsheet.
@@ -56,7 +56,7 @@ When creating a new page via the ``Site -> My Pages`` menu the default template 
 Templating Buttons
 ------------------
 
-To harness of the full power of templates in web-based applications, a special template function can be used. 
+To harness of the full power of templates in web-based applications, a special template function can be used.
 
 The ``=create.button(...)`` function can be used on any wikipage or webpage to instantiate a template as a new page in a specific location within an applications’s page structure.
 
@@ -64,23 +64,23 @@ The syntax of the ``=create.button(...)`` is as follows:
 
 ``=create.button(“ButtonTitle”, “Expression1”, “Expression2”,…)``
 
-Expression is a string of information on the page structure to be created, the templates to use and the names/naming convention to be used for the new pages.  
+Expression is a string of information on the page structure to be created, the templates to use and the names/naming convention to be used for the new pages.
 
 As an example, suppose we added the following function to cell ``A16`` on the ``/xyz-ltd/`` spreadsheet page:
- 
+
 ``=create.button(“Create New Sales Forecast”, “./[sales_forecast, 2011]/”)``
 
-This is simply a function like any other function e.g. ``=sum(...)`` etc. that can placed in a cell in a spreadsheet page. The function creates a button with the label ``Create New Sales Forecast`` that can be clicked on a wikipage or webpage. 
+This is simply a function like any other function e.g. ``=sum(...)`` etc. that can placed in a cell in a spreadsheet page. The function creates a button with the label ``Create New Sales Forecast`` that can be clicked on a wikipage or webpage.
 
 There is only one expression ``“./[sales_forecast, 2011]/”`` used and it means:
-•	create a new page using the template ``sales_forecast`` 
+•	create a new page using the template ``sales_forecast``
 •	saves the new instantiated template to a new page ``/xyz-ltd/2011/`` (using the shorthand syntax ``./``)
 
 Here’s how it looks with the webpage view:
 
 .. image :: /images/create_button.png
 
-Within each expression it is possible to create many new pages and at the same time instantiate many templates into these new pages. 
+Within each expression it is possible to create many new pages and at the same time instantiate many templates into these new pages.
 
 The general form of any expression is:
 
@@ -96,7 +96,7 @@ Valid segments are described below. To distinguish inputs from keywords, user in
 * ``/[TEMPLATE, auto, incr, PREFIX]/``	<- short form
 * ``/[TEMPLATE, auto, random]/``	<- creates segment of form ab12cd34ef98765
 * ``/[TEMPLATE, auto, random, PREFIX]/``	<- creates segment of form quote-ab12cd34ef98765 if ``PREFIX`` = ``quote-``
-* ``/[TEMPLATE, data, FORMAT]/``
+* ``/[TEMPLATE, date, FORMAT]/``
 
 where ``FORMAT`` is one of the following:
 
@@ -129,7 +129,7 @@ Page created	                Template Used
 /xyz-ltd/2010/salesforce/john/	Person
 ==============================  ===============
 
-We can also incorporate many expressions, creating lots of long-chain page structures that instantiate many templates. 
+We can also incorporate many expressions, creating lots of long-chain page structures that instantiate many templates.
 
 As an illustrative example of extending the expressions and segments consider the following:
 
@@ -186,7 +186,7 @@ The redirect page (i.e. the segment to go to when the pages are created) is achi
 You can replace ``spreadsheet`` with ``wikipage``, ``webpage`` or ``table`` as appropriate.
 
 You can mix and match permission and redirects (ie the clauses are order independent)
- 
+
 They will take string specifiers of the form which use a square bracket delimiter. An example is:
 
 * ``“./some/path/[template1, here]/[template2, auto, increment]/”``
