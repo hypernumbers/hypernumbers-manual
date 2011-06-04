@@ -156,7 +156,7 @@ To do this go to http://hypernumbers.com, type your (valid) email address into t
    :alt: Hypernumbers commissioning a site
 
 
-A  “Building your site” message will appear (highlighted) and when complets, you’ll arrive at the first page (which might look like the quick info page below):
+A  “Building your site” message will appear (highlighted) and when completes, you’ll arrive at the first page (which might look like the quick info page below):
  
 .. image:: /images/hypernumbers-spreadsheet-wiki-web-view.png
    :scale: 100 %
