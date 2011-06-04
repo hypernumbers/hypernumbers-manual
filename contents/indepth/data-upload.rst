@@ -23,18 +23,18 @@ The diagram below illustrates the concept of a row type data upload:
 
 Here we can see a typical Excel spreadsheet of row and column data which is used to populate hypernumbers pages. A pre-built template (that includes formatting, calculations, a table of data stats and a graph inside an alert type display element) has been used to specify the layout of each hypernumbers page. The upload manager has been used to configure and map out where each row of data in the spreadsheet is placed in each hypernumbers spreadsheet page.
  
-In this instance each spreadsheet row has been piped into column C (highlighted) in each of the pages. But this has been done in the upload manager by individually mapping out from spreadsheet column ? to hypernumbers page’s cell ? map:
+In this instance each spreadsheet row has been piped into column C (highlighted) in each of the pages. But this has been done in the upload manager by individually mapping each spreadsheet column in the source Excel spreadsheet to cells on the hypernumbers page e.g.:
 	
-* column ``E`` maps to ``C12``
-* column ``F`` maps to  ``C13``
-* column ``G`` maps to ``C14``
+* Excel spreadsheet **column ``E``** maps to **cell ``C12``** on the hypernumbers page
+* Excel spreadsheet **column ``F``** maps to **cell ``C13``** on the hypernumbers page
+* Excel spreadsheet **column ``G``** maps to **cell ``C14``** on the hypernumbers page
 * and so on 
 
 Sheet type mapping is a less complex form of mapping and allows you to map specific cells in the source spreadsheet to specific cells in a single hypernumbers page. This kind of mapping works like: from spreadsheet cell ? to hypernumbers page cell ? e.g.:
 
-* cell ``A3`` maps to ``/page-path/B3/``
-* cell ``F22`` maps to ``/page-path/G15/``
-* cell ``G19``  ``/page-path/C9/``
+* Excel spreadsheet **cell ``A3``** maps to **cell ``/page-path/B3/``** on a hypernumbers page
+* Excel spreadsheet **cell ``F22``** maps to **cell ``/page-path/G15/``** on a hypernumbers page
+* Excel spreadsheet **cell ``G19``** maps to **cell ``/page-path/C9/``** on a hypernumbers page
 * and so on 
 
 
@@ -54,6 +54,7 @@ You can consider the upload manager as a mechanism for any situation where you h
 The data upload manager can play a key part in bringing your application to life (through migrating historical data) and keeping it alive and relevant (by simplifying and automating the process of adding new data). 
 
 By this we mean you can:
+
 * Migrate and convert existing 2D structured data (Excel spreadsheets or CSV files) straight into hypernumber pages
 * Have new data automatically piped through from wherever straight into new (template) pages 
    
@@ -68,6 +69,7 @@ The upload manager is accessed via the ``Site`` menu and the ``Data Upload`` opt
    :alt: Hypernumbers Data Upload manager admin panel
 
 There’s a lot of buttons and options in this screen but they broadly fall into 3 configuration sections (as highlighted in the diagram). The sections are:
+
 * General
 
   * Where you specify the type of map to be built (i.e. sheet or row map type)
