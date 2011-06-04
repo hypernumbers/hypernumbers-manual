@@ -10,7 +10,6 @@ The following Excel-compatible statistical functions are implemented in Hypernum
    AVEDEV     <excel-statistical-fn-avedev>
    AVERAGE    <excel-statistical-fn-average>
    AVERAGEA   <excel-statistical-fn-averagea>
-   COUNT      <excel-statistical-fn-count>
    COUNTA     <excel-statistical-fn-counta>
    COUNTBLANK <excel-statistical-fn-countblank>
    COUNTIF    <excel-statistical-fn-countif>
