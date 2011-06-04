@@ -51,6 +51,7 @@ Hypernumbers Indepth
    Audit                        <contents/indepth/cell-change-control>
    Permissions                  <contents/indepth/permissions>
    Database Queries (z-queries) <contents/indepth/database-queries>
+   Database Upload              <contents/indepth/data-upload>
 
 ..   contents/page-views/views
 ..   content/site-admin/site administration
@@ -87,6 +88,13 @@ Excel-Compatible Functions Reference
    Statistical Functions            <contents/excel-compatible-functions/statistical/introduction-to-statistical-fns>
    Text Functions                   <contents/excel-compatible-functions/text/introduction-to-text-fns>
 
+Hypernumbers Application
+========================
+
+.. toctree::
+   :maxdepth: 1
+
+   Overview                        <contents/hypernumbers-application/overview>
 
 Indices And Tables
 ==================

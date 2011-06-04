@@ -10,7 +10,9 @@ Topics discussed include:
 
 * Templates
 * Webforms
+* tables and Lists
 * Audit
 * Permissions
 * Database Queries (z-queries)
+* Data Upload 
 
