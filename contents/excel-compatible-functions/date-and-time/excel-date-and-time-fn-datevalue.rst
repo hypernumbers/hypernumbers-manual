@@ -9,6 +9,8 @@ Converts a string representation of a date to a date.
 
 If the text string also includes a time value, DATEVALUE only returns the integer part of the conversion.
 
+.. warning:: In Excel and other desktop spreadsheets DATEVALUE returns a number.
+
 
 Syntax
 ------

@@ -8,7 +8,6 @@ The following Excel-compatible date and time functions are implemented in Hypern
    :maxdepth: 1
 
    DATE      <excel-date-and-time-fn-date>
-   DATEVALUE <excel-date-and-time-fn-datevalue>
    DAY       <excel-date-and-time-fn-day>
    DAYS360   <excel-date-and-time-fn-days360>
    HOUR      <excel-date-and-time-fn-hour>
@@ -25,5 +24,6 @@ The following Excel-compatible date and time functions are implemented in Hypern
 .. toctree::
    :maxdepth: 1
 
-   NOW - read warning in documentation!   <excel-date-and-time-fn-now>
-   TODAY - read warning in documentation! <excel-date-and-time-fn-today>
+   DATEVALUE  - read warning in documentation! <excel-date-and-time-fn-datevalue>
+   NOW - read warning in documentation!        <excel-date-and-time-fn-now>
+   TODAY - read warning in documentation!      <excel-date-and-time-fn-today>
