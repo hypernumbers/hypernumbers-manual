@@ -5,7 +5,7 @@ DSTDEVP
 Overview
 --------
 
-STDEVP calculates the standard deviation of a population based on all cells of a data range which match the search criteria. The records from the example are treated as the whole population.
+DSTDEVP calculates the standard deviation of a population based on all cells of a data range which match the search criteria. The records from the example are treated as the whole population.
 
 The search supports regular expressions. You can enter "all.*", for example to find the first location of "all" followed by any characters. If you want to search for a text that is also a regular expression, you must precede every character with a \ character.
 
