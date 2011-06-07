@@ -17,6 +17,16 @@ Welcome
    Getting Help         <contents/welcome/gettinghelp>
    Other Formats        <contents/welcome/other-formats>
 
+============================================
+Section 1 The Business Case For Hypernumbers
+============================================
+
+
+
+====================================
+Section 2 Understanding Hypernumbers
+====================================
+
 Getting To Know Hypernumbers
 ============================
 
@@ -56,6 +66,23 @@ Hypernumbers Indepth
 ..   contents/page-views/views
 ..   content/site-admin/site administration
 
+=================================
+Section 3 Putting It All Together
+=================================
+
+Building A Hypernumbers Application
+===================================
+
+.. toctree::
+   :maxdepth: 1
+
+   Overview                        <contents/hypernumbers-application/overview>
+
+===================
+Section 4 Reference
+===================
+
+
 Hypernumbers Functions Reference
 ================================
 
@@ -87,18 +114,3 @@ Excel-Compatible Functions Reference
    Maths And Trigonometry Functions <contents/excel-compatible-functions/maths-and-trigonometry/introduction-to_maths-and-trigonometry-fns>
    Statistical Functions            <contents/excel-compatible-functions/statistical/introduction-to-statistical-fns>
    Text Functions                   <contents/excel-compatible-functions/text/introduction-to-text-fns>
-
-Hypernumbers Application
-========================
-
-.. toctree::
-   :maxdepth: 1
-
-   Overview                        <contents/hypernumbers-application/overview>
-
-Indices And Tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
-
