@@ -25,5 +25,5 @@ The following Excel-compatible date and time functions are implemented in Hypern
 .. toctree::
    :maxdepth: 1
 
-   now - read warning in documentation!   <excel-date-and-time-fn-now>
-   today - read warning in documentation! <excel-date-and-time-fn-today>
+   NOW - read warning in documentation!   <excel-date-and-time-fn-now>
+   TODAY - read warning in documentation! <excel-date-and-time-fn-today>
