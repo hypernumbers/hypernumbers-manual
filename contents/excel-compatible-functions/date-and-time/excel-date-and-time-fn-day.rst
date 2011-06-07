@@ -10,9 +10,9 @@ Returns the day of given date value. The day is returned as an integer between 1
 Syntax
 ------
 
-``=DAY(Number)``
+``=DAY(Date)``
 
-Number, as a time value, is a decimal, for which the day is to be returned.
+Date is a string or a number for which the day is to be returned.
 
 Examples
 --------
