@@ -26,3 +26,12 @@ The following Excel-compatible text functions are implemented in Hypernumbers:
    TEXT        <excel-text-fn-text>
    UPPER       <excel-text-fn-upper>
    VALUE       <excel-text-fn-value>
+
+.. warning:: There are some functions with are similar to Excel functions but which reflect the different underlying properties of text in Hypernumbers
+
+.. toctree::
+   :maxdepth: 1
+
+   CHAR  <excel-text-fn-char>
+   CLEAN <excel-text-fn-clean>
+   
