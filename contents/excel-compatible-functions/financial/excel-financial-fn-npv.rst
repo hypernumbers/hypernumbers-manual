@@ -10,11 +10,22 @@ Returns the net present value of an investment with regular cash payments.
 Syntax
 ------
 
-``=NPV(discountrate, payment1, payment2, ... payment30)``
+``=NPV(discountrate, payment1, payment2...)``
 
-payment1 to payment30 are up to 30 numbers or ranges containing numbers, representing payments made at the end of each of a series of fixed length periods. The payments may be both positive and negative, for income and outgoing. 
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``discountrate`       is the discount rate (expressed as a fraction of 1) 
+                      which you consider applies to one single period. 
+                      It is assumed to be constant for all periods. 
 
-discountrate is the discount rate (expressed as a fraction of 1) which you consider applies to one single period. It is assumed to be constant for all periods. 
+``payment``           There can be an infinite number of payments which 
+                      are numbers or ranges containing numbers, 
+                      representing payments made at the end of each of a 
+                      series of fixed length periods. The payments may 
+                      be both positive and negative, for income and 
+                      outgoing. 
+===================== ======================================================
 
 Example
 -------
