@@ -12,9 +12,19 @@ Syntax
 
 ``=IRR(Values, Guess)``
 
-Values represents an array containing the values.
+.. tabularcolumns:: |l|L|
 
-Guess (optional) is the estimated value. An iterative method is used to calculate the internal rate of return. If you can provide only few values, you should provide an initial guess to enable the iteration.
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``Values``            represents an array containing the values.
+
+``Guess``             **optional** is the estimated value. An iterative 
+                      method is used to calculate the internal rate of 
+                      return. If you can provide only few values, you 
+                      should provide an initial guess to enable the 
+                      iteration.
+===================== ======================================================
 
 Example
 -------
