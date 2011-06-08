@@ -21,8 +21,7 @@ Argument              Description
 
 ``numperiods``        the total number of payment periods in the term. 
 
-``payment``           the payment made each period. If presentvalue is 
-                      given, this may omitted (defaults to 0). 
+``payment``           the payment made each period. 
 
 ``presentvalue``      **optional** the lump sum payment at the start of 
                       the term (defaults to 0). With a loan, this would 
