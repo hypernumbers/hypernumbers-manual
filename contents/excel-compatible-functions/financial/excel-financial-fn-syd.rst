@@ -10,12 +10,23 @@ Returns the depreciation of an asset for a given year using the sum-of-years'-di
 Syntax
 ------
 
-``=SYD(originalcost, salvagevalue, lifetime year)``
+``=SYD(originalcost, salvagevalue, lifetime, year)``
 
-originalcost: the initial cost of the asset.
-salvagevalue: is the value at the end of the depreciation (sometimes called the salvage value of the asset).
-lifetime: the number of years over which the asset is being depreciated.
-year: the year number for which the depreciation is calculated.
+.. tabularcolumns:: |l|L|
+
+================= ==========================================================
+Argument          Description
+================= ==========================================================
+``originalcost``  the initial cost of the asset.
+
+``salvagevalue``  is the value at the end of the depreciation (sometimes 
+                  called the salvage value of the asset).
+
+``lifetime``      the number of years over which the asset is being 
+                  depreciated.
+
+``year``          the year number for which the depreciation is calculated.
+================= ==========================================================
 
 To calculate depreciation, SYD adds the year numbers during the asset’s life; the year numbers taken backward and divided by that sum give the proportion of the total loss of value to assign to depreciation that year.
 
