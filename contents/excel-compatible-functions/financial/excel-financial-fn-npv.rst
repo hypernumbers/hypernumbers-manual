@@ -15,7 +15,7 @@ Syntax
 ===================== ======================================================
 Argument              Description
 ===================== ======================================================
-``discountrate`       is the discount rate (expressed as a fraction of 1) 
+``discountrate``      is the discount rate (expressed as a fraction of 1) 
                       which you consider applies to one single period. 
                       It is assumed to be constant for all periods. 
 
