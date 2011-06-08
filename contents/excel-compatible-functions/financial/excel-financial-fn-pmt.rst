@@ -12,11 +12,29 @@ Syntax
 
 ``=PMT(Rate, NPer, PV, FV, Type)``
 
-Rate: is the periodic interest rate.
-NPer: is the number of periods in which annuity is paid.
-PV: is the present value (cash value) in a sequence of payments.
-FV: (optional) is the desired value (future value) to be reached at the end of the periodic payments.
-Type: (optional) is the due date for the periodic payments. Type=1 is payment at the beginning and Type=0 is payment at the end of each period.
+.. tabularcolumns:: |l|L|
+
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``Rate``              is the periodic interest rate.
+
+``NPer``              is the number of periods in which annuity is paid.
+
+``PV``                is the present value (cash value) in a sequence of 
+                      payments.
+
+``FV``                **optional** is the desired value (future value) to 
+                      be reached at the end of the periodic payments.
+
+``Type``              **optional** is the due date for the periodic 
+                      payments.
+
+                      Type=0 is payment at the end of each period.
+
+                      Type=1 is payment at the beginning
+===================== ======================================================
+
 
 Example
 -------
