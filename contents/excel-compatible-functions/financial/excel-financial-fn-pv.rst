@@ -16,11 +16,26 @@ Syntax
 
 ``=PV(Rate, NPer, Pmt, FV, Type)``
 
-Rate: defines the interest rate per period.
-NPer: is the total number of periods (payment period).
-Pmt: is the regular payment made per period.
-FV: (optional) defines the future value remaining after the final installment has been made.
-Type: (optional) denotes due date for payments. Type = 1 means due at the beginning of a period and Type = 0 (default) means due at the end of the period.
+.. tabularcolumns:: |l|L|
+
+================= ==========================================================
+Argument          Description
+================= ==========================================================
+``Rate``          defines the interest rate per period.
+
+``NPer``          is the total number of periods (payment period).
+
+``Pmt``           is the regular payment made per period.
+
+``FV``            **optional** defines the future value remaining after 
+                  the final installment has been made.
+
+``Type``          **optional** denotes due date for payments.
+
+                  Type = 1 means due at the beginning of a period.
+
+                  Type = 0 (default) means due at the end of the period.
+================= ==========================================================
 
 Example
 -------
