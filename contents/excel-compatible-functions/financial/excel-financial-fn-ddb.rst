@@ -14,15 +14,25 @@ Syntax
 
 ``=DDB(Cost, Salvage, Life, Period, Factor)``
 
-Cost fixes the initial cost of an asset.
+.. tabularcolumns:: |l|L|
 
-Salvage fixes the value of an asset at the end of its life.
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``Cost``              fixes the initial cost of an asset.
 
-Life is the number of periods (for example, years or months) defining how long the asset is to be used.
+``Salvage``           fixes the value of an asset at the end of its life.
 
-Period states the period for which the value is to be calculated.
+``Life``              is the number of periods (for example, years or 
+                      months) defining how long the asset is to be used.
 
-Factor (optional) is the factor by which depreciation decreases. If a value is not entered, the default is factor 2.
+``Period``            states the period for which the value is to be 
+                      calculated.
+
+``Factor``            **optional** is the factor by which depreciation 
+                      decreases. If a value is not entered, the default 
+                      is factor 2.
+===================== ======================================================
 
 Example
 -------
