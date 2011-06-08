@@ -12,9 +12,17 @@ Syntax
 
 ``=SLN(originalcost, salvagevalue, lifetime)``
 
-originalcost: the initial cost of the asset. 
-salvagevalue: is the value at the end of the depreciation (sometimes called the salvage value of the asset). 
-lifetime: the number of periods (commonly years) over which the asset is being depreciated. 
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``original cost``     the initial cost of the asset.
+
+``salvage value``     is the value at the end of the depreciation 
+                      (sometimes called the salvage value of the asset).
+
+``lifetime``          the number of periods (commonly years) over which 
+                      the asset is being depreciated. 
+===================== ======================================================
 
 The straight-line depreciation method depreciates the asset by the same constant value every period; that value is returned by the SLN function. The formula is: 
 
