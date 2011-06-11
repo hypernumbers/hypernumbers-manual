@@ -23,14 +23,14 @@ Argument              Description
 
 ``Salvage``           fixes the value of an asset at the end of its life.
 
-``Life``              is the number of periods (for example, years or 
+``Life``              is the number of periods (for example, years or
                       months) defining how long the asset is to be used.
 
-``Period``            states the period for which the value is to be 
+``Period``            states the period for which the value is to be
                       calculated.
 
-``Factor``            **optional** is the factor by which depreciation 
-                      decreases. If a value is not entered, the default 
+``Factor``            **optional** is the factor by which depreciation
+                      decreases. If a value is not entered, the default
                       is factor 2.
 ===================== ======================================================
 
@@ -39,4 +39,4 @@ Example
 
 A computer system with an initial cost of 75,000 currency units is to be depreciated monthly over 5 years. The value at the end of the depreciation is to be 1 currency unit. The factor is 2.
 
-``=DDB(75000,1,60,12;2)`` = 1,721.81 currency units. Therefore, the double-declining depreciation in the twelfth month after purchase is 1,721.81 currency units. 
+``=DDB(75000,1,60,12;2)`` = 1,721.81 currency units. Therefore, the double-declining depreciation in the twelfth month after purchase is 1,721.81 currency units.
