@@ -18,6 +18,6 @@ The following Excel-compatible functions are implemented in Hypernumbers.
    ISNONTEXT <excel-information-fn-isnontext>
    ISNUMBER  <excel-information-fn-isnumber>
    ISTEXT    <excel-information-fn-istext>
-   NA        <excel-information-fn-na>
    N         <excel-information-fn-n>
+   NA        <excel-information-fn-na>
    TYPE      <excel-information-fn-type>
