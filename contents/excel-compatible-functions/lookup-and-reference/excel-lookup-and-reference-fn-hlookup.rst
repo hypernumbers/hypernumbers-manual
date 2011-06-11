@@ -29,7 +29,7 @@ Argument              Description
                       the value to be returned. The first row has the
                       number 1.
 
-``SortOrder``         is an optional parameter that indicates whether the
+``SortOrder``         **optional** a parameter that indicates whether the
                       first row in the array is sorted in ascending order.
                       Enter the Boolean value FALSE or zero if the first
                       row is not sorted in ascending order. Sorted rows can
