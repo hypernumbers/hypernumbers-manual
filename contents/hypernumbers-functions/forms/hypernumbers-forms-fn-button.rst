@@ -25,7 +25,8 @@ Argument              Description
 ``Response``          **optional** the mesage that the user gets when they
                       press the submit buttton
 
-``ResultsPage``       **optional** the page to post the data to
+``ResultsPage``       **optional** the page to post the data to. Defaults to
+                      ``./replies/``
 ====================  =========================================================
 
 Example
