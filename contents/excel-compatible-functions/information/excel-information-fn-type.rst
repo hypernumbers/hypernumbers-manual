@@ -16,11 +16,11 @@ Syntax
 
 ``Value`` is a specific value for which the data type is determined. The following numbers are returned depending on the type of input value:
 
-* 1 = number 
+* 1 = number
 * 2 = text
-* 4 = Boolean value
+* 4 = boolean
 * 8 = formula
-* 16 = error value.
+* 16 = error
 
 Example
 -------
@@ -32,4 +32,4 @@ The examples below use the following spreadsheet data:
 
 ``=TYPE(C1)`` returns 2 as a result.
 
-``=TYPE(D8)`` returns 1 as a result. 
+``=TYPE(D8)`` returns 1 as a result.
