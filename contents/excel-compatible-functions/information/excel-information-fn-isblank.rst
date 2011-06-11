@@ -12,7 +12,7 @@ If an error occurs, the function returns a logical or numerical value.
 Syntax
 ------
 
-``=ISBLANK(Value)``
+``=ISBLANK(CellRef)``
 
-Value is the content to be tested.
+CellRef is the reference to the cell which is being testing
 
