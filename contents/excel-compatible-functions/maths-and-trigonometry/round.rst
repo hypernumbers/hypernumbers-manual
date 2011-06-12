@@ -19,10 +19,10 @@ Argument              Description
 ===================== ======================================================
 ``Number``            the number to be rounded.
 
-``Count``             the number of decimal places. If Count is omitted or
-                      zero, the function rounds to the nearest integer. If
-                      Count is negative, the function rounds to the
-                      nearest 10, 100, 1000, etc.
+``Count``             **optional** the number of decimal places. If Count
+                      is omitted or zero, the function rounds to the
+                      nearest integer. IfCount is negative, the function
+                      rounds to the nearest 10, 100, 1000, etc.
 ===================== ======================================================
 
 This function rounds to the nearest number. See ROUNDDOWN and ROUNDUP for alternatives.
