@@ -29,7 +29,7 @@ Example
 
 =img("http://files.hypernumbers.com/jameswatt/red.png") would include the following image in a cell:
 
-.. image:: http://files.hypernumbers.com/jameswatt/red.png
+.. image:: /images/example-img-red.png
 
 
 

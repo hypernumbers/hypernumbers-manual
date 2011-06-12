@@ -7,18 +7,18 @@ A number of layout and display functions are available to enhance the visual app
 .. toctree::
    :maxdepth: 1
 
-   HTML.ALERT.WxH - a box for alerts       <hypernumbers-fn-html-alert>
-   HTML.BOX.WxH - displays a box           <hypernumbers-fn-html-box>
-   HTML.HEADLINE.WxH - make a headline     <hypernumbers-fn-html-headline>
-   HTML.PLAINBOX.WxH - make a plain box    <hypernumbers-fn-html-plainbox>
-   HTML.RULEDBOX.WxH - make a ruled box    <hypernumbers-fn-html-ruledbox>
-   HORIZONTAL.LINE.W                       <hypernumbers-fn-horizontal-line>
-   IMG - embed an image                    <hypernumbers-fn-img>
-   INCLUDE - include layout from elsewhere <hypernumbers-fn-include>
-   LOREM.HEADLINE - generates headlines    <hypernumbers-fn-lorem-headline>
-   LOREM.IPSUM - generates display text    <hypernumbers-fn-lorem-ipsum>
-   TABLE - embed a sortable table          <hypernumbers-fn-table>
-   VERTICAL.LINE.H                         <hypernumbers-fn-vertical-line>
+   HORIZONTAL.LINE.W                       <horizontal-line>
+   HTML.ALERT.WxH - a box for alerts       <html-alert>
+   HTML.BOX.WxH - displays a box           <html-box>
+   HTML.HEADLINE.WxH - make a headline     <html-headline>
+   HTML.PLAINBOX.WxH - make a plain box    <html-plainbox>
+   HTML.RULEDBOX.WxH - make a ruled box    <html-ruledbox>
+   IMG - embed an image                    <img>
+   INCLUDE - include layout from elsewhere <include>
+   LOREM.HEADLINE - generates headlines    <lorem-headline>
+   LOREM.IPSUM - generates display text    <lorem-ipsum>
+   TABLE - embed a sortable table          <table>
+   VERTICAL.LINE.H                         <vertical-line>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 
