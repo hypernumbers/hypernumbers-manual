@@ -7,10 +7,10 @@ A number of special functions have been developed for use with hypernumbers data
 .. toctree::
    :maxdepth: 1
 
-   COUNTZ       <hypernumbers-database-fn-countz>
-   DEBUGZ       <hypernumbers-database-fn-debugz>
-   LINK.BOX.WxH <hypernumbers-database-fn-linkbox>
-   SUMZ         <hypernumbers-database-fn-sumz>
+   COUNTZ       <countz>
+   DEBUGZ       <debugz>
+   LINK.BOX.WxH <linkbox>
+   SUMZ         <sumz>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 
