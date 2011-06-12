@@ -12,13 +12,20 @@ Syntax
 
 ``=LOG(Number, Base)``
 
-Number is the value whose logarithm is to be calculated.
+.. tabularcolumns:: |l|L|
 
-Base (optional) is the base for the logarithm calculation. If omitted, Base 10 is assumed.
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``Number``            is the value whose logarithm is to be calculated.
+
+``Base``              **optional** is the base for the logarithm
+                      calculation. If omitted, Base 10 is assumed.
+===================== ======================================================
 
 Example
 -------
 
 ``=LOG(10,3)`` returns the logarithm to base 3 of 10 (approximately 2.0959).
 
-``=LOG(7^4,7)`` returns 4. 
+``=LOG(7^4,7)`` returns 4.
