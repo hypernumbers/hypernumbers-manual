@@ -12,13 +12,28 @@ Syntax
 
 ``=INDEX(Reference, Row, Column, Range)``
 
-Reference is a reference, entered either directly or by specifying a range name. If the reference consists of multiple ranges, you must enclose the reference or range name in parentheses.
+.. tabularcolumns:: |l|L|
 
-Row (optional) represents the row index of the reference range, for which to return a value. In case of zero (no specific row) all referenced rows are returned.
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``Reference``         is a reference. If the reference consists of multiple
+                      ranges, you must enclose the reference in parentheses.
 
-Column (optional) represents the column index of the reference range, for which to return a value. In case of zero (no specific column) all referenced columns are returned.
+``Row``               **optional** represents the row index of the
+                      reference range, for which to return a value. In
+                      case of zero (no specific row) all referenced rows
+                      are returned.
 
-Range (optional) represents the index of the subrange if referring to a multiple range.
+``Column``            **optional** represents the column index of the
+                      reference range, for which to return a value. In case
+                      of zero (no specific column) all referenced columns
+                      are returned.
+
+``Range``             **optional** represents the index of the subrange if
+                      referring to a multiple range.
+===================== ======================================================
+
 
 Example
 -------
