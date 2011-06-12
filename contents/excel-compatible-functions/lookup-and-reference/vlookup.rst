@@ -14,6 +14,7 @@ Syntax
 ------
 
 ``=VLOOKUP(SearchCriterion, Array, Index, SortOrder)``
+
 .. tabularcolumns:: |l|L|
 
 ===================== ======================================================
