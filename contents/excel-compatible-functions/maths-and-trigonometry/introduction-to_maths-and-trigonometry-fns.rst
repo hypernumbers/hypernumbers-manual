@@ -44,7 +44,6 @@ The following Excel-compatible maths and trigonometry functions are implemented 
    SINH       <sinh>
    SQRT       <sqrt>
    SUMIF      <sumif>
-   SUMPRODUCT <sumproduct>
    SUMSQ      <sumsq>
    SUMX2MY2   <sumx2my2>
    SUMX2PY2   <sumx2py2>
