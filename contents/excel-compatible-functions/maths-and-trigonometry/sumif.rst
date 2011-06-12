@@ -12,21 +12,33 @@ The search supports regular expressions. You can enter "all.*", for example to f
 Syntax
 ------
 
-``=SUMIF(Range, Criteria, SumRange)``
+``=SUMIF(Range, Criterion, SumRange)``
 
-Range is the range to which the criteria are to be applied.
 
-Criteria is the cell in which the search criterion is shown, or the search criterion itself. If the criteria is written into the formula, it has to be surrounded by double quotes.
+.. tabularcolumns:: |l|L|
 
-SumRange is the range from which values are summed. If this parameter has not been indicated, the values found in the Range are summed.
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``Range``             is the range to which the criteria are to be applied.
 
-**Erk, check this!** SUMIF supports the reference concatenation operator (~) only in the Criteria parameter, and only if the optional SumRange parameter is not given.
+``Criterion``         is the cell in which the search criterion is shown, or
+                      the search criterion itself. If the criterion is
+                      written into the formula, it has to be surrounded by
+                      double quotes.
+
+``SumRange``           **optional** is the range from which values are
+                       summed. If this parameter has not been indicated, the
+                       values found in the Range are summed.
+===================== ======================================================
+
+**Erk, check this!** SUMIF supports the reference concatenation operator (~) only in the Criterion parameter, and only if the optional SumRange parameter is not given.
 
 Example
 -------
 
 To sum up only negative numbers: ``=SUMIF(A1:A10, "<0")``
 
-``=SUMIF(A1:A10, ">0", B1:10)`` - sums values from the range ``B1:B10`` only if the corresponding values in the range ``A1:A10`` are ``>0``.
+``=SUMIF(A1:A10, ">0", qB1:10)`` - sums values from the range ``B1:B10`` only if the corresponding values in the range ``A1:A10`` are ``>0``.
 
-See ``COUNTIF()`` for some more syntax examples that can be used with ``SUMIF()``. 
+See ``COUNTIF()`` for some more syntax examples that can be used with ``SUMIF()``.
