@@ -10,17 +10,16 @@ Returns the number of possible combinations of a set of elements from a larger g
 Syntax
 ------
 
-``=COMBIN(N, k)``
-
+``=COMBIN(Number, NumberToChoose)``
 
 .. tabularcolumns:: |l|L|
 
 ===================== ======================================================
 Argument              Description
 ===================== ======================================================
-``N``                 is the number of items in the full set.
+``Number``            is the number of items in the full set.
 
-``k``                 is the number of items to choose from the full set.
+``NumberToChoose``    is the number of items to choose from the full set.
 ===================== ======================================================
 
 COMBIN returns the number of ordered ways to choose these items. For example if there are 3 items A, B and C in a set, you can choose 2 items in 3 different ways, namely AB, AC and BC.
