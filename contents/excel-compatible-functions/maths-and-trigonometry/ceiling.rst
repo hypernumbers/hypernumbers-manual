@@ -5,16 +5,23 @@ CEILING
 Overview
 --------
 
-Rounds a number up to the nearest multiple of Significance.
+Rounds a number up to the nearest multiple of significance.
 
 Syntax
 ------
 
 ``=CEILING(Number, Significance)``
 
-Number: is the number that is to be rounded up.
+.. tabularcolumns:: |l|L|
 
-Significance: is the number to whose multiple the value is to be rounded up.
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``Number``            is the number that is to be rounded up.
+
+``Significance``      is the number to whose multiple the value is to
+                      be rounded up.
+===================== ======================================================
 
 Example
 -------
