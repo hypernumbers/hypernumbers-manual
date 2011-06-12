@@ -12,11 +12,22 @@ Syntax
 
 ``=POWER(Base, Exponent)``
 
+
+.. tabularcolumns:: |l|L|
+
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``Base``              the number to be raised to the power.
+
+``Exponent``          the power to which the number is to be raised.
+===================== ======================================================
+
 Returns Base raised to the power of Exponent.
 
 The same result may be achieved by using the exponentiation operator ^:
 
-<code>Base^Exponent</code>
+``=Base^Exponent``
 
 Example
 -------
