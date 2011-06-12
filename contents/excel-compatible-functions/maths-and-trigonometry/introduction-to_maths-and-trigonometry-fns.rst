@@ -30,7 +30,6 @@ The following Excel-compatible maths and trigonometry functions are implemented 
    LOG10      <log10>
    MOD        <mod>
    MEDIAN     <median>
-   MMULT      <mmult>
    ODD        <odd>
    PI         <pi>
    POWER      <power>
