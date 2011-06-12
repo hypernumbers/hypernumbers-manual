@@ -14,7 +14,6 @@ Syntax
 
 ``=SUMIF(Range, Criterion, SumRange)``
 
-
 .. tabularcolumns:: |l|L|
 
 ===================== ======================================================
