@@ -9,15 +9,16 @@ The following Excel-compatible functions are implemented in Hypernumbers.
 .. toctree::
    :maxdepth: 1
 
-   ERROR.TYPE   <excel-information-fn-error_type>
-   ISBLANK   <excel-information-fn-isblank>
-   ISERROR   <excel-information-fn-iserror>
-   ISERR     <excel-information-fn-iserr>
-   ISLOGICAL <excel-information-fn-islogical>
-   ISNA      <excel-information-fn-isna>
-   ISNONTEXT <excel-information-fn-isnontext>
-   ISNUMBER  <excel-information-fn-isnumber>
-   ISTEXT    <excel-information-fn-istext>
-   N         <excel-information-fn-n>
-   NA        <excel-information-fn-na>
-   TYPE      <excel-information-fn-type>
+   ERROR.TYPE <error_type>
+   ISBLANK    <isblank>
+   ISERROR    <iserror>
+   ISERR      <iserr>
+   ISLOGICAL  <islogical>
+   ISNA       <isna>
+   ISNONTEXT  <isnontext>
+   ISNUMBER   <isnumber>
+   ISTEXT     <istext>
+   N          <n>
+   NA         <na>
+   TYPE       <type>
+
