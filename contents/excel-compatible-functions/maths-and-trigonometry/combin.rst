@@ -12,9 +12,16 @@ Syntax
 
 ``=COMBIN(N, k)``
 
-N is the number of items in the full set.
 
-k is the number of items to choose from the full set.
+.. tabularcolumns:: |l|L|
+
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``N``                 is the number of items in the full set.
+
+``k``                 is the number of items to choose from the full set.
+===================== ======================================================
 
 COMBIN returns the number of ordered ways to choose these items. For example if there are 3 items A, B and C in a set, you can choose 2 items in 3 different ways, namely AB, AC and BC.
 
@@ -23,4 +30,4 @@ COMBIN implements the formula: (N choose k) = N!/(k!*(N-k)!)
 Example
 -------
 
-``=COMBIN(8, 2)`` returns 28. 
+``=COMBIN(8, 2)`` returns 28.
