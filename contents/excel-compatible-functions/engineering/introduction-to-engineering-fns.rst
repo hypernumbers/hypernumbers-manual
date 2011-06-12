@@ -7,5 +7,5 @@ The following Excel-compatible engineering functions are implemented in Hypernum
 .. toctree::
    :maxdepth: 1
 
-   GESTEP   <excel-engineering-fn-gestep>
-   
+   GESTEP   <gestep>
+
