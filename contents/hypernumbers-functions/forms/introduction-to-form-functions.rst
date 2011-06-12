@@ -7,10 +7,10 @@ There are a number of functions that enable yout to make forms in hypernumbers. 
 .. toctree::
    :maxdepth: 1
 
-   BUTTON   <hypernumbers-forms-fn-button>
-   INPUT    <hypernumbers-forms-fn-input>
-   RADIO    <hypernumbers-forms-fn-radio>
-   SELECT   <hypernumbers-forms-fn-select>
-   TEXTAREA <hypernumbers-forms-fn-textarea>
+   BUTTON   <button>
+   INPUT    <input>
+   RADIO    <radio>
+   SELECT   <select>
+   TEXTAREA <textarea>
 
 .. _sub-section: ../../indepth/making-forms.html
