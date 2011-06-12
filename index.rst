@@ -3,10 +3,6 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-=======================================
-Building Applications With Hypernumbers
-=======================================
-
 Welcome
 =======
 
@@ -17,15 +13,6 @@ Welcome
    Getting Help         <contents/welcome/gettinghelp>
    Other Formats        <contents/welcome/other-formats>
 
-============================================
-Section 1 The Business Case For Hypernumbers
-============================================
-
-
-
-====================================
-Section 2 Understanding Hypernumbers
-====================================
 
 Getting To Know Hypernumbers
 ============================
@@ -66,10 +53,6 @@ Hypernumbers Indepth
 ..   contents/page-views/views
 ..   content/site-admin/site administration
 
-=================================
-Section 3 Putting It All Together
-=================================
-
 Building A Hypernumbers Application
 ===================================
 
@@ -77,11 +60,6 @@ Building A Hypernumbers Application
    :maxdepth: 1
 
    Overview                        <contents/hypernumbers-application/overview>
-
-===================
-Section 4 Reference
-===================
-
 
 Hypernumbers Functions Reference
 ================================
