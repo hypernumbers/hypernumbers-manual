@@ -12,7 +12,18 @@ Syntax
 
 ``=ROUND(Number, Count)``
 
-Returns Number rounded to Count decimal places. If Count is omitted or zero, the function rounds to the nearest integer. If Count is negative, the function rounds to the nearest 10, 100, 1000, etc.
+.. tabularcolumns:: |l|L|
+
+===================== ======================================================
+Argument              Description
+===================== ======================================================
+``Number``            the number to be rounded.
+
+``Count``             the number of decimal places. If Count is omitted or
+                      zero, the function rounds to the nearest integer. If
+                      Count is negative, the function rounds to the
+                      nearest 10, 100, 1000, etc.
+===================== ======================================================
 
 This function rounds to the nearest number. See ROUNDDOWN and ROUNDUP for alternatives.
 
@@ -27,4 +38,4 @@ Example
 
 ``=ROUND(2.5)`` returns 3.
 
-``=ROUND(987.65,-2)`` returns 1000. 
+``=ROUND(987.65,-2)`` returns 1000.
