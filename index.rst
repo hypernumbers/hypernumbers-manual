@@ -12,6 +12,20 @@ Welcome
    This Is A Prerelease <contents/welcome/prerelease>
    Getting Help         <contents/welcome/gettinghelp>
    Other Formats        <contents/welcome/other-formats>
+   How To Use This Material <contents/welcome/how-to-use-this-material>
+
+Why Hypernumbers?
+=================
+
+.. toctree::
+   :maxdepth: 1
+
+   Overview                              <contents/why-hypernumbers/overview>
+   Why Should I Use Hypernumbers?        <contents/why-hypernumbers/why-use-hypernumbers>
+   What Is Hypernumbers Good At?         <contents/why-hypernumbers/what-is-hypernumbers-good-at>
+   When Is Hypernumber The Right Choice? <contents/why-hypernumbers/when-should-you-use-hypernumbers>
+   Who Uses Hypernumbers?                <contents/why-hypernumbers/who-uses-hypernumbers>
+   When Should I Use Something Else?     <contents/why-hypernumbers/when-use-something-else>
 
 
 Getting To Know Hypernumbers
