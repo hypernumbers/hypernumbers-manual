@@ -60,6 +60,23 @@ Building A Hypernumbers Application
    :maxdepth: 1
 
    Overview                        <contents/hypernumbers-application/overview>
+   Bug Tracker                     <contents/hypernumbers-application/bug-tracker-system-requirements>
+   Application Page Structure      <contents/hypernumbers-application/bug-tracker-application-page-structure>
+   Navigation                      <contents/hypernumbers-application/bug-tracker-application-navigation>
+   Page Layout and Design          <contents/hypernumbers-application/bug-tracker-application-page-layout-and-design>
+   Build Strategy                  <contents/hypernumbers-application/application-build-strategy>
+   Commissioning a Site            <contents/hypernumbers-application/commissioning-a-hypernumbers-site>
+   Static Data Page                <contents/hypernumbers-application/bug-tracker-static-data-page>
+   Bug Detail Pages                <contents/hypernumbers-application/bug-tracker-bug-detail-pages>
+   Creating User Groups            <contents/hypernumbers-application/creating-user-groups>
+   Applying User Group Permissions <contents/hypernumbers-application/applying-page-and-user-group-permissions>
+   Saving Templates                <contents/hypernumbers-application/saving-application-templates>
+   Work Queue Pages                <contents/hypernumbers-application/bug-tracker-worklist-pages>
+   Dashboard Pages                 <contents/hypernumbers-application/bug-tracker-dashboard-pages>
+   Uploading Application Data      <contents/hypernumbers-application/uploading-application-data>
+   Inviting Users                  <contents/hypernumbers-application/inviting-application-users>
+   User Passwords                  <contents/hypernumbers-application/changing-user-passwords>
+   Summary                         <contents/hypernumbers-application/final-comments>
 
 Hypernumbers Functions Reference
 ================================
