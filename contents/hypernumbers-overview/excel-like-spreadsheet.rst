@@ -40,3 +40,6 @@ So, if you already use a spreadsheet, such as Microsoft Excel, the grid layout w
 
 To extend the spreadsheet paradigm for the web and enable non-specialist programmers to be able to build business applications, hypernumbers incorporates a number of additional features and capabilities.
 
+.. index::
+   pair: spreadsheet; excel-like
+
