@@ -9,3 +9,7 @@ This documentation is available in two formats:
 
 .. _PDF:     ../../files/BuildingApplicationsWithHypernumbers.pdf
 .. _website: http://documentation.hypernumbers.com
+
+.. index:: website
+   pair: download; pdf
+   pair: download; book
