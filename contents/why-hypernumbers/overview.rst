@@ -11,3 +11,9 @@ This sections of this chapter are:
 * when Hypernumbers is the right choice for you
 * who uses Hypernumbers
 * when you should use something else
+
+.. index::
+   pair: why use; Hypernumbers
+   pair: when to use; Hypernumbers
+   pair: who uses; Hypernumbers
+   pair: what is it good for; Hypernumbers

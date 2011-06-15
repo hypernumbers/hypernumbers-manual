@@ -14,3 +14,7 @@ If you need the following spreadsheet functionality it is not supported in Hyper
 * live integration with databases
 * headers and footers and other printing-focussed features
 * conditional formatting
+
+.. index:: pivot tables; headers, footers, printing
+   pair: formatting; conditional
+   pair: live integration; databases
