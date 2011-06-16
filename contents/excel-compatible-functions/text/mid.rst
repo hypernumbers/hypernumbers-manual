@@ -12,13 +12,19 @@ Syntax
 
 ``=MID("Text", Start, Number)``
 
-Text is the text containing the characters to extract.
+.. tabularcolumns:: |l|L|
 
-Start is the position of the first character in the text to extract.
+============= ==================================================================
+Arguments     Description
+============= ==================================================================
+``Text``      The text containing the characters to extract.
 
-Number specifies the number of characters in the part of the text.
+``Start``     The position of the first character in the text to extract.
+
+``Number``    Specifies the number of characters in the part of the text.
+============= ==================================================================
 
 Example
 -------
 
-``=MID("office",2,2)`` returns ff. 
+``=MID("office",2,2)`` returns ff.
