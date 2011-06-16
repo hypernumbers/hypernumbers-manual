@@ -14,6 +14,8 @@ Syntax
 
 Value1, Value... are an infinite number of values or ranges representing the values to be counted.
 
+COUNT can take z-order queries. (**check this is in!**)
+
 Example
 -------
 
