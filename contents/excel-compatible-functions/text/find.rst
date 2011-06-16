@@ -10,13 +10,21 @@ Looks for a string of text within another string. You can also define where to b
 Syntax
 ------
 
-``=FIND("FindText", "Text", Position)``
+``=FIND("FindText", "Text", StartPosition)``
 
-FindText refers to the text to be found.
+.. tabularcolumns:: |l|L|
 
-Text is the text where the search takes place.
+================= ==============================================================
+Arguments         Description
+================= ==============================================================
+``FindText``      The bit of text to be found.
 
-Position (optional) is the position in the text from which the search starts.
+``Text``          The text where the search takes place.
+
+``StartPosition`` **optional** The position in the text from which the search
+                  starts.
+================= ==============================================================
+
 
 Example
 -------
