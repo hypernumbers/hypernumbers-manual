@@ -12,11 +12,17 @@ Syntax
 
 ``=EXACT("Text1", "Text2")``
 
-Text1 refers to the first text to compare.
+.. tabularcolumns:: |l|L|
 
-Text2 is the second text to compare.
+=============== ================================================================
+Arguments       Description
+=============== ================================================================
+``Text1``       The first text to compare.
+
+``Text2``       The second text to compare.
+=============== ================================================================
 
 Example
 -------
 
-``=EXACT("hypernumbers";"Hypernumbers")`` returns FALSE. 
+``=EXACT("hypernumbers";"Hypernumbers")`` returns FALSE.
