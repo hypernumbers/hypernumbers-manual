@@ -12,13 +12,17 @@ Syntax
 
 ``=REPT("Text", Number)``
 
-Text is the text to be repeated.
+.. tabularcolumns:: |l|L|
 
-Number is the number of repetitions.
+=============== ================================================================
+Arguments       Description
+=============== ================================================================
+``Text``        The text to be repeated.
 
-The result can be a maximum of 255 characters.
+``Number``      The number of repetitions.
+=============== ================================================================
 
 Example
 -------
 
-``=REPT("Good morning",2)`` returns Good morningGood morning. 
+``=REPT("Good morning",2)`` returns Good morningGood morning.
