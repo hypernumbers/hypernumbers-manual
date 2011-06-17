@@ -20,7 +20,7 @@ Arguments       Description
 ``Number``      The numerical value to be converted.
 
 ``Format``      The text which defines the format. Use decimal and thousands
-                 separators according to the language set in the cell format.
+                separators according to the language set in the cell format.
 =============== ================================================================
 
 Example
