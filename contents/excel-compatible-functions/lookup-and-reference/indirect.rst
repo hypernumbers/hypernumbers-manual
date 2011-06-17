@@ -41,7 +41,6 @@ The data used in these examples is as follows:
 .. image:: /images/example-lookup-fns.png
    :alt: Hypernumbers indirect example data
 
-
 ``=INDIRECT($A$2)`` Value of the reference in cell A2 (Bob)
 
 ``=INDIRECT($A$3)`` Value of the reference in cell A3 (56)
