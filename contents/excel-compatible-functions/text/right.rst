@@ -12,9 +12,16 @@ Syntax
 
 ``=RIGHT("Text", Number)``
 
-Text is the text of which the right part is to be determined.
+.. tabularcolumns:: |l|L|
 
-Number (optional) is the number of characters from the right part of the text.
+=============== ================================================================
+Arguments       Description
+=============== ================================================================
+``Text``        The text of which the right part is to be determined.
+
+``Number``      **optional** The number of characters from the right part
+                of the text.
+=============== ================================================================
 
 Example
 -------
