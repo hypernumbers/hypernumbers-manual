@@ -12,17 +12,25 @@ Syntax
 
 ``=SUBSTITUTE("Text", "SearchText", "NewText", Occurrence)``
 
-Text is the text in which text segments are to be exchanged.
+.. tabularcolumns:: |l|L|
 
-SearchText is the text segment that is to be replaced (a number of times).
+=============== ================================================================
+Arguments       Description
+=============== ================================================================
+``Text``        The text in which text segments are to be exchanged.
 
-NewText is the text that is to replace the text segment.
+``SearchText``  The text segment that is to be replaced (a number of times).
 
-Occurrence (optional) indicates which occurrence of the search text is to be replaced. If this parameter is missing the search text is replaced throughout.
+``NewText``     The text that is to replace the text segment.
+
+``Occurrence``  **optional** indicates which occurrence of the search text is
+                to be replaced. If this parameter is missing the search
+                text is replaced throughout.
+=============== ================================================================
 
 Example
 -------
 
 ``=SUBSTITUTE("123123123","3","abc")`` returns 12abc12abc12abc.
 
-``=SUBSTITUTE("123123123","3","abc",2)`` returns 12312abc123. 
+``=SUBSTITUTE("123123123","3","abc",2)`` returns 12312abc123.
