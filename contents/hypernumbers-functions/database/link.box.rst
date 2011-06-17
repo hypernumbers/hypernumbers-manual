@@ -22,18 +22,6 @@ Arguments
 Argument        Description
 
 =============== ================================================================
-``AlertType``   **Optional**. AlertType only works with BoxType of 3 and is the
-                same as for html.alert. AlertType specifies the type of alert
-                box to use.
-
-                0 = plain
-
-                1 = alert1
-
-                2 = alert3
-
-                3 = alert3
-
 ``WxH``         Specifies the number of rows (W) and columns (H) in which to
                 autofill the results of the z-query display box inside the
                 spreadsheet page.
@@ -66,6 +54,17 @@ Argument        Description
 
                 99 is style box as ruledbox
 
+``AlertType``   **Optional**. AlertType only works with BoxType of 3 and is the
+                same as for html.alert. AlertType specifies the type of alert
+                box to use.
+
+                0 = plain
+
+                1 = alert1
+
+                2 = alert3
+
+                3 = alert3
 =============== ================================================================
 
 Example

@@ -9,7 +9,7 @@ A number of special functions have been developed for use with hypernumbers data
 
    COUNTZ       <countz>
    DEBUGZ       <debugz>
-   LINK.BOX.WxH <linkbox>
+   LINK.BOX.WxH <link.box>
    SUMZ         <sumz>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
