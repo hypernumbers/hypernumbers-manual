@@ -15,7 +15,7 @@ In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as c
    PIECHART.WxH  <piechart>
    SPARKLINE.WxH <sparkline>
    SPEEDO.WxH    <speedo>
-   STATUS.bar    <status-bar>
+   STATUS.BAR    <status-bar>
    XY.WxH        <xy>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
