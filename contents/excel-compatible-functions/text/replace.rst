@@ -14,15 +14,21 @@ Syntax
 
 ``=REPLACE("Text", Position, Length, "NewText")``
 
-Text refers to text of which a part will be replaced.
+.. tabularcolumns:: |l|L|
 
-Position refers to the position within the text where the replacement will begin.
+=============== ================================================================
+Arguments       Description
+=============== ================================================================
+``Text``        The text of which a part will be replaced.
 
-Length is the number of characters in Text to be replaced.
+``Position``    The position within the text where the replacement will begin.
 
-NewText refers to the text which replaces Text.
+``Length``      The number of characters in Text to be replaced.
+
+``NewText``     The replacement text.
+=============== ================================================================
 
 Example
 -------
 
-``=REPLACE("1234567",1,1,"444")`` returns "444234567". One character at position 1 is replaced by the complete NewText. 
+``=REPLACE("1234567",1,1,"444")`` returns "444234567". One character at position 1 is replaced by the complete NewText.
