@@ -26,18 +26,22 @@ Argument        Description
                 function is input.
 
 ``Style``       Specifies the style of the display box as an integer:
+
                 0 – plain (DEFAULT)
+
                 1 - red border
+
                 2 - red border and text
-                3 - red headline/footer background colur
+
+                3 - red headline/footer background colour
 
 ``Body``        Specifies what is to appear in the body. Valid entries include
                 a string, a cell reference, function, string, image, link.
 
-``Title``       **Optional**. A string or reference to a cell specifying a
+``Title``       **Optional** A string or reference to a cell specifying a
                 title for the display box.
 
-``Footer``      **Optional**. A string or reference to a cell specifying a
+``Footer``      **Optional** A string or reference to a cell specifying a
                 footer for the display box.
 
 =============== ================================================================
