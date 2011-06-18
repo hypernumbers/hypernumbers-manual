@@ -9,7 +9,7 @@ SNAPSHOT is a special function that is used in templates. SNAPSHOT will capture 
 
 It is designed to be used in templates and allows values to be dragged through at the time a page is created and never updated.
 
-A typical example is to pull prices through from a price list to a quotation - the price list can be updated by the quotes will never change
+A typical example is to pull prices through from a price list to a quotation - the price list can be updated but the quotes will never change
 
 Syntax
 ------
