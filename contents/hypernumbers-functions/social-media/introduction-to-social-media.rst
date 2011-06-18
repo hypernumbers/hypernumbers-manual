@@ -7,6 +7,7 @@ A number of functions ar available to integrate social media applications into h
 .. toctree::
    :maxdepth: 1
 
+   DISQUS.COMMENTS     <disqus-comments>
    FACEBOOK.COMMENTS   <facebook-comments>
    GENERIC.INTEGRATION <generic-integration>
 
