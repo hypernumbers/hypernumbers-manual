@@ -41,3 +41,4 @@ This is how it appears in the web and wiki views:
 
 Typically you bulid a web page header and footer on a static data page and include it in all your templates. Then if you need to update the pages, a single edit on the static-data page will propagate to all other pages. Menus, facebook comments and other special layout functions will also work when pulled through.
 
+.. warning:: INCLUDE will bring through fancy things like ``=HTML.MENU()`` which will work as expected. However things that require permissions to work (for instances all the form functions ``=INPUT()``, ``=RADIO()``, ``=SELECT()``, ``=TEXTAREA()`` and ``=BUTTON()`` and the webcontrols like ``=CREATE.BUTTON()``, ``=MAP.ROW.BUTTON()`` and ``=MAP.SHEET.BUTTON()``) will results in a ``#CANTINC!`` (for cannot include) error.
