@@ -32,8 +32,3 @@ Example
 =img("http://files.hypernumbers.com/jameswatt/red.png") would include the following image in a cell:
 
 .. image:: /images/example-img-red.png
-
-
-
-
-
