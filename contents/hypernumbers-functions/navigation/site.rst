@@ -5,13 +5,12 @@ SITE
 Overview
 --------
 
-
+Returns the site that the hypernumbers page is on.
 
 Syntax
 ------
 
 ``=site()``
-
 
 Arguments
 ---------
@@ -21,5 +20,7 @@ None
 Example
 -------
 
-.. figure:: /images/example-site.png
+The example shows the ``SITE`` function and the related ``SITEURL`` function.
+
+.. figure:: /images/example-site-siteurl.png
 

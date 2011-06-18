@@ -15,6 +15,7 @@ A number of navigation function are available for use in building web applicatio
    PAGEURL      <pageurl>
    SEGMENT      <segment>
    SITE         <site>
+   SITEURL      <siteurl>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 
