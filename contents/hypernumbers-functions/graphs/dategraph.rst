@@ -5,7 +5,7 @@ DATEGRAPH.WxH
 Overview
 --------
 
-The dategraph.WxH function creates a (multi-line) graph where the x-axis is a series of ordereed dates. The graph is rendered across W columns and H rows relative to the cell where the function is entered.
+The ``dategraph.WxH`` function creates a (multi-line) graph where the x-axis is a series of ordered dates. The graph is rendered across W columns and H rows relative to the cell where the function is entered. ``dategraph.WxH`` correctly handles spacing between dates, you can give it a series of dates with different gaps between them and they will be plotted in a cartesian space instead of an equispaced one.
 
 Syntax
 ------
