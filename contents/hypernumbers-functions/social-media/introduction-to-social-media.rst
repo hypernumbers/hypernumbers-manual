@@ -9,6 +9,8 @@ A number of functions ar available to integrate social media applications into h
 
    DISQUS.COMMENTS     <disqus-comments>
    FACEBOOK.COMMENTS   <facebook-comments>
+   FACEBOOK.LIKEBOX    <facebook-likebox>
+   FACEBOOK.LIKE       <facebook-like>
    GENERIC.INTEGRATION <generic-integration>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
