@@ -11,7 +11,7 @@ Embeds an image in a cell
 Syntax
 ------
 
-``=img(url)``
+``=img(url, alt)``
 
 
 Arguments
@@ -22,6 +22,8 @@ Argument    Description
 =========== ====================================================================
 ``url``     The url of the image to insert, e.g.
             ``http://example.com/some_image.png``
+
+``alt``     **optional** The alt text for the image.
 =========== ====================================================================
 
 Example
