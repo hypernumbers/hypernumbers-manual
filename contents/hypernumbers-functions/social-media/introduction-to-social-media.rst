@@ -12,6 +12,8 @@ A number of functions ar available to integrate social media applications into h
    FACEBOOK.LIKEBOX    <facebook-likebox>
    FACEBOOK.LIKE       <facebook-like>
    GENERIC.INTEGRATION <generic-integration>
+   GOOGLE.BUYNOW       <google-buynow>
+   TWITTER.PROFILE     <twitter-profile>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 
