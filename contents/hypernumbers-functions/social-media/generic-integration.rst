@@ -9,6 +9,8 @@ Overview
 
 The ``=generic.integration.WxH()`` function is designed for software developer and designers to add functionality to Hypernumbers.
 
+.. note:: If there are social media and other integration features that you find useful, do tell us and we might incorporate them into Hypernumbers as functions.
+
 Syntax
 ------
 
