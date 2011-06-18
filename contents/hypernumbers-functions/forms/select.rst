@@ -27,6 +27,9 @@ Argument              Description
                       option 2``
 ====================  =========================================================
 
+.. warning:: SELECT is a special function that cannot be called from inside another function. An expression like ``=html(select(a1))`` will return a ``#CANTINC!`` error.
+
+
 Example
 -------
 

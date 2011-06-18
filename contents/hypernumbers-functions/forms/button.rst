@@ -32,6 +32,8 @@ Argument              Description
 Example
 -------
 
+.. warning:: BUTTON is a special function that cannot be called from inside another function. An expression like ``=include(button(a1))`` will return a ``#CANTINC!`` error.
+
 See this `sub-section`_ of the chapter *Hypernumbers Indepth*
 
 .. _sub-section: ../../indepth/making-forms.html

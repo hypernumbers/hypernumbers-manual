@@ -22,6 +22,8 @@ Argument              Description
                       field will be stored.
 ====================  =========================================================
 
+.. warning:: TEXTAREA is a special function that cannot be called from inside another function. An expression like ``=html(textarea(a1))`` will return a ``#CANTINC!`` error.
+
 Example
 -------
 
