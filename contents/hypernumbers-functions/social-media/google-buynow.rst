@@ -23,6 +23,9 @@ Argument          Description
 ``Merchant``      Your Google Merchant ID. You need to register with Google
                   Checkout to get one of these.
 
+                  **If Google asks you to validate your website, get in touch
+                  with us...**
+
 ``Currency``      A currency that Google accepts payments in. The currency
                   code is one of the following ISO 4217 currency descriptons:
 
