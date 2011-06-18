@@ -99,7 +99,7 @@ Hypernumbers Functions Reference
    :maxdepth: 1
 
    Database Functions                     <contents/hypernumbers-functions/database/introduction-to-database-query-function>
-   Graph Functions                       <contents/hypernumbers-functions/graph/introduction-to-graphs>
+   Graph Functions                       <contents/hypernumbers-functions/graphs/introduction-to-graphs>
    Layout And Display Functions           <contents/hypernumbers-functions/layout-and-display/introduction-to-layout-functions>
    Navigation Functions                   <contents/hypernumbers-functions/navigation/navigation-functions-introduction>
    Social Media And Integration Functions <contents/hypernumbers-functions/social-media/introduction-to-social-media>
