@@ -7,9 +7,9 @@ A number of navigation function are available for use in building web applicatio
 .. toctree::
    :maxdepth: 1
 
-   CRUMB.TRAIL  <crumbtrail>
-   HTML.MENU.W  <menu>
-   HTML.SUBMENU <submenu>
+   CRUMB.TRAIL  <crumb-trail>
+   HTML.MENU.W  <html-menu>
+   HTML.SUBMENU <html-submenu>
    LINK         <link>
    PAGE         <page>
    PAGEURL      <pageurl>
