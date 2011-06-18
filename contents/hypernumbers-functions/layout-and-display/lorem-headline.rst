@@ -28,3 +28,4 @@ Example
 -------
 
 .. figure:: /images/example-lorems.png
+
