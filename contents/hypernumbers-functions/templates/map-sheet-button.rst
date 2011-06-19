@@ -36,3 +36,9 @@ Argument         Description
                  *Site -> Data Upload* admin menu.
 ================ ==============================================================
 
+Example
+-------
+
+See the section `Uploading Application Data`_ for a worked example.
+
+.. _Uploading Application Data: ../../../contents/hypernumbers-application/uploading-application-data.html

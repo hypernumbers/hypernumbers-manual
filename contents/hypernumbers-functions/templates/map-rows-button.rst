@@ -11,8 +11,6 @@ It creates a button which then asks the user to select a file to upload.
 
 If the file matches the validation criteria in the specified map it runs and creates a page per row of the spreadsheet.
 
-See the section **something, something** for more details.
-
 Syntax
 ------
 
@@ -29,7 +27,13 @@ Argument         Description
 ``ButtonTitle``  A string specifying the title to appear on the button on the
                  webpage or wikipage.
 
-``Map"``         a row-type map  that has previously been saved via the
+``Map``          a row-type map  that has previously been saved via the
                  *Site -> Data Upload* admin menu.
 ================ ==============================================================
 
+Example
+-------
+
+See the section `Uploading Application Data`_ for a worked example.
+
+.. _Uploading Application Data: ../../../contents/hypernumbers-application/uploading-application-data.html
