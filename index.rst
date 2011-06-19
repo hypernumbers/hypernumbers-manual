@@ -57,7 +57,7 @@ Hypernumbers Indepth
 
    Overview                     <contents/indepth/overview.rst>
    Templates                    <contents/indepth/making-pages-from-templates>
-   Webforms                     <contents/indepth/making-forms>
+   Web Forms                    <contents/indepth/making-forms>
    Tables and Lists             <contents/indepth/tables-and-lists>
    Audit                        <contents/indepth/cell-change-control>
    Permissions                  <contents/indepth/permissions>
@@ -105,7 +105,7 @@ Hypernumbers Functions Reference
    Social Media And Web Integration Functions <contents/hypernumbers-functions/social-media-and-web-integration/introduction-to-social-media>
    Special Functions                          <contents/hypernumbers-functions/special/introduction-to-special-fns>
    Template Functions                         <contents/hypernumbers-functions/templates/template-functions-introduction>
-   Web Form Functions                         <contents/hypernumbers-functions/forms/introduction-to-form-functions>
+   Web Form Functions                         <contents/hypernumbers-functions/web-forms/introduction-to-form-functions>
 
 Excel-Compatible Functions Reference
 ====================================
