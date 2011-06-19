@@ -21,10 +21,9 @@ Argument              Description
 ``Label``             The name of the column under which the data in this input
                       field will be stored.
 
-``Options``           **optional** This value is either an array or a
+``Options``           This value is either an array or a
                       reference to a range of cells which has the options in
-                      it. By default an the dropdown box shows ``option 1,
-                      option 2``
+                      it.
 ====================  =========================================================
 
 .. warning:: SELECT is a special function that cannot be called from inside another function. An expression like ``=html(select(a1))`` will return a ``#CANTINC!`` error.
