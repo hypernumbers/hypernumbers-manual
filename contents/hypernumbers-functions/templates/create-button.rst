@@ -1,3 +1,4 @@
+
 =============
 CREATE.BUTTON
 =============
@@ -48,7 +49,7 @@ Argument         Description
 
                  ``"/[TemplateToUse, <naming optons> <;advanced options>]/”``
 
-                 where ''TemplateToUse`` is a template that has previously
+                 where ``TemplateToUse`` is a template that has previously
                  been saved via the *Site -> My Pages* admin menu.
 ================ ==============================================================
 
@@ -133,3 +134,7 @@ You can mix and match permission and redirects (i.e. the clauses are order indep
 
 Example
 -------
+
+See the section `Making Pages From Templates`_ for a worked example.
+
+.. _Making Pages From Templates: ../../../contents/indepth/making-pages-from-templates.html
