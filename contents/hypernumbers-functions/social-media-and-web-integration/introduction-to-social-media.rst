@@ -14,6 +14,7 @@ A number of functions are available to integrate social media applications into 
    GENERIC.INTEGRATION <generic-integration>
    GOOGLE.BUYNOW       <google-buynow>
    GOOGLE.MAP          <google-map>
+   TWITTER.BUTTON      <twitter-button>
    TWITTER.PROFILE     <twitter-profile>
    TWITTER.TWEET       <twitter-tweet>
 
