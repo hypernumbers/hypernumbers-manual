@@ -1,8 +1,8 @@
-===================================
-Hypernumbers Social Media Functions
-===================================
+=======================================================
+Hypernumbers Social Media And Web Integration Functions
+=======================================================
 
-A number of functions ar available to integrate social media applications into hypernumbers applications. These include:
+A number of functions are available to integrate social media applications into hypernumbers applications. These include:
 
 .. toctree::
    :maxdepth: 1
@@ -13,7 +13,11 @@ A number of functions ar available to integrate social media applications into h
    FACEBOOK.LIKE       <facebook-like>
    GENERIC.INTEGRATION <generic-integration>
    GOOGLE.BUYNOW       <google-buynow>
+   GOOGLE.MAP          <google-map>
    TWITTER.PROFILE     <twitter-profile>
+   TWITTER.TWEET       <twitter-tweet>
+
+.. Note:: If there are other social and integration features that you would like, just get in touch and we will be delighted to look at getting them in for you.
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 
