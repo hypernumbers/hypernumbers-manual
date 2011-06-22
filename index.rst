@@ -96,7 +96,7 @@ Hypernumbers Functions Reference
 ================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    Database Functions                        <contents/hypernumbers-functions/database/introduction-to-database-query-function>
    Graph Functions                           <contents/hypernumbers-functions/graphs/introduction-to-graphs>
@@ -111,7 +111,7 @@ Excel-Compatible Functions Reference
 ====================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    Copyright Of This Section        <contents/excel-compatible-functions/excel-compatible-fns-copyright>
    Database Functions               <contents/excel-compatible-functions/database/introduction-to-database-fns>
