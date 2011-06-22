@@ -7,18 +7,18 @@ A number of layout and display functions are available to enhance the visual app
 .. toctree::
    :maxdepth: 1
 
-   HORIZONTAL.LINE.W                       <horizontal-line>
-   HTML.ALERT.WxH - a box for alerts       <html-alert>
-   HTML.BOX.WxH - displays a box           <html-box>
-   HTML.HEADLINE.WxH - make a headline     <html-headline>
-   HTML.PLAINBOX.WxH - make a plain box    <html-plainbox>
-   HTML.RULEDBOX.WxH - make a ruled box    <html-ruledbox>
-   IMG - embed an image                    <img>
-   INCLUDE - include layout from elsewhere <include>
-   LOREM.HEADLINE - generates headlines    <lorem-headline>
-   LOREM.IPSUM - generates display text    <lorem-ipsum>
-   TABLE - embed a sortable table          <table>
-   VERTICAL.LINE.H                         <vertical-line>
+   HORIZONTAL.LINE.W <horizontal-line>
+   HTML.ALERT.WxH    <html-alert>
+   HTML.BOX.WxH      <html-box>
+   HTML.HEADLINE.WxH <html-headline>
+   HTML.PLAINBOX.WxH <html-plainbox>
+   HTML.RULEDBOX.WxH <html-ruledbox>
+   IMG               <img>
+   INCLUDE           <include>
+   LOREM.HEADLINE    <lorem-headline>
+   LOREM.IPSUM       <lorem-ipsum>
+   TABLE             <table>
+   VERTICAL.LINE.H   <vertical-line>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 
