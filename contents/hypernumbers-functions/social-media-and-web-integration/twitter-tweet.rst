@@ -29,4 +29,4 @@ Argument          Description
 Example
 -------
 
-``=twitter.tweet("Just looked at hypernumbers. http://hypernumbers.com. Fantastic product!")``
+``=twitter.tweet("Just looked at hypernumbers. http://hypernumbers.com. Fantastic product!", "http://hypernumbers.com")``
