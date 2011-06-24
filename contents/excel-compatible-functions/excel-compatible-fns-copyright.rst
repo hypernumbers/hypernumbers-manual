@@ -2,7 +2,7 @@
 Copyright
 =========
 
-This section of the document taken from the `LibreOffice website`_:
+This section of the document is taken from the `LibreOffice website`_:
 
 It is available under the Creative Commons Attribution-Share Alike 3.0 Unported license.
 

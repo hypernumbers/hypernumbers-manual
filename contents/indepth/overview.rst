@@ -8,13 +8,11 @@ The previous chapter *Getting To Know Hypernumbers* skimmed over a lot of things
 
 Topics discussed include:
 
-.. toctree::
-   :maxdepth: 1
-   
-
-   Templates                    <making-pages-from-templates>
-   Webforms                     <making-forms>
-   Audit                        <cell-change-control>
-   Permissions                  <permissions>
-   Database Queries (z-queries) <database-queries>
+* Templates
+* Webforms
+* tables and Lists
+* Audit
+* Permissions
+* Database Queries (z-queries)
+* Data Upload 
 

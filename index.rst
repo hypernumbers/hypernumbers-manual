@@ -3,15 +3,30 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Building Applications With Hypernumbers
-==================================================
+Welcome
+=======
 
 .. toctree::
    :maxdepth: 1
-   
+
    This Is A Prerelease <contents/welcome/prerelease>
    Getting Help         <contents/welcome/gettinghelp>
-   Other Formats        <contents/welcome/other-formats> 
+   Other Formats        <contents/welcome/other-formats>
+   How To Use This Material <contents/welcome/how-to-use-this-material>
+
+Why Hypernumbers?
+=================
+
+.. toctree::
+   :maxdepth: 1
+
+   Overview                              <contents/why-hypernumbers/overview>
+   Why Should I Use Hypernumbers?        <contents/why-hypernumbers/why-use-hypernumbers>
+   What Is Hypernumbers Good At?         <contents/why-hypernumbers/what-is-hypernumbers-good-at>
+   When Is Hypernumber The Right Choice? <contents/why-hypernumbers/when-should-you-use-hypernumbers>
+   Who Uses Hypernumbers?                <contents/why-hypernumbers/who-uses-hypernumbers>
+   When Should I Use Something Else?     <contents/why-hypernumbers/when-use-something-else>
+
 
 Getting To Know Hypernumbers
 ============================
@@ -39,50 +54,73 @@ Hypernumbers Indepth
 
 .. toctree::
    :maxdepth: 1
-   
+
    Overview                     <contents/indepth/overview.rst>
    Templates                    <contents/indepth/making-pages-from-templates>
-   Webforms                     <contents/indepth/making-forms>
+   Web Forms                    <contents/indepth/making-forms>
+   Tables and Lists             <contents/indepth/tables-and-lists>
    Audit                        <contents/indepth/cell-change-control>
    Permissions                  <contents/indepth/permissions>
    Database Queries (z-queries) <contents/indepth/database-queries>
+   Database Upload              <contents/indepth/data-upload>
+
 ..   contents/page-views/views
 ..   content/site-admin/site administration
+
+Building A Hypernumbers Application
+===================================
+
+.. toctree::
+   :maxdepth: 1
+
+   Overview                        <contents/hypernumbers-application/overview>
+   Bug Tracker                     <contents/hypernumbers-application/bug-tracker-system-requirements>
+   Application Page Structure      <contents/hypernumbers-application/bug-tracker-application-page-structure>
+   Navigation                      <contents/hypernumbers-application/bug-tracker-application-navigation>
+   Page Layout and Design          <contents/hypernumbers-application/bug-tracker-application-page-layout-and-design>
+   Build Strategy                  <contents/hypernumbers-application/application-build-strategy>
+   Commissioning a Site            <contents/hypernumbers-application/commissioning-a-hypernumbers-site>
+   Static Data Page                <contents/hypernumbers-application/bug-tracker-static-data-page>
+   Bug Detail Pages                <contents/hypernumbers-application/bug-tracker-bug-detail-pages>
+   Creating User Groups            <contents/hypernumbers-application/creating-user-groups>
+   Applying User Group Permissions <contents/hypernumbers-application/applying-page-and-user-group-permissions>
+   Saving Templates                <contents/hypernumbers-application/saving-application-templates>
+   Work Queue Pages                <contents/hypernumbers-application/bug-tracker-worklist-pages>
+   Dashboard Pages                 <contents/hypernumbers-application/bug-tracker-dashboard-pages>
+   Uploading Application Data      <contents/hypernumbers-application/uploading-application-data>
+   Inviting Users                  <contents/hypernumbers-application/inviting-application-users>
+   User Passwords                  <contents/hypernumbers-application/changing-user-passwords>
+   Summary                         <contents/hypernumbers-application/final-comments>
 
 Hypernumbers Functions Reference
 ================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   Graph Functions              <contents/hypernumbers-functions/graph/introduction-to-graphs>
-   Database Functions           <contents/hypernumbers-functions/database/introduction-to-database-query-function>
-   Layout And Display Functions <contents/hypernumbers-functions/layout-and-display/layout-functions-introduction>
-   Navigation Functions         <contents/hypernumbers-functions/navigation/navigation-functions-introduction>
-   Social Media Functions       <contents/hypernumbers-functions/social-media/introduction-to-social-media>
-   Template Functions           <contents/hypernumbers-functions/templates/template-functions-introduction>
+   Database Functions                        <contents/hypernumbers-functions/database/introduction-to-database-query-function>
+   Graph Functions                           <contents/hypernumbers-functions/graphs/introduction-to-graphs>
+   Layout And Display Functions               <contents/hypernumbers-functions/layout-and-display/introduction-to-layout-functions>
+   Navigation Functions                       <contents/hypernumbers-functions/navigation/introduction-to-navigation-functions>
+   Social Media And Web Integration Functions <contents/hypernumbers-functions/social-media-and-web-integration/introduction-to-social-media>
+   Special Functions                          <contents/hypernumbers-functions/special/introduction-to-special-fns>
+   Template Functions                         <contents/hypernumbers-functions/templates/template-functions-introduction>
+   Web Form Functions                         <contents/hypernumbers-functions/web-forms/introduction-to-form-functions>
 
 Excel-Compatible Functions Reference
 ====================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    Copyright Of This Section        <contents/excel-compatible-functions/excel-compatible-fns-copyright>
    Database Functions               <contents/excel-compatible-functions/database/introduction-to-database-fns>
    Date And Time Functions          <contents/excel-compatible-functions/date-and-time/introduction-to-date-and-time-fns>
+   Engineering Functions            <contents/excel-compatible-functions/engineering/introduction-to-engineering-fns>
    Financial Functions              <contents/excel-compatible-functions/financial/introduction-to-financial-fns>
-    Information Functions            <contents/excel-compatible-functions/information/introduction-to-information-fns>
+   Information Functions            <contents/excel-compatible-functions/information/introduction-to-information-fns>
    Logical Functions                <contents/excel-compatible-functions/logical/introduction-to-logical-fns>
    Lookup And Reference Functions   <contents/excel-compatible-functions/lookup-and-reference/introduction-to-lookup-and-reference-fns>
    Maths And Trigonometry Functions <contents/excel-compatible-functions/maths-and-trigonometry/introduction-to_maths-and-trigonometry-fns>
    Statistical Functions            <contents/excel-compatible-functions/statistical/introduction-to-statistical-fns>
    Text Functions                   <contents/excel-compatible-functions/text/introduction-to-text-fns>
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
-

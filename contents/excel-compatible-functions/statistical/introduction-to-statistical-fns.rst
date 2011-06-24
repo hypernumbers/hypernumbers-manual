@@ -7,16 +7,36 @@ The following Excel-compatible statistical functions are implemented in Hypernum
 .. toctree::
    :maxdepth: 1
 
-   average    <excel-statistical-fn-average>
-   count      <excel-statistical-fn-count>
-   counta     <excel-statistical-fn-counta>
-   countblank <excel-statistical-fn-countblank>
-   countif    <excel-statistical-fn-countif>
-   max        <excel-statistical-fn-max>
-   maxa        <excel-statistical-fn-maxa>
-   min        <excel-statistical-fn-min>
-   mina        <excel-statistical-fn-mina>
-   stdev      <excel-statistical-fn-stdev>
-   stdevp     <excel-statistical-fn-stdevp>
-   var        <excel-statistical-fn-var>
-   varp       <excel-statistical-fn-varp>
+   AVEDEV     <avedev>
+   AVERAGE    <average>
+   AVERAGEA   <averagea>
+   COUNTA     <counta>
+   COUNTBLANK <countblank>
+   COUNTIF    <countif>
+   EXPONDIST  <expondist>
+   LARGE      <large>
+   MAX        <max>
+   MAXA       <maxa>
+   MIN        <min>
+   MINA       <mina>
+   MODE       <mode>
+   SKEW       <skew>
+   SMALL      <small>
+   STANDARDISE <standardise>
+   STDEV      <stdev>
+   STDEVA     <stdeva>
+   STDEVP     <stdevp>
+   STDEVPA    <stdevpa>
+   STEYX      <steyx>
+   TRIMMEAN   <trimmean>
+   VAR        <var>
+   VARA       <vara>
+   VARP       <varp>
+   VARPA      <varpa>
+
+.. warning:: Some Excel-compatible functions are extended to include z-order references.
+
+.. toctree::
+   :maxdepth: 1
+
+   COUNT      <count>

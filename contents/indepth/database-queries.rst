@@ -1,5 +1,5 @@
 ================
-DATABASE QUERIES
+Database Queries
 ================
 
 Overview
@@ -8,10 +8,10 @@ Overview
 A z-query is the hypernumbers equivalent of a database query. In the case of hypernumbers, pages and the data on those pages is the database against which z-queries are used to extract data. A z-query allows you to pull data together from pages at the end of a complex hierarchical tree of pages, subject to characteristics in intermediate page segments and push it into a standard function or special hypernumber functions or even into a list.
 
 A z-query enables data analysis of cell(s) on a spreadsheet page across multiple pages subject to conditions based on data inside the rows and columns of each page. The diagram below illustrates the concept of a z-query:
- 
+
 .. image :: /images/hypernumbers-database-query.png
 
-In this illustration, the z-query accesses all sub-pages below the page /some/page/ and picks up the values in cell b3 but excludes page /some/page/2/ because some condition is not satisfied. 
+In this illustration, the z-query accesses all sub-pages below the page /some/page/ and picks up the values in cell b3 but excludes page /some/page/2/ because some condition is not satisfied.
 
 The results of a z-query are used inside a function in a cell in the same way as other spreadsheet functions i.e.:
 
@@ -26,7 +26,7 @@ Z-queries can be used inside a selection of maths and statistics functions e.g.:
 
 A number of special hypernumbers functions have also been created to cater for z-queries that are constructed from strings, including:
 
-* sumz  
+* sumz
 * countz
 
 Z-queries can also be used to generate dynamic lists using the function:
@@ -52,31 +52,31 @@ The arguments involved in a z-query have the following definitions:
 ================== ============================================================================
 Arguments          Description
 ================== ============================================================================
-``segment(s)``     Specifies path segments as part of the z-query. For example some and page 
+``segment(s)``     Specifies path segments as part of the z-query. For example some and page
                    are segments in the illustrative z-query above.
 
-``condition(s)``   The condition expression inside the z-query is mandatory and enables 
-                   filtering to be applied to the pages in path segments towards the final 
+``condition(s)``   The condition expression inside the z-query is mandatory and enables
+                   filtering to be applied to the pages in path segments towards the final
                    target pages.
-   
-                   Conditions, on a path segment, are always included inside [] brackets in a 
+
+                   Conditions, on a path segment, are always included inside [] brackets in a
                    z-query.
 
-                   Any valid excel expression inside the [] brackets can be applied including 
-		   functions, formulae and absolute and relative cell references. The simple 
-                   way to select all pages is to use the excel expression ``true`` which is 
+                   Any valid excel expression inside the [] brackets can be applied including
+		   functions, formulae and absolute and relative cell references. The simple
+                   way to select all pages is to use the excel expression ``true`` which is
                    always true on all pages
 
-``cell(s)`` 	   The cell selection can be a single cell (e.g. G21) or a cell range (e.g. 
+``cell(s)`` 	   The cell selection can be a single cell (e.g. G21) or a cell range (e.g.
                    G21:H24)
 
 ================== ============================================================================
 
-	
+
 Illustrative Database
 ---------------------
-	
-To illustrate the z-query syntax in a practical example we will utilise the following database page structure below: 
+
+To illustrate the z-query syntax in a practical example we will utilise the following database page structure below:
 
 .. image :: /images/hypernumbers-meter-database-example.png
 
@@ -85,9 +85,9 @@ In this example we have historical energy readings from electricity meters and t
 
 Some example pages in the meter example include:
 
-* /energy-data/ 
-* /energy-data/electricity/ 
-* /energy-data/electricity/jan/4/ 
+* /energy-data/
+* /energy-data/electricity/
+* /energy-data/electricity/jan/4/
 * /energy-data/electricity/jan/7/meter1/.
 
 Path segments combine to specify the full page location. Path segments for the /energy-data/electricity/jan/7/meter1/ page are:
@@ -122,7 +122,7 @@ Now suppose we want to construct some calculations in cells on the energy page s
 In this example we want to calculate the sum of cell G21 on all meter page for all days in 2010.
 
 To do this we could use the following formula to calculate this sum:
- 
+
 ``=sum(/energy-data/electricity/2010/[true]/[true]/[true]/G21)``
 
 Or use the relative path version
@@ -136,7 +136,7 @@ If it looks complex it isn’t. Let’s step through formula to understand how t
 #.	Below this page segment use all month page segments. The ``[]`` brackets are used to specify conditions against the data on all of these month page sub-segments. ``[true]`` is the same as a wildcard ‘*’ and says include all pages in the month page segment
 #.	Like the month segment there is a day  page segment condition that says include all pages in the month page segment
 #.	Again use all meter page segments
-#.	Now for those segments that qualified in steps 1-5, return the data in cell G21 on all these pages to the sum function and calculate the sum. 
+#.	Now for those segments that qualified in steps 1-5, return the data in cell G21 on all these pages to the sum function and calculate the sum.
 
 The result of this function would be all days(365) x all meters(2) x reading(100) = 73000.
 
@@ -166,12 +166,12 @@ An alternate way to do this is to apply a condition to the month segment of the 
 
 Where,
 
-``[or(segment()=”jan”, segment()=”feb”, segment()=”mar”)]`` 
-	applies a condition to the month segment involving the OR function and a special hypernumbers function ``segment()``. 
-``Segment()`` 
+``[or(segment()=”jan”, segment()=”feb”, segment()=”mar”)]``
+	applies a condition to the month segment involving the OR function and a special hypernumbers function ``segment()``.
+``Segment()``
 	returns the value of the segment. The ``segment()`` function would return “jan”, “feb”,…. and “dec” and the or function limits the month segments to sum to “jan, feb and mar.
 
-By way of illustration of the possibilities of using conditions, we could also write the formula as 
+By way of illustration of the possibilities of using conditions, we could also write the formula as
 
 ``=sum(./electricity/2010/[datevalue(“1/”&segment()&”/2010”, “0”) < date(“1/4/10”)]/[true]/[true]/G21)``
 
@@ -185,7 +185,7 @@ Suppose we wanted to add conditions to the original formula based on certain cel
 * In the month pages cell A1=”YES”
 * In the day page cell B12 > 40
 
-We can incorporate these conditions inside the z-query as follows 
+We can incorporate these conditions inside the z-query as follows
 
 ``=sum(./electricity/2010/[A1=”YES”]/[B12 > 40]/[true]/G21)``
 
@@ -226,7 +226,7 @@ Z-queries can become quite complex and building them can be quite daunting. In o
 
 .. note:: You only use the z- query part of the function; not the function itself.
 
-This function returns a dialog box with a list of all the pages that qualify against your z-query and the values that will be used are shown. This allows you to check that the data you are expecting is returned in the z-query or diagnose why you don’t get the desired result.  
+This function returns a dialog box with a list of all the pages that qualify against your z-query and the values that will be used are shown. This allows you to check that the data you are expecting is returned in the z-query or diagnose why you don’t get the desired result.
 
 
 Z-Query Lists
@@ -239,33 +239,33 @@ The syntax for this function is:
 ``=link.box.WxH(Z-query<,LinkType><,Headline><,Footer><,BoxType><,AlertType>)``
 
 
-The arguments are used as follows: 
+The arguments are used as follows:
 
 .. tabularcolumns:: |l|L|
 
 ==============  ===========================================================================
 Argument        Description
 ==============  ===========================================================================
-``WxH``	        Specifies the number of rows (W) and columns (H)  in which to autofill the 
+``WxH``	        Specifies the number of rows (W) and columns (H)  in which to autofill the
                 results of the z-query display box inside the spreadsheet page.
-                 
-	
+
+
 ``z-query``	As discussed in this section.
-                   
-	
+
+
 ``LinkType``	**Optional**. A number specifying what data to include in the return list:
 
 		0 is links with the path in them (**DEFAULT**)
 
 		1 is links with the value in them
 
-		2 is a link with the path and the value next to it  
-                   
-	
+		2 is a link with the path and the value next to it
+
+
 ``Headline`` 	**Optional**. A string or reference to a cell with a string.
-	
+
 ``Footer`` 	**Optional**. A string or reference to a cell with a string.
-	
+
 ``BoxType`` 	**Optional**. Specifies the box type to use with the returned data:
 
 		0 is style box as html.box (**DEFAULT**)
@@ -275,8 +275,8 @@ Argument        Description
 		2 is style box as html.plainbox
 
 		3 is style box as html.alert.
-	
-``AlertType``	**Optional**. AlertType only works with BoxType of 3 and is the same as 
+
+``AlertType``	**Optional**. AlertType only works with BoxType of 3 and is the same as
                 for html.alert. AlertType specifies the type of alert box to use:
 
 		0 = plain
@@ -289,7 +289,7 @@ Argument        Description
 
 		99 = ruledbox
 
-==============  ===========================================================================	
+==============  ===========================================================================
 
 Illustration of a sample of possible link.boxes using some made up data
 
@@ -303,7 +303,7 @@ Example 1 -
 
 Example 2 -
 
-Example 3 - 
+Example 3 -
 
 
 Demo Examples

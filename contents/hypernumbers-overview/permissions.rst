@@ -2,18 +2,17 @@
 Permissions
 ===========
 
-Hypernumbers incorporates an easy to implement, but highly effective, user permissions model based on the different page view types described above. This enables the programmer to control:
+Hypernumbers incorporates an easy to implement user permissions model based on the different view types described in previous sections. The permissions models enables the application programmer to control and configure:
 
-*	Whether pages are public or secure
-*	Implement user authentication via user signon
+*	Whether pages are public or secure (i.e. require sign-on details)
 *	Which users can access which pages 
 *	What operations (i.e. view, edit and create page operations) users can perform on these pages 
 
-The permissions model addresses core problem of spreadsheet applications:
+By basing the permissions model around view types, hypernumbers addresses the core problem of spreadsheet applications:
 
 *	End users breaking spreadsheets
 *	Changing data they’re not supposed to touch
 
-The ``webpage`` and ``wikipage`` views of the spreadsheet are specially designed to allow the programmer to present users with an interface that allows data to be collected for certain cells but locks out changes to other key cells on the page. This in effect allows the programmer to apply cell level security to pages and spreadsheet based applications.
+The ``wikipage`` view enables the programmer to present users with an interface that restricts data to certain spreadsheet cells but locks out changes to other key cells on the spreadsheet. This in effect allows the programmer to implement cell level security to spreadsheet pages.
 
-Permissions can be assigned to pages for individual users and groups of users as members of a usergroup.
+Permissions can be assigned to pages for individual users and groups of users as members of a usergroup. Thus different usergroups can be given access to the same pages but the operations they can perform can be separated and controlled.

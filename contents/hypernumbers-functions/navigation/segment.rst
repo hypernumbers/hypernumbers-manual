@@ -1,29 +1,26 @@
-======================
-Headline Display
-======================
+=======
+SEGMENT
+=======
 
 Overview
 --------
 
+Returns the 'segment' that last part of the path of the hypernumbers page
 
 
 Syntax
 ------
 
-``=``
+``=segment()``
 
 
 Arguments
 ---------
 
-===========     ===========================================================================
-Argument        Description
-===========     ===========================================================================
+None
 
-
-===========     ===========================================================================
 
 Example
 -------
 
-See section hypernumbers database queries
+.. figure:: /images/example-segment.png

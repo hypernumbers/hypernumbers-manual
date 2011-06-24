@@ -5,26 +5,22 @@ SITE
 Overview
 --------
 
-
+Returns the site that the hypernumbers page is on.
 
 Syntax
 ------
 
-``=``
-
+``=site()``
 
 Arguments
 ---------
 
-=========== ===========================================================================
-Argument    Description
-=========== ===========================================================================
-
-Blah	    Yeah
-
-=========== ===========================================================================
+None
 
 Example
 -------
 
-See section hypernumbers database queries
+The example shows the ``SITE`` function and the related ``SITEURL`` function.
+
+.. figure:: /images/example-site-siteurl.png
+

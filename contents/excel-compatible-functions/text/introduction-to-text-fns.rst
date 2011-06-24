@@ -2,26 +2,36 @@
 Excel-Compatible Text Functions
 ===============================
 
-Overview
---------
-
 The following Excel-compatible text functions are implemented in Hypernumbers:
 
 .. toctree::
    :maxdepth: 1
 
-   exact       <excel-text-fn-exact>
-   find        <excel-text-fn-find>
-   left        <excel-text-fn-left>
-   len         <excel-text-fn-len>
-   lower       <excel-text-fn-lower>
-   mid         <excel-text-fn-mid>
-   proper      <excel-text-fn-proper>
-   replace     <excel-text-fn-replace>
-   rept        <excel-text-fn-rept>
-   right       <excel-text-fn-right>
-   substitute  <excel-text-fn-substitute>
-   trim        <excel-text-fn-trim>
-   t           <excel-text-fn-t>
-   upper       <excel-text-fn-upper>
-   value       <excel-text-fn-value>
+   CONCATENATE <concatenate>
+   EXACT       <exact>
+   FIND        <find>
+   FIXED       <fixed>
+   LEFT        <left>
+   LEN         <len>
+   LOWER       <lower>
+   MID         <mid>
+   PROPER      <proper>
+   REPLACE     <replace>
+   REPT        <rept>
+   RIGHT       <right>
+   SEARCH      <search>
+   SUBSTITUTE  <substitute>
+   TRIM        <trim>
+   T           <t>
+   TEXT        <text>
+   UPPER       <upper>
+   VALUE       <value>
+
+.. warning:: There are some functions with are similar to Excel functions but which reflect the different underlying properties of text in Hypernumbers
+
+.. toctree::
+   :maxdepth: 1
+
+   CHAR  <char>
+   CLEAN <clean>
+
