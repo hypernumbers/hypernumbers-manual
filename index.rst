@@ -9,9 +9,9 @@ Welcome
 .. toctree::
    :maxdepth: 1
 
-   This Is A Prerelease <contents/welcome/prerelease>
-   Getting Help         <contents/welcome/gettinghelp>
-   Other Formats        <contents/welcome/other-formats>
+   This Is A Prerelease     <contents/welcome/prerelease>
+   Getting Help             <contents/welcome/gettinghelp>
+   Other Formats            <contents/welcome/other-formats>
    How To Use This Material <contents/welcome/how-to-use-this-material>
 
 Why Hypernumbers?
