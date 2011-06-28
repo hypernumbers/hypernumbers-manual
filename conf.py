@@ -100,21 +100,21 @@ html_theme = 'default'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {"rightsidebar": "false",
-                      "footerbgcolor": "orange",
-                      "footertextcolor": "#000",
-                      "sidebarbgcolor": "dark-orange",
-                      "sidebartextcolor": "#000",
-                      "sidebarlinkcolor": "#446",
-                      "relbarbgcolor": "#orange",
-                      "relbartextcolor": "#000",
-                      "relbarlinkcolor": "#446",
+                      "footerbgcolor": "black",
+                      "footertextcolor": "orange",
+                      "sidebarbgcolor": "black",
+                      "sidebartextcolor": "darkorange",
+                      "sidebarlinkcolor": "orange",
+                      "relbarbgcolor": "black",
+                      "relbartextcolor": "darkorange",
+                      "relbarlinkcolor": "orange",
                       "bgcolor": "white",
-                      "textcolor": "#444",
-                      "linkcolor": "#667",
+                      "textcolor": "black",
+                      "linkcolor": "darkorange",
                       #"visitedlinkcolor": "purple",
                       "headbgcolor": "#fff",
-                      "headtextcolor": "orange",
-                      "headlinkcolor": "blue",
+                      "headtextcolor": "black",
+                      "headlinkcolor": "orange",
                       "codebgcolor": "eee",
                       "codetextcolor": "black",
                       "bodyfont": "calibri, sans-serif",
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 #html_use_modindex = True
 
 # If false, no index is generated.
-html_use_index = True
+html_use_index = False
 
 # If true, the index is split into individual pages for each letter.
 #html_split_index = False
@@ -187,7 +187,7 @@ htmlhelp_basename = 'BuildingApplicationsWithHypernumbersdoc'
 # -- Options for LaTeX output --------------------------------------------------
 
 # The paper size ('letter' or 'a4').
-#latex_paper_size = 'letter'
+latex_paper_size = 'a4'
 
 # The font size ('10pt', '11pt' or '12pt').
 #latex_font_size = '10pt'
@@ -195,7 +195,7 @@ htmlhelp_basename = 'BuildingApplicationsWithHypernumbersdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'BuildingApplicationsWithHypernumbers.tex', u'Building Applications With Hypernumbers Documentation',
+  ('index', 'BuildingApplicationsWithHypernumbers.tex', u'Building Applications With Hypernumbers',
    u'Hypernumbers Ltd', 'manual'),
 ]
 
@@ -205,13 +205,13 @@ latex_documents = [
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
-#latex_use_parts = False
+latex_use_parts = False
 
 # Additional stuff for the LaTeX preamble.
-#latex_preamble = ''
+#latex_preamble = '\usepackage[text={7.5in,9.25in}]{geometry}'
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
 
 # If false, no module index is generated.
-#latex_use_modindex = True
+latex_use_modindex = False
