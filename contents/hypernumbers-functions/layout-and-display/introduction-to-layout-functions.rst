@@ -8,11 +8,13 @@ A number of layout and display functions are available to enhance the visual app
    :maxdepth: 1
 
    HORIZONTAL.LINE.W <horizontal-line>
+   HTML               <html>
    HTML.ALERT.WxH    <html-alert>
    HTML.BOX.WxH      <html-box>
    HTML.HEADLINE.WxH <html-headline>
    HTML.PLAINBOX.WxH <html-plainbox>
    HTML.RULEDBOX.WxH <html-ruledbox>
+   IFRAME            <iframe>
    IMG               <img>
    INCLUDE           <include>
    LOREM.HEADLINE    <lorem-headline>
