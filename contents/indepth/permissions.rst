@@ -176,7 +176,7 @@ The following approach is offered as a heuristic one that we at hypernumbers hav
 
 As an example…
 
-.. image:: /images/permissions-map-example.png
+ image:: /images/permissions-map-example.png
 
 IMAGE MISSING!
 
