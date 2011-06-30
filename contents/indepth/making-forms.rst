@@ -70,6 +70,12 @@ Wikiforms are simply wikipages that incorporate special input fields (wiki eleme
 *	wiki input field
 *	wiki selector list
 
+You create them using toolbar buttons:
+
+.. image:: /images/wiki-toolbar-buttons.png
+
+The left hand button is the wiki input field and the right one is the wiki select box.
+
 Inline wiki elements are created in spreadsheet cells. When data is entered via the wikipage view, it is posted to the same spreadsheet cell. When the pages is viewed as a webpage the data that has been entered is display only. Examples of the two inline wiki elements are shown below as they appear in the ``spreadsheet``, ``wikipage`` and ``webpage`` views:
 
 .. image:: /images/wikiform-views.png
@@ -79,14 +85,9 @@ Inline wiki elements are created in spreadsheet cells. When data is entered via 
 
 The wiki input field (identifiable in the spreadsheet view via the little red triangle in the top-left corner of the cell) allows you to collect unvalidated data and is useful for collecting user information where there are no pre-defined answers or valid values.
 
-The selector list wiki element helps can make data entry easier for the user and limits user input to certain items that you define;  ensuring consistent data used elsewhere in an application. You can create a drop-down wiki element with possible entries:
+The selector list wiki element helps can make data entry easier for the user and limits user input to certain items that you define;  ensuring consistent data used elsewhere in an application. You can create a drop-down wiki element with possible entries incorporated into the element itself (separated by commas)
 
-*	incorporated into the element itself (separated by commas)
-*	picked up from cells elsewhere on the page -coming
-*	picked up from cells in another spreadsheet page - coming
-*	from a z-query type list  - coming
-
-Wiki selector lists can be placed in a cell using the right-click menu option Make wiki selectbox. In it’s current form you enter the possible values to appear separated by commas e.g. Sales, Marketing, Finance, IT  then press submit. You can also include blanks in the selectable entries by inserting extra commas e.g. , Sales, Marketing, Finance, IT.
+You enter the possible values to appear separated by commas e.g. Sales, Marketing, Finance, IT  then press submit. You can also include blanks in the selectable entries by inserting extra commas e.g. , Sales, Marketing, Finance, IT.
 
 Inline wiki elements are a great way to construct interactive application pages:
 
