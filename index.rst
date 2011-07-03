@@ -21,6 +21,7 @@ Why Hypernumbers?
    :maxdepth: 1
 
    Overview                              <contents/why-hypernumbers/overview>
+   Spreadsheet Hell                      <contents/why-hypernumbers/spreadsheet-hell>
    Why Should I Use Hypernumbers?        <contents/why-hypernumbers/why-use-hypernumbers>
    What Is Hypernumbers Good At?         <contents/why-hypernumbers/what-is-hypernumbers-good-at>
    When Is Hypernumber The Right Choice? <contents/why-hypernumbers/when-should-you-use-hypernumbers>

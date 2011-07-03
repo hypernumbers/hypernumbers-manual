@@ -6,6 +6,7 @@ This chapter looks that reasons *why* you should consider using Hypernumbers. Hy
 
 This sections of this chapter are:
 
+* spreadsheet hell
 * why you should use Hypernumbers
 * what Hypernumbers is good at
 * when Hypernumbers is the right choice for you
