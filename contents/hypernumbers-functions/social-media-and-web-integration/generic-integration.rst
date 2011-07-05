@@ -14,29 +14,32 @@ The ``=generic.integration.WxH()`` function is designed for software developer a
 Syntax
 ------
 
-``=generic.integration.WxH(Html, Js File, Reload Fn, CSS File)``
+``=generic.integration.WxH(Html, Js File, Reload Fn, CSS File, ShowPreview)``
 
 Arguments
 ---------
 
 .. tabularcolumns:: |l|L|
 
-============= ==================================================================
-Argument      Description
-============= ==================================================================
-``W``         Width in cells
+================ ===============================================================
+Argument         Description
+================ ===============================================================
+``W``            Width in cells
 
-``H``         Height in cells
+``H``            Height in cells
 
-``Html``      An html snippet expressed as a string
+``Html``         An html snippet expressed as a string
 
-``Js File``   **Optional** A path a javascript file
+``Js File``      **Optional** A path a javascript file
 
-``Reload Fn`` **Optional** A javascript function call to be called on reload
-              If you include a ``JS File`` this paramater **IS NOT** optional
+``Reload Fn``    **Optional** A javascript function call to be called on reload
+                 If you include a ``JS File`` this paramater **IS NOT** optional
 
-``CSS File``  **Optional** A path to a css file
-============= ==================================================================
+``CSS File``     **Optional** A path to a css file
+
+``ShowPreview``  **Optional** Should the output appear in the spreadsheet as
+                 a preview or not - can be TRUE or FALSE
+================ ===============================================================
 
 Example
 -------
@@ -72,6 +75,8 @@ This works by:
 
 Everytime the page is requested to re-render by the remoting server the reload function will be called.
 
-You can test this by editing the value of the wiki cell. Everytime you change it the ``Generic.reload()`` function will pop the alert box.
+You can test this by editing the value of the wiki cell. Everytime you change it the ``Generic.reload();`` function will pop the alert box.
 
 This is essentially the mechanism whereby we implement internal web functionality (see for instance the function ``=html.menu(...)``) and how we implement integration functions like ``=facebook.comments(...)``.
+
+.. warning:: Getting the html or javascript wrong in this function can wedge or damange the webpage or even the spreadsheet page.
