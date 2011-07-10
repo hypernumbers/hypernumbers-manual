@@ -1,16 +1,16 @@
-====
-SUMZ
-====
+======
+ZCOUNT
+======
 
 Overview
 --------
 
-The sumz function returns the sum of values returned from a z-query when the z-query is a string. If the z-query is a proper z-query expression then the sum function should be used.
- 
+The zcount function returns the count values returned from a z-query when the z-query is a string. If the z-query is a proper z-query expression then the count function should be used.
+
 Syntax
 ------
 
-``=sumz(Z-query-string)``
+``=zcount(Z-query-string)``
 
 
 Arguments

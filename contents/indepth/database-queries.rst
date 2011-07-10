@@ -26,8 +26,8 @@ Z-queries can be used inside a selection of maths and statistics functions e.g.:
 
 A number of special hypernumbers functions have also been created to cater for z-queries that are constructed from strings, including:
 
-* sumz
-* countz
+* zsum
+* zcount
 
 Z-queries can also be used to generate dynamic lists using the function:
 
@@ -197,8 +197,8 @@ Z-Query Strings
 
 A number of special z-query functions are available to handle z-query references that are strings. These special functions include:
 
-* sumz
-* countz
+* zsum
+* zcount
 
 For example, suppose we have a cell in which we have the following string formula:
 
@@ -206,11 +206,11 @@ For example, suppose we have a cell in which we have the following string formul
 
 We can include strings like this in our use the special z- functions:
 
-``=sumz(”./electricity/”&C4&”/1/”&C5&”/G21”)``
+``=zsum(”./electricity/”&C4&”/1/”&C5&”/G21”)``
 
  If we had “jan” in cell C4 and “meter1” in cell C5 this formula would resolve to:
 
-``=sumz(”./electricity/jan/1/meter1/G21”)``
+``=zsum(”./electricity/jan/1/meter1/G21”)``
 
 and calculate the relevant sum.
 
