@@ -10,26 +10,32 @@ The link function is used to create hyperlinks to other web pages - internal to 
 Syntax
 ------
 
-``=link("Path", "Link_text", Option)``
+``=link("Path", "Link_text", TargetOption, UnderlineOption)``
 
 Arguments
 ---------
 
 .. tabularcolumns:: |l|L|
 
-============= =================================================================
-Argument      Description
-============= =================================================================
-``Path``      A string specifying the path or URL of the page being linked to.
+===================== =========================================================
+Argument              Description
+===================== =========================================================
+``Path``              A string specifying the path or URL of the page being
+                      linked to.
 
-``Link_text`` A string specifying the text to be displayed for the link.
-              Link_text can also be an image or graph.
+``Link_text``         A string specifying the text to be displayed for the
+                      link. Link_text can also be an image or graph.
 
-``Option``    **optional** If Option is ``0`` (DEFAULT) then open the link in
-              the current browser window.
+``TargetOption``      **optional** If TargetOption is ``0`` (DEFAULT) then
+                      open the link in the current browser window.
 
-              If Option is anything else open the link in a new window.
-============= =================================================================
+                      If TargetOption is any other number else open the link
+                      in a new window.
+
+``UnderlineOption``   **optional** If UnderlineOption is ``0`` (DEFAULT) then
+                      show the link underlined. If UnderlineOption is any
+                      other number then don't show the underline
+===================== =========================================================
 
 Example
 -------
