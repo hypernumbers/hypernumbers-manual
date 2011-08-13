@@ -5,7 +5,7 @@ HTML.ZSUBMENU
 Overview
 --------
 
-The `HTML.ZSUBMENU(...)`` function is used to create a drop-down list of hyperlinks; to other hypernumbers pages or other websites. The function only works when incorporated inside the html.menu.W function.
+The ``HTML.ZSUBMENU(...)`` function is used to create a drop-down list of hyperlinks; to other hypernumbers pages or other websites. The function only works when incorporated inside the html.menu.W function.
 
 Syntax
 ------
@@ -29,4 +29,7 @@ Argument    Description
             0 - the menu will display the path of the page **DEFAULT**
 
             1 - the menu will display the value of the cell in the z-query
+
+            2 - the menu will display the value of the terminal segment of
+            of the path in the menu
 =========== ====================================================================
