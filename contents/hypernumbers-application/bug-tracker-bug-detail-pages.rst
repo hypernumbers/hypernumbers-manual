@@ -14,7 +14,7 @@ We:
 
 #. Type the name of the page ``/bugs/0000001/opened/`` into the input field in the highlighted section
 #. Select a ``blank`` spreadsheet page
-#. Click the `New`` button.
+#. Click the ``New`` button.
 
 Following the layout of the paper prototype we constructed earlier, we would start building up our spreadsheet logic and end up as shown below:
 
