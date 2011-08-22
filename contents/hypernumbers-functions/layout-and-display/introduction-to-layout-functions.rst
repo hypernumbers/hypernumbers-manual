@@ -19,7 +19,7 @@ A number of layout and display functions are available to enhance the visual app
    INCLUDE           <include>
    LOREM.HEADLINE    <lorem-headline>
    LOREM.IPSUM       <lorem-ipsum>
-   TABLE             <table>
+   TABLE.WxH         <table>
    VERTICAL.LINE.H   <vertical-line>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
