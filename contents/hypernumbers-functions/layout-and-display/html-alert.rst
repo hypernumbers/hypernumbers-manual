@@ -5,7 +5,7 @@ HTML.ALERT.WxH
 Overview
 --------
 
-The ``html.alert.WxH``  function is used to create stylised display boxes that enhance the presentation of content on web and wikipages based on a specified style.
+The ``html.alert.WxH`` function is used to create stylised display boxes that enhance the presentation of content on web and wikipages based on a specified style.
 
 Syntax
 ------
