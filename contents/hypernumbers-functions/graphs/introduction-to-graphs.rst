@@ -14,6 +14,7 @@ In hypernumbers (and unlike in Excel) graphs are created in the spreadsheet as c
    LINEGRAPH.WxH <linegraph>
    PIECHART.WxH  <piechart>
    SPARKBAR.WxH  <sparkbar>
+   SPARKHIST.WxH <sparkhist>
    SPARKLINE.WxH <sparkline>
    SPEEDO.WxH    <speedo>
    STATUS.BAR    <status-bar>

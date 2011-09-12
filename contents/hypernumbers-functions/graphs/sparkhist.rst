@@ -1,22 +1,20 @@
-============
-SPARKBAR.WxH
-============
+=============
+SPARKHIST.WxH
+=============
 
 Overview
 --------
 
-The sparkbar.WxH function creates a (multi-line) sparkbar graph across W columns and H rows relative to the cell where the function is entered.
+The sparkhist.WxH function creates a (multi-line) spark histogram graph across W columns and H rows relative to the cell where the function is entered.
 
-This function cuts the bottoms of the bars of to show the differences and the trends more strongly.
+If you are only interested in trends you should consider the function sparkbar which renormalises the data and just shows the change.
 
-If you need faithful representation of the data and not the differnce consider using the sparkhist function.
-
-The examples contain a side by side view of the two types of spark graphs.
+See the examples for the difference.
 
 Syntax
 ------
 
-``=sparkbar.WxH(Type, NoOfYs, Yrange1, Yrange2, ...)``
+``=sparkhist.WxH(Type, NoOfYs, Yrange1, Yrange2, ...)``
 
 
 Arguments
@@ -31,9 +29,13 @@ Argument     Description
              results e.g. 5x10 will result in a graph displaying across 5 rows and 10
              columns relative to the cell where the function is input.
 
-``Type``     ``0`` - vertical bars
+``Type``     ``0`` - vertical grouped bars
 
-             ``1`` - horizontal bar
+             ``1`` - vertical stacked bars
+
+             ``2`` - horizontal grouped bar
+
+             ``3`` - vertical stacked bars
 
 ``NoOfYs``   An integer value that tells the function how many line series to draw
              e.g. 3. Must be at least 1.
@@ -47,12 +49,12 @@ Argument     Description
 Example 1
 ---------
 
-Below the four different sparkbars are shown.
+Below the four different sparkhists are shown.
 
-.. image:: /images/example-sparkbar.png
+.. image:: /images/example-sparkhist.png
    :scale: 100 %
    :align: center
-   :alt: Example hypernumbers sparkbar function
+   :alt: Example hypernumbers sparkhist function
 
 Example 2
 ---------
