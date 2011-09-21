@@ -10,7 +10,7 @@ If you need to crunch lots of data, 100,000's of rows of it, at high speed, you 
 
 If you need the following spreadsheet functionality it is not supported in Hypernumbers:
 
-* pivot tables - use Excel, Open Office or Google Groups
+* pivot tables - use Excel, Open Office or Google Docs
 * live integration with databases
 * headers and footers and other printing-focussed features
 * conditional formatting
