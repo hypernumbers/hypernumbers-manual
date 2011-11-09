@@ -17,6 +17,7 @@ Appending forms allow you to capture data via webpage and wikipage views and sto
 Forms can be constructed using any of the following form elements:
 
 *	Input fields
+* Non-editable or fixed-value fields
 *	Drop-down or selection lists
 *	Large input text areas
 *	Radio buttons
@@ -50,6 +51,7 @@ You can also build forms using the toolbar where all the available form elements
 In hypernumbers, form elements used in appending forms, are functions (see cell ``B2`` in the diagram above) that are entered in cells. The syntax of these form element functions are:
 
 * ``=INPUT("label")``
+* ``=FIXEDVAL("label", "value", boolean)``
 * ``=TEXTAREA("label")``
 * ``=RADIO("label", {"option1","option2","option3",...})``
 * ``=SELECT("label", {"option1","option2","option3",...})``
@@ -60,6 +62,7 @@ Where,
 * “label”, "ButtonLabel", "SubmitResponseMessage", "PageToPostDataTo" can be strings or references to other cells e.g. the question text
 * {"option1","option2","option3",...} can be entered as strings to reference a cell range e.g. /lookup-data/a1:a10
 * "PageToPostDataTo"  specifies which page to post and append each submitted response e.g. /responses/ or ../user-submits/ etc.
+* "boolean" is either TRUE or FALSE
 
 
 Wikiforms

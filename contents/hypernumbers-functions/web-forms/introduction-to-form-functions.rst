@@ -8,6 +8,7 @@ There are a number of functions that enable yout to make forms in hypernumbers. 
    :maxdepth: 1
 
    BUTTON   <button>
+   FIXEDVAL <fixedval>
    INPUT    <input>
    RADIO    <radio>
    SELECT   <select>
