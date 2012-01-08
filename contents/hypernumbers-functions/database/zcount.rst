@@ -22,7 +22,10 @@ Argument              Description
 ``z-query-string``    A z-query string.
 ====================  ===========================================================================
 
+
 Example
 -------
 
-See section hypernumbers database queries
+See section hypernumbers `Database Queries`_.
+
+.. _Database Queries: ../../../contents/indepth/database-queries.html

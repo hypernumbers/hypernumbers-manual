@@ -1,16 +1,16 @@
-====
-ZSUM
-====
+=====
+ZMODE
+=====
 
 Overview
 --------
 
-The ``ZSUM`` function returns the sum of values returned from a z-query when the z-query is a string. If the z-query is a proper z-query expression then the ``SUM`` function should be used.
+The ``ZMODE`` eturns the mode returned from a z-query when the z-query is a string. If the z-query is a proper zquery expression then the ``MODE`` function should be used.
 
 Syntax
 ------
 
-``=zsum(Z-query-string)``
+``=ZMODE(Z-query-string)``
 
 
 Arguments
@@ -26,6 +26,6 @@ Argument              Description
 Example
 -------
 
-See section hypernumbers `Database Queries`_.
+See the section hypernumbers `Database Queries`_.
 
 .. _Database Queries: ../../../contents/indepth/database-queries.html

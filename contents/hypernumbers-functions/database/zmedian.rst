@@ -1,16 +1,17 @@
-====
-ZSUM
-====
+=======
+ZMEDIAN
+=======
 
 Overview
 --------
 
-The ``ZSUM`` function returns the sum of values returned from a z-query when the z-query is a string. If the z-query is a proper z-query expression then the ``SUM`` function should be used.
+The ``ZMEDIAN`` eturns the median value returned from a z-query when the z-query is a string. If the z-query is a proper zquery expression then the ``MEDIAN`` function should be used.
+
 
 Syntax
 ------
 
-``=zsum(Z-query-string)``
+``=ZMEDIAN(Z-query-string)``
 
 
 Arguments
@@ -26,6 +27,7 @@ Argument              Description
 Example
 -------
 
-See section hypernumbers `Database Queries`_.
+See the section hypernumbers `Database Queries`_.
 
 .. _Database Queries: ../../../contents/indepth/database-queries.html
+

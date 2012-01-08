@@ -16,9 +16,16 @@ Syntax
 
 Number1, Number2... are an infinite number of numerical values or ranges.
 
+Z-Order
+-------
+
+In Hypernumbers as well as taking normal row and column references, `MAX` can take z-references. See the section on `Database Queries`_ for more details.
+
 Example
 -------
 
 ``=MAX(A1;A2,A3,50,100,200)`` returns the largest value from the list.
 
 ``=MAX(A1:B100)`` returns the largest value from the list.
+
+.. _Database Queries: ./contents/indepth/database-queries.html

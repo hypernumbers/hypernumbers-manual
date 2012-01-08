@@ -16,7 +16,14 @@ Syntax
 
 Number1, Number2... are an infinite number of numerical values or ranges.
 
+Z-Order
+-------
+
+In Hypernumbers as well as taking normal row and column references, ``SUM`` can take z-references. See the section on `Database Queries`_ for more details.
+
 Example
 -------
 
-``=MIN(A1:B100)`` returns the smallest value in the list. 
+``=MIN(A1:B100)`` returns the smallest value in the list.
+
+.. _Database Queries: ./contents/indepth/database-queries.html
