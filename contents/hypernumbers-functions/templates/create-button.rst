@@ -79,7 +79,7 @@ Naming examples
 ``/[TEMPLATE, auto, random, PREFIX]/``       creates segment of form quote-ab12cd34ef98765 if
                                              PREFIX = quote-
 
-``/[TEMPLATE, data, FORMAT]/``               creates a segment using reserved name formats
+``/[TEMPLATE, date, FORMAT]/``               creates a segment using reserved name formats
 ==========================================   ======================================================
 
 where FORMAT is one of the following:
@@ -92,7 +92,7 @@ yyyy         2003
 m            2
 mm           02
 mmm    	     Feb
-mmmm 	     February
+mmmm         February
 d            1
 dd           01
 ddd          Sat
