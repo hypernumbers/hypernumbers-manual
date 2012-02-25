@@ -20,6 +20,7 @@ A number of layout and display functions are available to enhance the visual app
    LOREM.HEADLINE    <lorem-headline>
    LOREM.IPSUM       <lorem-ipsum>
    TABLE.WxH         <table>
+   TOGGLE.VIEWS      <toggle-views>
    VERTICAL.LINE.H   <vertical-line>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
