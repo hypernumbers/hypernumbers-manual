@@ -103,6 +103,7 @@ Hypernumbers Functions Reference
    Graph Functions                           <contents/hypernumbers-functions/graphs/introduction-to-graphs>
    Layout And Display Functions               <contents/hypernumbers-functions/layout-and-display/introduction-to-layout-functions>
    Navigation Functions                       <contents/hypernumbers-functions/navigation/introduction-to-navigation-functions>
+   Phone And Email Functions                  <contents/hypernumbers-functions/phone-and-email/introduction-to-phone-and-email-functions>
    Social Media And Web Integration Functions <contents/hypernumbers-functions/social-media-and-web-integration/introduction-to-social-media>
    Special Functions                          <contents/hypernumbers-functions/special/introduction-to-special-fns>
    Template Functions                         <contents/hypernumbers-functions/templates/template-functions-introduction>
