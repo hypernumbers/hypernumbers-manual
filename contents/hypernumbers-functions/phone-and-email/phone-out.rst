@@ -29,6 +29,8 @@ Dialling Code  **Optional** The dialling code may be either a standard 2
 
 .. warning:: There is a recurring charge for setting a site up to use telephony. In addition this function incurs a call charge *per call*.
 
+.. note:: if telphony has not been purchased for a site this function will throw a ``#PAYONLY!`` error.
+
 Example
 -------
 

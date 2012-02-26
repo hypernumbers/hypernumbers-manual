@@ -9,8 +9,11 @@ There are a number of functions that deal with phone and email.
 .. toctree::
    :maxdepth: 1
 
-   MANUAL.EMAIL <manual-email.rst>
-   PHONE.OUT    <phone-out.rst>
+   AUTO.EMAIL     <auto-email.rst>
+   AUTO.SMS.OUT   <auto-sms-out.rst>
+   MANUAL.EMAIL   <manual-email.rst>
+   MANUAL.SMS.OUT <manual-sms-out.rst>
+   PHONE.OUT      <phone-out.rst>
 
 .. note:: Some of the phone functions use country codes to lookup dialing codes. These are listed separately.
 

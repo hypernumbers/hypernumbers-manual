@@ -1,16 +1,16 @@
-============
-MANUAL.EMAIL
-============
+==========
+AUTO.EMAIL
+==========
 
 Overview
 --------
 
-``=MANUAL.EMAIL(...)`` allows a user to manually send an email.
+``=AUTO.EMAIL(...)`` sends an email when condition is met.
 
 Syntax
 ------
 
-``=manual.email(To, Subject, Contents, CC, Reply)``
+``=manual.email(Conodition, To, Subject, Contents, CC, Reply)``
 
 Arguments
 ---------
@@ -18,6 +18,9 @@ Arguments
 ============== ===============================================================
 Argument       Description
 ============== ===============================================================
+Condition      If the value is TRUE the email is sent, if it is FALSE
+               it is not
+
 To             The email address (or list of email addresses separated by
                spaces, commas or semi-colons of the people to whom the e-mail
                is to be sent
@@ -38,16 +41,11 @@ Reply          **OPTIONAL** the name of the email account in which the email
 
 .. note:: if email connectivity has not been purchased for a site this function will throw a ``#PAYONLY!`` error.
 
-
 Example
 -------
 
-Entering the expression ``=manual.email("gordon@hypernumbers.com", "Hello World", lorem.ipsum(250), "bob@hypernumbers.com", "jim")`` creates a manual email button:
-
-.. figure:: /images/example-manual-email.png
-
-When pressed this sends the email.
+Entering the expression ``=auto.email(true, "gordon@hypernumbers.com", "Hello World", lorem.ipsum(250), "bob@hypernumbers.com", "jim")`` sends an email.
 
 The email is logged on the page ``_contact`` underneath the page where the control is located.
 
-.. figure:: /images/example-manual-email2.png
+.. figure:: /images/example-auto-email.png
