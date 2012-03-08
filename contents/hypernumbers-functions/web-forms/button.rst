@@ -12,7 +12,7 @@ The button is the key part of a form. The button function is the one that collec
 Syntax
 ------
 
-``=BUTTON(Title, Response, ResultsPage)``
+``=BUTTON(Title, Response, ResultsPage, Emails)``
 
 Arguments
 ---------
@@ -27,6 +27,10 @@ Argument              Description
 
 ``ResultsPage``       **optional** the page to post the data to. Defaults to
                       ``./replies/``
+
+``Emails``            **optional** a list of emails seperated by spaces,
+                      commas or semicolons to which an email should be send
+                      when someone submits the form.
 ====================  =========================================================
 
 Example
