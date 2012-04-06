@@ -3,7 +3,7 @@ echo "deleting old contents"
 rm -rf contents
 rm -rf _images
 rm -rf _static
-rm -rs sources
+rm -rf sources
 rm objects.inv
 rm searchindex.js
 rm search.html
