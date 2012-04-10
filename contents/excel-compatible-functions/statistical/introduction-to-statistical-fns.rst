@@ -2,7 +2,7 @@
 Excel-Compatible Statistical Functions
 ======================================
 
-The following Excel-compatible statistical functions are implemented in Hypernumbers:
+The following Excel-compatible statistical functions are implemented in Vixo:
 
 .. toctree::
    :maxdepth: 1

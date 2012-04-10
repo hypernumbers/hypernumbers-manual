@@ -19,7 +19,7 @@ Number1, Number2... are an infinite number of numerical values or ranges.
 Z-Order
 -------
 
-In Hypernumbers as well as taking normal row and column references, `MAX` can take z-references. See the section on `Database Queries`_ for more details.
+In Vixo as well as taking normal row and column references, `MAX` can take z-references. See the section on `Database Queries`_ for more details.
 
 Example
 -------

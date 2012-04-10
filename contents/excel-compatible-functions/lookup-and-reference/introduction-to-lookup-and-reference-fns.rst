@@ -2,7 +2,7 @@
 Excel-Compatible Lookup And Reference Functions
 ===============================================
 
-The following Excel-compatible lookup and reference functions are implemented in Hypernumbers.
+The following Excel-compatible lookup and reference functions are implemented in Vixo.
 
 .. toctree::
    :maxdepth: 1

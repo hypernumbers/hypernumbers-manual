@@ -2,7 +2,7 @@
 Excel-Compatible Text Functions
 ===============================
 
-The following Excel-compatible text functions are implemented in Hypernumbers:
+The following Excel-compatible text functions are implemented in Vixo:
 
 .. toctree::
    :maxdepth: 1
@@ -27,7 +27,7 @@ The following Excel-compatible text functions are implemented in Hypernumbers:
    UPPER       <upper>
    VALUE       <value>
 
-.. warning:: There are some functions with are similar to Excel functions but which reflect the different underlying properties of text in Hypernumbers
+.. warning:: There are some functions with are similar to Excel functions but which reflect the different underlying properties of text in Vixo
 
 .. toctree::
    :maxdepth: 1

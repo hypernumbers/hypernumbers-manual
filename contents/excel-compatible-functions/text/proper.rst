@@ -17,4 +17,4 @@ Text refers to the text to be converted.
 Example
 -------
 
-``=PROPER("the hypernumbers spreadsheet")`` returns The Hypernumbers Spreadsheet
+``=PROPER("the vixo spreadsheet")`` returns The Vixo Spreadsheet

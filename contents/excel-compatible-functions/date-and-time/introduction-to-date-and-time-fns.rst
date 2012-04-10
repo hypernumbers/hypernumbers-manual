@@ -2,7 +2,7 @@
 Excel-Compatible Date And Time Functions
 ========================================
 
-The following Excel-compatible date and time functions are implemented in Hypernumbers:
+The following Excel-compatible date and time functions are implemented in Vixo:
 
 .. toctree::
    :maxdepth: 1

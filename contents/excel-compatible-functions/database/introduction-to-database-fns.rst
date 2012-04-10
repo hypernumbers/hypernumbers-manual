@@ -2,7 +2,7 @@
 Excel-Compatible Database Functions
 ===================================
 
-The following Excel-compatible database functions are implemented in Hypernumbers:
+The following Excel-compatible database functions are implemented in Vixo:
 
 .. toctree::
    :maxdepth: 1

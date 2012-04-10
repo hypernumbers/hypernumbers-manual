@@ -1,10 +1,10 @@
-====================================
-Getting To Know Hypernumbers Indepth
-====================================
+============================
+Getting To Know Vixo Indepth
+============================
 
-This chapter explores a number of topics about Hypernumbers is some more depth.
+This chapter explores a number of topics about Vixo is some more depth.
 
-The previous chapter *Getting To Know Hypernumbers* skimmed over a lot of things, but here they will be discussed in detail.
+The previous chapter *Getting To Know Vixo* skimmed over a lot of things, but here they will be discussed in detail.
 
 Topics discussed include:
 
@@ -14,5 +14,5 @@ Topics discussed include:
 * Audit
 * Permissions
 * Database Queries (z-queries)
-* Data Upload 
+* Data Upload
 

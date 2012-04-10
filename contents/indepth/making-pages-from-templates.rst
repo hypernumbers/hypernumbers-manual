@@ -15,7 +15,7 @@ Some example templates you might have seen or used include:
 •	Calculator templates
 •	etc. etc.
 
-In hypernumbers the opportunities to capitalise on the use of templates in a fully-functioning workflow system is immense - as it is possible to create templates that incorporate a combination of:
+In vixo the opportunities to capitalise on the use of templates in a fully-functioning workflow system is immense - as it is possible to create templates that incorporate a combination of:
 
 •	GUI elements
 •	business logic

@@ -4,7 +4,7 @@ Making Forms
 Overview
 --------
 
-Forms are a useful way of gathering data from end-users in many web application settings. In hypernumbers there are two form types that can be created:
+Forms are a useful way of gathering data from end-users in many web application settings. In vixo there are two form types that can be created:
 
 *	Appending forms
 *	Wikiforms
@@ -28,7 +28,7 @@ Creating an appending form is easy:
 .. image:: /images/appending-form-creation.png
    :scale: 100 %
    :align: center
-   :alt: Creating a hypernumbers webform
+   :alt: Creating a vixo webform
 
 #.	Select a range of cells in the spreadsheet (in this instance ``A2:B8``), right-click (to get the right-click menu) and select  the Create Form option.
 #.	This will add a form with a number of basic input elements to the selected cells along with default question text alongside (e.g. “Question 1:”), a form submit button and a link to the page where the responses will be posted – the default response page being a sub-page of the current page named ``/current-page-path/replies/``.  You can then start to customise the form by adding appropriate questions, merging input cells to be larger and changing form elements via the toolbar menu.
@@ -39,16 +39,16 @@ Data submitted via this form would be posted to a page as rows and columns thus:
 .. image:: /images/appending-form-responses-spreadsheet.png
    :scale: 100 %
    :align: center
-   :alt: Hypernumbers webform responses spreadsheet
+   :alt: Vixo webform responses spreadsheet
 
 You can also build forms using the toolbar where all the available form elements are provided. This approach has the benefit of providing more control over the placement of form elements. You simply select a cell and click the desired form element on the toolbar. The form element will be added to the selected cell. By repeating this process you can construct a highly structured form layouts.
 
 .. image:: /images/appending-form-example.png
    :scale: 100 %
    :align: center
-   :alt: Hypernumbers webform example
+   :alt: Vixo webform example
 
-In hypernumbers, form elements used in appending forms, are functions (see cell ``B2`` in the diagram above) that are entered in cells. The syntax of these form element functions are:
+In vixo, form elements used in appending forms, are functions (see cell ``B2`` in the diagram above) that are entered in cells. The syntax of these form element functions are:
 
 * ``=INPUT("label")``
 * ``=FIXEDVAL("label", "value", boolean)``
@@ -84,7 +84,7 @@ Inline wiki elements are created in spreadsheet cells. When data is entered via 
 .. image:: /images/wikiform-views.png
    :scale: 100 %
    :align: center
-   :alt: Hypernumbers wikiform views
+   :alt: Vixo wikiform views
 
 The wiki input field (identifiable in the spreadsheet view via the little red triangle in the top-left corner of the cell) allows you to collect unvalidated data and is useful for collecting user information where there are no pre-defined answers or valid values.
 

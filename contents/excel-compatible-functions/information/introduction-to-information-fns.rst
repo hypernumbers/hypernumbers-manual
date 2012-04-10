@@ -2,9 +2,9 @@
 Excel-Compatible Information Functions
 ======================================
 
-The following Excel-compatible functions are implemented in Hypernumbers.
+The following Excel-compatible functions are implemented in Vixo.
 
-.. warning :: some of the error functions have been extended to include new error vaules specific to Hypernumbers.
+.. warning :: some of the error functions have been extended to include new error vaules specific to Vixo.
 
 .. toctree::
    :maxdepth: 1

@@ -4,7 +4,7 @@ TIMEVALUE
 
 TIMEVALUE returns the internal time number from a text enclosed by quotes and which may show a possible time entry format.
 
-The internal number indicated as a decimal is the result of the hypernumbers system date.
+The internal number indicated as a decimal is the result of the vixo system date.
 
 If the text string also includes a year, month, or day, TIMEVALUE only returns the fractional part of the conversion.
 

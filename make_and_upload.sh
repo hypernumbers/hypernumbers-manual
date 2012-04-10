@@ -8,12 +8,12 @@ cd ./_build/latex
 echo "making pdf"
 make all-pdf
 echo "uploading pdf"
-scp BuildingApplicationsWithHypernumbers.pdf gordon@hypernumbers.com:/hn/files-www/documentation/files/
+scp BuildingApplicationsWithVixo.pdf gordon@hypernumbers.com:/hn/files-www/vixo/documentation/files/
 cd ../html
 echo "tarring and zipping html"
 tar -cvf doco.tar *
 gzip doco.tar
 echo "uploading zipped html"
-scp doco.tar.gz gordon@hypernumbers.com:/hn/files-www/documentation/
+scp doco.tar.gz gordon@hypernumbers.com:/hn/files-www/vixo/documentation/
 cd /home/gordon/manual
 echo "over and out..."

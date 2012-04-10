@@ -13,7 +13,7 @@ When a function expects a single value, but you entered a cell range, then the v
 
 If the entered range is outside of the current column or row of the formula, the function returns the error value #VALUE!
 
-**AND handles arrays differently in Hypernumbers, need to see if it matters...**
+**AND handles arrays differently in Vixo, need to see if it matters...**
 
 Syntax
 ------
@@ -29,4 +29,4 @@ The logical values of entries 12<13; 14>12, and 7<6 are to be checked:
 
 ``=AND(12<13,14>12,7<6)`` returns FALSE.
 
-``=AND (FALSE,TRUE)`` returns FALSE. 
+``=AND (FALSE,TRUE)`` returns FALSE.

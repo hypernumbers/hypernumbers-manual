@@ -15,16 +15,16 @@ These are known as the application’s user permissions and help ensure that use
 
 In this section we will cover:
 
-*	How hypernumbers permissions work
+*	How vixo permissions work
 *	How to apply permissions using the views menu
 *	How to develop and map out your application’s various user permissions.
 
 How hypernumber permissions work
 --------------------------------
 
-In hypernumbers, all user-related permissions (covering access and user operations) are assigned and controlled at page level. This is achieved by assigning appropriate views to an application page for each of the usergroups who will have access to the page.
+In vixo, all user-related permissions (covering access and user operations) are assigned and controlled at page level. This is achieved by assigning appropriate views to an application page for each of the usergroups who will have access to the page.
 
-As we’ve seen, there are 4 possible types of view of a hypernumbers page that can be presented to an end user. Each of these view type controls the operations the user can perform on a page, as summarised below:
+As we’ve seen, there are 4 possible types of view of a vixo page that can be presented to an end user. Each of these view type controls the operations the user can perform on a page, as summarised below:
 
 .. image :: /images/permissions-model.png
 
@@ -35,7 +35,7 @@ This in effect allows the programmer to apply cell level security to pages and s
 *	if you want to give view only access to a page then set the page as a webpage and no cells on the spreadsheet can be changed
 *	if you want to allow users to change input into some cells but protect other cells (e.g. formulae) then you can use the wikipage
 
-Pages can also be set as private or public which controls whether the user needs to log on to an application to access it’s pages. Setting a page as private means that users need to have appropriate log on credentials and be logged on to the application to access the page. The page is secure. If a page is set as public, no logon is required to access the page. Setting pages as private provides authentication control for applications built in hypernumbers.
+Pages can also be set as private or public which controls whether the user needs to log on to an application to access it’s pages. Setting a page as private means that users need to have appropriate log on credentials and be logged on to the application to access the page. The page is secure. If a page is set as public, no logon is required to access the page. Setting pages as private provides authentication control for applications built in vixo.
 
 Separate page configurations like this can be set up for each application user though it is more efficient to set up permissions around types of users or usergroups. This means setting up a few relevant usergroups to control what users (in the usergroup) can and can’t do. An individual user’s access to and edit properties on each application pages is conferred on them by their membership of particular usergroups. And when you want to add new users with specific permissions you simply add the user to the relevant usergroup.
 
@@ -101,7 +101,7 @@ The steps to add a user to a usergroup are:
 
 When the new user follows the link, in the invitation email, they’ll arrive at the page you’ve invited them to.
 
-The user can use the hypernumbers tab at the top right of the browser window create a password. Simply hover over the hypernumbers tab and click the ``Change Password`` link to create a password. The users email and newly reset password will be their log on credentials to access the application.
+The user can use the vixo tab at the top right of the browser window create a password. Simply hover over the vixo tab and click the ``Change Password`` link to create a password. The users email and newly reset password will be their log on credentials to access the application.
 
 **Special usergroups - user and guest**
 
@@ -164,11 +164,11 @@ Specifying these user groups can be done in a number of ways dependant and relev
 
 In a traditional IT development, it is recommended to pre-determine the user access model before any programming begins. For spreadsheet users the development process is typically much more agile, iterative, incremental and fluid in nature; you do some ‘programming’, rearrange data and logic about the grid or sheets, add new layers, etc, etc.; then do some more ‘programming’. To add access control considerations into this process is quite challenging – especially if your previous security approach involved redmarking areas of the spreadsheet as “don’t touch” areas.
 
-In hypernumbers it’s easy to apply your access control model retrospectively. All you have to do is work on the functionality, business logic, templates etc. that will be used. When you’re satisfied with how the application works you can then start to consider users, groups of users, what they should get access to and what operations each user/user group will be allowed to perform.
+In vixo it’s easy to apply your access control model retrospectively. All you have to do is work on the functionality, business logic, templates etc. that will be used. When you’re satisfied with how the application works you can then start to consider users, groups of users, what they should get access to and what operations each user/user group will be allowed to perform.
 
 So, you’ve created your application page structure. On each page you’ve set your default page views, designed the layouts and included calculations,  wiki elements, forms, links, template create buttons etc. etc.. And now you want to set up your user (groups) access model.
 
-The following approach is offered as a heuristic one that we at hypernumbers have found quite easy to follow as a retrospective solution. The steps involved are:
+The following approach is offered as a heuristic one that we at vixo have found quite easy to follow as a retrospective solution. The steps involved are:
 
 #.	List all the fixed pages and examples of instance pages (i.e. those to be created from templates using the create button) as the first column in a table. You should highlight instanced pages so as to differentiate them from fixed pages.
 #.	Set out user groups as subsequent column headings.

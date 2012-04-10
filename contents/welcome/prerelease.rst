@@ -2,7 +2,7 @@
 Prerelease Version Of The Documenation
 ======================================
 
-Our strategic aim is to make this documentation a downloadable and printable book which will enable spreadsheet users to build their own web applications on the Hypernumbers platform.
+Our strategic aim is to make this documentation a downloadable and printable book which will enable spreadsheet users to build their own web applications on the Vixo platform.
 
 The book needs to comprehensive, comprehensible and correct.
 
