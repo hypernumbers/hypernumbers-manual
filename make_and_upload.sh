@@ -11,6 +11,7 @@ echo "uploading pdf"
 scp BuildingApplicationsWithVixo.pdf gordon@hypernumbers.com:/hn/files-www/vixo/documentation/files/
 cd ../html
 echo "tarring and zipping html"
+rm doco.tar.gz
 tar -cvf doco.tar *
 gzip doco.tar
 echo "uploading zipped html"
