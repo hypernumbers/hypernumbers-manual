@@ -14,7 +14,7 @@ You can use the merge cells feature to determine the exact size the table will u
 Syntax
 ------
 
-``=ztable.WxH(cell(s), z-query,  <sortcol>, <haslink>)``
+``=ztable.WxH(cell(s), z-query,  <sortcol>, <direction>, <haslink>)``
 
 Arguments
 ---------
@@ -48,6 +48,9 @@ Argument      Description
               be displayed as it falls in the range.
               If a negative sort order is specified the rows of the range
               are reversed.
+
+``direction`` **Optional**. Determines which direction to sort it
+              Can be TRUE (for ascending) or FALSE (for descending).
 
 ``haslink``   **Optional**. Determines whether or not there is a column
               in the table which contains links to the pages or not.
