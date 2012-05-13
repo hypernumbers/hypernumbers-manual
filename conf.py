@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Building Applications With Vixo'
-copyright = u'2011, Hypernumbers Ltd'
+copyright = u'2011, Hypernumbers Ltd (trading as vixo.com)'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -100,21 +100,21 @@ html_theme = 'default'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {"rightsidebar": "false",
-                      "footerbgcolor": "teal",
+                      "footerbgcolor": "black",
                       "footertextcolor": "white",
-                      "sidebarbgcolor": "teal",
+                      "sidebarbgcolor": "black",
                       "sidebartextcolor": "white",
                       "sidebarlinkcolor": "lightgrey",
-                      "relbarbgcolor": "teal",
+                      "relbarbgcolor": "black",
                       "relbartextcolor": "white",
                       "relbarlinkcolor": "lightgrey",
                       "bgcolor": "white",
-                      "textcolor": "teal",
-                      "linkcolor": "darkorange",
-                      #"visitedlinkcolor": "purple",
+                      "textcolor": "black",
+                      "linkcolor": "blue",
+                      "visitedlinkcolor": "purple",
                       "headbgcolor": "#fff",
-                      "headtextcolor": "teal",
-                      "headlinkcolor": "darkorange",
+                      "headtextcolor": "darkorange",
+                      "headlinkcolor": "teal",
                       "codebgcolor": "eee",
                       "codetextcolor": "teal",
                       "bodyfont": "calibri, sans-serif",
@@ -126,7 +126,7 @@ html_theme_options = {"rightsidebar": "false",
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "Building Applications With Vixo (Prerelease)"
+html_title = "Building Applications With Vixo"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
