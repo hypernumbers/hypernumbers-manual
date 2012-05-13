@@ -104,6 +104,7 @@ Vixo Functions Reference
    Layout And Display Functions               <contents/vixo-functions/layout-and-display/introduction-to-layout-functions>
    Navigation Functions                       <contents/vixo-functions/navigation/introduction-to-navigation-functions>
    Phone And Email Functions                  <contents/vixo-functions/phone-and-email/introduction-to-phone-and-email-functions>
+   Site Administration Functions              <contents/vixo-functions/site-administration/introduction-to-site-administration-functions>
    Social Media And Web Integration Functions <contents/vixo-functions/social-media-and-web-integration/introduction-to-social-media>
    Special Functions                          <contents/vixo-functions/special/introduction-to-special-fns>
    Template Functions                         <contents/vixo-functions/templates/template-functions-introduction>
