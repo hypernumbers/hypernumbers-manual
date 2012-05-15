@@ -7,10 +7,13 @@ Overview
 
 ``GOOGLE.BUYNOW`` creates a Google Buy Now button on a web or wiki page.
 
+.. warning:: For this function to work you need to have a Google Merchant account and you need to contact Vixo to setup your website to work with it. If you do not you will get a ``#NOTSETUP!`` error.
+
+
 Syntax
 ------
 
-``=google.buynow((Merchant, Currency, ItemName, ItemDesc, Price, Quantity, Bg)``
+``=google.buynow(Currency, ItemName, ItemDesc, Price, Quantity, Bg)``
 
 Arguments
 ---------
@@ -20,12 +23,6 @@ Arguments
 ================= =============================================================
 Argument          Description
 ================= =============================================================
-``Merchant``      Your Google Merchant ID. You need to register with Google
-                  Checkout to get one of these.
-
-                  **If Google asks you to validate your website, get in touch
-                  with us...**
-
 ``Currency``      A currency that Google accepts payments in. The currency
                   code is one of the following ISO 4217 currency descriptons:
 

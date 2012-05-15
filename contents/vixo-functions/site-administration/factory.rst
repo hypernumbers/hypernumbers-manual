@@ -8,7 +8,7 @@ Overview
 
 ``=FACTORY.WxH(...)`` is a special function that enables a vixo site to create other vixo sites. It is used when someone builds a site of a particular type and needs to create lots of instances of it.
 
-.. warning:: this function will only work on sites that are configured to be a factory sites. If the site is not so configured it will throw a #NOTFACTORY! error.
+.. warning:: this function will only work on sites that are configured to be a factory sites. If the site is not so configured it will throw a #NOTSETUP! error.
 
 Syntax
 ------
