@@ -7,11 +7,13 @@ A number of layout and display functions are available to enhance the visual app
 .. toctree::
    :maxdepth: 1
 
+   ANCHOR            <anchor>
    HORIZONTAL.LINE.W <horizontal-line>
-   HTML               <html>
+   HTML              <html>
    HTML.ALERT.WxH    <html-alert>
    HTML.BOX.WxH      <html-box>
    HTML.HEADLINE.WxH <html-headline>
+   HTML.PANEL        <html-panel>
    HTML.PLAINBOX.WxH <html-plainbox>
    HTML.RULEDBOX.WxH <html-ruledbox>
    IFRAME            <iframe>

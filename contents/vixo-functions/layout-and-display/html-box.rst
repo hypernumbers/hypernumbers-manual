@@ -5,7 +5,7 @@ HTML.BOX.WxH
 Overview
 --------
 
-The ``html.box.WxH``  function is used to create stylised display boxes that enhance the presentation on web and wikipages.
+The ``html.box.WxH`` function is used to create stylised display boxes that enhance the presentation on web and wikipages.
 
 Syntax
 ------
@@ -20,10 +20,8 @@ Arguments
 =========== ================================================================
 Argument    Description
 =========== ================================================================
-``WxH``     Specifies the number of rows and columns in which to autofill
-            the graph results e.g. 5x10 will result in a graph displaying
-            across 5 rows and 10 columns relative to the cell where the
-            function is input.
+``WxH``     Specifies the size of the box in terms of the number of rows
+            and columns
 
 ``Body``    Specifies what is to appear in the body. Valid entries include
             a string, a cell reference, function, string, image, link.

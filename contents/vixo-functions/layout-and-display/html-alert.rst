@@ -20,10 +20,8 @@ Arguments
 =============== ================================================================
 Argument        Description
 =============== ================================================================
-``WxH``         Specifies the number of rows and columns in which to autofill
-                the graph results e.g. 5x10 will result in a graph displaying
-                across 5 rows and 10 columns relative to the cell where the
-                function is input.
+``WxH``         Specifies the size of the box in terms of the number of rows and
+                columns
 
 ``Style``       Specifies the style of the display box as an integer:
 
