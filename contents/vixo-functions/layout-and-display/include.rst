@@ -12,7 +12,7 @@ as well*.
 Syntax
 ------
 
-``=include(target)``
+``=include(target, <title>)``
 
 
 Arguments
@@ -24,6 +24,9 @@ Arguments
 Argument    Description
 =========== ====================================================================
 ``Target``  A cell or range of cells
+
+``Title``   **Optional** a title to be included in the preview on the
+            spreadsheet page
 =========== ====================================================================
 
 .. warning:: INCLUDE is a special function that cannot be called from inside another function. An expression like ``=html(include(a1))`` will return a ``#CANTINC!`` error.
