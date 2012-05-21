@@ -3,6 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. image:: http://files.vixo.com/vixo/img/vixo_with_strap_black.png
+This is the documentation for `Vixo`_.
+
 Welcome
 =======
 
@@ -127,3 +130,5 @@ Excel-Compatible Functions Reference
    Maths And Trigonometry Functions <contents/excel-compatible-functions/maths-and-trigonometry/introduction-to_maths-and-trigonometry-fns>
    Statistical Functions            <contents/excel-compatible-functions/statistical/introduction-to-statistical-fns>
    Text Functions                   <contents/excel-compatible-functions/text/introduction-to-text-fns>
+
+.. _Vixo: http://vixo.com
