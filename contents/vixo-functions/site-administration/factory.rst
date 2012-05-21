@@ -13,7 +13,7 @@ Overview
 Syntax
 ------
 
-``=factory.WxH(Title, Type, Description, ButtonText, Desc1, Location1, ...)``
+``=factory.WxH(Title, Type, Description, ButtonText, Goto, Desc1, Location1, ...)``
 
 Arguments
 ---------
@@ -31,6 +31,11 @@ Description    **OPTIONAL** a description of the site to be created. Defaults
 
 ButtonText     **OPTIONAL** the text to appear on the submit button. Defaults
                to "Create Site >>"
+
+Goto           **OPTIONAL** a url for the site to redirect to when it the
+               new site is provisioned. If this is set to "" (the default)
+               the user is redirected to the site with the auto-login URL
+               returned from the server
 
 Desc1          **OPTIONAL** some text describing an additional user-supplied
                field of data
