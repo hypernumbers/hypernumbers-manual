@@ -9,7 +9,7 @@ The sparkbar.WxH function creates a (multi-line) sparkbar graph across W columns
 
 This function cuts the bottoms of the bars of to show the differences and the trends more strongly.
 
-If you need faithful representation of the data and not the differnce consider using the sparkhist function.
+If you need faithful representation of the data and not the difference consider using the sparkhist function.
 
 The examples contain a side by side view of the two types of spark graphs.
 
