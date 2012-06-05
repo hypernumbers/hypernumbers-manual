@@ -1,6 +1,6 @@
-======
-BUTTON
-======
+===========
+FORM.BUTTON
+===========
 
 Overview
 --------
@@ -12,7 +12,7 @@ The button is the key part of a form. The button function is the one that collec
 Syntax
 ------
 
-``=BUTTON(Title, Response, ResultsPage, Emails)``
+``=FORM.BUTTON(Title, Response, ResultsPage, Emails)``
 
 Arguments
 ---------
@@ -36,7 +36,7 @@ Argument              Description
 Example
 -------
 
-.. warning:: BUTTON is a special function that cannot be called from inside another function. An expression like ``=include(button(a1))`` will return a ``#CANTINC!`` error.
+.. warning:: FORM.BUTTON is a special function that cannot be called from inside another function. An expression like ``=include(form.button(a1))`` will return a ``#CANTINC!`` error.
 
 See this `sub-section`_ of the chapter *Vixo Indepth*
 

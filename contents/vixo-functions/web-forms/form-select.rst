@@ -1,16 +1,16 @@
-======
-SELECT
-======
+===========
+FORM.SELECT
+===========
 
 Overview
 --------
 
-The ``SELECT`` function creates a select (or dropdown) box as part of a web form.
+The ``FORM.SELECT`` function creates a select (or dropdown) box as part of a web form.
 
 Syntax
 ------
 
-``=SELECT(Label, Options)``
+``=FORM.SELECT(Label, Options)``
 
 Arguments
 ---------
@@ -26,7 +26,7 @@ Argument              Description
                       it.
 ====================  =========================================================
 
-.. warning:: SELECT is a special function that cannot be called from inside another function. An expression like ``=html(select(a1))`` will return a ``#CANTINC!`` error.
+.. warning:: FORM.SELECT is a special function that cannot be called from inside another function. An expression like ``=html(form.select(a1))`` will return a ``#CANTINC!`` error.
 
 
 Example

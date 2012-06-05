@@ -1,22 +1,22 @@
-===============
-MAP.ROWS.BUTTON
-===============
+==================
+MAP.ROWS.BUTTON.IF
+==================
 
 Overview
 --------
 
-The ``=map.rows.button(...)`` function can be used on any wikipage or webpage to load a spreadsheet to a row-type map.
+The ``=map.rows.button.if(...)`` function can be used on any wikipage or webpage to load a spreadsheet to a row-type map.
 
-It creates a button which then asks the user to select a file to upload.
+Depending on wether the first value is ``TRUE`` OR ``FALSE`` it creates a button which then asks the user to select a file to upload.
 
 If the file matches the validation criteria in the specified map it runs and creates a page per row of the spreadsheet.
 
-See the conditional function ``=map.rows.button.if(...)``
+See the function ``=map.rows.button(...)``
 
 Syntax
 ------
 
-``=map.rows.button(ButtonTitle, Map)``
+``=map.rows.button.if(Boolean, ButtonTitle, Map)``
 
 Arguments
 ---------
@@ -26,6 +26,8 @@ Arguments
 ================ ==============================================================
 Argument         Description
 ================ ==============================================================
+``Boolean``      If this value is true the button appears, or else it doesn't
+
 ``ButtonTitle``  A string specifying the title to appear on the button on the
                  webpage or wikipage.
 

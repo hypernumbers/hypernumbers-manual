@@ -1,6 +1,6 @@
-========
-TEXTAREA
-========
+=============
+FORM.TEXTAREA
+=============
 
 Overview
 --------
@@ -10,7 +10,7 @@ Creates a textarea input field as part of a web form.
 Syntax
 ------
 
-``=TEXTAREA(Label, <Prompt>)``
+``=FORM.TEXTAREA(Label, <Prompt>)``
 
 Arguments
 ---------
@@ -26,7 +26,7 @@ Argument              Description
                       Defaults to "Enter data..."
 ====================  =========================================================
 
-.. warning:: TEXTAREA is a special function that cannot be called from inside another function. An expression like ``=html(textarea(a1))`` will return a ``#CANTINC!`` error.
+.. warning:: FORM.TEXTAREA is a special function that cannot be called from inside another function. An expression like ``=html(form.textarea(a1))`` will return a ``#CANTINC!`` error.
 
 Example
 -------

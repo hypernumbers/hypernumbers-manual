@@ -1,19 +1,18 @@
-
-=============
-CREATE.BUTTON
-=============
+================
+CREATE.BUTTON.IF
+================
 
 Overview
 --------
 
-The ``=create.button(...)`` function can be used on any wikipage or webpage to instantiate a template as a new page in a specific location within an applications’s page structure.
+The ``=create.button.if(...)`` function can be used on any wikipage or webpage to instantiate a template as a new page in a specific location within an applications’s page structure.
 
-See also the conditional function ``=create.button.if(...)``
+It is conditional button which only appears if a condition is met.
 
 Syntax
 ------
 
-``=create.button(ButtonTitle, Expression1, Expression2,...)``
+``=create.button.if(Boolean, ButtonTitle, Expression1, Expression2,...)``
 
 Arguments
 ---------
@@ -23,6 +22,8 @@ Arguments
 ================ ==============================================================
 Argument         Description
 ================ ==============================================================
+``Boolean``      If this value is true the button appears, or else it doesn't
+
 ``ButtonTitle``  A string specifying the title to appear on the button on the
                  webpage or wikipage.
 

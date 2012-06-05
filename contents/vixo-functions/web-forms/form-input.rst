@@ -1,16 +1,16 @@
-=====
-INPUT
-=====
+==========
+FORM.INPUT
+==========
 
 Overview
 --------
 
-The ``INPUT`` function creates an input field as part of a webform.
+The ``FORM.INPUT`` function creates an input field as part of a webform.
 
 Syntax
 ------
 
-``=INPUT(Label, <Prompt>)``
+``=FORM.INPUT(Label, <Prompt>)``
 
 Arguments
 ---------
@@ -26,7 +26,7 @@ Argument              Description
                       Defaults to "Enter data..."
 ====================  =========================================================
 
-.. warning:: INPUT is a special function that cannot be called from inside another function. An expression like ``=html(input(a1))`` will return a ``#CANTINC!`` error.
+.. warning:: FORM.INPUT is a special function that cannot be called from inside another function. An expression like ``=html(form.input(a1))`` will return a ``#CANTINC!`` error.
 
 Example
 -------

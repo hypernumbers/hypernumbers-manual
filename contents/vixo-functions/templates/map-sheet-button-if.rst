@@ -1,11 +1,11 @@
-================
-MAP.SHEET.BUTTON
-================
+===================
+MAP.SHEET.BUTTON.IF
+===================
 
 Overview
 --------
 
-The ``=map.sheet.button(...)`` function can be used on any wikipage or webpage to load a spreadsheet to a sheet-type map.
+The ``=map.sheet.button.if(...)`` function can be used on any wikipage or webpage to load a spreadsheet to a sheet-type map. The button only appears if a condition is true.
 
 It creates a button which then asks the user to select a file to upload.
 
@@ -13,12 +13,12 @@ If the file matches the validation criteria in the specified map it runs and cre
 
 See the section **something, something** for more details.
 
-See also the function ``=map.sheet.button.if(...)`` for a conditional button
+It is otherwise the same as ``=map.sheet.button(...)``
 
 Syntax
 ------
 
-``=map.sheet.button(ButtonTitle, Page, Map)``
+``=map.sheet.button.if(Boolean, ButtonTitle, Page, Map)``
 
 Arguments
 ---------
@@ -28,6 +28,8 @@ Arguments
 ================ ==============================================================
 Argument         Description
 ================ ==============================================================
+``Boolean``      If this value is true the button appears, or else it doesn't
+
 ``ButtonTitle``  a string specifying the title to appear on the button on the
                  webpage or wikipage.
 

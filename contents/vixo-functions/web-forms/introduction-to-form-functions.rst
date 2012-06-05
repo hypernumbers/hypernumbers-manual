@@ -7,11 +7,12 @@ There are a number of functions that enable you to make forms in vixo. Unlike ot
 .. toctree::
    :maxdepth: 1
 
-   BUTTON   <button>
-   FIXEDVAL <fixedval>
-   INPUT    <input>
-   RADIO    <radio>
-   SELECT   <select>
-   TEXTAREA <textarea>
+   FORM.BUTTON   <form-button>
+   FORM.FIXEDVAL <form-fixedval>
+   FORM.INPUT    <form-input>
+   FORM.RADIO    <form-radio>
+   FORM.SELECT   <form-select>
+   FORM.TEXTAREA <form-textarea>
 
 .. _sub-section: ../../indepth/making-forms.html
+

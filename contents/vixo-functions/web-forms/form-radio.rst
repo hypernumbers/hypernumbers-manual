@@ -1,6 +1,6 @@
-=====
-RADIO
-=====
+==========
+FORM.RADIO
+==========
 
 Overview
 --------
@@ -10,7 +10,7 @@ Creates a set of radio buttons on a webform.
 Syntax
 ------
 
-``=RADIO(Label, Options)``
+``=FORM.RADIO(Label, Options)``
 
 Arguments
 ---------
@@ -24,7 +24,7 @@ Argument              Description
 ``Options``           A list of options to appear in the set of radio buttons.
 ====================  =========================================================
 
-.. warning:: RADIO is a special function that cannot be called from inside another function. An expression like ``=html(radio(a1))`` will return a ``#CANTINC!`` error.
+.. warning:: FORM.RADIO is a special function that cannot be called from inside another function. An expression like ``=html(form.radio(a1))`` will return a ``#CANTINC!`` error.
 
 Example
 -------
