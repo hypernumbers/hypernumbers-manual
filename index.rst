@@ -4,10 +4,11 @@
    contain the root `toctree` directive.
 
 .. image:: http://files.vixo.com/vixo/img/vixo_with_strap_black.png
-This is the documentation for `Vixo`_.
 
 Welcome
 =======
+
+This is the documentation for `Vixo`_.
 
 .. toctree::
    :maxdepth: 1
