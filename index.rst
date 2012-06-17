@@ -1,4 +1,4 @@
-.. Building Applications With Vixo documentation master file, created by
+n       .. Building Applications With Vixo documentation master file, created by
    sphinx-quickstart on Wed Mar  2 21:42:57 2011.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -106,12 +106,14 @@ Vixo Functions Reference
    Database Functions                        <contents/vixo-functions/database/introduction-to-database-query-function>
    Graph Functions                           <contents/vixo-functions/graphs/introduction-to-graphs>
    Layout And Display Functions               <contents/vixo-functions/layout-and-display/introduction-to-layout-functions>
+   Lookup And Reference Functions             <contents/vixo-functions/lookup-and-reference/introduction-to-lookup-and-reference-fns>
    Navigation Functions                       <contents/vixo-functions/navigation/introduction-to-navigation-functions>
    Phone And Email Functions                  <contents/vixo-functions/phone-and-email/introduction-to-phone-and-email-functions>
    Site Administration Functions              <contents/vixo-functions/site-administration/introduction-to-site-administration-functions>
    Social Media And Web Integration Functions <contents/vixo-functions/social-media-and-web-integration/introduction-to-social-media>
    Special Functions                          <contents/vixo-functions/special/introduction-to-special-fns>
    Template Functions                         <contents/vixo-functions/templates/template-functions-introduction>
+   Text Functions                             <contents/vixo-functions/text/introduction-to-text-fns>
    Web Form Functions                         <contents/vixo-functions/web-forms/introduction-to-form-functions>
 
 Excel-Compatible Functions Reference

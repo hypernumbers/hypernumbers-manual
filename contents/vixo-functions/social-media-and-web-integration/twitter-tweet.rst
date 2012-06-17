@@ -10,7 +10,7 @@ Overview
 Syntax
 ------
 
-``=twitter.tweet(Message, Link)``
+``=twitter.tweet(Message, <Link>, <Via>)``
 
 Arguments
 ---------
@@ -22,11 +22,17 @@ Argument          Description
 ================= =============================================================
 ``Message``       The suggested tweet.
 
-``Link``          **Optional** The text or image to put in the link. Defaults
-                  to the text link *Tweet This*.
+``Link``          **Optional** The link to put in the tweet - defaults to the
+                  current page - must be a full url eg
+                  ``http://example.com/some/page``
+                  which is equivalent to
+                  ``=twitter.tweet("Tweet Me!", site() && page())``
+
+``Via``           **Optional** a twitter name to appear in the tweet
+                  tagged ``via @username``
 ================= =============================================================
 
 Example
 -------
 
-``=twitter.tweet("Just looked at vixo. http://vixo.com. Fantastic product!", "http://vixo.com")``
+``=twitter.tweet("Just looked at vixo. Fantastic product!", "http://vixo.com")``

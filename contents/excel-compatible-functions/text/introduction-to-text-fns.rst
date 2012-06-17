@@ -27,6 +27,8 @@ The following Excel-compatible text functions are implemented in Vixo:
    UPPER       <upper>
    VALUE       <value>
 
+There are additional Vixo text functions as well - the appropriate `section`_.
+
 .. warning:: There are some functions with are similar to Excel functions but which reflect the different underlying properties of text in Vixo
 
 .. toctree::
@@ -35,3 +37,4 @@ The following Excel-compatible text functions are implemented in Vixo:
    CHAR  <char>
    CLEAN <clean>
 
+.. _section: ../../vixo-functions/text/introduction-to-text-fns.html

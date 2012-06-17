@@ -10,4 +10,5 @@ These functions are for use by the site administrator to set up various administ
    CONFIGURE.EMAIL      <configure-email>
    FACTORY.WxH          <factory>
    FACTORY.INFO         <factory-info>
+   INVITE.USERS         <invite-users>
    USERS.AND.GROUPS.WxH <users-and-groups>
