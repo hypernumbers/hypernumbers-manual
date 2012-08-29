@@ -45,14 +45,14 @@ type           *OPTIONAL* An integer ranging from 1 to 17 describing what type
                ``8`` phone out with a restricted phone no (needs a valid phone
                 number and dialling code)
 
-                ``9`` sms out only - with fixed phone number but free
-                message field (needs a valid phone number and dialling code)
+               ``9`` sms out only - with fixed phone number but free
+               message field (needs a valid phone number and dialling code)
 
-                ``10`` fixed SMS message and number (needs a valid phone number,
-                dialling code and text message)
+               ``10`` fixed SMS message and number (needs a valid phone number,
+               dialling code and text message)
 
-                ``11`` email with fixed details (needs a valid emailto, emailcc,
-                emailfrom, emailsubject, emailbody and emailsignature)
+               ``11`` email with fixed details (needs a valid emailto, emailcc,
+               emailfrom, emailsubject, emailbody and emailsignature)
 
                ``12`` email out with free body (needs a valid emailto, emailcc,
                 emailfrom, emailsubject, emailbody and emailsignature, the
