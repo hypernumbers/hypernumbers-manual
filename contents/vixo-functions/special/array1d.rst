@@ -7,7 +7,7 @@ Overview
 
 ARRAY1D is a special function stiches together a series of references and values to make an array.
 
-It is designed to be used to combine data form many places for use in functions that require continuous sequences - typically graphs.
+It is designed to be used to combine data from many places for use in functions that require continuous sequences - typically graphs.
 
 Syntax
 ------
