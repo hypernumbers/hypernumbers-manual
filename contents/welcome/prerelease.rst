@@ -1,6 +1,6 @@
-======================================
-Prerelease Version Of The Documenation
-======================================
+=======================================
+Prerelease Version Of The Documentation
+=======================================
 
 Our strategic aim is to make this documentation a downloadable and printable book which will enable spreadsheet users to build their own web applications on the Vixo platform.
 
