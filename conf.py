@@ -94,35 +94,19 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
-html_theme = 'default'
+html_theme = 'sphinx-bootstrap'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {"rightsidebar": "false",
-                      "footerbgcolor": "black",
-                      "footertextcolor": "white",
-                      "sidebarbgcolor": "black",
-                      "sidebartextcolor": "white",
-                      "sidebarlinkcolor": "lightgrey",
-                      "relbarbgcolor": "black",
-                      "relbartextcolor": "white",
-                      "relbarlinkcolor": "lightgrey",
-                      "bgcolor": "white",
-                      "textcolor": "black",
-                      "linkcolor": "blue",
-                      "visitedlinkcolor": "purple",
-                      "headbgcolor": "#fff",
-                      "headtextcolor": "darkorange",
-                      "headlinkcolor": "teal",
-                      "codebgcolor": "eee",
-                      "codetextcolor": "teal",
-                      "bodyfont": "calibri, sans-serif",
-                      "headfont": "verdana, serif"
+html_theme_options = {
+    'twitter_username': 'gordonguthrie',
+    'home_url': 'http://vixo.com',
+    'disqus_shortname': 'vixodocumentation'
                       }
 
 # Add any paths that contain custom themes here, relative to this directory.
-#html_theme_path = []
+html_theme_path = ["./themes/"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -133,7 +117,7 @@ html_title = "Building Applications With Vixo"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = None
+html_logo = "./images/vixo-documentation-logo.png"
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -143,7 +127,7 @@ html_title = "Building Applications With Vixo"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['./themes/sphinx-bootstrap/static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -196,12 +180,12 @@ latex_paper_size = 'letter'
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'BuildingApplicationsWithVixo.tex', u'Building Applications With Vixo',
-   u'Hypernumbers Ltd', 'manual'),
+   u'Hypernumbers Ltd (trading as vixo.com', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+latex_logo = "./images/vixo-documentation-logo.png"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.

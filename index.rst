@@ -3,12 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. image:: http://files.vixo.com/vixo/img/vixo_with_strap_black.png
+Welcome To Vixo - Like Spreadsheets But Better
+==============================================
 
-Welcome
-=======
-
-This is the documentation for `Vixo`_.
+This is the documentation for `Vixo`_ - the next generation spreadsheet.
 
 .. toctree::
    :maxdepth: 1
@@ -18,8 +16,8 @@ This is the documentation for `Vixo`_.
    Other Formats And Resources <contents/welcome/other-formats-and-resources>
    How To Use This Material    <contents/welcome/how-to-use-this-material>
 
-Why Vixo?
-=========
+A Thousand Spreadsheets Is Hell
+===============================
 
 .. toctree::
    :maxdepth: 1
@@ -33,8 +31,8 @@ Why Vixo?
    When Should I Use Something Else? <contents/why-vixo/when-use-something-else>
 
 
-Getting To Know Vixo
-============================
+Getting Started And Learning The Basics
+=======================================
 
 .. toctree::
    :maxdepth: 1
@@ -54,8 +52,8 @@ Getting To Know Vixo
    Saving Changes            <contents/vixo-overview/saving-changes>
    Browser Support           <contents/vixo-overview/browser-support>
 
-Vixo Indepth
-============
+Going Deeper - Looking At Vixo Indepth
+======================================
 
 .. toctree::
    :maxdepth: 1
@@ -72,8 +70,8 @@ Vixo Indepth
 ..   contents/page-views/views
 ..   content/site-admin/site administration
 
-Building A Vixo Application
-===========================
+Roll Your Sleeves Up - Building A Vixo Application
+==================================================
 
 .. toctree::
    :maxdepth: 1
@@ -97,8 +95,8 @@ Building A Vixo Application
    User Passwords                  <contents/vixo-application/changing-user-passwords>
    Summary                         <contents/vixo-application/final-comments>
 
-Vixo Functions Reference
-========================
+Stuff To Learn - Vixo Functions Reference
+=========================================
 
 .. toctree::
    :maxdepth: 2
@@ -116,8 +114,8 @@ Vixo Functions Reference
    Text Functions                             <contents/vixo-functions/text/introduction-to-text-fns>
    Web Form Functions                         <contents/vixo-functions/web-forms/introduction-to-form-functions>
 
-Excel-Compatible Functions Reference
-====================================
+Things You Know Already - Excel-Compatible Functions Reference
+==============================================================
 
 .. toctree::
    :maxdepth: 2
