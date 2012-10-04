@@ -180,7 +180,7 @@ latex_paper_size = 'letter'
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'BuildingApplicationsWithVixo.tex', u'Building Applications With Vixo',
-   u'Hypernumbers Ltd (trading as vixo.com', 'manual'),
+   u'Hypernumbers Ltd (trading as vixo.com)', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
