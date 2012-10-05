@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+Erk!
+<script type="text/javascript" src="./static/jquery.js"></script>
+<script type="text/javascript">
+  var aiax;
+  var getAuthCookie = function () {
+      var name = "auth=",
+      ca = document.cookie.split(';'),
+      i, c;
+      for (i = 0; i < ca.length; i = i + 1) {
+                  c = ca[i];
+                  while (c.charAt(0) === ' ') {
+                       c = c.substring(1, c.length);
+                  }
+                  if (c.indexOf(name) === 0) {
+                      return true;
+                  }
+      }
+      return false;
+  }
+  var successFn = function(data) {
+                      console.log("got response");
+                      console.log(aiax);
+                      };
+  if (!getAuthCookie()) {
+      aiax = $.ajax({"type" : "GET",
+      "url": "http://vixo.com/_sync/seek/?return=" + escape(document.location.href),
+      "success" : successFn
+       });
+  }
+</script>
+</body>
+</html>
