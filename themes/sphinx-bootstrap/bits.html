@@ -23,16 +23,15 @@ Erk!
       }
       return false;
   }
-  var successFn = function(data) {
-                      console.log("got response");
-                      console.log(aiax);
+  var successFn = function (data) {
+                      document.cookie = "auth=" + data.auth + "; path=/";
                       };
   if (!getAuthCookie()) {
-      aiax = $.ajax({"type" : "GET",
-      "url": "http://vixo.com/_sync/seek/?return=" + escape(document.location.href),
-      "success" : successFn
-       });
-  }
+      $.ajax({url: "http://hypernumbers.dev:9000/_sync/documentation/",
+                      success: successFn,
+                      dataType: "jsonp"
+    });
+  };
 </script>
 </body>
 </html>
