@@ -32,7 +32,7 @@ Vixo.init = function () {
 
     // Basically we set an auth cookie for an 
     if (!getAuthCookie()) {
-        $.ajax({url: "http://hypernumbers.dev:9000/_sync/documentation/",
+        $.ajax({url: "http://hypernumbers.com/_sync/documentation/",
                 success: successFn,
                 dataType: "jsonp"
                });
