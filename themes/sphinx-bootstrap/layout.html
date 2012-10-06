@@ -97,6 +97,10 @@
     {%- for cssfile in css_files %}
         <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css"/>
     {%- endfor %}
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     {%- if not embedded %}
         <script type="text/javascript">
             var DOCUMENTATION_OPTIONS = {
