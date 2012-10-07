@@ -92,8 +92,10 @@
         <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
     {%- endblock %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css"/>
+   <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css"/>
+    <link rel="stylesheet" href="{{ pathto('_static/bootstrap-responsive.min.css', 1) }}" type="text/css"/>
     <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css"/>
+    <link rel="stylesheet" href="{{ pathto('_static/style.css', 1) }}" type="text/css"/>
     {%- for cssfile in css_files %}
         <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css"/>
     {%- endfor %}
@@ -155,7 +157,7 @@
 <body>
 
 {%- block header %}
-    <div class="navbar navbar-inverse">
+    <div class="navbar">
         <div class="navbar-inner">
             <div class="container">
 
@@ -169,14 +171,15 @@
 {% endblock %}
 
 <div class="container">
+<div class="content">
 {%- block content %}
     {%- block sidebar1 %} {# possible location for sidebar #} {% endblock %}
-    <div class="hero-unit">
-      <h1>Vixo Documentation</h1>
-      <p>Vixo - like spreadsheets but better - helps ordinary spreadsheet users turn painful manual processes built in spreadsheets into secure, distributed, multi-user applications themselves without software developers.</p>
+    <div class="page-header">
+      <h1>Vixo Reference Documentation</h1>
+      <p>This is the reference documentation for Vixo - like spreadsheets but better. Vixo enables ordinary spreadsheet users who are stuck with painful manual process built in desktop spreadsheets to turn them into secure, maintainable distributed web applications using their spreadsheet skills.</p>
       <p>
         <a class="btn btn-primary btn-large" href="http://vixo.com">
-          Goto the website »
+          Get Started »
         </a>
       </p>
     </div>
@@ -192,6 +195,7 @@
             {%- endblock %}
     </div>
 {%- endblock %}
+</div>
 
 {%- block footer %}
     <div class="footer">
@@ -216,11 +220,6 @@
                 {% trans sphinx_version=sphinx_version|e %}Created using <a
                         href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}
                     .{% endtrans %}
-                Theme <a href="https://github.com/scotch/sphinx-bootstrap">Sphinx-Bootstrap</a>
-                adapted from
-                <a href="http://twitter.github.com/bootstrap/">Twitter's
-                    Bootstrap</a> by <a href="http://www.scotchmedia.com">Scotch
-                Media</a>
         Get <a href="http://vixo.com">the next generation spreadsheet</a> now!
                 </small>
                 </p>

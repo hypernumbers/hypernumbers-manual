@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Building Applications With Vixo'
-copyright = u'2011, Hypernumbers Ltd (trading as vixo.com)'
+copyright = u'2012, Hypernumbers Ltd (trading as vixo.com)'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
