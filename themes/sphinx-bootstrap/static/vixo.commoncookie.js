@@ -19,20 +19,15 @@ Vixo.init = function () {
     };
 
     successFn = function (data) {
-        // Set a cookie with a 1 day expire - this means that if someone
-        // switches from being anonymous to a signed in user it will be picked
-        // up quickly
-	      var date, expires;
+	      var date;
         
         date = new Date();
-	      date.setTime(date.getTime() + (24 * 60 * 60 * 1000));
-	      expires = "; expires=" + date.toGMTString();
-        document.cookie = "auth=" + data.auth + expires + "; path=/";
+        document.cookie = "auth=" + data.auth + "; path=/";
     };
 
     // Basically we set an auth cookie for an 
     if (!getAuthCookieFn()) {
-        $.ajax({url: "http://hypernumbers.com/_sync/documentation/",
+        $.ajax({url: "http://hypernumbers.com/_sync/externalcookie/",
                 success: successFn,
                 dataType: "jsonp"
                });

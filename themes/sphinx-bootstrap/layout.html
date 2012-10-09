@@ -6,7 +6,7 @@
 
 {%- macro relbar(bottom=False) %}
           <a class="brand" href="http://vixo.com">Vixo</a>
-          <!-- <a class="brand" href="http://blog.vixo.com">Blog</a> -->
+          <a class="brand" href="http://blog.vixo.com">Blog</a>
           <a class="brand" href="{{ pathto(master_doc) }}">Documentation</a>
 {%- endmacro %}
 
@@ -257,19 +257,9 @@
 </script>
 
 <!-- Vixo tracking cookies -->
-<script src="/_static/vixo.documentation.js"></script>
+<script src="_static/vixo.commoncookie.js"></script>
 
 <!-- twitter -->
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-<script type="text/javascript">
-  console.log("running basic script to get cookie");
-  console.log(document.cookie);
-  console.log(document.location);
-  console.log(document.location.pathname);
-  //$.ajax({"type" : "GET",
-  //"url": "http://vixo.com/_sync/seek?return=",
-  //"success" : function (data) {console.log(data)}
-  //});
-</script>
 </body>
 </html>
