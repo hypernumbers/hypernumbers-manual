@@ -17,7 +17,7 @@ A number of special functions have been developed for use with vixo database que
    ZMODE        <zmode>
    ZSTDEV       <zstdev>
    ZSUM         <zsum>
-   ZTABLE       <ztable>
+   ZTABLE.WxH   <ztable>
 
 Some of these functions are *sizable* that is to say they contain their size in the function call. A sizable function looks like:
 
