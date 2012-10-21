@@ -11,6 +11,7 @@ There are a number of functions that deal with phone and email.
 
    AUTO.EMAIL         <auto-email.rst>
    AUTO.SMS.OUT       <auto-sms-out.rst>
+   CREATE.PHONE       <create-phone.rst>
    DISPLAY.PHONES.NOS <display-phone-nos.rst>
    MANUAL.EMAIL       <manual-email.rst>
    MANUAL.SMS.OUT     <manual-sms-out.rst>
