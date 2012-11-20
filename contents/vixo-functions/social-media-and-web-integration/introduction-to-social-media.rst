@@ -2,7 +2,7 @@
 Vixo Social Media And Web Integration Functions
 ===============================================
 
-A number of functions are available to integrate social media applications into vixo applications. These include:
+A number of functions are available to do common web activities and integrate social media applications into Vixo applications. These include:
 
 .. toctree::
    :maxdepth: 1
@@ -14,6 +14,8 @@ A number of functions are available to integrate social media applications into 
    GENERIC.INTEGRATION <generic-integration>
    GOOGLE.BUYNOW       <google-buynow>
    GOOGLE.MAP          <google-map>
+   REDIRECT            <redirect>
+   REDIRECT.IF         <redirect-if>
    TWITTER.BUTTON      <twitter-button>
    TWITTER.PROFILE     <twitter-profile>
    TWITTER.TWEET       <twitter-tweet>
