@@ -9,5 +9,6 @@ tar -xvf ../doco.tar
 mkdir files
 mv ../BuildingApplicationsWithVixo.* ./files
 # clean up
+cd ../
 rm doco.tar
 echo "over and out..."
