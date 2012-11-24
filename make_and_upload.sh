@@ -8,7 +8,7 @@ echo "making epub"
 make epub
 cd ./_build/epub
 scp BuildingApplicationsWithVixo.epub gordon@hypernumbers.com:/hn/files-www/vixo2/
-cd ./_build/latex
+cd ../latex
 echo "making pdf"
 make all-pdf
 echo "uploading pdf"
