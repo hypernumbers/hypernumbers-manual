@@ -41,7 +41,14 @@ Data submitted via this form would be posted to a page as rows and columns thus:
    :align: center
    :alt: Vixo webform responses spreadsheet
 
-You can also build forms using the toolbar where all the available form elements are provided. This approach has the benefit of providing more control over the placement of form elements. You simply select a cell and click the desired form element on the toolbar. The form element will be added to the selected cell. By repeating this process you can construct a highly structured form layouts.
+You can also build forms using the toolbar where all the available form elements are provided.
+
+.. image:: /images/form-menu.png
+   :scale: 100 %
+   :align: center
+   :alt: Vixo web form icons
+
+This approach has the benefit of providing more control over the placement of form elements. You simply select a cell and click the desired form element on the toolbar. The form element will be added to the selected cell. By repeating this process you can construct a highly structured form layouts.
 
 .. image:: /images/appending-form-example.png
    :scale: 100 %
@@ -72,12 +79,14 @@ Wikiforms are simply wikipages that incorporate special input fields (wiki eleme
 
 *	wiki input field
 *	wiki selector list
+* rich text input
 
 You create them using toolbar buttons:
 
-.. image:: /images/wiki-toolbar-buttons.png
-
-The left hand button is the wiki input field and the right one is the wiki select box.
+.. image:: /images/wiki-menu.png
+   :scale: 100 %
+   :align: center
+   :alt: Vixo wiki control icons
 
 Inline wiki elements are created in spreadsheet cells. When data is entered via the wikipage view, it is posted to the same spreadsheet cell. When the pages is viewed as a webpage the data that has been entered is display only. Examples of the two inline wiki elements are shown below as they appear in the ``spreadsheet``, ``wikipage`` and ``webpage`` views:
 
@@ -92,6 +101,15 @@ The selector list wiki element helps can make data entry easier for the user and
 
 You enter the possible values to appear separated by commas e.g. Sales, Marketing, Finance, IT  then press submit. You can also include blanks in the selectable entries by inserting extra commas e.g. , Sales, Marketing, Finance, IT.
 
+You can also drive the dropdown list with a `z-query`_.
+
+The rich-text entry produces a cell that pops as a rich text editor - as you can see in the image below - clicking on the rich text cell turns it into a rich text editor.
+
+.. image:: /images/rich-text-editor.png
+   :scale: 100 %
+   :align: center
+   :alt: Vixo wiki rich text editor
+
 Inline wiki elements are a great way to construct interactive application pages:
 
 * Calculators
@@ -99,3 +117,31 @@ Inline wiki elements are a great way to construct interactive application pages:
 * application forms and surveys with conditional questions
 * etc.
 
+Ghost Cells
+-----------
+
+Sometimes you need some spreadsheet cells to do a calculation but they make the web or wiki pages ugly and unsightly. We can solve this problem with the ghost button:
+
+.. image:: /images/vixo-ghost-toolbar-button.png
+   :scale: 100 %
+   :align: center
+   :alt: Vixo ghost toolbar button
+
+The ghost button just makes unwanted cells disappear. It has two uses:
+
+* making a cell disappear from a web or wiki page
+* making a wiki cell disppear from a web page
+
+Toggling Views
+--------------
+
+A common pattern is to have a page that some people can edit and other people just read. There is a special control to make this easy.
+
+Make the default view ``webpage`` and use the control ``=toggle.views()`` - read the `function description`_.
+
+Toggle views creates a button that only appears if you have both web and wiki page permissions on a page - it then allows you to toggle between them.
+
+
+.. _z-query: ./database-queries.html
+
+.. _function description: ../vixo-functions/layout-and-display/toggle-views.html

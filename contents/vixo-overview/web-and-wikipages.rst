@@ -31,3 +31,6 @@ Switching between views, when not on the spreadsheet, is also a one-click action
    :width: 150 pt
    :alt: Vixo Quick Views Menu
 
+`Read on`_ for more details of how to build web and wiki pages.
+
+.. _Read on: ./making-forms.html
