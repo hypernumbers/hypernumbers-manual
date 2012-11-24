@@ -4,6 +4,10 @@ echo "making html"
 make html
 echo "making latex"
 make latex
+echo "making epub"
+make epub
+cd ./_build/epub
+scp BuildingApplicationsWithVixo.epub gordon@hypernumbers.com:/hn/files-www/vixo2/
 cd ./_build/latex
 echo "making pdf"
 make all-pdf

@@ -7,7 +7,7 @@ cd ./documentation/
 gunzip ../doco.tar.gz
 tar -xvf ../doco.tar
 mkdir files
-mv ../BuildingApplicationsWithVixo.pdf ./files
+mv ../BuildingApplicationsWithVixo.* ./files
 # clean up
 rm doco.tar
 echo "over and out..."
