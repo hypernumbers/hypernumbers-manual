@@ -7,7 +7,9 @@ make latex
 echo "making epub"
 make epub
 cd ./_build/epub
-scp BuildingApplicationsWithVixo.epub gordon@hypernumbers.com:/hn/files-www/vixo2/
+make mobi BuildingApplicationsWithVixo.epub BuildingApplicationsWithVixo.mobi
+scp BuildingApplicationsWithVixo.* gordon@hypernumbers.com:/hn/files-www/vixo2/
+ebook-convert
 cd ../latex
 echo "making pdf"
 make all-pdf
