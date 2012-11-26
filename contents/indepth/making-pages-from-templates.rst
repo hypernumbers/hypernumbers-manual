@@ -6,14 +6,14 @@ A template is a page that has been constructed and saved as a model (template) f
 
 Some example templates you might have seen or used include:
 
-•	Invoicing templates
-•	Timesheet templates
-•	Event and meeting templates
-•	Budget templates
-•	Planning and project templates
-•	Business case templates
-•	Calculator templates
-•	etc. etc.
+•	invoicing templates
+•	timesheet templates
+•	event and meeting templates
+•	budget templates
+•	planning and project templates
+•	business case templates
+•	calculator templates
+•	etc, etc
 
 In vixo the opportunities to capitalise on the use of templates in a fully-functioning workflow system is immense - as it is possible to create templates that incorporate a combination of:
 
@@ -33,25 +33,29 @@ Creating and storing a template for later re-use is straight forward:
 .. image :: /images/simple_spreadsheet.png
 
 2.	Click on the view menu and set the default view for the page and whether the page is to be public or private
-3.	Open the ``site -> my pages`` menu and in the templating section (at the bottom right of the navigation menu) give the template a name e.g. ``sales_forecast`` and press the ``Save As`` button. The template will now appear in the list of templates.
+3.	Open the ``site -> save as template``
 
-.. image :: /images/my_pages_dialog.png
+.. image :: /images/vixo-site-menu.png
+
+4. In the Template Dialog Box give the template a name and save it
+
+.. image :: /images/vixo-save-as-template.png
 
 If you want to edit an existing template you simply open the source page you used to create the template or instantiate the template to a new page, make any changes and save it with the same template name.
 
-.. image :: /images/my_pages_dialog2.png
+.. image :: /images/vixo-new-page-menu.png
 
 
 Instantiating a Template
 ------------------------
 
-To create a new page using a saved template you do this via the Site > My Pages menu:
+To create a new page using a saved template you do this via the ``Site -> New Page`` menu:
 
 1.	enter the name for the new page e.g. ``/zyz-ltd/2011/``
 2.	select the template from the template list you want to apply to this page e.g. ``year_sales``
 3.	Press the ``New`` button.
 
-When creating a new page via the ``Site -> My Pages`` menu the default template is ``blank`` indicating an empty spreadsheet.
+When creating a new page via the ``Site -> New Page`` menu the default template is ``blank`` indicating an empty spreadsheet.
 
 Templating Buttons
 ------------------
@@ -92,7 +96,7 @@ Valid segments are described below. To distinguish inputs from keywords, user in
 * ``/[TEMPLATE, NAME]/``	<- will fail if the template doesn't exist
 * ``/[TEMPLATE, auto, increment]/``	<- creates in incrementing segment of form 00000001, 00000002 etc, etc
 * ``/[TEMPLATE, auto, incr]/``	<- short form
-* ``/[TEMPLATE, auto, increment, PREFIX]/`	<- creates in incrementing segment of form accounts-00000001 if ``PREFIX`` = ``accounts-``
+* ``/[TEMPLATE, auto, increment, PREFIX]/``	<- creates in incrementing segment of form accounts-00000001 if ``PREFIX`` = ``accounts-``
 * ``/[TEMPLATE, auto, incr, PREFIX]/``	<- short form
 * ``/[TEMPLATE, auto, random]/``	<- creates segment of form ab12cd34ef98765
 * ``/[TEMPLATE, auto, random, PREFIX]/``	<- creates segment of form quote-ab12cd34ef98765 if ``PREFIX`` = ``quote-``

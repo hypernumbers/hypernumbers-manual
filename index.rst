@@ -53,7 +53,7 @@ Getting Started And Learning The Basics
    Making Forms              <contents/vixo-overview/making-forms>
    Permissions               <contents/vixo-overview/permissions>
    Building Applications     <contents/vixo-overview/building-applications>
-   Managing Your Application <contents/vixo-overview/managing-your-application>
+   Managing Pages            <contents/vixo-overview/managing-pages>
    Spreadsheet Audit         <contents/vixo-overview/spreadsheet-audit>
    Saving Changes            <contents/vixo-overview/saving-changes>
    Browser Support           <contents/vixo-overview/browser-support>
