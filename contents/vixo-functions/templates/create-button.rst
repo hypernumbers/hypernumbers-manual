@@ -8,7 +8,7 @@ Overview
 
 The ``=create.button(...)`` function can be used on any wikipage or webpage to instantiate a template as a new page in a specific location within an applications’s page structure.
 
-See also the conditional function ``=create.button.if(...)``
+See also the `conditional function`_ ``=create.button.if(...)``
 
 Syntax
 ------
@@ -52,7 +52,7 @@ Argument         Description
                  ``"/[TemplateToUse, <naming optons> <;advanced options>]/”``
 
                  where ``TemplateToUse`` is a template that has previously
-                 been saved via the *Site -> My Pages* admin menu.
+                 been saved via the *Site -> Save As Template* admin menu.
 ================ ==============================================================
 
 **NAMING OPTIONS**
@@ -140,3 +140,5 @@ Example
 See the section `Making Pages From Templates`_ for a worked example.
 
 .. _Making Pages From Templates: ../../../contents/indepth/making-pages-from-templates.html
+
+.. _conditional function: ./create-button-if.html

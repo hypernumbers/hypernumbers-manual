@@ -60,7 +60,7 @@ When creating a new page via the ``Site -> New Page`` menu the default template 
 Templating Buttons
 ------------------
 
-To harness of the full power of templates in web-based applications, a special template function can be used.
+To harness of the full power of templates in web-based applications, a special template function `create.button`_ can be used.
 
 The ``=create.button(...)`` function can be used on any wikipage or webpage to instantiate a template as a new page in a specific location within an applications’s page structure.
 
@@ -213,3 +213,4 @@ Repeated invocations of this button will create:
 
 The button can take multiple selectors. The selector strings will include types to create dated and timed pages e.g. ``/2011/jan/21/``
 
+.. _create.button: http://documentation.vixo.com/contents/vixo-functions/templates/create-button.html
