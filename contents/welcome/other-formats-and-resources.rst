@@ -11,7 +11,7 @@ This documentation is available in four formats:
 
 .. _PDF:       ../../files/BuildingApplicationsWithVixo.pdf
 .. _ePub book: ../../files/BuildingApplicationsWithVixo.epub
-.. _ePub book: ../../files/BuildingApplicationsWithVixo.mobi
+.. _mobi book: ../../files/BuildingApplicationsWithVixo.mobi
 .. _website:   http://documentation.vixo.com
 
 .. index:: website

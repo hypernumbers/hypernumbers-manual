@@ -8,10 +8,16 @@ Welcome To Vixo - Like Spreadsheets But Better
 
 This is the documentation for `Vixo`_ - the next generation spreadsheet.
 
+This documentation is updated continuously. The online version is the only uptodate version. If you are reading the PDF or ebook versions of this document please
+check that it is current.
+
+If you have problems or comments on the current version of the book please comment online.
+
 .. toctree::
    :maxdepth: 1
 
    This Is A Prerelease        <contents/welcome/prerelease>
+   Documentation Version       <contents/welcome/version>
    Getting Help                <contents/welcome/gettinghelp>
    Other Formats And Resources <contents/welcome/other-formats-and-resources>
    How To Use This Material    <contents/welcome/how-to-use-this-material>
