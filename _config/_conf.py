@@ -92,8 +92,12 @@ html_theme = 'sphinx-bootstrap'
 # documentation.
 html_theme_options = {
     'twitter_username': 'gordonguthrie',
-    'home_url': 'http://vixo.com',
-    'disqus_shortname': 'vixodocumentation'
+    'home_url':         'http://documentation.vixo.com',
+    'disqus_shortname': 'vixodocumentation',
+    'github_user':      'hypernumbers',
+    'github_repo':      'Hypernumbers-Manual',
+    'analytics_code':   'UA-3031538-4',
+    'analytics_domain': 'http://documentation.vixo.com'
                       }
 
 # Add any paths that contain custom themes here, relative to this directory.
