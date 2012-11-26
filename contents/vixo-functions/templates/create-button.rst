@@ -113,8 +113,7 @@ Advanced options allow you to specify:
 Advanced options are separated from naming options with ‘;’.
 
 Permissions for each segment are:
-
-“/bleh/[Template, auto, incr; table, group1, group2]/bloh/”
+``/bleh/[Template, auto, incr; table, group1, group2]/bloh/``
 
 
 There is a special group name $user which is the personal group of the user clicking the button.
@@ -128,9 +127,8 @@ The first parameter can be:
 
 The redirect page (i.e. the segment to go to when the pages are created) is achieved as follows:
 
-| “/bleh/[T1, date, yy; go]/[T2, date, mm]/”
-| “/bleh/[T1, date, yy; go, spreadsheet]/[T2, date, mm]/”
-
+| ``/bleh/[T1, date, yy; go]/[T2, date, mm]/``
+| ``/bleh/[T1, date, yy; go, spreadsheet]/[T2, date, mm]/``
 
 You can mix and match permission and redirects (i.e. the clauses are order independent)
 
