@@ -96,7 +96,7 @@ html_theme_options = {
     'disqus_shortname': 'vixodocumentation',
     'github_user':      'hypernumbers',
     'github_repo':      'Hypernumbers-Manual',
-    'analytics_code':   'UA-3031538-4',
+    'analytics_code':   'UA-3031538-7',
     'analytics_domain': 'http://documentation.vixo.com'
                       }
 
