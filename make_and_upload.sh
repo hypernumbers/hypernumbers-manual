@@ -23,6 +23,8 @@ echo "Version: $newrelease" >> ./contents/welcome/version.rst
 echo "Generated: $now" >> ./contents/welcome/version.rst
 echo "making html"
 make html
+echo "copying favicon"
+cp favicon.ico ./_build/html
 echo "making latex"
 make latex
 echo "making epub"

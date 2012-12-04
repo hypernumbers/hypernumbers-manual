@@ -1,5 +1,5 @@
 Documentation Version
 =====================
 
-Version: 1.0.9
-Generated: Wed Nov 28 16:25:13 GMT 2012
+Version: 1.0.11
+Generated: Tue Dec  4 20:31:12 GMT 2012
