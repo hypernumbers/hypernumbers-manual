@@ -1,5 +1,5 @@
-Data Upload
-===========
+Uploading Appliacation Data
+===========================
 
 Now that we’ve completed building the user side of the bug tracker and tested the process of raising bugs and workqueue updates, it’s time to migrate the historical Excel spreadsheet bug tracker into our new vixo bug tracker. But with 97 bugs to load at 4 pages/bug it would be an onerous and time consuming task to do it manually – as we’ve done in setting up the pages and templates – and typing in the bug data. We need a much more efficient way to load the data and convert it from a 2-dimensional data table into our 3-dimensional application page structure.
 
