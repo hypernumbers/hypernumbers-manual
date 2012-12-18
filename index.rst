@@ -101,6 +101,17 @@ Roll Your Sleeves Up - Building A Vixo Application
    User Passwords                  <contents/vixo-application/changing-user-passwords>
    Summary                         <contents/vixo-application/final-comments>
 
+Integration With Websites, Blogs And WordPress
+==============================================
+
+.. toctree::
+   :maxdepth: 1
+
+   Overview          <contents/integration/overview>
+   Vixo URLs         <contents/integration/vixo-urls>
+   WordPress         <contents/integration/wordpress>
+   Other Integration <contents/integration/other-integration>
+
 Stuff To Learn - Vixo Functions Reference
 =========================================
 
