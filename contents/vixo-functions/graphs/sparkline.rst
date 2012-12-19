@@ -49,3 +49,9 @@ The following example shows sparklines for each of three subjects based on a tim
 .. image :: /images/sparkline_example.png
    :alt: Vixo sparkline series comparison
 
+Additional Material
+-------------------
+
+Read a blog post about inserting `graphs and charts into WordPress`_.
+
+.. _graphs and charts into WordPress: http://wordpress.vixo.com/graphs-and-charts-in-wordpress/

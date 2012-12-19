@@ -68,3 +68,10 @@ Example
    :scale: 100 %
    :align: center
    :alt: Example vixo histogram function
+
+Additional Material
+-------------------
+
+Read a blog post about inserting `graphs and charts into WordPress`_.
+
+.. _graphs and charts into WordPress: http://wordpress.vixo.com/graphs-and-charts-in-wordpress/

@@ -42,3 +42,9 @@ This example shows two data distributions overlayed on the same piechart using t
    :scale: 100 %
    :alt: Example vixo piechart function with two rings
 
+Additional Material
+-------------------
+
+Read a blog post about inserting `graphs and charts into WordPress`_.
+
+.. _graphs and charts into WordPress: http://wordpress.vixo.com/graphs-and-charts-in-wordpress/

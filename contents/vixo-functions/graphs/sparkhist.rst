@@ -65,3 +65,11 @@ In example 2 the data is plotted with sparkhist and sparkbar to show how it is d
    :scale: 100 %
    :align: center
    :alt: Example vixo sparkbar and sparkhist functions
+
+
+Additional Material
+-------------------
+
+Read a blog post about inserting `graphs and charts into WordPress`_.
+
+.. _graphs and charts into WordPress: http://wordpress.vixo.com/graphs-and-charts-in-wordpress/

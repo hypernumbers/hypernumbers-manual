@@ -54,3 +54,11 @@ Example 2
 This example illustrates how multiple values can be compared using progress bars by scaling to an appropirate value.
 
 .. figure:: /images/status_bar_ex2_scaling.png
+
+
+Additional Material
+-------------------
+
+Read a blog post about inserting `graphs and charts into WordPress`_.
+
+.. _graphs and charts into WordPress: http://wordpress.vixo.com/graphs-and-charts-in-wordpress/

@@ -126,3 +126,9 @@ This is particularly useful as the full ``table`` view functionality is availabl
 .. important:: Permissions
    You will only be allowed to edit existing data and add new records if you have access permissions to the underlying spreadsheet view set up via the ``views`` menu.
 
+WordPress Integration
+---------------------
+
+Read a blog post about inserting `creating and inserting tables into WordPress`_.
+
+.. _creating and inserting tables into WordPress: http://wordpress.vixo.com/creating-and-inserting-tables-into-wordpress/
