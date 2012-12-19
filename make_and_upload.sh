@@ -24,8 +24,7 @@ echo "making html"
 make html
 echo "making sitemap"
 echo "http://documentation.vixo.com/index.html" > ./_build/html/sitemap.txt
-ls -d -1 ./_build/html/contents/*/* | sed "s|./_build/html|http://documentation.vixo.com|g" >> ./_build/html/sitemap.txt
- ls ./_build/html/_images/* | sed "s|./_build/html|http://documentation.vixo.com|g" >> ./_build/html/sitemap.txt
+ls -d --full-time ./contents/*/*/* ./images/* | sitemap.gawk >> ./_build/html/sitemap.xml
 echo "copying favicon"
 cp favicon.ico ./_build/html
 echo "making latex"
