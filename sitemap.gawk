@@ -4,7 +4,7 @@ BEGIN {
     {print "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">"}
 }
 {print "  <url>"}
-{print "    <loc>http://documentation.vixo.com/"gensub(/\.rst/, ".html", "g", $9)"<loc>"}
+{print "    <loc>http://documentation.vixo.com/"gensub(/\.rst/, ".html", "g", $9)"</loc>"}
 {print "    <lastmod>"$6"</lastmod>"}
 {print "  </url>"}
 
