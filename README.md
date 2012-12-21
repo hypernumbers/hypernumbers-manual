@@ -2,9 +2,9 @@
 A Manual For Vixo
 =================
 
-This is a manual for the (Vixo Spreadsheet)[http://vixo.com].
+This is a manual for the [Vixo Spreadsheet](http://vixo.com).
 
-It is live and (online)[http://documentation.vixo.com]
+It is live and [online](http://documentation.vixo.com)
 
 Getting Vixo
 ------------
