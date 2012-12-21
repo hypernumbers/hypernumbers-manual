@@ -9,19 +9,20 @@ It is live and (online)[http://documentation.vixo.com]
 Getting Vixo
 ------------
 
-(Try out Vixo for free)[http://vixo.com/in/contact-centres/#signup].
+[Try out Vixo for free](http://vixo.com/in/contact-centres/#signup).
 
 Blog
 ----
 
-The (Vixo Blog)[http://blog.vixo.com] has articles about how and when to use Vixo.
+The [Vixo Blog](http://blog.vixo.com) has articles about how and when to use Vixo.
 
 Vixo And WordPress Go Together Like Excel And Word
 --------------------------------------------------
 
-With the (Vixo WordPress Plugin)[http://wordpress.vixo.com] you can embed Vixo spreadsheets, charts and graphs, forms, quotation engines and much more.
+With the [Vixo WordPress Plugin](http://wordpress.vixo.com) you can embed Vixo spreadsheets, charts and graphs, forms, quotation engines and much more.
 
 <h3>Insert spreadsheets into WordPress</h3>
+
 Simply insert <a title="insert google and excel compatible spreadsheets into WordPress" href="http://wordpress.vixo.com/publishing-figures-on-wordpress-with-a-vixo-spreadsheet/">accounts and basic spreadsheets</a> into your WordPress site - automatically update your blog when the underlying spreadsheet changes.
 
 <h3>Charts and graphs in WordPress</h3>
@@ -44,5 +45,5 @@ Licensing
 Acknowledgements
 ----------------
 
-The section (*Excel-Compatible Functions*)[http://documentation.vixo.com/contents/excel-compatible-functions/excel-compatible-fns-copyright.html] is copied from the Libre Office Website where it is available under the Creative Commons Attribution-Share Alike 3.0 Unported license.
+The section [*Excel-Compatible Functions*](http://documentation.vixo.com/contents/excel-compatible-functions/excel-compatible-fns-copyright.html) is copied from the Libre Office Website where it is available under the Creative Commons Attribution-Share Alike 3.0 Unported license.
 
