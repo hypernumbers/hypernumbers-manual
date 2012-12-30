@@ -22,7 +22,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.todo', 'sphinx.ext.pngmath', 'sphinx.ext.jsmath']
+extensions = ['sphinx.ext.todo']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -180,7 +180,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+#latex_logo = "./images/frontpage.png"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
@@ -200,3 +200,8 @@ latex_use_modindex = False
 # built documents.
 #
 # The short X.Y version and the full version, including alpha/beta/rc tags.
+
+# -- Options for ePub output --------------------------------------------------
+
+# location of cover
+epub_cover = "./images/frontpage.png"
