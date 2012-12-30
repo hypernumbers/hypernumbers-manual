@@ -28,4 +28,4 @@ Example
 
 ``=MAX(A1:B100)`` returns the largest value from the list.
 
-.. _Database Queries: ./contents/indepth/database-queries.html
+.. _Database Queries: /contents/indepth/database-queries.html

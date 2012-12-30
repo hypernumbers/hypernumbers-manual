@@ -26,4 +26,4 @@ Example
 
 ``=MIN(A1:B100)`` returns the smallest value in the list.
 
-.. _Database Queries: ./contents/indepth/database-queries.html
+.. _Database Queries: /contents/indepth/database-queries.html

@@ -53,4 +53,4 @@ Example
 
 .. figure:: /images/example-table.png
 
-.. _here: ./contents/vixo-functions/database/ztable.html
+.. _here: /contents/vixo-functions/database/ztable.html

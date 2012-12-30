@@ -28,4 +28,4 @@ If you enter the numbers 2, 3 and 4 in the Number 1, 2 and 3 text boxes, 9 will 
 
 See also the functions ``=dsum()`` and ``=zsum()``
 
-.. _Database Queries: ./contents/indepth/database-queries.html
+.. _Database Queries: /contents/indepth/database-queries.html

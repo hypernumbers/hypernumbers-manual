@@ -85,4 +85,4 @@ Your Google Merchant ID can be found in your Google Checkout Settings page.
 
 .. image :: /images/example-google-buynow.png
 
-.. _here: http://www.currency-iso.org/iso_index/iso_tables/iso_tables_a1.htm
+.. _here: http://www.currency-iso.org/isocy/global/en/home/tables/table-a1.html

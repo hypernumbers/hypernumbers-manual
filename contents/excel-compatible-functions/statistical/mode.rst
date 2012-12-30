@@ -28,4 +28,4 @@ Example
 
 ``=MODE(3, 7, 3, 9, 9, 3, 5, 1, 9, 5)`` returns 3. The number 9 occurs the same number of times, but 3 is smaller.
 
-.. _Database Queries: ./contents/indepth/database-queries.html
+.. _Database Queries: /contents/indepth/database-queries.html
