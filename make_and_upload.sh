@@ -29,16 +29,16 @@ echo "copying favicon"
 cp favicon.ico ./_build/html
 echo "making latex"
 make latex
-echo "making epub"
-make epub
-cd ./_build/epub
-ebook-convert BuildingApplicationsWithVixo.epub BuildingApplicationsWithVixo.mobi
-scp BuildingApplicationsWithVixo.* gordon@hypernumbers.com:/hn/files-www/vixo2/
-cd ../latex
+cd ./_build/latex
 echo "making pdf"
 make all-pdf
 echo "uploading pdf"
 scp BuildingApplicationsWithVixo.pdf gordon@hypernumbers.com:/hn/files-www/vixo2/
+echo "making epub"
+make epub
+cd ../epub
+ebook-convert BuildingApplicationsWithVixo.epub BuildingApplicationsWithVixo.mobi
+scp BuildingApplicationsWithVixo.* gordon@hypernumbers.com:/hn/files-www/vixo2/
 cd ../html
 echo "tarring and zipping html"
 rm doco.tar.gz
