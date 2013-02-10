@@ -105,7 +105,7 @@ html_theme_path = ["./themes/"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "Building Applications With Vixo"
+html_title = "Building Applications With Vixo - The Next Generation Spreadsheet"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -203,5 +203,22 @@ latex_use_modindex = False
 
 # -- Options for ePub output --------------------------------------------------
 
+#epub_theme = 'epub'
+
+#epub_title = 'Building Applications With Vixo - The Next Generation Spreadsheet'
+
+#epub_author = 'Gordon Guthrie and Stephen McCrory'
+
+#epub_language = 'en'
+
+#epub_publisher = 'vixo.com'
+
 # location of cover
-epub_cover = "./images/frontpage.png"
+epub_cover = ('/home/gordon/manual/images/Vixo Documentation.png', '/home/gordon/manual/contents/cover.html')
+
+###################
+
+# Some configuration
+
+html_show_copyright = False
+html_show_sphinx    = False

@@ -19,6 +19,7 @@ A number of functions are available to do common web activities and integrate so
    TWITTER.BUTTON      <twitter-button>
    TWITTER.PROFILE     <twitter-profile>
    TWITTER.TWEET       <twitter-tweet>
+   VIMEO               <vimeo>
 
 .. Note:: There is a function for adding `Google Analytics`_ under site administration.
 
