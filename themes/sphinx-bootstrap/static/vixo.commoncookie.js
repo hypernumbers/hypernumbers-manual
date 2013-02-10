@@ -19,15 +19,12 @@ Vixo.init = function () {
     };
 
     successFn = function (data) {
-	      var date;
-        
-        date = new Date();
-        document.cookie = "auth=" + data.auth + "; path=/";
+        document.cookie = data.auth + "; path=/";
     };
 
-    // Basically we set an auth cookie for an 
+    // Basically we set an auth cookie for an
     if (!getAuthCookieFn()) {
-        $.ajax({url: "http://hypernumbers.com/_sync/externalcookie/",
+        $.ajax({url: "http://hypernumbers.dev:9000/_sync/externalcookie/",
                 success: successFn,
                 dataType: "jsonp"
                });
