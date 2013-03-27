@@ -131,4 +131,4 @@ WordPress Integration
 
 Read a blog post about inserting `creating and inserting tables into WordPress`_.
 
-.. _creating and inserting tables into WordPress: http://wordpress.vixo.com/creating-and-inserting-tables-into-wordpress/
+.. _creating and inserting tables into WordPress: http://wordpress.vixo.com/creating-and-inserting-tables-into-wordpress/?from=http://documentation.vixo.com

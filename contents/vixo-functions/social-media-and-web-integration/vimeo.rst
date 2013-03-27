@@ -30,4 +30,4 @@ The `front page`_ of the Vixo website embeds a Vimeo video with the expression:
 
 ``=VIMEO(42266454)``
 
-.. _front page: http://vixo.com
+.. _front page: http://vixo.com?from=http://documentation.vixo.com

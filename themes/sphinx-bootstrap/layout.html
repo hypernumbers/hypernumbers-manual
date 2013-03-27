@@ -5,10 +5,10 @@
 {%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
 
 {%- macro relbar(bottom=False) %}
-          <a class="brand" href="http://vixo.com">Vixo</a>
-          <a class="brand" href="http://blog.vixo.com">Blog</a>
+          <a class="brand" href="http://vixo.com?from=http://documentation.vixo.com">Vixo</a>
+          <a class="brand" href="http://blog.vixo.com?from=http://documentation.vixo.com">Blog</a>
           <a class="brand" href="{{ pathto(master_doc) }}">Documentation</a>
-          <a class="brand" href="http://wordpress.vixo.com">WordPress Plugin</a>
+          <a class="brand" href="http://wordpress.vixo.com?from=http://documentation.vixo.com">WordPress Plugin</a>
 {%- endmacro %}
 
 {%- macro navigation() %}
@@ -192,7 +192,7 @@
       <h1>Vixo Reference Documentation</h1>
       <p>This is the reference documentation for Vixo - like spreadsheets but better. Vixo enables ordinary spreadsheet users who are stuck with painful manual process built in desktop spreadsheets to turn them into secure, maintainable distributed web applications using their spreadsheet skills.</p>
       <p>
-        <a class="btn btn-primary btn-large" href="http://vixo.com">
+        <a class="btn btn-primary btn-large" href="http://vixo.com?from=http://documentation.vixo.com">
           Get Started »
         </a>
       </p>
@@ -235,7 +235,7 @@
                 {% trans sphinx_version=sphinx_version|e %}Created using <a
                         href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}
                     .{% endtrans %}
-        Get <a href="http://vixo.com">the next generation spreadsheet</a> now!
+        Get <a href="http://vixo.com?from=http://documentation.vixo.com">the next generation spreadsheet</a> now!
                 </small>
                 </p>
             {%- endif %}

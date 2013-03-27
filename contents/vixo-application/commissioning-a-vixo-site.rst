@@ -1,7 +1,7 @@
 Commissioning a Vixo Site
 =========================
 
-To do this go to http://vixo.com, type your (valid) email address into the free trial form field (highlighted) and click the ``free trial`` submit button.
+To do this go to `the vixo website`_, type your (valid) email address into the free trial form field (highlighted) and click the ``free trial`` submit button.
 
 
 .. image:: /images/vixo-commissioning-a-site.png
@@ -26,3 +26,4 @@ Click the link to open the root spreadsheet page (with some data and a graph, an
 
 Now we have an empty site (just my preference) and are ready to build the bug tracker.
 
+.. _the vixo website: http://vixo.com/contact-centres?from=http://documentation.vixo.com#signups

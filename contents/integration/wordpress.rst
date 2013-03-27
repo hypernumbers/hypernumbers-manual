@@ -32,16 +32,16 @@ Calculators And Quotation Engines For WordPress
 
 Specialist `quotation engines and calculators for Wordpress`_ are a cinch with Vixo - they can be built easily in a spreadsheet and then published into your blog.
 
-.. _dedicated website: http://wordpress.vixo.com
+.. _dedicated website: http://wordpress.vixo.com?from=http://documentation.vixo.com
 
-.. _embed charts, graphs, tables and forms with Vixo: http://wordpress.org/extend/plugins/vixo-embeddable-tables-charts-and-spreadsheets/
+.. _embed charts, graphs, tables and forms with Vixo: http://wordpress.org/extend/plugins/vixo-embeddable-tables-charts-and-spreadsheets/?from=http://documentation.vixo.com
 
-.. _insert google and excel compatible spreadsheets directly into WordPress: http://wordpress.vixo.com/publishing-figures-on-wordpress-with-a-vixo-spreadsheet/
+.. _insert google and excel compatible spreadsheets directly into WordPress: http://wordpress.vixo.com/publishing-figures-on-wordpress-with-a-vixo-spreadsheet/?from=http://documentation.vixo.com
 
-.. _graphs and charts into WordPress: http://wordpress.vixo.com/graphs-and-charts-in-wordpress/
+.. _graphs and charts into WordPress: http://wordpress.vixo.com/graphs-and-charts-in-wordpress/?from=http://documentation.vixo.com
 
-.. _create and insert tables into WordPress: http://wordpress.vixo.com/creating-and-inserting-tables-into-wordpress/
+.. _create and insert tables into WordPress: http://wordpress.vixo.com/creating-and-inserting-tables-into-wordpress/?from=http://documentation.vixo.com
 
-.. _simple WordPress forms: http://wordpress.vixo.com/embeddable-vixo-forms/
+.. _simple WordPress forms: http://wordpress.vixo.com/embeddable-vixo-forms/?from=http://documentation.vixo.com
 
-.. _quotation engines and calculators for Wordpress: http://wordpress.vixo.com/building-a-calculator-or-quote-engine/
+.. _quotation engines and calculators for Wordpress: http://wordpress.vixo.com/building-a-calculator-or-quote-engine/?from=http://documentation.vixo.com

@@ -31,4 +31,4 @@ WordPress Integration
 
 Read a blog post about inserting `graphs and charts into WordPress`_.
 
-.. _graphs and charts into WordPress: http://wordpress.vixo.com/graphs-and-charts-in-wordpress/
+.. _graphs and charts into WordPress: http://wordpress.vixo.com/graphs-and-charts-in-wordpress/?from=http://documentation.vixo.com
