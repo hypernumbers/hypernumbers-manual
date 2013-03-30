@@ -14,7 +14,7 @@ Appending Forms
 
 Appending forms allow you to capture data via webpage and wikipage views and store the responses in a designated spreadsheet page as tabular (row and column) data; one record per submitted response.
 
-Forms can be constructed using any of the following form elements:
+Forms can be constructed using any of the following `form`_ elements:
 
 *	Input fields
 * Non-editable or fixed-value fields
@@ -31,7 +31,7 @@ Creating an appending form is easy:
    :alt: Creating a vixo webform
 
 #.	Select a range of cells in the spreadsheet (in this instance ``A2:B8``), right-click (to get the right-click menu) and select  the Create Form option.
-#.	This will add a form with a number of basic input elements to the selected cells along with default question text alongside (e.g. “Question 1:”), a form submit button and a link to the page where the responses will be posted – the default response page being a sub-page of the current page named ``/current-page-path/replies/``.  You can then start to customise the form by adding appropriate questions, merging input cells to be larger and changing form elements via the toolbar menu.
+#.	This will add a form with a number of basic input elements to the selected cells along with default question text alongside (e.g. “Question 1:”), a form submit button and a link to the page where the responses will be posted – the default response page being a sub-page of the current page named ``/current-page-path/_replies/``.  You can then start to customise the form by adding appropriate questions, merging input cells to be larger and changing form elements via the toolbar menu.
 #.	Data is entered into the form in the webpage or wikipage views and is posted to the default page ``/current-page-path/replies/``.
 
 Data submitted via this form would be posted to a page as rows and columns thus:
@@ -57,12 +57,12 @@ This approach has the benefit of providing more control over the placement of fo
 
 In vixo, form elements used in appending forms, are functions (see cell ``B2`` in the diagram above) that are entered in cells. The syntax of these form element functions are:
 
-* ``=INPUT("label")``
-* ``=FIXEDVAL("label", "value", boolean)``
-* ``=TEXTAREA("label")``
-* ``=RADIO("label", {"option1","option2","option3",...})``
-* ``=SELECT("label", {"option1","option2","option3",...})``
-* ``=BUTTON(<"ButtonLabel">, <"SubmitResponseMessage">, <"PageToPostDataTo">)``
+* ``=FORM.INPUT("label")``
+* ``=FORM.FIXEDVAL("label", "value", boolean)``
+* ``=FORM.TEXTAREA("label")``
+* ``=FORM.RADIO("label", {"option1","option2","option3",...})``
+* ``=FORM.SELECT("label", {"option1","option2","option3",...})``
+* ``=FORM.BUTTON(<"ButtonLabel">, <"SubmitResponseMessage">, <"PageToPostDataTo">)``
 
 Where,
 
@@ -145,3 +145,5 @@ Toggle views creates a button that only appears if you have both web and wiki pa
 .. _z-query: ./database-queries.html
 
 .. _function description: ../vixo-functions/layout-and-display/toggle-views.html
+
+.. _form: ../vixo-functions/web-forms/introduction-to-form-functions.html
