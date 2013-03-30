@@ -33,7 +33,7 @@ Argument         Description
 ``Js File``      **Optional** A path a javascript file
 
 ``Reload Fn``    **Optional** A javascript function call to be called on reload
-                 If you include a ``JS File`` this paramater **IS NOT** optional
+                 If you include a ``JS File`` this parameter **IS NOT** optional
 
 ``CSS File``     **Optional** A path to a css file
 
