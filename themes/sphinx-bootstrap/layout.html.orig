@@ -5,10 +5,10 @@
 {%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
 
 {%- macro relbar(bottom=False) %}
-          <a class="brand" href="http://vixo.com?from=http://api.vixo.com">Vixo</a>
-          <a class="brand" href="http://blog.vixo.com?from=http://api.vixo.com">Blog</a>
-          <a class="brand" href="http://documentation.vixo.com?from=http://api.vixo.com">Documentation</a>
-          <a class="brand" href="http://wordpress.vixo.com?from=http://api.vixo.com">WordPress Plugin</a>
+          <a class="brand" href="http://vixo.com?from=http://documentation.vixo.com">Vixo</a>
+          <a class="brand" href="http://blog.vixo.com?from=http://documentation.vixo.com">Blog</a>
+          <a class="brand" href="{{ pathto(master_doc) }}">Documentation</a>
+          <a class="brand" href="http://wordpress.vixo.com?from=http://documentation.vixo.com">WordPress Plugin</a>
 {%- endmacro %}
 
 {%- macro navigation() %}
@@ -67,14 +67,13 @@
     {%- endif %}
 {%- endmacro -%}
 
-{%- macro searchbox() %}
+{%- macro seachbox() %}
     {%- if pagename != "search" %}
-        <form class="navbar-search pull-right" action="{{ pathto('search') }}"
+        <form class="navbar-search" action="{{ pathto('search') }}"
               method="get">
-            <input type="text" name="q" placeholder="search..." value="search..."/>
+            <input type="text" name="q" placeholder="search"/>
             <input type="hidden" name="check_keywords" value="yes"/>
             <input type="hidden" name="area" value="default"/>
-
         </form>
     {%- endif %}
 {%- endmacro -%}
@@ -167,60 +166,41 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
     </script>
-  {% endif %}
-</head>
+  {% endif %}</head>
 <body>
-	<body>
 
-		<header role="banner">
+{%- block header %}
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
 
-			<div id="inner-header" class="clearfix">
-
-				<div class="navbar navbar-fixed-top">
-					<div class="navbar-inner">
-						<div class="container-fluid nav-container">
-                {%- block header %}
-  							<nav role="navigation">
                 {%- block relbar1 %}{{ relbar() }}{% endblock %}
-	  						</nav>
-                  {{ searchbox() }}
-                {% endblock %}
-						</div>
-					</div>
-				</div>
+                <div class="pull-right">
+                    {{ seachbox() }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
 
-			</div> <!-- end #inner-header -->
-
-		</header> <!-- end header -->
-
-		<div class="container-fluid">
-
-			<div id="content" class="clearfix row-fluid">
-
-				<div id="main" class="span12 clearfix" role="main">
-          <header>
-					<div class="hero-unit">
-            <h1>Vixo Reference</h1>
-            <p>Help, reference, how-tos and examples</p>
-            <p>
-              <a class="btn btn-primary btn-large" href="http://vixo.com">
-                Get Started »
-              </a>
-            </p>
-					</div>
-				</div>
-			</div>
-     </div>
-    </header>
-
-<div class="container-fluid">
+<div class="container">
 <div class="content">
 
 {%- block content %}
     {%- block sidebar1 %} {# possible location for sidebar #} {% endblock %}
-    <div class="row-fluid clearfix">
+    <div class="page-header">
+      <h1>Vixo Reference Documentation</h1>
+      <p>This is the reference documentation for Vixo - like spreadsheets but better. Vixo enables ordinary spreadsheet users who are stuck with painful manual process built in desktop spreadsheets to turn them into secure, maintainable distributed web applications using their spreadsheet skills.</p>
+      <p>
+        <a class="btn btn-primary btn-large" href="http://vixo.com?from=http://documentation.vixo.com">
+          Get Started »
+        </a>
+      </p>
+    </div>
+    <div class="row">
             {%- block document %}
                 <div class="span12">
+                    {{navigation()}}
                     {% block body %} {% endblock %}
                     {% if theme_disqus_shortname %}
                         <div id="disqus_thread"></div>
@@ -230,6 +210,7 @@
             {%- endblock %}
     </div>
 {%- endblock %}
+</div>
 
 {%- block footer %}
     <div class="footer">
@@ -254,12 +235,13 @@
                 {% trans sphinx_version=sphinx_version|e %}Created using <a
                         href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}
                     .{% endtrans %}
-        Get <a href="http://vixo.com?from=http://api.vixo.com">the next generation spreadsheet</a> now!
+        Get <a href="http://vixo.com?from=http://documentation.vixo.com">the next generation spreadsheet</a> now!
                 </small>
                 </p>
             {%- endif %}
     </div>
 {%- endblock %}
+</div>
 
 {% if theme_disqus_shortname %}
     <!-- disqus -->
@@ -289,10 +271,9 @@
 </script>
 
 <!-- Vixo tracking cookies -->
-<script src="_static/vixo.commoncookie.js"></script>
+<script src="http://hypernumbers.com/vixo.commoncookie.js"></script>
 
 <!-- twitter -->
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-
-
-</body></html>
+</body>
+</html>
