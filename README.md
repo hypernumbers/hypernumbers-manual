@@ -46,4 +46,3 @@ Acknowledgements
 ----------------
 
 The section [*Excel-Compatible Functions*](http://documentation.vixo.com/contents/excel-compatible-functions/excel-compatible-fns-copyright.html) is copied from the Libre Office Website where it is available under the Creative Commons Attribution-Share Alike 3.0 Unported license.
-
