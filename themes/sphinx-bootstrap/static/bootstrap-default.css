@@ -6177,19 +6177,44 @@ a.badge:focus {
 }
 
 h1 {
-  letter-spacing: -3px;
+  font-size: 32px;
 }
 
 h2 {
-  letter-spacing: -2px;
+  font-size: 28px;
 }
 
 h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h1 {
   letter-spacing: -2px;
+}
+
+h2 {
+  letter-spacing: -1px;
+}
+
+h3 {
+  letter-spacing: -1px;
 }
 
 h4 {
   letter-spacing: -1px;
+}
+
+.lead {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.h2 a {
+  color: #dd4814;
 }
 
 .hero-unit h1 {
@@ -6221,27 +6246,6 @@ pre {
 
 .admonition {
   color: #dd4814;
-}
-
-.last,
-.first + p {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-.last blockquote,
-.first + p blockquote {
-  border-color: #ddd;
-  border-color: rgba(0, 0, 0, 0.15);
 }
 
 .pull-right {

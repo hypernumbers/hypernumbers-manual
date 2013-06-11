@@ -24,7 +24,7 @@ echo "making html"
 make html
 echo "making sitemap"
 echo "http://documentation.vixo.com/index.html" > ./_build/html/sitemap.txt
-ls -d --full-time ./contents/*/*/* ./images/* | sitemap.gawk >> ./_build/html/sitemap.xml
+ls -d --full-time ./contents/*/*/* ./images/* | ./sitemap.gawk >> ./_build/html/sitemap.xml
 echo "copying favicon"
 cp favicon.ico ./_build/html
 echo "making latex"
