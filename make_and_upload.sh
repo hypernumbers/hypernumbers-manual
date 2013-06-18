@@ -34,6 +34,7 @@ echo "making pdf"
 make all-pdf
 echo "uploading pdf"
 scp BuildingApplicationsWithVixo.pdf gordon@hypernumbers.com:/hn/files-www/vixo2/
+cd ../../
 echo "making epub"
 make epub
 cd ../epub

@@ -5,10 +5,7 @@
 {%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
 
 {%- macro relbar(bottom=False) %}
-          <a class="brand" href="http://vixo.com?from=http://api.vixo.com">Vixo</a>
-          <a class="brand" href="http://blog.vixo.com?from=http://api.vixo.com">Blog</a>
-          <a class="brand" href="http://documentation.vixo.com?from=http://api.vixo.com">Documentation</a>
-          <a class="brand" href="http://wordpress.vixo.com?from=http://api.vixo.com">WordPress Plugin</a>
+{% include "xxmenu.html" %}
 {%- endmacro %}
 
 {%- macro navigation() %}
@@ -93,13 +90,8 @@
         <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
     {%- endblock %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css"/>
-    <link rel="stylesheet" href="{{ pathto('_static/bootstrap-responsive.min.css', 1) }}" type="text/css"/>
+   <link rel="stylesheet" href="{{ pathto('_static/sphinx-bootstrap.min.css', 1) }}" type="text/css"/>
     <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css"/>
-    <link rel="stylesheet" href="{{ pathto('_static/style.css', 1) }}" type="text/css"/>
-    {%- for cssfile in css_files %}
-        <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css"/>
-    {%- endfor %}
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -114,9 +106,7 @@
                 HAS_SOURCE:  {{ has_source|lower }}
             };
         </script>
-        {%- for scriptfile in script_files + ["_static/bootstrap-dropdown.js"] %}
-            <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
-        {%- endfor %}
+            <script type="text/javascript" src="{{ pathto('_static/sphinx.min.js', 1) }}"></script>
 
         {%- if use_opensearch %}
             <link rel="search" type="application/opensearchdescription+xml"
@@ -170,7 +160,6 @@
   {% endif %}
 </head>
 <body>
-	<body>
 
 		<header role="banner">
 
@@ -198,29 +187,16 @@
 			<div id="content" class="clearfix row-fluid">
 
 				<div id="main" class="span12 clearfix" role="main">
-          <header>
-					<div class="hero-unit">
-            <h1>Vixo Reference</h1>
-            <p>Help, reference, how-tos and examples</p>
-            <p>
-              <a class="btn btn-primary btn-large" href="http://vixo.com">
-                Get Started »
-              </a>
-            </p>
-					</div>
-				</div>
-			</div>
-     </div>
-    </header>
-
-<div class="container-fluid">
-<div class="content">
+          {% include "xxhero.html" %}
+          <div class="container-fluid">
+            <div class="content">
 
 {%- block content %}
     {%- block sidebar1 %} {# possible location for sidebar #} {% endblock %}
     <div class="row-fluid clearfix">
             {%- block document %}
                 <div class="span12">
+                    {% include "xxsales.html" %}
                     {% block body %} {% endblock %}
                     {% if theme_disqus_shortname %}
                         <div id="disqus_thread"></div>
@@ -228,9 +204,9 @@
                     {% endif %}
                 </div>
             {%- endblock %}
+            {% include "xxcall_to_action.html" %}
     </div>
 {%- endblock %}
-
 {%- block footer %}
     <div class="footer">
         {#        {%- block relbar2 %}{{ relbar(bottom=True) }}{% endblock %}#}

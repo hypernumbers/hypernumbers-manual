@@ -19,7 +19,6 @@ If you have problems or comments on the current version of the book please comme
    This Is A Prerelease        <contents/welcome/prerelease>
    Documentation Version       <contents/welcome/version>
    Getting Help                <contents/welcome/gettinghelp>
-   Other Formats And Resources <contents/welcome/other-formats-and-resources>
    How To Use This Material    <contents/welcome/how-to-use-this-material>
 
 A Thousand Spreadsheets Is Hell
