@@ -33,6 +33,6 @@ rm doco.tar.gz
 tar -cvf doco.tar *
 gzip doco.tar
 echo "uploading zipped html"
-scp doco.tar.gz gordon@bizdev.hypernumbers.com:/hn/files-www/beta.documentation.vixo.com/
+scp doco.tar.gz root@bizdev.hypernumbers.com:/hn/files-www/beta.documentation.vixo.com/
 cd /home/gordon/manual
 echo "over and out..."
