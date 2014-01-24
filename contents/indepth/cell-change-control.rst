@@ -23,7 +23,7 @@ The two strategies used to mitigate this risk problem in traditional IT systems 
 
 With existing desktop spreadsheets this presents a significant challenge that is never fully satisfied – by add-on wrapper software,  etc..
 
-Vixo spreadsheets address both of these solutions simultaneously. In this section we will touch on strategy 2. – provision of a change audit trail. Permissions are covered in.......
+Hypernumbers spreadsheets address both of these solutions simultaneously. In this section we will touch on strategy 2. – provision of a change audit trail. Permissions are covered in.......
 
 Viewing the history of a cell
 -----------------------------

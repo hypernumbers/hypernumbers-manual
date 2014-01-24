@@ -25,4 +25,4 @@ Arguments       Description
 Example
 -------
 
-``=EXACT("vixo";"Vixo")`` returns FALSE.
+``=EXACT("hypernumbers";"Hypernumbers")`` returns FALSE.

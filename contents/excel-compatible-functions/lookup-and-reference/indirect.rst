@@ -39,7 +39,7 @@ Example
 The data used in these examples is as follows:
 
 .. image:: /images/example-lookup-fns.png
-   :alt: Vixo indirect example data
+   :alt: Hypernumbers indirect example data
 
 ``=INDIRECT($A$2)`` Value of the reference in cell A2 (Bob)
 

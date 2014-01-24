@@ -28,7 +28,7 @@ Example
 The examples below use the following spreadsheet data:
 
 .. image :: /images/example-information-fns.png
-   :alt: Vixo compatible information function data
+   :alt: Hypernumbers compatible information function data
 
 ``=TYPE(C1)`` returns 2 as a result.
 

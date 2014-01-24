@@ -15,7 +15,7 @@ Some example templates you might have seen or used include:
 •	calculator templates
 •	etc, etc
 
-In vixo the opportunities to capitalise on the use of templates in a fully-functioning workflow system is immense - as it is possible to create templates that incorporate a combination of:
+In hypernumbers the opportunities to capitalise on the use of templates in a fully-functioning workflow system is immense - as it is possible to create templates that incorporate a combination of:
 
 •	GUI elements
 •	business logic
@@ -35,15 +35,15 @@ Creating and storing a template for later re-use is straight forward:
 2.	Click on the view menu and set the default view for the page and whether the page is to be public or private
 3.	Open the ``site -> save as template``
 
-.. image :: /images/vixo-site-menu.png
+.. image :: /images/hypernumbers-site-menu.png
 
 4. In the Template Dialog Box give the template a name and save it
 
-.. image :: /images/vixo-save-as-template.png
+.. image :: /images/hypernumbers-save-as-template.png
 
 If you want to edit an existing template you simply open the source page you used to create the template or instantiate the template to a new page, make any changes and save it with the same template name.
 
-.. image :: /images/vixo-new-page-menu.png
+.. image :: /images/hypernumbers-new-page-menu.png
 
 
 Instantiating a Template
@@ -213,4 +213,4 @@ Repeated invocations of this button will create:
 
 The button can take multiple selectors. The selector strings will include types to create dated and timed pages e.g. ``/2011/jan/21/``
 
-.. _create.button: http://documentation.vixo.com/contents/vixo-functions/templates/create-button.html
+.. _create.button: http://documentation.hypernumbers.org/contents/hypernumbers-functions/templates/create-button.html

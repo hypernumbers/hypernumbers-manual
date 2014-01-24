@@ -2,7 +2,7 @@
 Excel-Compatible Maths And Trigonometry Functions
 =================================================
 
-The following Excel-compatible maths and trigonometry functions are implemented in Vixo:
+The following Excel-compatible maths and trigonometry functions are implemented in Hypernumbers:
 
 .. toctree::
    :maxdepth: 1

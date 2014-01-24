@@ -1,12 +1,12 @@
-.. Building Applications With Vixo documentation master file, created by
+.. Building Applications With Hypernumbers documentation master file, created by
    sphinx-quickstart on Wed Mar  2 21:42:57 2011.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome To Vixo - Like Spreadsheets But Better
+Welcome To Hypernumbers - Like Spreadsheets But Better
 ==============================================
 
-This is the documentation for `Vixo`_ - the next generation spreadsheet.
+This is the documentation for `Hypernumbers`_ - the next generation spreadsheet.
 
 This documentation is updated continuously. The online version is the only uptodate version. If you are reading the PDF or ebook versions of this document please
 check that it is current.
@@ -27,13 +27,13 @@ A Thousand Spreadsheets Is Hell
 .. toctree::
    :maxdepth: 1
 
-   Overview                          <contents/why-vixo/overview>
-   Spreadsheet Hell                  <contents/why-vixo/spreadsheet-hell>
-   Why Should I Use Vixo?            <contents/why-vixo/why-use-vixo>
-   What Is Vixo Good At?             <contents/why-vixo/what-is-vixo-good-at>
-   When Is Vixo The Right Choice?    <contents/why-vixo/when-should-you-use-vixo>
-   Who Uses Vixo?                    <contents/why-vixo/who-uses-vixo>
-   When Should I Use Something Else? <contents/why-vixo/when-use-something-else>
+   Overview                          <contents/why-hypernumbers/overview>
+   Spreadsheet Hell                  <contents/why-hypernumbers/spreadsheet-hell>
+   Why Should I Use Hypernumbers?            <contents/why-hypernumbers/why-use-hypernumbers>
+   What Is Hypernumbers Good At?             <contents/why-hypernumbers/what-is-hypernumbers-good-at>
+   When Is Hypernumbers The Right Choice?    <contents/why-hypernumbers/when-should-you-use-hypernumbers>
+   Who Uses Hypernumbers?                    <contents/why-hypernumbers/who-uses-hypernumbers>
+   When Should I Use Something Else? <contents/why-hypernumbers/when-use-something-else>
 
 
 Getting Started And Learning The Basics
@@ -42,22 +42,22 @@ Getting Started And Learning The Basics
 .. toctree::
    :maxdepth: 1
 
-   Vixo Overview             <contents/vixo-overview/overview>
-   Excel-like Spreadsheet    <contents/vixo-overview/excel-like-spreadsheet>
-   Page And Cell Referencing <contents/vixo-overview/page-and-cell-referencing>
-   Functions                 <contents/vixo-overview/functions>
-   Web And Wiki Pages        <contents/vixo-overview/web-and-wikipages>
-   Table View                <contents/vixo-overview/table-view>
-   Templates                 <contents/vixo-overview/templates>
-   Making Forms              <contents/vixo-overview/making-forms>
-   Permissions               <contents/vixo-overview/permissions>
-   Building Applications     <contents/vixo-overview/building-applications>
-   Managing Pages            <contents/vixo-overview/managing-pages>
-   Spreadsheet Audit         <contents/vixo-overview/spreadsheet-audit>
-   Saving Changes            <contents/vixo-overview/saving-changes>
-   Browser Support           <contents/vixo-overview/browser-support>
+   Hypernumbers Overview             <contents/hypernumbers-overview/overview>
+   Excel-like Spreadsheet    <contents/hypernumbers-overview/excel-like-spreadsheet>
+   Page And Cell Referencing <contents/hypernumbers-overview/page-and-cell-referencing>
+   Functions                 <contents/hypernumbers-overview/functions>
+   Web And Wiki Pages        <contents/hypernumbers-overview/web-and-wikipages>
+   Table View                <contents/hypernumbers-overview/table-view>
+   Templates                 <contents/hypernumbers-overview/templates>
+   Making Forms              <contents/hypernumbers-overview/making-forms>
+   Permissions               <contents/hypernumbers-overview/permissions>
+   Building Applications     <contents/hypernumbers-overview/building-applications>
+   Managing Pages            <contents/hypernumbers-overview/managing-pages>
+   Spreadsheet Audit         <contents/hypernumbers-overview/spreadsheet-audit>
+   Saving Changes            <contents/hypernumbers-overview/saving-changes>
+   Browser Support           <contents/hypernumbers-overview/browser-support>
 
-Going Deeper - Looking At Vixo Indepth
+Going Deeper - Looking At Hypernumbers Indepth
 ======================================
 
 .. toctree::
@@ -75,30 +75,30 @@ Going Deeper - Looking At Vixo Indepth
 ..   contents/page-views/views
 ..   content/site-admin/site administration
 
-Roll Your Sleeves Up - Building A Vixo Application
+Roll Your Sleeves Up - Building A Hypernumbers Application
 ==================================================
 
 .. toctree::
    :maxdepth: 1
 
-   Overview                        <contents/vixo-application/overview>
-   Bug Tracker                     <contents/vixo-application/bug-tracker-system-requirements>
-   Application Page Structure      <contents/vixo-application/bug-tracker-application-page-structure>
-   Navigation                      <contents/vixo-application/bug-tracker-application-navigation>
-   Page Layout and Design          <contents/vixo-application/bug-tracker-application-page-layout-and-design>
-   Build Strategy                  <contents/vixo-application/application-build-strategy>
-   Commissioning a Site            <contents/vixo-application/commissioning-a-vixo-site>
-   Static Data Page                <contents/vixo-application/bug-tracker-static-data-page>
-   Bug Detail Pages                <contents/vixo-application/bug-tracker-bug-detail-pages>
-   Creating User Groups            <contents/vixo-application/creating-user-groups>
-   Applying User Group Permissions <contents/vixo-application/applying-page-and-user-group-permissions>
-   Saving Templates                <contents/vixo-application/saving-application-templates>
-   Work Queue Pages                <contents/vixo-application/bug-tracker-worklist-pages>
-   Dashboard Pages                 <contents/vixo-application/bug-tracker-dashboard-pages>
-   Uploading Application Data      <contents/vixo-application/uploading-application-data>
-   Inviting Users                  <contents/vixo-application/inviting-application-users>
-   User Passwords                  <contents/vixo-application/changing-user-passwords>
-   Summary                         <contents/vixo-application/final-comments>
+   Overview                        <contents/hypernumbers-application/overview>
+   Bug Tracker                     <contents/hypernumbers-application/bug-tracker-system-requirements>
+   Application Page Structure      <contents/hypernumbers-application/bug-tracker-application-page-structure>
+   Navigation                      <contents/hypernumbers-application/bug-tracker-application-navigation>
+   Page Layout and Design          <contents/hypernumbers-application/bug-tracker-application-page-layout-and-design>
+   Build Strategy                  <contents/hypernumbers-application/application-build-strategy>
+   Commissioning a Site            <contents/hypernumbers-application/commissioning-a-hypernumbers-site>
+   Static Data Page                <contents/hypernumbers-application/bug-tracker-static-data-page>
+   Bug Detail Pages                <contents/hypernumbers-application/bug-tracker-bug-detail-pages>
+   Creating User Groups            <contents/hypernumbers-application/creating-user-groups>
+   Applying User Group Permissions <contents/hypernumbers-application/applying-page-and-user-group-permissions>
+   Saving Templates                <contents/hypernumbers-application/saving-application-templates>
+   Work Queue Pages                <contents/hypernumbers-application/bug-tracker-worklist-pages>
+   Dashboard Pages                 <contents/hypernumbers-application/bug-tracker-dashboard-pages>
+   Uploading Application Data      <contents/hypernumbers-application/uploading-application-data>
+   Inviting Users                  <contents/hypernumbers-application/inviting-application-users>
+   User Passwords                  <contents/hypernumbers-application/changing-user-passwords>
+   Summary                         <contents/hypernumbers-application/final-comments>
 
 Integration With Websites, Blogs And WordPress
 ==============================================
@@ -107,28 +107,28 @@ Integration With Websites, Blogs And WordPress
    :maxdepth: 1
 
    Overview          <contents/integration/overview>
-   Vixo URLs         <contents/integration/vixo-urls>
+   Hypernumbers URLs         <contents/integration/hypernumbers-urls>
    WordPress         <contents/integration/wordpress>
    Other Integration <contents/integration/other-integration>
 
-Stuff To Learn - Vixo Functions Reference
+Stuff To Learn - Hypernumbers Functions Reference
 =========================================
 
 .. toctree::
    :maxdepth: 2
 
-   Database Functions                        <contents/vixo-functions/database/introduction-to-database-query-function>
-   Graph Functions                           <contents/vixo-functions/graphs/introduction-to-graphs>
-   Layout And Display Functions               <contents/vixo-functions/layout-and-display/introduction-to-layout-functions>
-   Lookup And Reference Functions             <contents/vixo-functions/lookup-and-reference/introduction-to-lookup-and-reference-fns>
-   Navigation Functions                       <contents/vixo-functions/navigation/introduction-to-navigation-functions>
-   Phone And Email Functions                  <contents/vixo-functions/phone-and-email/introduction-to-phone-and-email-functions>
-   Site Administration Functions              <contents/vixo-functions/site-administration/introduction-to-site-administration-functions>
-   Social Media And Web Integration Functions <contents/vixo-functions/social-media-and-web-integration/introduction-to-social-media>
-   Special Functions                          <contents/vixo-functions/special/introduction-to-special-fns>
-   Template Functions                         <contents/vixo-functions/templates/template-functions-introduction>
-   Text Functions                             <contents/vixo-functions/text/introduction-to-text-fns>
-   Web Form Functions                         <contents/vixo-functions/web-forms/introduction-to-form-functions>
+   Database Functions                        <contents/hypernumbers-functions/database/introduction-to-database-query-function>
+   Graph Functions                           <contents/hypernumbers-functions/graphs/introduction-to-graphs>
+   Layout And Display Functions               <contents/hypernumbers-functions/layout-and-display/introduction-to-layout-functions>
+   Lookup And Reference Functions             <contents/hypernumbers-functions/lookup-and-reference/introduction-to-lookup-and-reference-fns>
+   Navigation Functions                       <contents/hypernumbers-functions/navigation/introduction-to-navigation-functions>
+   Phone And Email Functions                  <contents/hypernumbers-functions/phone-and-email/introduction-to-phone-and-email-functions>
+   Site Administration Functions              <contents/hypernumbers-functions/site-administration/introduction-to-site-administration-functions>
+   Social Media And Web Integration Functions <contents/hypernumbers-functions/social-media-and-web-integration/introduction-to-social-media>
+   Special Functions                          <contents/hypernumbers-functions/special/introduction-to-special-fns>
+   Template Functions                         <contents/hypernumbers-functions/templates/template-functions-introduction>
+   Text Functions                             <contents/hypernumbers-functions/text/introduction-to-text-fns>
+   Web Form Functions                         <contents/hypernumbers-functions/web-forms/introduction-to-form-functions>
 
 Things You Know Already - Excel-Compatible Functions Reference
 ==============================================================
@@ -148,4 +148,4 @@ Things You Know Already - Excel-Compatible Functions Reference
    Statistical Functions            <contents/excel-compatible-functions/statistical/introduction-to-statistical-fns>
    Text Functions                   <contents/excel-compatible-functions/text/introduction-to-text-fns>
 
-.. _Vixo: http://vixo.com
+.. _Hypernumbers: http://hypernumbers.org

@@ -4,7 +4,7 @@ Making Forms
 Overview
 --------
 
-Forms are a useful way of gathering data from end-users in many web application settings. In vixo there are two form types that can be created:
+Forms are a useful way of gathering data from end-users in many web application settings. In hypernumbers there are two form types that can be created:
 
 *	Appending forms
 *	Wikiforms
@@ -28,7 +28,7 @@ Creating an appending form is easy:
 .. image:: /images/appending-form-creation.png
    :scale: 100 %
    :align: center
-   :alt: Creating a vixo webform
+   :alt: Creating a hypernumbers webform
 
 #.	Select a range of cells in the spreadsheet (in this instance ``A2:B8``), right-click (to get the right-click menu) and select  the Create Form option.
 #.	This will add a form with a number of basic input elements to the selected cells along with default question text alongside (e.g. “Question 1:”), a form submit button and a link to the page where the responses will be posted – the default response page being a sub-page of the current page named ``/current-page-path/_replies/``.  You can then start to customise the form by adding appropriate questions, merging input cells to be larger and changing form elements via the toolbar menu.
@@ -39,23 +39,23 @@ Data submitted via this form would be posted to a page as rows and columns thus:
 .. image:: /images/appending-form-responses-spreadsheet.png
    :scale: 100 %
    :align: center
-   :alt: Vixo webform responses spreadsheet
+   :alt: Hypernumbers webform responses spreadsheet
 
 You can also build forms using the toolbar where all the available form elements are provided.
 
 .. image:: /images/form-menu.png
    :scale: 100 %
    :align: center
-   :alt: Vixo web form icons
+   :alt: Hypernumbers web form icons
 
 This approach has the benefit of providing more control over the placement of form elements. You simply select a cell and click the desired form element on the toolbar. The form element will be added to the selected cell. By repeating this process you can construct a highly structured form layouts.
 
 .. image:: /images/appending-form-example.png
    :scale: 100 %
    :align: center
-   :alt: Vixo webform example
+   :alt: Hypernumbers webform example
 
-In vixo, form elements used in appending forms, are functions (see cell ``B2`` in the diagram above) that are entered in cells. The syntax of these form element functions are:
+In hypernumbers, form elements used in appending forms, are functions (see cell ``B2`` in the diagram above) that are entered in cells. The syntax of these form element functions are:
 
 * ``=FORM.INPUT("label")``
 * ``=FORM.FIXEDVAL("label", "value", boolean)``
@@ -86,14 +86,14 @@ You create them using toolbar buttons:
 .. image:: /images/wiki-menu.png
    :scale: 100 %
    :align: center
-   :alt: Vixo wiki control icons
+   :alt: Hypernumbers wiki control icons
 
 Inline wiki elements are created in spreadsheet cells. When data is entered via the wikipage view, it is posted to the same spreadsheet cell. When the pages is viewed as a webpage the data that has been entered is display only. Examples of the two inline wiki elements are shown below as they appear in the ``spreadsheet``, ``wikipage`` and ``webpage`` views:
 
 .. image:: /images/wikiform-views.png
    :scale: 100 %
    :align: center
-   :alt: Vixo wikiform views
+   :alt: Hypernumbers wikiform views
 
 The wiki input field (identifiable in the spreadsheet view via the little red triangle in the top-left corner of the cell) allows you to collect unvalidated data and is useful for collecting user information where there are no pre-defined answers or valid values.
 
@@ -108,7 +108,7 @@ The rich-text entry produces a cell that pops as a rich text editor - as you can
 .. image:: /images/rich-text-editor.png
    :scale: 100 %
    :align: center
-   :alt: Vixo wiki rich text editor
+   :alt: Hypernumbers wiki rich text editor
 
 Inline wiki elements are a great way to construct interactive application pages:
 
@@ -122,10 +122,10 @@ Ghost Cells
 
 Sometimes you need some spreadsheet cells to do a calculation but they make the web or wiki pages ugly and unsightly. We can solve this problem with the ghost button:
 
-.. image:: /images/vixo-ghost-toolbar-button.png
+.. image:: /images/hypernumbers-ghost-toolbar-button.png
    :scale: 100 %
    :align: center
-   :alt: Vixo ghost toolbar button
+   :alt: Hypernumbers ghost toolbar button
 
 The ghost button just makes unwanted cells disappear. It has two uses:
 
@@ -144,6 +144,6 @@ Toggle views creates a button that only appears if you have both web and wiki pa
 
 .. _z-query: ./database-queries.html
 
-.. _function description: ../vixo-functions/layout-and-display/toggle-views.html
+.. _function description: ../hypernumbers-functions/layout-and-display/toggle-views.html
 
-.. _form: ../vixo-functions/web-forms/introduction-to-form-functions.html
+.. _form: ../hypernumbers-functions/web-forms/introduction-to-form-functions.html

@@ -1,7 +1,7 @@
 Other Integration
 =================
 
-You can use iframes to integrate Vixo into other blogs and webpages.
+You can use iframes to integrate Hypernumbers into other blogs and webpages.
 
 Simply create a web or wiki page and then use the standard iframe syntax in your html:
 

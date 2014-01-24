@@ -5,10 +5,10 @@
 {%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
 
 {%- macro relbar(bottom=False) %}
-          <a class="brand" href="http://vixo.com?from=http://documentation.vixo.com">Vixo</a>
-          <a class="brand" href="http://blog.vixo.com?from=http://documentation.vixo.com">Blog</a>
+          <a class="brand" href="http://hypernumbers.org?from=http://documentation.hypernumbers.org">Hypernumbers</a>
+          <a class="brand" href="http://blog.hypernumbers.org?from=http://documentation.hypernumbers.org">Blog</a>
           <a class="brand" href="{{ pathto(master_doc) }}">Documentation</a>
-          <a class="brand" href="http://wordpress.vixo.com?from=http://documentation.vixo.com">WordPress Plugin</a>
+          <a class="brand" href="http://wordpress.hypernumbers.org?from=http://documentation.hypernumbers.org">WordPress Plugin</a>
 {%- endmacro %}
 
 {%- macro navigation() %}
@@ -189,10 +189,10 @@
 {%- block content %}
     {%- block sidebar1 %} {# possible location for sidebar #} {% endblock %}
     <div class="page-header">
-      <h1>Vixo Reference Documentation</h1>
-      <p>This is the reference documentation for Vixo - like spreadsheets but better. Vixo enables ordinary spreadsheet users who are stuck with painful manual process built in desktop spreadsheets to turn them into secure, maintainable distributed web applications using their spreadsheet skills.</p>
+      <h1>Hypernumbers Reference Documentation</h1>
+      <p>This is the reference documentation for Hypernumbers - like spreadsheets but better. Hypernumbers enables ordinary spreadsheet users who are stuck with painful manual process built in desktop spreadsheets to turn them into secure, maintainable distributed web applications using their spreadsheet skills.</p>
       <p>
-        <a class="btn btn-primary btn-large" href="http://vixo.com?from=http://documentation.vixo.com">
+        <a class="btn btn-primary btn-large" href="http://hypernumbers.org?from=http://documentation.hypernumbers.org">
           Get Started »
         </a>
       </p>
@@ -235,7 +235,7 @@
                 {% trans sphinx_version=sphinx_version|e %}Created using <a
                         href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}
                     .{% endtrans %}
-        Get <a href="http://vixo.com?from=http://documentation.vixo.com">the next generation spreadsheet</a> now!
+        Get <a href="http://hypernumbers.org?from=http://documentation.hypernumbers.org">the next generation spreadsheet</a> now!
                 </small>
                 </p>
             {%- endif %}
@@ -270,8 +270,8 @@
     });
 </script>
 
-<!-- Vixo tracking cookies -->
-<script src="http://hypernumbers.com/vixo.commoncookie.js"></script>
+<!-- Hypernumbers tracking cookies -->
+<script src="http://hypernumbers.com/hypernumbers.orgmoncookie.js"></script>
 
 <!-- twitter -->
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>

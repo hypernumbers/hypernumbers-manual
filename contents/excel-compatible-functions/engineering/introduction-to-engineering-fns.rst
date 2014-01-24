@@ -2,7 +2,7 @@
 Excel-Compatible Engineering Functions
 ======================================
 
-The following Excel-compatible engineering functions are implemented in Vixo:
+The following Excel-compatible engineering functions are implemented in Hypernumbers:
 
 .. toctree::
    :maxdepth: 1

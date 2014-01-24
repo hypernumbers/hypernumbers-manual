@@ -4,7 +4,7 @@ Prerelease Version Of The Documentation
 
 Our strategic aim is to make this documentation available in many formats, as an ebook, as a downloadable and printable book.
 
-The documentation must be complete enouth to enable spreadsheet users to build their own web applications on the Vixo platform.
+The documentation must be complete enouth to enable spreadsheet users to build their own web applications on the Hypernumbers platform.
 
 The book needs to comprehensive, comprehensible and correct.
 

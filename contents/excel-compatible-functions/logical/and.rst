@@ -13,7 +13,7 @@ When a function expects a single value, but you entered a cell range, then the v
 
 If the entered range is outside of the current column or row of the formula, the function returns the error value #VALUE!
 
-**AND handles arrays differently in Vixo, need to see if it matters...**
+**AND handles arrays differently in Hypernumbers, need to see if it matters...**
 
 Syntax
 ------

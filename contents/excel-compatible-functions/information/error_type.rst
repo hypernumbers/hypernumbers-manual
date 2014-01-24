@@ -32,5 +32,5 @@ Example
 If A2 is set to #NULL! then ``=error.type(A2)`` will return 1
 If A3 is set to =3/0 then ``=if(error.type(A3)=2, True, False)``  will return true
 If A4 is set to =indirect(“A”&-2) then ``=error.type(A4)`` will return 4
-If A5 is set to =AMadeup.Function(2, 12) then ``=error.type(A5)`` will return 5 as this function does not exist in vixo
+If A5 is set to =AMadeup.Function(2, 12) then ``=error.type(A5)`` will return 5 as this function does not exist in hypernumbers
 

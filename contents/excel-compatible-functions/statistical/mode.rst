@@ -19,7 +19,7 @@ Syntax
 Z-Order
 -------
 
-In Vixo as well as taking normal row and column references, ``MODE`` can take z-references. See the section on `Database Queries`_ for more details.
+In Hypernumbers as well as taking normal row and column references, ``MODE`` can take z-references. See the section on `Database Queries`_ for more details.
 
 Example
 -------

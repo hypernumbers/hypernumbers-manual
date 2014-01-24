@@ -9,10 +9,10 @@ This documentation is available in four formats:
 * as an `mobi book`_ (suitable for Kindles)
 * as a `website`_
 
-.. _PDF:       ../../files/BuildingApplicationsWithVixo.pdf
-.. _ePub book: ../../files/BuildingApplicationsWithVixo.epub
-.. _mobi book: ../../files/BuildingApplicationsWithVixo.mobi
-.. _website:   http://documentation.vixo.com
+.. _PDF:       ../../files/BuildingApplicationsWithHypernumbers.pdf
+.. _ePub book: ../../files/BuildingApplicationsWithHypernumbers.epub
+.. _mobi book: ../../files/BuildingApplicationsWithHypernumbers.mobi
+.. _website:   http://documentation.hypernumbers.org
 
 .. index:: website
    pair: download; pdf

@@ -23,7 +23,7 @@ echo "Generated: $now" >> ./contents/welcome/version.rst
 echo "making html"
 make html
 echo "making sitemap"
-echo "http://documentation.vixo.com/index.html" > ./_build/html/sitemap.txt
+echo "http://documentation.hypernumbers.org/index.html" > ./_build/html/sitemap.txt
 ls -d --full-time ./contents/*/*/* ./images/* | ./sitemap.gawk >> ./_build/html/sitemap.xml
 echo "copying favicon"
 cp favicon.ico ./_build/html
@@ -33,19 +33,19 @@ cd ./_build/latex
 echo "making pdf"
 make all-pdf
 echo "uploading pdf"
-scp BuildingApplicationsWithVixo.pdf gordon@hypernumbers.com:/hn/files-www/vixo2/
+scp BuildingApplicationsWithHypernumbers.pdf gordon@hypernumbers.com:/hn/files-www/hypernumbers2/
 cd ../../
 echo "making epub"
 make epub
 cd ../epub
-ebook-convert BuildingApplicationsWithVixo.epub BuildingApplicationsWithVixo.mobi
-scp BuildingApplicationsWithVixo.* gordon@hypernumbers.com:/hn/files-www/vixo2/
+ebook-convert BuildingApplicationsWithHypernumbers.epub BuildingApplicationsWithHypernumbers.mobi
+scp BuildingApplicationsWithHypernumbers.* gordon@hypernumbers.com:/hn/files-www/hypernumbers2/
 cd ../html
 echo "tarring and zipping html"
 rm doco.tar.gz
 tar -cvf doco.tar *
 gzip doco.tar
 echo "uploading zipped html"
-scp doco.tar.gz gordon@hypernumbers.com:/hn/files-www/vixo2/
+scp doco.tar.gz gordon@hypernumbers.com:/hn/files-www/hypernumbers2/
 cd /home/gordon/manual
 echo "over and out..."

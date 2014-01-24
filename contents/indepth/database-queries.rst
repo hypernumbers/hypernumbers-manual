@@ -5,11 +5,11 @@ Database Queries
 Overview
 --------
 
-A z-query is the vixo equivalent of a database query. In the case of vixo, pages and the data on those pages is the database against which z-queries are used to extract data. A z-query allows you to pull data together from pages at the end of a complex hierarchical tree of pages, subject to characteristics in intermediate page segments and push it into a standard function or special hypernumber functions or even into a list.
+A z-query is the hypernumbers equivalent of a database query. In the case of hypernumbers, pages and the data on those pages is the database against which z-queries are used to extract data. A z-query allows you to pull data together from pages at the end of a complex hierarchical tree of pages, subject to characteristics in intermediate page segments and push it into a standard function or special hypernumber functions or even into a list.
 
 A z-query enables data analysis of cell(s) on a spreadsheet page across multiple pages subject to conditions based on data inside the rows and columns of each page. The diagram below illustrates the concept of a z-query:
 
-.. image :: /images/vixo-database-query.png
+.. image :: /images/hypernumbers-database-query.png
 
 In this illustration, the z-query accesses all sub-pages below the page /some/page/ and picks up the values in cell b3 but excludes page /some/page/2/ because some condition is not satisfied.
 
@@ -24,7 +24,7 @@ Z-queries can be used inside a selection of maths and statistics functions e.g.:
 * count
 * etc
 
-A number of special vixo functions have also been created to cater for z-queries that are constructed from strings, including:
+A number of special hypernumbers functions have also been created to cater for z-queries that are constructed from strings, including:
 
 * zsum
 * zcount
@@ -78,7 +78,7 @@ Illustrative Database
 
 To illustrate the z-query syntax in a practical example we will utilise the following database page structure below:
 
-.. image :: /images/vixo-meter-database-example.png
+.. image :: /images/hypernumbers-meter-database-example.png
 
 
 In this example we have historical energy readings from electricity meters and the data is organised into spreadsheet pages using the following page structure:
@@ -167,7 +167,7 @@ An alternate way to do this is to apply a condition to the month segment of the 
 Where,
 
 ``[or(segment()=”jan”, segment()=”feb”, segment()=”mar”)]``
-	applies a condition to the month segment involving the OR function and a special vixo function ``segment()``.
+	applies a condition to the month segment involving the OR function and a special hypernumbers function ``segment()``.
 ``Segment()``
 	returns the value of the segment. The ``segment()`` function would return “jan”, “feb”,…. and “dec” and the or function limits the month segments to sum to “jan, feb and mar.
 
@@ -232,7 +232,7 @@ This function returns a dialog box with a list of all the pages that qualify aga
 Z-Query Lists
 -------------
 
-Sometimes the aim using a z-query is to return a list of pages and values matching particular criteria for use in some application. The special function link.box.WxH makes this easy and a very important list management feature within vixo.
+Sometimes the aim using a z-query is to return a list of pages and values matching particular criteria for use in some application. The special function link.box.WxH makes this easy and a very important list management feature within hypernumbers.
 
 The syntax for this function is:
 

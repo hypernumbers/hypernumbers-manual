@@ -13,7 +13,7 @@ Because they are so easy to use, spreadsheets are often used to manage lists of 
 * Project schedules
 * etc.
 
-With vixo spreadsheets, a cell’s data can be more than just numbers and text. You can also include links, pictures, graphs and many other web objects in your lists. This means that you can build up lists rich with content.
+With hypernumbers spreadsheets, a cell’s data can be more than just numbers and text. You can also include links, pictures, graphs and many other web objects in your lists. This means that you can build up lists rich with content.
 
 Table view
 ----------
@@ -31,15 +31,15 @@ If you’re using the spreadsheet as an alternative to a proper database and you
 
 Consider the following spreadsheet showing a list of students and their grades:
 
-.. image:: /images/vixo-tables-spreadsheet.png
+.. image:: /images/hypernumbers-tables-spreadsheet.png
    :scale: 100 %
-   :alt: Vixo tables and list - spreadsheet example
+   :alt: Hypernumbers tables and list - spreadsheet example
 
 Switching to the ``table`` view for this page is done by selecting the ``table`` link in the ``views`` menu on the right of the toolbar:
 
-.. image:: /images/vixo-tables-table-view.png
+.. image:: /images/hypernumbers-tables-table-view.png
    :scale: 100 %
-   :alt: Vixo tables and list – table view
+   :alt: Hypernumbers tables and list – table view
 
 The elements available in the ``table`` (highlighted in the diagram) are discussed in following sections.
 
@@ -52,16 +52,16 @@ You can sort the data by clicking the sort button next to the columns heading fo
 The table can be filtered and columns can be hidden via the filter menu which is accessed by clicking the ``show/hide columns and filters`` link.
 
 
-.. image:: /images/vixo-tables-filtering-menu.png
+.. image:: /images/hypernumbers-tables-filtering-menu.png
    :scale: 100 %
-   :alt: Vixo tables and list – filtering menu
+   :alt: Hypernumbers tables and list – filtering menu
 
 A dialog box is opened allowing you to specify which columns to ``show`` (all by default) and to filter by. If you select some columns to filter by e.g. by who, and close the window by clicking the ``x``, filter options are added to the table columns to be filtered.
 
 
-.. image:: /images/vixo-tables-filtering-example.png
+.. image:: /images/hypernumbers-tables-filtering-example.png
    :scale: 100 %
-   :alt: Vixo tables and list – filtering example
+   :alt: Hypernumbers tables and list – filtering example
 
 Two filtering mechanisms are provided:
 
@@ -80,9 +80,9 @@ The row editor is accessed by clicking one of the row editor arrow buttons found
 
 When you click any of these arrow buttons the row editor dialog box opens:
 
-.. image:: /images/vixo-tables-row-editor-menu.png
+.. image:: /images/hypernumbers-tables-row-editor-menu.png
    :scale: 100 %
-   :alt: Vixo tables and list – row editor menu
+   :alt: Hypernumbers tables and list – row editor menu
 
 To edit a data in a specific record, you simply select the row then edit the values for that record. The changes are automatically applied to the spreadsheet.
 
@@ -95,7 +95,7 @@ You can add a new empty record to the bottom of the table by clicking the ``Add 
 Embedded Tables
 ---------------
 
-It is possible to embed tables in other vixo pages and websites. This can be done in a couple of ways using vixo functions:
+It is possible to embed tables in other hypernumbers pages and websites. This can be done in a couple of ways using hypernumbers functions:
 
 *  ``=table`` function
 * ``=html`` function
@@ -104,20 +104,20 @@ It is possible to embed tables in other vixo pages and websites. This can be don
 
 In the example below a subpage (below the original spreadsheet used earlier in this section) has been created and the formula ``=table(../a1:d9)`` has been entered in cell ``A5``.
 
-.. image:: /images/vixo-tables-embedded-in-a-webpage-using-the-table-function.png
+.. image:: /images/hypernumbers-tables-embedded-in-a-webpage-using-the-table-function.png
    :scale: 100 %
-   :alt: Vixo tables and list – embedded in a webpage using the table function
+   :alt: Hypernumbers tables and list – embedded in a webpage using the table function
 
 The table renders in the webpage view as shown. The data can be sorted using the up and down arrow icons against each column label.
 
 **HTML function**
 
-Another way to embed list data as a table view involves using the ``html`` function to incorporate straight html code. We could, for example, include the ``table`` view as an iframe inside a vixo webpage using the html function as shown below:
+Another way to embed list data as a table view involves using the ``html`` function to incorporate straight html code. We could, for example, include the ``table`` view as an iframe inside a hypernumbers webpage using the html function as shown below:
 
 
-.. image:: /images/vixo-tables-embedded-in-a-webpage-using-the-html-function.png
+.. image:: /images/hypernumbers-tables-embedded-in-a-webpage-using-the-html-function.png
    :scale: 100 %
-   :alt: Vixo tables and list – embedded in a webpage using the html function
+   :alt: Hypernumbers tables and list – embedded in a webpage using the html function
 
 .. note:: The html code fragment is included inside double quotes i.e. =html(“ ”). Double quotes inside the code fragment are replaced with single quotes ‘ ‘.
 
@@ -131,4 +131,4 @@ WordPress Integration
 
 Read a blog post about inserting `creating and inserting tables into WordPress`_.
 
-.. _creating and inserting tables into WordPress: http://wordpress.vixo.com/creating-and-inserting-tables-into-wordpress/?from=http://documentation.vixo.com
+.. _creating and inserting tables into WordPress: http://wordpress.hypernumbers.org/creating-and-inserting-tables-into-wordpress/?from=http://documentation.hypernumbers.org

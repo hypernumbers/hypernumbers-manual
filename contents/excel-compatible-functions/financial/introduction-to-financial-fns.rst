@@ -2,7 +2,7 @@
 Excel-Compatible Financial Functions
 ====================================
 
-The following Excel-compatible Financial Functions are implemented in Vixo:
+The following Excel-compatible Financial Functions are implemented in Hypernumbers:
 
 
 .. toctree::

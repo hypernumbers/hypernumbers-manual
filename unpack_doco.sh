@@ -7,7 +7,7 @@ cd ./documentation/
 gunzip ../doco.tar.gz
 tar -xvf ../doco.tar
 mkdir files
-mv ../BuildingApplicationsWithVixo.* ./files
+mv ../BuildingApplicationsWithHypernumbers.* ./files
 # clean up
 cd ../
 rm doco.tar
