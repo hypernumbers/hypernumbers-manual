@@ -1,6 +1,6 @@
-============================
+====================================
 Getting To Know Hypernumbers Indepth
-============================
+====================================
 
 This chapter explores a number of topics about Hypernumbers is some more depth.
 

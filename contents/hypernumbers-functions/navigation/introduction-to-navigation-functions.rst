@@ -1,6 +1,6 @@
-=========================
+=================================
 Hypernumbers Navigation Functions
-=========================
+=================================
 
 A number of navigation function are available for use in building web applications including:
 
@@ -11,6 +11,8 @@ A number of navigation function are available for use in building web applicatio
    HTML.MENU.W   <html-menu>
    HTML.SUBMENU  <html-submenu>
    HTML.ZSUBMENU <html-zsubmenu>
+   LARGE.GOTO.ZDROPDOWN <large-goto-zdropdown>
+   SMALL.GOTO.ZDROPDOWN <small-goto-zdropdown>
    LINK          <link>
    PAGE          <page>
    PAGEURL       <pageurl>

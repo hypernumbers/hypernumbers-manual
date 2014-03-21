@@ -1,6 +1,6 @@
-=============================
+=====================================
 Building Applications in Hypernumbers
-=============================
+=====================================
 
 Hypernumbers is more than just another spreadsheet clone. Hypernumbers is a platform that combines the functionality of the desktop spreadsheet with advanced features such as views, permissions and special web functions that together open up opportunities for spreadsheet experts/business professional to start to build sophisticated  secure web applications.
 

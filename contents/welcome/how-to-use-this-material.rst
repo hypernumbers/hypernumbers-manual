@@ -9,26 +9,26 @@ This documentation is structured to make it easy to work with Hypernumbers.
 ======================================== =======================================
 Chapter                                  Description
 ======================================== =======================================
-**Why Hypernumbers?**                            Explains the who, what, when and why of
+**Why Hypernumbers?**                    Explains the who, what, when and why of
                                          using Hypernumbers. Read this to find
                                          out if it is worth reading more.
 
-**Getting To Know Hypernumbers**                 A quick tour around all the things
+**Getting To Know Hypernumbers**         A quick tour around all the things
                                          that Hypernumbers can do. Read this
                                          to get a better understanding of what
                                          can be done.
 
-**Hypernumbers Indepth**                         The same content as the previous
+**Hypernumbers Indepth**                 The same content as the previous
                                          Chapter but in more depth.
 
-**Building A Hypernumbers Application**          A tutorial Chapter. It takes you
+**Building A Hypernumbers Application**  A tutorial Chapter. It takes you
                                          through building a simple web
                                          application with Hypernumbers. You
                                          can follow this to teach yourself
                                          Hypernumbers (or you can just get on
                                          with it).
 
-**Hypernumbers Functions Reference**             A reference for all the spreadsheet
+**Hypernumbers Functions Reference**     A reference for all the spreadsheet
                                          functions that are specific to
                                          Hypernumbers. Links in the function
                                          wizard on the spreadsheet will

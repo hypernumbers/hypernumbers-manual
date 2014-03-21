@@ -1,6 +1,6 @@
-=============
+=====================
 Why Use Hypernumbers?
-=============
+=====================
 
 Hypernumbers is designed to allow ordinary spreadsheet users to build shared, rich web applications using their ordinary spreadsheet skills.
 

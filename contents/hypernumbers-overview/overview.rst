@@ -1,6 +1,6 @@
-=============
+=====================
 Hypernumbers Overview
-=============
+=====================
 
 Hypernumbers is a web technology that enables spreadsheet users to build web applications. No specialist programming expertise is required. Most of what you need to know to get started is what you already know from using your desktop spreadsheet. Hence our mantra:
 

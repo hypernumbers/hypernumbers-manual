@@ -1,8 +1,8 @@
-======================
+==============================
 Hypernumbers Special Functions
-======================
+==============================
 
-There are a couple of special functions that don't fit naturally into other categories:
+There are a few of special functions that don't fit naturally into other categories:
 
 .. toctree::
    :maxdepth: 1

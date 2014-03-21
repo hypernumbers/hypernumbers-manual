@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome To Hypernumbers - Like Spreadsheets But Better
-==============================================
+======================================================
 
 This is the documentation for `Hypernumbers`_ - the next generation spreadsheet.
 
@@ -27,13 +27,13 @@ A Thousand Spreadsheets Is Hell
 .. toctree::
    :maxdepth: 1
 
-   Overview                          <contents/why-hypernumbers/overview>
-   Spreadsheet Hell                  <contents/why-hypernumbers/spreadsheet-hell>
-   Why Should I Use Hypernumbers?            <contents/why-hypernumbers/why-use-hypernumbers>
-   What Is Hypernumbers Good At?             <contents/why-hypernumbers/what-is-hypernumbers-good-at>
-   When Is Hypernumbers The Right Choice?    <contents/why-hypernumbers/when-should-you-use-hypernumbers>
-   Who Uses Hypernumbers?                    <contents/why-hypernumbers/who-uses-hypernumbers>
-   When Should I Use Something Else? <contents/why-hypernumbers/when-use-something-else>
+   Overview                               <contents/why-hypernumbers/overview>
+   Spreadsheet Hell                       <contents/why-hypernumbers/spreadsheet-hell>
+   Why Should I Use Hypernumbers?         <contents/why-hypernumbers/why-use-hypernumbers>
+   What Is Hypernumbers Good At?          <contents/why-hypernumbers/what-is-hypernumbers-good-at>
+   When Is Hypernumbers The Right Choice? <contents/why-hypernumbers/when-should-you-use-hypernumbers>
+   Who Uses Hypernumbers?                 <contents/why-hypernumbers/who-uses-hypernumbers>
+   When Should I Use Something Else?      <contents/why-hypernumbers/when-use-something-else>
 
 
 Getting Started And Learning The Basics
@@ -42,7 +42,7 @@ Getting Started And Learning The Basics
 .. toctree::
    :maxdepth: 1
 
-   Hypernumbers Overview             <contents/hypernumbers-overview/overview>
+   Hypernumbers Overview     <contents/hypernumbers-overview/overview>
    Excel-like Spreadsheet    <contents/hypernumbers-overview/excel-like-spreadsheet>
    Page And Cell Referencing <contents/hypernumbers-overview/page-and-cell-referencing>
    Functions                 <contents/hypernumbers-overview/functions>
@@ -58,7 +58,7 @@ Getting Started And Learning The Basics
    Browser Support           <contents/hypernumbers-overview/browser-support>
 
 Going Deeper - Looking At Hypernumbers Indepth
-======================================
+==============================================
 
 .. toctree::
    :maxdepth: 1
@@ -76,7 +76,7 @@ Going Deeper - Looking At Hypernumbers Indepth
 ..   content/site-admin/site administration
 
 Roll Your Sleeves Up - Building A Hypernumbers Application
-==================================================
+==========================================================
 
 .. toctree::
    :maxdepth: 1
@@ -107,12 +107,12 @@ Integration With Websites, Blogs And WordPress
    :maxdepth: 1
 
    Overview          <contents/integration/overview>
-   Hypernumbers URLs         <contents/integration/hypernumbers-urls>
+   Hypernumbers URLs <contents/integration/hypernumbers-urls>
    WordPress         <contents/integration/wordpress>
    Other Integration <contents/integration/other-integration>
 
 Stuff To Learn - Hypernumbers Functions Reference
-=========================================
+=================================================
 
 .. toctree::
    :maxdepth: 2

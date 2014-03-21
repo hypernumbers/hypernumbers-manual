@@ -1,6 +1,6 @@
-==================================
+==========================================
 Hypernumbers Site Administration Functions
-==================================
+==========================================
 
 These functions are for use by the site administrator to set up various administrative aspects of your hypernumbers website.
 

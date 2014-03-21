@@ -23,4 +23,4 @@ Notes
 
 Normally used in conjunction with the site function `=invite.users()`_.
 
-.. _invite.users(): ./invite-users.html
+.. _=invite.users(): ./invite-users.html

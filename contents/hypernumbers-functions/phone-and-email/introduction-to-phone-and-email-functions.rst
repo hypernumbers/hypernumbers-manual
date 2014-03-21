@@ -1,6 +1,6 @@
-==============================
+======================================
 Hypernumbers Phone And Email Functions
-==============================
+======================================
 
 There are a number of functions that deal with phone and email.
 
@@ -15,6 +15,8 @@ There are a number of functions that deal with phone and email.
    DISPLAY.PHONES.NOS <display-phone-nos.rst>
    MANUAL.EMAIL       <manual-email.rst>
    MANUAL.SMS.OUT     <manual-sms-out.rst>
+   PHONE.MENU         <phone-menu>
+   PHONE.MENU.CONFERENCE <phone-menu-conference>
    PHONE.OUT          <phone-out.rst>
 
 .. note:: Some of the phone functions use country codes to lookup dialing codes. These are listed separately.

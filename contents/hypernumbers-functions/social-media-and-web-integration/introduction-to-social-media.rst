@@ -1,6 +1,6 @@
-===============================================
+=======================================================
 Hypernumbers Social Media And Web Integration Functions
-===============================================
+=======================================================
 
 A number of functions are available to do common web activities and integrate social media applications into Hypernumbers applications. These include:
 

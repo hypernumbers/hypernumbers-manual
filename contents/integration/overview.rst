@@ -1,5 +1,5 @@
 Integrating Hypernumbers On The Web
-===========================
+===================================
 
 You can embed Hypernumbers spreadsheets, webpages, wikipage and web controls in your WordPress site or webpage.
 

@@ -22,4 +22,4 @@ Argument        Description
 ``AnchorName``  The name of the html anchor
 
 ``AnchorText``  **OPTIONAL** text to appear in the anchor
-=========== ====================================================================
+=============== ================================================================

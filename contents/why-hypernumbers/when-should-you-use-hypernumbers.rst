@@ -1,6 +1,6 @@
-=======================
+===============================
 When Should I Use Hypernumbers?
-=======================
+===============================
 
 You should use Hypernumbers when you have:
 

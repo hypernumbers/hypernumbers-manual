@@ -1,10 +1,10 @@
 Commissioning a Hypernumbers Site
-=========================
+=================================
 
 To do this go to `the hypernumbers website`_, type your (valid) email address into the free trial form field (highlighted) and click the ``free trial`` submit button.
 
 
-.. image:: /images/hypernumbers.orgmissioning-a-site.png
+.. image:: /images/hypernumbers-commissioning-a-site.png
    :scale: 100 %
    :alt: Hypernumbers commissioning a site
 

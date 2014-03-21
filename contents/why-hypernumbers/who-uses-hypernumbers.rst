@@ -1,6 +1,6 @@
-==============
+======================
 Who Uses Hypernumbers?
-==============
+======================
 
 Hypernumbers users work in a range of industries, from finance to facilities management, from hospitiality to technnology companies.
 
