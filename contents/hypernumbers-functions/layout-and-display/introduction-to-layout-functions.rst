@@ -16,7 +16,8 @@ A number of layout and display functions are available to enhance the visual app
    HTML.PANEL        <html-panel>
    HTML.PLAINBOX.WxH <html-plainbox>
    HTML.RULEDBOX.WxH <html-ruledbox>
-   IFRAME            <iframe>
+   IFRAME.WxH        <iframe>
+   IFRAME.IF.WxH     <iframe-if>
    IMG               <img>
    INCLUDE           <include>
    LOREM.HEADLINE    <lorem-headline>
