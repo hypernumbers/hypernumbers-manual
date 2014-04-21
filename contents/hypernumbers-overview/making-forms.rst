@@ -31,11 +31,13 @@ An example of a wikiform as it appears in the ``spreadsheet``, ``wikipage`` and 
    :align: center
    :alt: Hypernumbers wikiform views
 
-There are three sorts of wiki controls
+There are five sorts of wiki controls
 
 * a plain editable cell
 * a drop down
 * a rich-text entry
+* a checkbox
+* a decrementor/incrementor
 
 Then can be added from the toolbar using the wiki icons:
 
@@ -50,6 +52,20 @@ The rich-text entry produces a cell that pops as a rich text editor - as you can
    :scale: 100 %
    :align: center
    :alt: Hypernumbers wiki rich text editor
+
+The checkbox entry gives you a checkbox which can be toggled between the values ``true`` and ``false``. It looks like this on the wiki page:
+
+.. image:: /images/wiki-checkbox.png
+   :scale: 100 %
+   :align: center
+   :alt: Hypernumbers wiki checkbox
+
+The incrementor/decrementor lets you increase or a decrease a value by a fixed increment and appears like this on the wiki page:
+
+.. image:: /images/wiki-decrementor-incrementor.png
+   :scale: 100 %
+   :align: center
+   :alt: Hypernumbers wiki decrementor/incrementor
 
 Sometimes you have spreadsheet cells that you don't want to appear on wiki or web pages. You can hide them by *ghosting* them out - simply select the cells and use the ghost button on the toolbar.
 
