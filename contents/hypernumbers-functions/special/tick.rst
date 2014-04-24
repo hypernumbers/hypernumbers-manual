@@ -5,7 +5,7 @@ TICK
 Overview
 --------
 
-TICK is a function like NOW or TODAY except that it *ticks*. Depending on the parameters the value of TICK will update every hour, day, week or month.
+TICK is a function like NOW or TODAY except that it *ticks*. Depending on the parameters the value of TICK will update every minute, hour, day, week or month.
 
 The daily, weekly and monthly ticks happen at midnight.
 
@@ -22,13 +22,15 @@ Argument Description
 ======== ===============================================================================
 Option1  **Optional** Determines the period of the tick:
 
-         0 Hourly
+         0 Every Minute
 
-         1 Daily (DEFAULT)
+         1 Hourly
 
-         2 Weekly
+         2 Daily (DEFAULT)
 
-         3 Monthly
+         3 Weekly
+
+         4 Monthly
 
 Option2  If Option 1 is weekly then Option 2 takes the following values
 
